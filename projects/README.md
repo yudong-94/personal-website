@@ -2,7 +2,7 @@
 
 ### Data Visualization Projects
 
-1. [MakeOverMonday Data Viz Project 0108](https://public.tableau.com/views/MakeOverMonday0108/Dashboard1?:embed=y&:display_count=yes)
+1. [MakeOverMonday Data Viz Project 0108](https://yudong-94.github.io/yudong.github.io/projects/data viz/MakeOverMonday0108)
 2. [MakeOverMonday Data Viz Project 0115](https://public.tableau.com/views/MakeOverMonday0115/USHousholdIncome?:embed=y&:display_count=yes)
 
 ### Data Science Projects
