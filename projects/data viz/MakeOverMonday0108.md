@@ -50,6 +50,6 @@ I spent about one hour from exploratory data analysis to visualization and analy
 --  
   
 #### Interesting findings  
-* Overall, people believe *Personality* is the most important characteristics for a romantic partner, while *Money* is the least important one;  
-* Men and women have the greatest differences on the rating of *Good Looking* - it seems like men care more about whether his partner is beautiful or not (sad story);  
-* Meanwhile, women care more about how wealthy her partner is, and whether he is humourous enough.
+* Overall, people believe **Personality** is the most important characteristics for a romantic partner, while **Money** is the least important one;  
+* Men and women have the greatest differences on the rating of **Good Looking** - it seems like men care more about whether his partner is beautiful or not (sad story);  
+* Meanwhile, women care more about how **wealthy** her partner is, and whether he is **humourous** enough.
