@@ -12,9 +12,12 @@ My analytical skill set includes:
 - Databases: MySQL, Amazon Redshift
 - Strong machine learning skills
 
+[My LinkedIn](https://www.linkedin.com/in/yudong1994/)  
+[My Github](https://github.com/yudong-94)
 
 ### About This Site
 
 This site works as a gallery of my data projects as well as my own thoughts on data analysis.
-
+- [Projects](https://yudong-94.github.io/yudong.github.io/projects/)
+- [Blog](https://yudong-94.github.io/yudong.github.io/blogs/)
 
