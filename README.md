@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Home Page
 
-You can use the [editor on GitHub](https://github.com/yudong-94/yudong.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### About Me
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hi there! I am Yu Dong. I currently work as a Data Analyst at Ancestry.com and I have a degree of MS Business Analytics from USC Marshall School of Business. I am passionate about interepreting data under business context and data-driven business decision-making.
 
-### Markdown
+I'm also a lifelong learner with deep curiosity. I have completed more than 30 online courses on Coursera, edX and other MOOC platforms in subjects ranging from Statistics to Machine Learning.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+My analytical skill set includes:
+- Data mining: R, Python, Spark, Excel 
+- Visualization: Tableau, R Shiny
+- Databases: MySQL, Amazon Redshift
+- Strong machine learning skills
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### About This Site
 
-- Bulleted
-- List
+This site works as a gallery of my data projects as well as my own thoughts on data analysis.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yudong-94/yudong.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
