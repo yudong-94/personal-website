@@ -1,5 +1,7 @@
 ## Data Visualization -- Makeover Monday 0108
 
+### About Makeover Monday
+
 [MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
 "Each week we post a link to a chart, and its data, and then you rework the chart.
 Maybe you retell the story more effectively, or find a new story in the data.
@@ -10,7 +12,7 @@ Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to c
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
 
-### Makeover Monday 0105
+### Makeover Monday 0108
 
 This week's topic is to visualize a survey on 20 countries about what characteristics are most important for a romantic partner. 
 Information about the survey and some original vizzes could be found in [this article](https://yougov.co.uk/news/2017/11/29/personality-more-important-looks-across-globe/).
@@ -18,6 +20,8 @@ Information about the survey and some original vizzes could be found in [this ar
 #### My Visualization
 
 I spent about one hour from understanding the data and visualization. Below is my dashboard:  
+
+--
 
 <div class='tableauPlaceholder' id='viz1516072381112' style='position: relative'>
   <noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0108&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
@@ -43,6 +47,7 @@ I spent about one hour from understanding the data and visualization. Below is m
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
   </script>
 
+--  
   
 Interesting findings:  
 * Overall, people believe *Personality* is the most important characteristics for a romantic partner, while *Money* is the least important one;  
