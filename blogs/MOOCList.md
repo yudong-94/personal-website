@@ -5,8 +5,8 @@ Most of the courses are on statistics, data analytics, and machine learning.
 
 ### Coursera Courses
 
-Courses | Topics |Completed Time | Notes
---------|--------|---------------|------
+Courses | Topics |Time | Notes
+:-------|--------|-----|:------
 [Data Visualization](https://www.coursera.org/learn/datavisualization)|Data Viz|Aug 2015|<br />Introduce seom general data viz principles and fancy tools.<br />|
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)|Computer Science|Aug 2015|<br />Excellent course!!! It's the first course of the Fundamentals of Computing Specialization by Rice University. It teaches basic Python by building small games. And the faculty is very accessible and friendly. Strongly recommend it to someone wants to learn Python.<br />|
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)|Computer Science|Oct 2015|<br />Second part of the above one. The final project is to build a Asteroid game. Super fun and helpful.<br /> |
