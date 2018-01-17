@@ -25,10 +25,10 @@ The below original viz could be found in [this article](http://www.visualcapital
 <div>Courtesy of: <a href="http://www.visualcapitalist.com">Visual Capitalist</a></div>
 --
 
+
 This chart clearly shows the households income distribution in each state. However, to my point, the shortages of this viz are:  
 - It ignores the year dimension in the dataset;
 - It is ordered by the percentage of the number of ">150k" households only.
-- 
 
 #### My Visualization
 
