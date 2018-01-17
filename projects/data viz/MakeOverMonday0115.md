@@ -12,16 +12,18 @@ Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to c
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
 
-### Makeover Monday 0108
+### Makeover Monday 0115
 
 This week's topic is to visualize the household income in the US by states from the U.S. Census Bureau. 
 The below original viz could be found in [this article](http://www.visualcapitalist.com/household-income-distribution-u-s-state/).
 
+--
 <div style="clear:both">
 <a href="http://www.visualcapitalist.com/household-income-distribution-u-s-state/">
 <img src="http://2oqz471sa19h3vbwa53m33yj.wpengine.netdna-cdn.com/wp-content/uploads/2017/11/household-income.png" border="0" />
 </a></div>
 <div>Courtesy of: <a href="http://www.visualcapitalist.com">Visual Capitalist</a></div>
+--
 
 This chart clearly shows the households income distribution in each state. However, to my point, the shortages of this viz are:  
 - It ignores the year dimension in the dataset;
