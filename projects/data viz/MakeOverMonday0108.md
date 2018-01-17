@@ -41,7 +41,7 @@ I spent about one hour from exploratory data analysis to visualization and analy
   <script type='text/javascript'>
     var divElement = document.getElementById('viz1516072381112');
     var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width='800px';vizElement.style.height='650px';
+    vizElement.style.width='1000px';vizElement.style.height='827px';
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
