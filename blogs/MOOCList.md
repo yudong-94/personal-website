@@ -1,3 +1,15 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+ </head>
+
 ## Online Courses List
 
 This blog keeps a list of online courses I have taken and some notes on some of the courses. 
