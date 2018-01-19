@@ -45,6 +45,13 @@ Courses | Topics |Time | Notes
 
 ### edX Courses
 
+Courses | Topics |Time | Notes
+:-------|--------|-----|:------
+[Introduction to Computer Science and Programming Using Python](https://courses.edx.org/courses/course-v1:MITx+6.00.1x_9+2T2016/course/)|Computer Science|July 2016|A comprehensive and intensive introduction course to Python by MIT. It covers topics including basic grammar, functions, recursion, debugging tools, algorithm efficiency & search algorithms, classes & oop, and trees.|
+[Programming with Python for Data Science](https://courses.edx.org/courses/course-v1:Microsoft+DAT210x+4T2016/course/)|Machine Learning|Aug 2016|This course starts from basic data manipulation and visualization with Numpy, Pandas and matplotlib, then introduced some basic machine learning models including regression, KNN, decision tree, random forest, and techniques such as PCA and Cross Validation, and how to implement them with scikit-learn. Great course to help students to build a whole picture of machine learning. |
+[Introduction to R for Data Science](https://courses.edx.org/courses/course-v1:Microsoft+DAT204x+6T2016/course/)|Data Analytics|Nov 2016|A comprehensive tutorial on doing basic data manipulation and visualization in R. |
+[Programming in R for Data Science](https://courses.edx.org/courses/course-v1:Microsoft+DAT209x+5T2016/course/)|Data Analytics|Nov 2016|This one is the subsequent course of the above one, and itincludes some more advanced topics in R programming, such as loop, flow control, simulation, reading data from SQL database,and simple modeling. |
+
 
 ### Udacity Courses
 
