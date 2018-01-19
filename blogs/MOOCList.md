@@ -71,4 +71,15 @@ Courses | Topics |Time | Notes
 
 [Lynda](http://lynda.com) offeres very short (typically in 2-4 hours) and introductionary level courses in all fields. Therefore, it is always the place I go to, to find some quick tutorials to get started with something.
 
+Courses | Topics |Time | Notes
+:-------|--------|-----|:------
+[Python: Data Analysis](https://www.lynda.com/Numpy-tutorials/Introduction-Data-Analysis-Python/419162-2.html)|Data Analytics|Jan 2017|Basic NumPy and pandas. |
+[NumPy Data Science Essential Training](https://www.lynda.com/NumPy-tutorials/NumPy-Data-Science-Essential-Training/508873-2.html)|Data Analytics|Jan 2017|Basic NumPy and pandas. |
+[Data Science Fundations Data Mining](https://www.lynda.com/Business-Intelligence-tutorials/Data-Science-Foundations-Data-Mining/475936-2.html)|Machine Learning|Jan 2017|Compare the implementation of common machine learning algorithms with different tools including Python, R, Orange, RapidMiner, BigML and KNIME. |
+[Tableau 10: Mastering Calculation](https://www.lynda.com/Tableau-tutorials/Tableau-10-Mastering-Calculations/585002-2.html)|Data Visualization|May 2017|Focus on how to build those calculated fields in Tableau. |
+[Tableau 10 for Data Science](https://www.lynda.com/Tableau-tutorials/Tableau-10-Data-Scientists/476621-2.html)|Data Visualization|May 2017|A comprehensive introduction to Tableau 10. |
+[Integrating Tableau and R for Data Science](https://www.lynda.com/Tableau-tutorials/Integrating-Tableau-R-Data-Science/553698-2.html)|Data Visualization|May 2017|This course talks about how to run R scripts in Tableau. |
+[HTML Essential Training](https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html)|Web Development|Aug 2017|Very basic training to HTML. |
+[Scala Essential Training](https://www.lynda.com/Scala-tutorials/Scala-Essential-Training/574693-2.html)|Computer Science|Sept 2017|Basic grammars of Scala. Very helpful to get started with Scala. |
+
 
