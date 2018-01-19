@@ -17,7 +17,7 @@ Most of the courses are on statistics, data analytics, and machine learning.
 
 ### Coursera Courses
 
-[Coursera](https://coursera.org) is the very first MOOC platform I have tried. When I was a accounting-major Junior, I was thinking about transform into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera from those well-known universities. I enjoyed these courses a lot, and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.  
+[Coursera](https://coursera.org) is the very first MOOC platform I have tried. When I was an accounting-major Junior, I was thinking about transform into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera from those well-known universities. I enjoyed these courses a lot, and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.  
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
