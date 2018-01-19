@@ -17,10 +17,12 @@ Most of the courses are on statistics, data analytics, and machine learning.
 
 ### Coursera Courses
 
+[Coursera](https://coursera.org) is the very first MOOC platform I have tried. When I was a accounting-major Junior, I was thinking about transform into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera from those well-known universities. I enjoyed these courses a lot, and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.  
+
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
 [Data Visualization](https://www.coursera.org/learn/datavisualization)|Data Viz|Aug 2015|Introduce some general data viz principles and fancy tools.|
-[An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)|Computer Science|Aug 2015|Excellent course!!! It's the first course of the Fundamentals of Computing Specialization by Rice University. It teaches basic Python by building small games. And the faculty is very accessible and friendly. Strongly recommend it to someone wants to learn Python.|
+[An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)|Computer Science|Aug 2015|Excellent course!!! It's the first course of the Fundamentals of Computing Specialization by Rice University. It teaches basic Python by building small games. And the faculty is very accessible and friendly. Strongly recommend it to anyone wants to learn Python.|
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)|Computer Science|Oct 2015|Second part of the above specialization. The final project is to build an Asteroid game. Super fun and helpful.|
 [Data Processing Using Python](https://www.coursera.org/learn/hipython)|Computer Science|Nov 2015|Great to see a Coursera course by a university in China. This course covers the basics of the common data processing packages in Python (Numpy, pandas, etc.).|
 [Using Python to Access Web Data](https://www.coursera.org/learn/python-network-data)|Computer Science|Nov 2015|This is the third course of the Python for Everybody Specialization from UMich. The Professor is excellent. The content covers basics of web, Regex, and web scraping with beatifulsoup.|
@@ -45,6 +47,8 @@ Courses | Topics |Time | Notes
 
 ### edX Courses
 
+[edX](http://courses.edx.org) is another awesome MOOC platform. According to my own experience, the courses I have taken on edX is more intensive and compresensive than the ones on Coursera. (Sure this could be biased due to the small sample size.)
+
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
 [Introduction to Computer Science and Programming Using Python](https://courses.edx.org/courses/course-v1:MITx+6.00.1x_9+2T2016/course/)|Computer Science|July 2016|A comprehensive and intensive introduction course to Python by MIT. It covers topics including basic grammar, functions, recursion, debugging tools, algorithm efficiency & search algorithms, classes & oop, and trees.|
@@ -55,5 +59,16 @@ Courses | Topics |Time | Notes
 
 ### Udacity Courses
 
+I personally believe that the best thing about [Udacity](https://www.udacity.com) is that many of the lecturers actually come from those tech giants in the Silicon Vally. Therefore, the courses on Udacity is much closer to the real world practices. Besides, the course format of Udacity is quite different from Coursera and edX - it includes very short and interactive videos with bunch of small quizzes between the videos.
+
+Courses | Topics |Time | Notes
+:-------|--------|-----|:------
+[Intro to Machine Learning](https://classroom.udacity.com/courses/ud120)|Machine Learning|Feb 2017|This course also uses scikit-learn in python to explore common machine learning algorithms and includes practical exercises on a real dataset. |
+[A/B Testing](https://classroom.udacity.com/courses/ud257)|Machine Learning|Jan 2018|A/B testing course by Google. This is a great course to bridge the gap between what we learned in stats class and what is actually doing in real business world.|
+
 
 ### Lynda Courses
+
+[Lynda](http://lynda.com) offeres very short (typically in 2-4 hours) and introductionary level courses in all fields. Therefore, it is always the place I go to, to find some quick tutorials to get started with something.
+
+
