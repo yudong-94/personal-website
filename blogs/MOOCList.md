@@ -10,7 +10,7 @@
 </script>
  </head>
 
-## Online Courses List
+## Online Courses Reviews
 
 Online courses have been a great supplementary to my offline study and work. Whenever I am interested in exploring some new fields, or find myself lacking some key skills, I would turn to them.
 This blog keeps a list of online courses I have taken. I also include some notes on those courses for your reference. Most of the courses are on computer science, statistics, data analytics, and machine learning.
@@ -82,4 +82,6 @@ Courses | Topics |Time | Notes
 [HTML Essential Training](https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html)|Web Development|Aug 2017|Very basic training to HTML. |
 [Scala Essential Training](https://www.lynda.com/Scala-tutorials/Scala-Essential-Training/574693-2.html)|Computer Science|Sept 2017|Basic grammar of Scala. Very helpful to get started with Scala for someone already has programming experience in other languages. |
 
+### DataCamp
 
+[DataCamp](https://www.datacamp.com/) is an emegering MOOC platform, specialized in data science courses with R, Python and SQL. It offers courses on all kinds of specific data science topics (but mostly introductionary level). And as it pays monthly, it could be a good choice for someone who wants to learn R or Python from the beginning, and who has much spare time to focus on learning in one month.
