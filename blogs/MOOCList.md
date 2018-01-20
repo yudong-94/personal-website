@@ -69,7 +69,7 @@ Courses | Topics |Time | Notes
 
 ### Lynda Courses
 
-[Lynda](http://lynda.com) offeres very short (typically in 2-4 hours) and introductionary level courses in all fields. Therefore, it is always the place I go to, to find some quick tutorials to get started with something. For example, before I started my summer internship, I took three courses on Tableau to refresh my knowledge and learn more practical skills; To prepare myself for a course with Data Mining projects in Scala, I took the Scala Essential Training course.
+[Lynda](http://lynda.com) offeres very short (typically in 2-4 hours) and introductionary level courses in all fields. Therefore, it is always the place I go to, to find some quick tutorials to get started with something, or to review some staff learned before. For example, before I started my summer internship, I took three courses on Tableau to refresh my knowledge and learn more practical skills; To prepare myself for a course with Data Mining projects in Scala, I took the Scala Essential Training course.
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
@@ -80,6 +80,6 @@ Courses | Topics |Time | Notes
 [Tableau 10 for Data Science](https://www.lynda.com/Tableau-tutorials/Tableau-10-Data-Scientists/476621-2.html)|Data Visualization|May 2017|A comprehensive introduction to Tableau 10. |
 [Integrating Tableau and R for Data Science](https://www.lynda.com/Tableau-tutorials/Integrating-Tableau-R-Data-Science/553698-2.html)|Data Visualization|May 2017|This course talks about how to run R scripts in Tableau. |
 [HTML Essential Training](https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html)|Web Development|Aug 2017|Very basic training to HTML. |
-[Scala Essential Training](https://www.lynda.com/Scala-tutorials/Scala-Essential-Training/574693-2.html)|Computer Science|Sept 2017|Basic grammar of Scala. Very helpful to get started with Scala for someone already have programming experience in other languages. |
+[Scala Essential Training](https://www.lynda.com/Scala-tutorials/Scala-Essential-Training/574693-2.html)|Computer Science|Sept 2017|Basic grammar of Scala. Very helpful to get started with Scala for someone already has programming experience in other languages. |
 
 
