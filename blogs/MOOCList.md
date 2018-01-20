@@ -17,7 +17,7 @@ This blog keeps a list of online courses I have taken. I also include some notes
 
 ### Coursera Courses
 
-[Coursera](https://coursera.org) is the very first MOOC platform I have tried. When I was an accounting-major Junior, I was thinking about transforming into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera from those well-known universities. I enjoyed these courses a lot (I mean, much more than the accounting courses), and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.
+[Coursera](https://coursera.org) is the very first MOOC platform I have ever tried. It is a platform led by Stanford University and many other top universities around the world, and it offers online courses from these universities. When I was an accounting-major Junior, I was thinking about transforming into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera from those well-known universities. I enjoyed these courses a lot (I mean, much more than the accounting courses), and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
@@ -47,7 +47,7 @@ Courses | Topics |Time | Notes
 
 ### edX Courses
 
-[edX](http://courses.edx.org) is another awesome MOOC platform. According to my own experience, the courses I have taken on edX is more intensive and compresensive than the ones on Coursera. (Sure this could be biased due to the small sample size.)
+[edX](http://courses.edx.org) is another awesome MOOC platform led by MIT and some other top universities and institutions. According to my own experience, the courses I have taken on edX is more intensive and compresensive than the ones on Coursera. (Sure this could be biased due to the small sample size.)
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
