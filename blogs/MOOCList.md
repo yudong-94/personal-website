@@ -47,7 +47,7 @@ Courses | Topics |Time | Notes
 
 ### edX Courses
 
-[edX](http://courses.edx.org) is another awesome MOOC platform led by MIT and some other top universities and institutions. According to my own experience, the courses I have taken on edX is more intensive and compresensive than the ones on Coursera. (Sure this could be biased due to the small sample size.)
+[edX](http://courses.edx.org) is another awesome MOOC platform led by MIT and some other top universities and institutions.
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
