@@ -21,7 +21,7 @@ This blog keeps a list of online courses I have taken. I also include some notes
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
-[Data Visualization](https://www.coursera.org/learn/datavisualization)|Data Viz|Aug 2015|Introduce some general data viz principles and fancy tools.|
+[Data Visualization](https://www.coursera.org/learn/datavisualization)|Data Visualization|Aug 2015|Introduce some general data viz principles and fancy tools.|
 [An Introduction to Interactive Programming in Python (Part 1)](https://www.coursera.org/learn/interactive-python-1)|Computer Science|Aug 2015|Excellent course!!! It's the first course of the Fundamentals of Computing Specialization by Rice University. It teaches basic Python by building small games. And the faculty is very accessible and friendly. Strongly recommend it to anyone wants to learn Python.|
 [An Introduction to Interactive Programming in Python (Part 2)](https://www.coursera.org/learn/interactive-python-2)|Computer Science|Oct 2015|Second part of the above specialization. The final project is to build an Asteroid game. Super fun and helpful.|
 [Data Processing Using Python](https://www.coursera.org/learn/hipython)|Computer Science|Nov 2015|Great to see a Coursera course by a university in China. This course covers the basics of the common data processing packages in Python (Numpy, pandas, etc.).|
@@ -80,6 +80,6 @@ Courses | Topics |Time | Notes
 [Tableau 10 for Data Science](https://www.lynda.com/Tableau-tutorials/Tableau-10-Data-Scientists/476621-2.html)|Data Visualization|May 2017|A comprehensive introduction to Tableau 10. |
 [Integrating Tableau and R for Data Science](https://www.lynda.com/Tableau-tutorials/Integrating-Tableau-R-Data-Science/553698-2.html)|Data Visualization|May 2017|This course talks about how to run R scripts in Tableau. |
 [HTML Essential Training](https://www.lynda.com/Web-Development-tutorials/HTML-Essential-Training/170427-2.html)|Web Development|Aug 2017|Very basic training to HTML. |
-[Scala Essential Training](https://www.lynda.com/Scala-tutorials/Scala-Essential-Training/574693-2.html)|Computer Science|Sept 2017|Basic grammars of Scala. Very helpful to get started with Scala. |
+[Scala Essential Training](https://www.lynda.com/Scala-tutorials/Scala-Essential-Training/574693-2.html)|Computer Science|Sept 2017|Basic grammar of Scala. Very helpful to get started with Scala for someone already have programming experience in other languages. |
 
 
