@@ -17,7 +17,7 @@ This blog keeps a list of online courses I have taken. I also include some notes
 
 ### Coursera Courses
 
-[Coursera](https://coursera.org) is the very first MOOC platform I have ever tried. It is a platform led by Stanford University and many other top universities around the world, and it offers online courses from these universities. When I was an accounting-major Junior, I was thinking about transforming into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera from those well-known universities. I enjoyed these courses a lot (I mean, much more than the accounting courses), and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.
+[Coursera](https://coursera.org) is the very first MOOC platform I have ever tried. It is a platform led by Stanford University and many other top universities around the world, and it offers online courses from these universities. When I was an accounting-major Junior, I was thinking about transitting into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera. I enjoyed these courses a lot (I mean, much more than the accounting courses), and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
