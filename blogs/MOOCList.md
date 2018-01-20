@@ -8,12 +8,7 @@
 
   gtag('config', 'UA-112502179-1');
 </script>
-
-  <nav role="navigation">
-  <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a></li>
-  </nav>
-  
- </head>
+</head>
 
 ## Online Courses Reviews
 
@@ -90,3 +85,7 @@ Courses | Topics |Time | Notes
 ### DataCamp
 
 [DataCamp](https://www.datacamp.com/) is an emegering MOOC platform, specialized in data science courses with R, Python and SQL. It offers courses on all kinds of specific data science topics (but mostly introductionary level). And as it pays monthly, it could be a good choice for someone who wants to learn R or Python from the beginning, and who has much spare time to focus on learning in one month.
+
+
+--
+<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
