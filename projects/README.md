@@ -14,8 +14,8 @@
 
 ### Data Visualization Projects
 
-1. [MakeOverMonday Data Viz Project 0108](https://yudong-94.github.io/yudong.github.io/projects/data viz/MakeOverMonday0108)
-2. [MakeOverMonday Data Viz Project 0115](https://yudong-94.github.io/yudong.github.io/projects/data viz/MakeOverMonday0115)
+1. [MakeOverMonday Data Viz Project 0108](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108)
+2. [MakeOverMonday Data Viz Project 0115](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0115)
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
