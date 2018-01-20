@@ -84,3 +84,6 @@ Below is my dashboard:
 * North Dakota, D.C. and Shouth Dakota show best progress from 2009 to 2016 as they show the highest decrease in low income households and highest increase in high income households.
 However, one must notice that as these three states/districts actually have relatively small number of total households, it's more easy for them to get a boost in the percentages;
 * Nevada did really poor on household income from 2009 to 2016 - it's the only state seen a increase in the  percentage of low income households, and its percentage of high income households almost stay the same.
+
+--  
+<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
