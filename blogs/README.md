@@ -12,7 +12,7 @@
 
 ## My Blogs
 
-### My Online Courses Recommendations
+### My Online Courses Reviews
 
-[My Online Courses Recommendations](https://yudong-94.github.io/personal-website/blogs/MOOCList)
+[My Online Courses Reviews](https://yudong-94.github.io/personal-website/blogs/MOOCList)
 
