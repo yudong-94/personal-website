@@ -30,6 +30,6 @@ My analytical skill set includes:
 ### About This Site
 
 This site works as a gallery of my data projects as well as my own thoughts on data analysis.
-- [Projects](https://yudong-94.github.io/yudong.github.io/projects/)
-- [Blog](https://yudong-94.github.io/yudong.github.io/blogs/)
+- [Projects](https://yudong-94.github.io/personal-website/projects/)
+- [Blog](https://yudong-94.github.io/personal-website/blogs/)
 
