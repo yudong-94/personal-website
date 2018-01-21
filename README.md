@@ -16,9 +16,9 @@
 
 Hi there! I am Yu Dong. I currently work as a Data Analyst at Ancestry.com and I have a degree of MS Business Analytics from USC Marshall School of Business. I am passionate about interepreting data under business context and data-driven business decision-making.
 
-I'm also a lifelong learner with deep curiosity. I have completed more than 30 online courses on Coursera, edX and other MOOC platforms in subjects ranging from Statistics to Machine Learning.
+I'm also a lifelong learner with deep curiosity. I have completed [more than 30 online courses](https://yudong-94.github.io/personal-website/blogs/MOOCList) on Coursera, edX and other MOOC platforms in subjects ranging from Statistics to Machine Learning.
 
-My analytical skill set includes:
+My analytical skillset includes:
 - Data mining: R, Python, Spark, Excel 
 - Visualization: Tableau, R Shiny
 - Databases: MySQL, Amazon Redshift
