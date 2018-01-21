@@ -15,7 +15,7 @@
 Online courses have been a great supplementary to my offline study and work. Whenever I am interested in exploring some new fields, or find myself lacking some key skills, I would turn to them.
 This blog keeps a list of online courses I have taken. I also include some notes on those courses for your reference. Most of the courses are on computer science, statistics, data analytics, and machine learning.
 
-### Coursera Courses
+### Coursera
 
 [Coursera](https://coursera.org) is the very first MOOC platform I have ever tried. It is a platform led by Stanford University and many other top universities around the world, and it offers online courses from these universities. When I was an accounting-major Junior, I was thinking about transitting into the world of computer science and data science, but I was not sure whether that was the right thing for me to pursue. Therefore, I took a number of courses in these fields on Coursera. I enjoyed these courses a lot (I mean, much more than the accounting courses), and they strengthened my confidence in pursuing a MS Business Analytics degree in the US and entering the data science world.
 
@@ -45,7 +45,7 @@ Courses | Topics |Time | Notes
 
 
 
-### edX Courses
+### edX
 
 [edX](http://courses.edx.org) is another awesome MOOC platform led by MIT and some other top universities and institutions.
 
@@ -67,7 +67,7 @@ Courses | Topics |Time | Notes
 [A/B Testing](https://classroom.udacity.com/courses/ud257)|Data Analytics|Jan 2018|A/B testing course by Google. This is a great course to bridge the gap between what we learned in stats class and what is actually doing in real business world.|
 
 
-### Lynda Courses
+### Lynda
 
 [Lynda](http://lynda.com) offeres very short (typically in 2-4 hours) and introductionary level courses in all fields. Therefore, it is always the place I go to, to find some quick tutorials to get started with something, or to review some staff learned before. For example, before I started my summer internship, I took three courses on Tableau to refresh my knowledge and learn more practical skills; To prepare myself for a course with Data Mining projects in Scala, I took the Scala Essential Training course.
 
