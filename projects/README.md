@@ -15,13 +15,13 @@
 ### Data Visualization Projects
 
 #### \#MakeoverMonday
-1. [MakeOverMonday Data Viz Project 0108](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108)
+1. [MakeOverMonday Data Viz Project 0108](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108)  
 Across the globe, personality is rated as more important than looks  
 Data Source: YouGov  
-2. [MakeOverMonday Data Viz Project 0115](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0115)
+2. [MakeOverMonday Data Viz Project 0115](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0115)  
 U.S. Household Income Distribution by State  
 Data Source: US Census Bureau  
-3. [MakeOverMonday Data Viz Project 0122](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0122)
+3. [MakeOverMonday Data Viz Project 0122](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0122)  
 Movement of Turkey Vultures in North and South America  
 Data Source: Movebank.org  
 
