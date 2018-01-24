@@ -27,7 +27,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 ### Makeover Monday 0108
 
 This week's topic is to visualize a survey on 20 countries about what characteristics are most important for a romantic partner. 
-Information about the survey and some original vizzes could be found in [this article](https://yougov.co.uk/news/2017/11/29/personality-more-important-looks-across-globe/).
+Information about the survey and some original vizzes could be found in [this article](https://yougov.co.uk/news/2017/11/29/personality-more-important-looks-across-globe/). Data credited to @mattsmithetc @YouGov.
 
 #### My Visualization
 
