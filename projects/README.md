@@ -14,7 +14,7 @@
 
 ### Data Visualization Projects
 
-#### `#`MakeoverMonday
+#### \#MakeoverMonday
 1. [MakeOverMonday Data Viz Project 0108](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108)
 Across the globe, personality is rated as more important than looks  
 Data Source: YouGov  
