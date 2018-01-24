@@ -37,7 +37,7 @@ and more information about the data and research could be found in [this article
 I spent about 2 hours from exploratory data analysis to visualization and analysis.
 Most of the time was spent on understanding the data and calculating the approxiamte distances each bird traveled given longitude and latitude.
 Besides, I am super exited to try out the new feature of embedding viz in tooltip in Tableau 10.5! 
-When you hover on the bars on the right chart, you can see where this bird actually traveled in the time period you specified.
+When you hover on the bars on the right chart, you can see where this bird actually traveled in the time period you specified. (You may need to open the fullscreen mode of these dashboard to see the map in the tooltip normally...).  
 Below is my dashboard:  
 
 --
