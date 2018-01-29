@@ -31,5 +31,6 @@ My analytical skillset includes:
 
 This site works as a gallery of my data projects as well as my own thoughts on data analysis.
 - [Projects](https://yudong-94.github.io/personal-website/projects/)
+This part includes my data mining, data visualization, and machine learning projects.
 - [Blog](https://yudong-94.github.io/personal-website/blogs/)
 
