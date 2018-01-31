@@ -24,6 +24,9 @@ Data Source: US Census Bureau
 3. [MakeOverMonday Data Viz Project 0122](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0122)  
 Movement of Turkey Vultures in North and South America  
 Data Source: Movebank.org  
+4. [MakeOverMonday Data Viz Project 0129](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0129)  
+Most Profitable Companies 
+Data Source: TitleMax 
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
