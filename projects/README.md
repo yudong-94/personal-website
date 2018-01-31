@@ -25,7 +25,7 @@ Data Source: US Census Bureau
 Movement of Turkey Vultures in North and South America  
 Data Source: Movebank.org  
 4. [MakeOverMonday Data Viz Project 0129](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0129)  
-Most Profitable Companies 
+Most Profitable Companies  
 Data Source: TitleMax 
 
 ### Data Science Projects
