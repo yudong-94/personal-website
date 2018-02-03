@@ -32,7 +32,7 @@ Data Source: TitleMax
 1. Fraud Detection Machine Learning Algorithms
  - [Unsupervised Fraud Detection Project](https://github.com/yudong-94/Unsupervised-Fraud-Detection-Algorithm)
  - [Realtime Unsupervised Fraud Detection Project](https://github.com/yudong-94/Realtime-Unsupervised-Fraud-Detection-Algorithm)
- - [Supervised Fraid Detection Project](https://github.com/yudong-94/Supervised-Fraud-Detection-Algorithm)
+ - [Supervised Fraud Detection Project](https://github.com/yudong-94/Supervised-Fraud-Detection-Algorithm)
 2. Kaggle Competitions
  - [Instacart Market Basket Analysis](https://github.com/yudong-94/Kaggle-Instacart-Market-Basket-Analysis)
  - [Porto Seguro’s Safe Driver Prediction](https://github.com/yudong-94/Kaggle-Safe-Driver-Prediction)
