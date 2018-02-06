@@ -71,7 +71,7 @@ Below is my dashboard:
 --  
   
 #### Insights 
-* While the percentage of African American baseball players have seen a decline since 1980s, the percentage of Latino players has been increasing;  
+* While the percentage of African American baseball players has seen a decline since 1980s, the percentage of Latino players has been increasing;  
 * When we compare the trend of percentage in total US population and that of percentage in baseball players, we learn that 
 althrough the percentage of African American US population has always been increasing, the percentage of African American baseball players declined since 1980s,
 indicating that the decline is not explanable by the change in total population;  
