@@ -76,7 +76,7 @@ Below is my dashboard:
 althrough the percentage of African American US population has always been increasing, the percentage of African American baseball players declined since 1980s,
 indicating that the decline is not explanable by the change in total population;  
 * Meanwhile, the increase of Latino US population has been in line with the increase of Lantino baseball players;  
-* Of course, all the above observations are not enough to draw any conclusion about the decline - it could be caused by the transformation of baseball strategy, people's interests on baseeball, or other factors.
+* Of course, all the above observations are not enough to draw any conclusion about the decline - it could be caused by the transformation of baseball strategy, people's interests on baseball, or other factors.
 
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
