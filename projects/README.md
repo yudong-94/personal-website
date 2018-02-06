@@ -27,6 +27,10 @@ Data Source: Movebank.org
 4. [MakeOverMonday Data Viz Project 0129](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0129)  
 Most Profitable Companies  
 Data Source: TitleMax 
+5. [MakeOverMonday Data Viz Project 0205](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0205)  
+US Baseball Players Ethnicity  
+Data Source: SABR.org 
+
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
