@@ -37,6 +37,7 @@ Bascially, we are seeing a decline of percentage of African American baseball pl
 Besides the percentage of players by ethnicity and percentage of WAR by ethnicity over time, one question I am thinking about is that is this trend corresponding with the total US population ethnicity trend?
 Or, in other words, is the decline of African American players due to the decrease of African American population in the US?
 To answer this question, I found [US population demographics data](https://en.wikipedia.org/wiki/Historical_racial_and_ethnic_demographics_of_the_United_States), and for each ethnicity, compared the percentage of baseball players / WAR with the percentage of population.  
+As usual, I take about one hour working on this visualization.  
 Below is my dashboard:  
 
 --
@@ -72,7 +73,7 @@ Below is my dashboard:
   
 #### Insights 
 * While the percentage of African American baseball players has seen a decline since 1980s, the percentage of Latino players has been increasing;  
-* When we compare the trend of percentage in total US population and that of percentage in baseball players, we learn that 
+* When we compare the trend of total US population proportion and that of baseball players proportion, we learn that 
 althrough the percentage of African American US population has always been increasing, the percentage of African American baseball players declined since 1980s,
 indicating that the decline is not explanable by the change in total population;  
 * Meanwhile, the increase of Latino US population has been in line with the increase of Lantino baseball players;  
