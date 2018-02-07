@@ -12,7 +12,7 @@
 
 ## Online Courses Reviews
 
-Online courses have been a great supplementary to my offline study and work. Whenever I am interested in exploring some new fields, or find myself lacking some key skills, I would turn to them.
+Online courses have been a great supplementary part to my offline study and work. Whenever I am interested in exploring some new fields, or find myself lacking some key skills, I would turn to them.
 This blog keeps a list of online courses I have taken. I also include some notes on those courses for your reference. Most of the courses are on computer science, statistics, data analytics, or machine learning.
 
 ### Coursera
