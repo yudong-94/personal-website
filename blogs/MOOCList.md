@@ -63,7 +63,7 @@ I personally believe that the best thing about [Udacity](https://www.udacity.com
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
-[Intro to Machine Learning](https://classroom.udacity.com/courses/ud120)|Machine Learning|Feb 2017|This course also uses scikit-learn in Python to explore common machine learning algorithms and includes practical exercises on a real dataset (the famous Enron dataset -- as a ex-accounting-major, it is really familiar to me). |
+[Intro to Machine Learning](https://classroom.udacity.com/courses/ud120)|Machine Learning|Feb 2017|This course also uses scikit-learn in Python to explore common machine learning algorithms and includes practical exercises on a real dataset (the famous Enron dataset -- as an accounting-major undergrad, it is just too much familiar to me). |
 [A/B Testing](https://classroom.udacity.com/courses/ud257)|Data Analytics|Jan 2018|A/B testing course by Google. This is a great course to bridge the gap between what we learned in stats class and what is actually doing in real business world.|
 
 
