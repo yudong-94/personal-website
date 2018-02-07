@@ -69,7 +69,7 @@ Courses | Topics |Time | Notes
 
 ### Lynda
 
-[Lynda](http://lynda.com) offeres very short (typically in 2-4 hours) and introductionary level courses in all fields. Therefore, it is always the place I go to, to find some quick tutorials to get started with something, or to review some staff learned before. For example, before I started my summer internship, I took three courses on Tableau to refresh my knowledge and learn more practical skills; To prepare myself for a course with Data Mining projects in Scala, I took the Scala Essential Training course.
+[Lynda](http://lynda.com) offeres very short (typically 2-4 hours) and introductionary level courses in all fields. Therefore, it is always the place I go to, to find some quick tutorials to get started with something, or to review some staff learned before. For example, before I started my summer internship, I took three courses on Tableau to refresh my knowledge and learn more practical skills; To prepare myself for a course with Data Mining projects in Scala, I took the Scala Essential Training course.
 
 Courses | Topics |Time | Notes
 :-------|--------|-----|:------
