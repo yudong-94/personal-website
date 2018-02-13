@@ -54,6 +54,7 @@ This week's data is about the Winter Olympic Winners. The original dashboard is 
   var scriptElement = document.createElement('script');
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
 --  
 
 This is a very nice dashboard, as it has clear filters, friendly instructions and easy-to-understand viz. Users can play with the filters themselves to explore insights. 
