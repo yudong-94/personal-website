@@ -62,10 +62,9 @@ By the way, I don't like the boxplot in Tableau very much, as it is very restric
   var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px'; 
   var scriptElement = document.createElement('script'); 
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement); 
-</script>
-
+</script>  
 --  
-  
+
 #### Insights 
 * Overall, the median age of medal winners has increased since 1924 (27.5), and reached minimum in 1984 (23), then increased a little bit;  
 * The median age of silver medal winners is a little bit higher than gold and bronze medal winners;  
