@@ -67,7 +67,7 @@ By the way, I don't like the boxplot in Tableau very much, as it is very restric
 --  
 
 #### Insights 
-* Overall, the median age of medal winners has increased since 1924 (27.5), and reached minimum in 1984 (23), then increased a little bit;  
+* Overall, the median age of medal winners has decreased since 1924 (27.5), and reached minimum in 1984 (23), then increased a little bit;  
 * The median age of silver medal winners is a little bit higher than gold and bronze medal winners;  
 * Among all the sports, the median age of medal winners of Figure Skating is the lowest - only 22.5, while those of Cross-country skiing and Skeleton are the highest - 29;  
 * The age range of medal winners of some sports, for example, Freestyle Skiing and Nordic Combined, is narrower than the others - different sports have different optimal age to play, and some are less restrictive on ages;  
