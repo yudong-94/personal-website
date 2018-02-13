@@ -30,7 +30,30 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 This week's data is about the Winter Olympic Winners. The original dashboard is as below:  
 
 --  
-<div class='tableauPlaceholder' id='viz1518491443130' style='position: relative'><noscript><a href='#'><img alt='The Winter Olympics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheWinterOlympics&#47;TheWinterOlympics&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TheWinterOlympics&#47;TheWinterOlympics' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheWinterOlympics&#47;TheWinterOlympics&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1518491443130');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='1200px';vizElement.style.maxWidth='4000px';vizElement.style.width='100%';vizElement.style.minHeight='2227px';vizElement.style.maxHeight='2527px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1518491443130' style='position: relative'>
+<noscript><a href='#'>
+    <img alt='The Winter Olympics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheWinterOlympics&#47;TheWinterOlympics&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='TheWinterOlympics&#47;TheWinterOlympics' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheWinterOlympics&#47;TheWinterOlympics&#47;1.png' />
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+</object></div>                
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1518491443130'); 
+  var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='1200px';vizElement.style.maxWidth='4000px';vizElement.style.width='100%';vizElement.style.minHeight='2227px';vizElement.style.maxHeight='2527px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 --  
 
 This is a very nice dashboard, as it has clear filters, friendly instructions and easy-to-understand viz. Users can play with the filters themselves to explore insights. 
@@ -45,7 +68,29 @@ By the way, I don't like the boxplot in Tableau very much, as it is very restric
 
 --
 
-<div class='tableauPlaceholder' id='viz1518491877641' style='position: relative'><noscript><a href='#'><img alt='Age Distribution ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0212&#47;AgeDistribution&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MakeoverMonday0212&#47;AgeDistribution' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0212&#47;AgeDistribution&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1518491877641');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1518491877641' style='position: relative'>
+<noscript><a href='#'>
+  <img alt='Age Distribution ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0212&#47;AgeDistribution&#47;1_rss.png' style='border: none' />
+</a></noscript>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='MakeoverMonday0212&#47;AgeDistribution' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0212&#47;AgeDistribution&#47;1.png' />
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' /></object></div>
+<script type='text/javascript'> 
+  var divElement = document.getElementById('viz1518491877641');
+  var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px'; 
+  var scriptElement = document.createElement('script'); 
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement); 
+</script>
 
 --  
   
@@ -53,7 +98,7 @@ By the way, I don't like the boxplot in Tableau very much, as it is very restric
 * Overall, the median age of medal winners has increased since 1924 (27.5), and reached minimum in 1984 (23), then increased a little bit;  
 * The median age of silver medal winners is a little bit higher than gold and bronze medal winners;  
 * Among all the sports, the median age of medal winners of Figure Skating is the lowest - only 22.5, while those of Cross-country skiing and Skeleton are the highest - 29;  
-* The age range of medal winners of some sports, for example, Freestyle Skiing and Nordic Combined, is narrower than the others -- different sports have different optimal age to play, and some are less restrictive on ages;  
+* The age range of medal winners of some sports, for example, Freestyle Skiing and Nordic Combined, is narrower than the others - different sports have different optimal age to play, and some are less restrictive on ages;  
 * Althrough Olympics is for the younger athletes (some players won medal as young as 14), there are players of 42 winning medals - very inspiring!
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
