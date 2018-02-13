@@ -101,5 +101,6 @@ By the way, I don't like the boxplot in Tableau very much, as it is very restric
 * Among all the sports, the median age of medal winners of Figure Skating is the lowest - only 22.5, while those of Cross-country skiing and Skeleton are the highest - 29;  
 * The age range of medal winners of some sports, for example, Freestyle Skiing and Nordic Combined, is narrower than the others - different sports have different optimal age to play, and some are less restrictive on ages;  
 * Althrough Olympics is for the younger athletes (some players won medal as young as 14), there are players of 42 winning medals - very inspiring!
+
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
