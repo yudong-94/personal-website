@@ -38,7 +38,7 @@ and is visually striking as one can easily see that the size/population of the c
 As [the dataset provided this week](https://data.world/makeovermonday/2018w8-where-does-your-medicine-come-from) is rather simple and straightforward - country, year, and its drugs and medicine export,
 to understand more about the whole picture of world trade of drugs and medicine, and to make these numbers more comparable,
 I spent some time to find the [drugs and medicine import data](https://www.trademap.org/Country_SelProduct_TS.aspx?nvpm=1|||||3004|||4|1|1|1|2|1|2|1|1) and [GDP by country data](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?view=map).
-You know, finding data and cleaning data is always the beginning part, and sometimes, the most time-consuming part of an analysis/ visualization.
+You know, finding data and cleaning data is always the beginning part, and sometimes, the most time-consuming part of an analysis/ visualization:)
 I normalized all the absolute imports / exports values by the GDP of that country, to see how much this section of international trade counted to the commerce of the whole country.
 
 Below is my dashboard. You can drag the slider to observe the trade pattern from 2013 to 2017, and hover on the countries to see the imports and exports volume. 
@@ -78,7 +78,7 @@ Please notice that the data of 2017 is not complete - many countries still do no
 * When normalized by GDP, the net drugs and medicine export of Ireland is the highest, and most of the countries with high exports (those in blue) are in Europe, with India as an exception;  
 * Meanwhile, Russian and most African countries highly rely on imports of drugs and medicine;  
 * High exports does not neccessarily means low imports, vice versa. For example, Belgium is both the top 1 import country and export country in 2013. This could be due to the imbalanced demand and supply of different categories of drugs and medicine;  
-* From 2013 to 2016, the international trade pattern of drugs and medicine does not change much;  
+* From 2013 to 2016, the international trade pattern of drugs and medicine does not change much.  
 
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
