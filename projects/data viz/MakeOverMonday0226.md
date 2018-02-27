@@ -65,7 +65,7 @@ I spent about an hour to make similar interactive map in Tableau. Below is my da
 
 #### Insights 
 * Generally speaking, economies in North America and Australia are more free, while those in Africa are the least free;  
-* Asian countries (mainly Russia and China) have seen great improvement in freedom index over year;  
+* Asian countries (mainly Russia and China) have seen great improvement in freedom index over year.  
 
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
