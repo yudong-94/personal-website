@@ -34,9 +34,12 @@ Data Source: SABR.org
 6. [MakeOverMonday Data Viz Project 0212](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0212)  
 The Winter Olympics  
 Data Source: Sports-Reference.com  
-6. [MakeOverMonday Data Viz Project 0219](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0219)  
+7. [MakeOverMonday Data Viz Project 0219](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0219)  
 World Drugs and Medicine Trade  
 Data Source: TradeMap.org 
+8. [MakeOverMonday Data Viz Project 0226](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0226)  
+World Economic Freedom  
+Data Source: Fraser Institute    
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
