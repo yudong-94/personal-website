@@ -24,9 +24,6 @@ My analytical skillset includes:
 - Databases: MySQL, Amazon Redshift
 - Strong machine learning skills
 
-[My LinkedIn](https://www.linkedin.com/in/yudong1994/)  
-[My Github](https://github.com/yudong-94)
-
 ### About This Site
 
 This site works as a gallery of my data projects as well as my own thoughts on data analysis.
@@ -34,3 +31,8 @@ This site works as a gallery of my data projects as well as my own thoughts on d
 This part includes my data mining, data visualization, and machine learning projects.
 - [Blog](https://yudong-94.github.io/personal-website/blogs/)
 
+### Contact Me    
+
+[My LinkedIn](https://www.linkedin.com/in/yudong1994/)  
+[My Github](https://github.com/yudong-94)  
+E-mail: yu.dong.2017@marshall.usc.edu
