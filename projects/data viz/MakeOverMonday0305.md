@@ -28,7 +28,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 ### Makeover Monday 0305
 
 This week's data is about a survey on gender equality measurements to the policymakers in five countries (Colombia, India, Indonesia, Kenya, and Senegal). 
-This survey asked the policymakers whether they knew about four measurements of gender equality - rate marriage rate for women, share of seats held by women in the parliament, share of women in the labour force, maternal mortality, and secondary education.
+This survey asked the policymakers whether they knew about five measurements of gender equality - rate marriage rate for women, share of seats held by women in the parliament, share of women in the labour force, maternal mortality, and secondary education.
 And what are their estimates on each measures.
 I do find this data very interesting as a female, and as the International Women's Day is coming :)  
 The original visualizations and reports could be found [here](http://www.equalmeasures2030.org/products/policymaker-report/).
@@ -37,10 +37,11 @@ The original visualizations and reports could be found [here](http://www.equalme
 #### My Visualization
 
 I spent about an hour and a half to make dashboards to answer three questions from the survey data:  
-1. How many policymakers think they know each measurement  
-2. How good are their estimates to these measurements
+1. How many policymakers think they know each measurement?  
+2. How good are their estimates to these measurements?
 3. Do the policymakers said 'I know the answer' really know the answer?  
 
+Specifically, to answer the second and third question, I created the metrics of deviation rate = (estimate - correct answer) / correct answer, to measure how deviated the estimate is from the correct answer.  
 Below is my dashboard. You can select the measurement/topic on upper right, and hover on each bar and points to get detailed info.
 
 --  
@@ -73,7 +74,7 @@ Below is my dashboard. You can select the measurement/topic on upper right, and 
 
 #### Insights 
 * Generally speaking, policymakers interviewed in Senegal are the least willing to make an estimates on the measurements, while those in Colombia are the most willing to. Of course, as the sample size is small, this might not be the real case regarding the whole population;    
-* In most cases, policymakers in Indonesia are the most confident - the percentage of policymakers stated that they knew the answer is the highest for Indonesia;  
+* In most cases, policymakers in Indonesia aware most about these gender equality measurements, or to say, at least they are the most confident - the percentage of policymakers stated that they knew the answer is the highest for Indonesia;  
 * Among all the measurements, 'share seats held by women' is the one estimated most accurately in all countries - as policymakers, the respondents are definitely more familiar with this measurement;  
 * The most extreme estimate deviation case happened for estimating 'maternal mortality rate for women' by Kenya policymakers - there is an estimate deviated by over 1800% (the estimate is not even a reasonable number as a rate);  
 * Policymakers stating 'I know the answer' not necessarily make a better estimate than those stating 'Not sure but can find'. They were just stating so...  
