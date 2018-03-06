@@ -39,8 +39,11 @@ World Drugs and Medicine Trade
 Data Source: TradeMap.org 
 8. [MakeOverMonday Data Viz Project 0226](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0226)  
 World Economic Freedom  
-Data Source: Fraser Institute    
-
+Data Source: Fraser Institute  
+8. [MakeOverMonday Data Viz Project 0305](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0305)  
+Survey on Gender Equality Measurements Awareness of Policymakers in Five Countries  
+Data Source: Equal Measures 2030  
+  
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
  - [Unsupervised Fraud Detection Project](https://github.com/yudong-94/Unsupervised-Fraud-Detection-Algorithm)
