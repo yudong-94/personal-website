@@ -43,6 +43,9 @@ Data Source: Fraser Institute
 8. [MakeOverMonday Data Viz Project 0305](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0305)  
 Survey on Gender Equality Measurements Awareness of Policymakers in Five Countries  
 Data Source: Equal Measures 2030  
+8. [MakeOverMonday Data Viz Project 0312](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0312)  
+Growth in Irish Whiskey Sales  
+Data Source: Board Bia via The IWSR    
   
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
