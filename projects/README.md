@@ -40,12 +40,16 @@ Data Source: TradeMap.org
 8. [MakeOverMonday Data Viz Project 0226](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0226)  
 World Economic Freedom  
 Data Source: Fraser Institute  
-8. [MakeOverMonday Data Viz Project 0305](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0305)  
+9. [MakeOverMonday Data Viz Project 0305](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0305)  
 Survey on Gender Equality Measurements Awareness of Policymakers in Five Countries  
 Data Source: Equal Measures 2030  
-8. [MakeOverMonday Data Viz Project 0312](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0312)  
+10. [MakeOverMonday Data Viz Project 0312](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0312)  
 Growth in Irish Whiskey Sales  
 Data Source: Board Bia via The IWSR    
+11. [MakeOverMonday Data Viz Project 0319](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0319)  
+UK Pet Population  
+Data Source: Pet Food Manufacturer’s Association        
+  
   
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
