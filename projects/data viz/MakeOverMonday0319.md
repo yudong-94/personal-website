@@ -32,8 +32,8 @@ The original viz is on the 14th page, and the data is rather straightforward - t
 
 #### My Visualization
 
-I calculated one more metric based on the data prvided: the average number of a certain pet kept by households with this pet. Please notice that becuase of the rounding issue of the data provided, some of the metrics may seem weird, for example, 0.9 guinea pigs per household with guinea pigs :)  
-Again, as the dataset provided is rather simple, I spent more time on crafting the vizz (actually 2 hours+). 
+I calculated one more metric based on the data prvided in the report: the average number of a certain pet kept by households with this pet. Please notice that becuase of the rounding issue of the data provided, some of the metrics may seem weird, for example, 0.9 guinea pigs per household with guinea pigs :)  
+Again, as the dataset provided is simple, I spent more time on crafting the vizz (actually 2 hours+). 
 I tried hard to make a stacked donut chart. Thanks to this [Tableau community post](https://community.tableau.com/thread/202677).  
 Besides, you could select one or more of the cute pet icons on the left to have a closer look or make comparisons.  
 
