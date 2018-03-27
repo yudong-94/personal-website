@@ -75,7 +75,7 @@ I followed a detailed instruction on creating **bump charts** [here](http://www.
 
 #### Appendix: Original Viz & Report  
 
-[!original viz](https://www.cda.eu/wp-content/uploads/2017/01/chocolate.jpg)  
+![original viz](https://www.cda.eu/wp-content/uploads/2017/01/chocolate.jpg)  
 This visualization credits to CDA.eu
 
 --  
