@@ -75,10 +75,8 @@ I followed a detailed instruction on creating **bump charts** [here](http://www.
 
 #### Appendix: Original Viz & Report  
 
-  <a href=’https://www.cda.eu/blog/uks-favourite-chocolate-bar/’>
-    <img src=’https://www.cda.eu/wp-content/uploads/2017/01/chocolate.jpg’ alt=’The UKs most popular chocolate bar’ width=’540px’ border=’0′ />
-  </a>  
-credit to CDA.eu
+[!original viz](https://www.cda.eu/wp-content/uploads/2017/01/chocolate.jpg)  
+This visualization credits to CDA.eu
 
 --  
 
