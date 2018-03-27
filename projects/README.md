@@ -48,8 +48,10 @@ Growth in Irish Whiskey Sales
 Data Source: Board Bia via The IWSR    
 11. [MakeOverMonday Data Viz Project 0319](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0319)  
 UK Pet Population  
-Data Source: Pet Food Manufacturer’s Association        
-  
+Data Source: Pet Food Manufacturer’s Association  
+12. [MakeOverMonday Data Viz Project 0326](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0326)  
+Top 10 Popular Chocolate Bar Brands in the UK  
+Data Source: CDA   
   
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
