@@ -52,6 +52,9 @@ Data Source: Pet Food Manufacturer’s Association
 12. [MakeOverMonday Data Viz Project 0326](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0326)  
 Top 10 Popular Chocolate Bar Brands in the UK  
 Data Source: CDA   
+13. [MakeOverMonday Data Viz Project 0402](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0402)  
+World Wine Production  
+Data Source: International Organisation of Vine and Wine  
   
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
