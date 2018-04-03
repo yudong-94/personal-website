@@ -67,7 +67,7 @@ Inspired by [this viz](https://public.tableau.com/profile/staticum#!/vizhome/TOP
 
 #### Insights 
 * Italy, Spain and France have been the top 3 wine production countries since 2012, and always counted for over half of the world wine production;  
-* Europe is definitelly the largest wine production area, but almost all the continents, you can find some large wine exporters.  
+* Europe is definitelly the largest wine production area, but in almost all the continents, you can find some large wine makers.  
 
 --  
 
