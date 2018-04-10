@@ -55,7 +55,10 @@ Data Source: CDA
 13. [MakeOverMonday Data Viz Project 0402](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0402)  
 World Wine Production  
 Data Source: International Organisation of Vine and Wine  
-  
+14. [MakeOverMonday Data Viz Project 0409](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0409)  
+Arctic Sea Ice Extent  
+Data Source: National Snow & Ice Data Center  
+
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
  - [Unsupervised Fraud Detection Project](https://github.com/yudong-94/Unsupervised-Fraud-Detection-Algorithm)
