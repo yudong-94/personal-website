@@ -58,6 +58,9 @@ Data Source: International Organisation of Vine and Wine
 14. [MakeOverMonday Data Viz Project 0409](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0409)  
 Arctic Sea Ice Extent  
 Data Source: National Snow & Ice Data Center  
+15. [MakeOverMonday Data Viz Project 0416](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0416)  
+Zambia Southern Province Confirmed Malaria Cases  
+Data Source: Simulated data from http://visualizenomalaria.org, contact jdrummey@path.org for data question  
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
