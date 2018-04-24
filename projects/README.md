@@ -61,6 +61,9 @@ Data Source: [National Snow & Ice Data Center](https://nsidc.org/)
 15. [**MakeOverMonday Data Viz Project 0416**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0416)  
 Zambia Southern Province Confirmed Malaria Cases  
 Data Source: Simulated data from http://visualizenomalaria.org, contact jdrummey@path.org for data question  
+16. [**MakeOverMonday Data Viz Project 0423**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0423)  
+Ecological Footprint per Capita  
+Data Source: [Global Footprint Network]https://data.world/footprint/nfa-2018-edition  
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
