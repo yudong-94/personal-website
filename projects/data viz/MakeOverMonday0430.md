@@ -71,6 +71,7 @@ Also, as I have worked on several classical map vizzes, this time, I created a h
 * Overtime, we cannot see an obvious geographical pattern of which part of US is lossing more bee colonies - this is an issue occuring all around the US without an obvious geographical tendency;   
 * But for the number of beekeepers, the states PA, VA, CA and NC are always among the top states over years;  
 * For number of colonies, the states CA, ND and TX are always among the top states over years, but it worth to notice that, these states are not the ones with highest state exclusive colonies, potentially indicating we have many colonies maily stay in these states but migrate all around.  
+  
 --  
 
 
