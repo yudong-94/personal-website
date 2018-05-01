@@ -64,6 +64,9 @@ Data Source: Simulated data from http://visualizenomalaria.org, contact jdrummey
 16. [**MakeOverMonday Data Viz Project 0423**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0423)  
 Ecological Footprint per Capita  
 Data Source: [Global Footprint Network](https://data.world/footprint/nfa-2018-edition)  
+17. [**MakeOverMonday Data Viz Project 0430**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0430)  
+Bee Colony Loss in the US  
+Data Source: [BeeInformed](https://bip2.beeinformed.org/loss-map/)  
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
