@@ -67,6 +67,10 @@ Data Source: [Global Footprint Network](https://data.world/footprint/nfa-2018-ed
 17. [**MakeOverMonday Data Viz Project 0430**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0430)  
 Bee Colony Loss in the US  
 Data Source: [BeeInformed](https://bip2.beeinformed.org/loss-map/)  
+18. [**MakeOverMonday Data Viz Project 0507**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0507)  
+Toughest Sport by Skill  
+Data Source: [ESPN](http://www.espn.com/espn/page2/sportSkills)  
+
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
