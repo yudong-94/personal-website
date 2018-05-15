@@ -10,12 +10,6 @@
 </script>
 </head>
 
-<div class="topnav">
-  <a class="active" href="https://yudong-94.github.io/personal-website/">Home</a>
-  <a href="https://yudong-94.github.io/personal-website/projects/">Projects</a>
-  <a href="https://yudong-94.github.io/personal-website/blogs/">Blog</a>
-</div>
-
 ## Home Page
 
 ### About Me
