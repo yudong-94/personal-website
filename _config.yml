@@ -1,10 +1,4 @@
 title: Yu Dong
-  url: /
-  sublinks:
-    - title: Projects
-      url: /projects
-    - title: Blog
-      url: /blogs
 description: Data Analyst at Ancestry, USC MS Business Analytics Alumni
 author: Yu Dong
 theme: jekyll-theme-slate
