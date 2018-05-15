@@ -70,7 +70,9 @@ Data Source: [BeeInformed](https://bip2.beeinformed.org/loss-map/)
 18. [**MakeOverMonday Data Viz Project 0507**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0507)  
 Toughest Sport by Skill  
 Data Source: [ESPN](http://www.espn.com/espn/page2/sportSkills)  
-
+19. [**MakeOverMonday Data Viz Project 0514**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0514)  
+Traffic Jam in Europe  
+Data Source: [Euronews](http://www.euronews.com/2018/02/07/which-european-commuters-spend-the-most-time-in-traffic-jams-)  
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
