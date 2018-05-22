@@ -73,6 +73,11 @@ Data Source: [ESPN](http://www.espn.com/espn/page2/sportSkills)
 19. [**MakeOverMonday Data Viz Project 0514**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0514)  
 Traffic Jam in Europe  
 Data Source: [Euronews](http://www.euronews.com/2018/02/07/which-european-commuters-spend-the-most-time-in-traffic-jams-)  
+20. [**MakeOverMonday Data Viz Project 0521**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0521)  
+Premier League Rank Prediction Vesus Reality  
+Data Source: [The Guardian](https://amp.theguardian.com/football/2018/may/15/premier-league-2017-18-season-predictions-versus-reality)  
+
+
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
