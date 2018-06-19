@@ -85,6 +85,9 @@ Data Source: [GOV.UK](https://www.gov.uk/report-gender-pay-gap-data)
 23. [**MakeOverMonday Data Viz Project 0611**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0611)  
 Tourism Density Index  
 Data Source: [Intrepid Travel](https://intrepidgroup.bynder.com/transfer/bdd0abcac448329ed4c9057327b6ca660742e4b5ea16f18bd5a343b2c6d0d0c8)  
+24. [**MakeOverMonday Data Viz Project 0618**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0618)  
+U.S. Influenza Surveillance Report  
+Data Source: [CDC](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html)  
 
 
 
