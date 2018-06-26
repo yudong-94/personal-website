@@ -84,7 +84,7 @@ It spent me more than two hours today to make all these happen. But I learned a 
 <details><summary>Expand</summary>  
 <p>  
   
-```R  
+```r  
 library(dplyr)  
 library(lubridate)  
 
