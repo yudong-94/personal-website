@@ -81,8 +81,6 @@ It spent me more than two hours today to make all these happen. But I learned a 
 
 #### Appendix: R Code 
 
-<details><summary>Expand</summary>  
-<p>  
   
 ```r  
 library(dplyr)  
@@ -147,8 +145,6 @@ routes_fin = bind_rows(routes_workday_fin, routes_weekend_fin)
 write.csv(routes_fin, 'routes.csv')  
 
 ```  
-</p>  
-</details>  
   
 --  
 
