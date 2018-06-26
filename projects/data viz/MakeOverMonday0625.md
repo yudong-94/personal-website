@@ -81,74 +81,75 @@ It spent me more than two hours today to make all these happen. But I learned a 
 
 #### Appendix: R Code 
 
-<details><summary>Expand</summary>
-<p>
+<details><summary>Expand</summary>  
+<p>  
+  
+```R  
+library(dplyr)  
+library(lubridate)  
 
-```R
-library(dplyr)
-library(lubridate)
+df = read.csv('TFL Cycle Hire 2017.csv')  
 
-df = read.csv('TFL Cycle Hire 2017.csv')
+df$StartDate = ymd_hms(df$StartDate)  
 
-df$StartDate = ymd_hms(df$StartDate)
+df$EndDate = ymd_hms(df$EndDate)  
 
-df$EndDate = ymd_hms(df$EndDate)
+df$weekday = wday(df$StartDate, label = TRUE)  
 
-df$weekday = wday(df$StartDate, label = TRUE)
-
-summary(df)
-
-
-routes = df %>%
-    filter(StartStation.Name != EndStation.Name) %>%
-    mutate(route = paste(StartStation.Name,'->',EndStation.Name),
-           workday = ifelse(weekday == 'Sun' | weekday == 'Sat', 0, 1)) %>%
-    group_by(route, StartStation.Lat, StartStation.Lon, EndStation.Lat, EndStation.Lon, workday) %>%
-    summarise(count = n()) %>%
-    arrange(workday, -count)
-
-routes_workday = routes %>% filter(workday == 1)
-routes_workday$index = 1:nrow(routes_workday)
-
-routes_weekend = routes %>% filter(workday == 0)
-routes_weekend$index = 1:nrow(routes_weekend)
-
-routes_workday_start = routes_workday %>%
-    ungroup() %>%
-    select(route, StartStation.Lat, StartStation.Lon, workday, count, index) %>%
-    rename(Lat = StartStation.Lat, Lon = StartStation.Lon) %>%
-    mutate(path = 0)
-
-routes_workday_end = routes_workday %>%
-    ungroup() %>%
-    select(route, EndStation.Lat, EndStation.Lon, workday, count, index) %>%
-    rename(Lat = EndStation.Lat, Lon = EndStation.Lon) %>%
-    mutate(path = 1)
-
-routes_workday_fin = bind_rows(routes_workday_start, routes_workday_end)
+summary(df)  
 
 
-routes_weekend_start = routes_weekend %>%
-    ungroup() %>%
-    select(route, StartStation.Lat, StartStation.Lon, workday, count, index) %>%
-    rename(Lat = StartStation.Lat, Lon = StartStation.Lon) %>%
-    mutate(path = 0)
+routes = df %>%  
+    filter(StartStation.Name != EndStation.Name) %>%  
+    mutate(route = paste(StartStation.Name,'->',EndStation.Name),  
+           workday = ifelse(weekday == 'Sun' | weekday == 'Sat', 0, 1)) %>%  
+    group_by(route, StartStation.Lat, StartStation.Lon, EndStation.Lat, EndStation.Lon, workday) %>%  
+    summarise(count = n()) %>%  
+    arrange(workday, -count)  
 
-routes_weekend_end = routes_weekend %>%
-    ungroup() %>%
-    select(route, EndStation.Lat, EndStation.Lon, workday, count, index) %>%
-    rename(Lat = EndStation.Lat, Lon = EndStation.Lon) %>%
-    mutate(path = 1)
+routes_workday = routes %>% filter(workday == 1)  
+routes_workday$index = 1:nrow(routes_workday)  
 
-routes_weekend_fin = bind_rows(routes_weekend_start, routes_weekend_end)
+routes_weekend = routes %>% filter(workday == 0)  
+routes_weekend$index = 1:nrow(routes_weekend)  
 
-routes_fin = bind_rows(routes_workday_fin, routes_weekend_fin)
+routes_workday_start = routes_workday %>%  
+    ungroup() %>%  
+    select(route, StartStation.Lat, StartStation.Lon, workday, count, index) %>%  
+    rename(Lat = StartStation.Lat, Lon = StartStation.Lon) %>%  
+    mutate(path = 0)  
 
-write.csv(routes_fin, 'routes.csv')
-```
-</p>
-</details>
+routes_workday_end = routes_workday %>%  
+    ungroup() %>%  
+    select(route, EndStation.Lat, EndStation.Lon, workday, count, index) %>%  
+    rename(Lat = EndStation.Lat, Lon = EndStation.Lon) %>%  
+    mutate(path = 1)  
 
+routes_workday_fin = bind_rows(routes_workday_start, routes_workday_end)  
+
+
+routes_weekend_start = routes_weekend %>%  
+    ungroup() %>%  
+    select(route, StartStation.Lat, StartStation.Lon, workday, count, index) %>%  
+    rename(Lat = StartStation.Lat, Lon = StartStation.Lon) %>%  
+    mutate(path = 0)  
+
+routes_weekend_end = routes_weekend %>%  
+    ungroup() %>%  
+    select(route, EndStation.Lat, EndStation.Lon, workday, count, index) %>%  
+    rename(Lat = EndStation.Lat, Lon = EndStation.Lon) %>%  
+    mutate(path = 1)  
+
+routes_weekend_fin = bind_rows(routes_weekend_start, routes_weekend_end)  
+
+routes_fin = bind_rows(routes_workday_fin, routes_weekend_fin)  
+
+write.csv(routes_fin, 'routes.csv')  
+
+```  
+</p>  
+</details>  
+  
 --  
 
 
