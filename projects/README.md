@@ -88,6 +88,9 @@ Data Source: [Intrepid Travel](https://intrepidgroup.bynder.com/transfer/bdd0abc
 24. [**MakeOverMonday Data Viz Project 0618**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0618)  
 U.S. Influenza Surveillance Report  
 Data Source: [CDC](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html)  
+25. [**MakeOverMonday Data Viz Project 0625**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0625)  
+London Cycle Hire Usage  
+Data Source: [Transport for London](http://cycling.data.tfl.gov.uk/)  
 
 
 
