@@ -38,6 +38,7 @@ However, the first problem I encoutered is that, the dataset itself is too large
 The second challenge is about how to plot routes. These two posts ([post 1](https://onlinehelp.tableau.com/current/pro/desktop/en-us/maps_howto_origin_destination.html) and [post 2](https://community.tableau.com/thread/122366)) helped a lot.
 The idea is that, you have to put the start point and end point into two rows, with unique identifier to each route, and order column to indicate which is the start and which is the end.  
 I segmented the cycling activities by weekday and weekends, trying to find out the typical rountes during workdays and after.  
+It spent me more than two hours today to make all these happen. But I learned a lot :)  
   
 --  
 <div class='tableauPlaceholder' id='viz1529988998733' style='position: relative'>
