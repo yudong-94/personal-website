@@ -33,7 +33,7 @@ This dataset include records of all his travels, the destinations, and a descrip
 
 #### My Visualization
 
-Despite from createing a map, as we have description column in the data, I tried for the first time to create word cloud in Tableau. But of course, this require some pre-processing of the column to transform the paragraphs to list of words. I used R to do this, and you can find the code at the end of this article.  
+Despite from createing a map, as we have description column in the data, I tried for the first time to create word cloud in Tableau. But of course, this require some pre-processing of the column to transform the paragraphs to list of words. I used R to do this, and you can find the code at the end of this article. And you can find a breif introduction to how to make a word cloud in Tableau [here](https://kb.tableau.com/articles/howto/creating-a-word-cloud). 
   
 --  
 <div class='tableauPlaceholder' id='viz1534225799813' style='position: relative'>
