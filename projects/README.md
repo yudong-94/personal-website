@@ -115,6 +115,9 @@ Data Source: [@ChristineZhang](https://twitter.com/christinezhang)
 33. [**MakeOverMonday Data Viz Project 0820**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0820)  
 ACLED: Visualizing Conflict  
 Data Source: [ACLED](https://www.acleddata.com/data/)  
+34. [**MakeOverMonday Data Viz Project 0827**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0827)  
+Wearable Devices  
+Data Source: [Figure Eight](https://www.crowdflower.com/data-for-everyone/)  
 
 
 ### Data Science Projects
