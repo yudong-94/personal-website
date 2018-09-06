@@ -118,7 +118,9 @@ Data Source: [ACLED](https://www.acleddata.com/data/)
 34. [**MakeOverMonday Data Viz Project 0827**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0827)  
 Wearable Devices  
 Data Source: [Figure Eight](https://www.crowdflower.com/data-for-everyone/)  
-
+35. [**MakeOverMonday Data Viz Project 0903**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0903)  
+Nike Factory Locations  
+Data Source: [Nike Inc.](http://manufacturingmap.nikeinc.com/)  
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
