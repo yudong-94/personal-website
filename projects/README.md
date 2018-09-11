@@ -121,6 +121,10 @@ Data Source: [Figure Eight](https://www.crowdflower.com/data-for-everyone/)
 35. [**MakeOverMonday Data Viz Project 0903**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0903)  
 Nike Factory Locations  
 Data Source: [Nike Inc.](http://manufacturingmap.nikeinc.com/)  
+36. [**MakeOverMonday Data Viz Project 0910**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0910)  
+Paying the President  
+Data Source: [ProPublica](https://www.propublica.org/datastore/dataset/spending-at-trump-properties) 
+
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
