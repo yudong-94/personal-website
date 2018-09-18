@@ -124,6 +124,9 @@ Data Source: [Nike Inc.](http://manufacturingmap.nikeinc.com/)
 36. [**MakeOverMonday Data Viz Project 0910**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0910)  
 Paying the President  
 Data Source: [ProPublica](https://www.propublica.org/datastore/dataset/spending-at-trump-properties) 
+37. [**MakeOverMonday Data Viz Project 0917**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0917)  
+Train Versus Plane in Europe  
+Data Source: [DW Data](https://github.com/dw-data/travel-cost) 
 
 
 ### Data Science Projects
