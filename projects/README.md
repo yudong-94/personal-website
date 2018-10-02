@@ -130,6 +130,9 @@ Data Source: [DW Data](https://github.com/dw-data/travel-cost)
 38. [**MakeOverMonday Data Viz Project 0924**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0924)  
 Visualzing Equality  
 Data Source: [EM 2030](http://data.em2030.org/wp-content/uploads/2018/09/EM2030-2018-Global-Report.pdf) 
+39. [**MakeOverMonday Data Viz Project 1001**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1001)  
+Avocado Prices  
+Data Source: [Hass Avocado Board](http://www.hassavocadoboard.com/retail/volume-and-price-data) 
 
 
 ### Data Science Projects
