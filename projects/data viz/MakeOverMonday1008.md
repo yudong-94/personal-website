@@ -69,7 +69,8 @@ This week, I again tried to replicate the original viz in Tableau. I like the wa
 #### Insights 
 * Prostate Cancer and Thyroid Cancer are the two type of cancers that has highest survival rate as of the cancer cases diagnosed in 2013 (>95%);  
 * We are seeing greatest improvement of survival rate of Leukemia Cancer and Prostate Cancer from 1980 to 2013;  
-* The cancer with lowest survival rate so far is the Pancreas Cancer, and the survival rate improvement is also relatively small since 1980.  
+* The cancer with lowest survival rate so far is the Pancreas Cancer, and the survival rate improvement is also relatively small since 1980;  
+* From the data, we are seeing Female has higher survival rate compared to Male.  
 
 
 --  
