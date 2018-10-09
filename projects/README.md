@@ -135,7 +135,7 @@ Avocado Prices
 Data Source: [Hass Avocado Board](http://www.hassavocadoboard.com/retail/volume-and-price-data) 
 40. [**MakeOverMonday Data Viz Project 1008**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1008)  
 5-Year Cancer Survival Rates in US  
-Data Source: [Our World in Data]
+Data Source: [Our World in Data](https://ourworldindata.org/cancer#are-death-rates-from-cancer-rising)
 
 
 ### Data Science Projects
