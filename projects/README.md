@@ -133,6 +133,9 @@ Data Source: [EM 2030](http://data.em2030.org/wp-content/uploads/2018/09/EM2030-
 39. [**MakeOverMonday Data Viz Project 1001**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1001)  
 Avocado Prices  
 Data Source: [Hass Avocado Board](http://www.hassavocadoboard.com/retail/volume-and-price-data) 
+40. [**MakeOverMonday Data Viz Project 1008**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1008)  
+5-Year Cancer Survival Rates in US  
+Data Source: [Our World in Data]
 
 
 ### Data Science Projects
