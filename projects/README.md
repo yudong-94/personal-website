@@ -136,6 +136,9 @@ Data Source: [Hass Avocado Board](http://www.hassavocadoboard.com/retail/volume-
 40. [**MakeOverMonday Data Viz Project 1008**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1008)  
 5-Year Cancer Survival Rates in US  
 Data Source: [Our World in Data](https://ourworldindata.org/cancer#are-death-rates-from-cancer-rising)
+41. [**MakeOverMonday Data Viz Project 1015**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1015)  
+Total Number of Women the House of Representatives: 1917-2018  
+Data Source: [Congressional Research Service](https://fas.org/sgp/crs/misc/RL30261.pdf)
 
 
 ### Data Science Projects
