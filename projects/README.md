@@ -139,7 +139,9 @@ Data Source: [Our World in Data](https://ourworldindata.org/cancer#are-death-rat
 41. [**MakeOverMonday Data Viz Project 1015**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1015)  
 Total Number of Women the House of Representatives: 1917-2018  
 Data Source: [Congressional Research Service](https://fas.org/sgp/crs/misc/RL30261.pdf)
-
+42. [**MakeOverMonday Data Viz Project 1022**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1022)  
+Beer Cost at Every MLB Stadium  
+Data Source: [Team Marketing Report](https://www.teammarketing.com/)
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
