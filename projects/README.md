@@ -142,6 +142,10 @@ Data Source: [Congressional Research Service](https://fas.org/sgp/crs/misc/RL302
 42. [**MakeOverMonday Data Viz Project 1022**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1022)  
 Beer Cost at Every MLB Stadium  
 Data Source: [Team Marketing Report](https://www.teammarketing.com/)
+42. [**MakeOverMonday Data Viz Project 1029**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1029)  
+Washing Hands After Going to the Toilet  
+Data Source: [YouGov](https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/yifb4ww12p/YouGov%20washing%20hands.pdf)  
+
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
