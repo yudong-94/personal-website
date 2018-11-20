@@ -151,7 +151,9 @@ Data Source: [United States Census Bureau](https://www.census.gov/data/datasets/
 44. [**MakeOverMonday Data Viz Project 1112**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1112)  
 Diversity in Tech  
 Data Source: [Company and Press Reports](https://docs.google.com/spreadsheets/d/1e5jevLJTK9Aayob2msk4Ss9qIMCqfris4m_m0kXO-7s/edit#gid=65558231)  
-
+45. [**MakeOverMonday Data Viz Project 1119**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119)  
+How Many Hours Americans Need to Work to Pay Their Mortgage  
+Data Source: [howmuch.net](https://howmuch.net/sources/hours-work-afford-home)  
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
