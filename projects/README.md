@@ -142,18 +142,22 @@ Data Source: [Congressional Research Service](https://fas.org/sgp/crs/misc/RL302
 42. [**MakeOverMonday Data Viz Project 1022**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1022)  
 Beer Cost at Every MLB Stadium  
 Data Source: [Team Marketing Report](https://www.teammarketing.com/)
-42. [**MakeOverMonday Data Viz Project 1029**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1029)  
+43. [**MakeOverMonday Data Viz Project 1029**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1029)  
 Washing Hands After Going to the Toilet  
 Data Source: [YouGov](https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/yifb4ww12p/YouGov%20washing%20hands.pdf)  
-43. [**MakeOverMonday Data Viz Project 1105**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1105)  
+44. [**MakeOverMonday Data Viz Project 1105**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1105)  
 US Population Projection by Age Group 2016-2060  
 Data Source: [United States Census Bureau](https://www.census.gov/data/datasets/2017/demo/popproj/2017-popproj.html)  
-44. [**MakeOverMonday Data Viz Project 1112**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1112)  
+45. [**MakeOverMonday Data Viz Project 1112**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1112)  
 Diversity in Tech  
 Data Source: [Company and Press Reports](https://docs.google.com/spreadsheets/d/1e5jevLJTK9Aayob2msk4Ss9qIMCqfris4m_m0kXO-7s/edit#gid=65558231)  
-45. [**MakeOverMonday Data Viz Project 1119**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119)  
+46. [**MakeOverMonday Data Viz Project 1119**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119)  
 How Many Hours Americans Need to Work to Pay Their Mortgage  
 Data Source: [howmuch.net](https://howmuch.net/sources/hours-work-afford-home)  
+47. [**MakeOverMonday Data Viz Project 1126**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1126)  
+The Cost of A Night Out  
+Data Source: [UBS](https://www.ubs.com/microsites/prices-earnings/en/stories/7-dinner-in-paris-party-in-miami-the-cheapest-and-priciest-cities-for-a-night-out/)  
+
 
 ### Data Science Projects
 1. Fraud Detection Machine Learning Algorithms
