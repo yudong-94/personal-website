@@ -29,8 +29,6 @@
 
 ### Data Visualization Projects
 
-[My Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)
-
 #### \#MakeoverMonday
 
 [MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
@@ -43,7 +41,7 @@ Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to c
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
 
-My **MakeoverMonday** Vizzes:  
+My **MakeoverMonday** Vizzes (you can also find them in [My Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)):  
 
 Week | Topics | Data Source
 :-------|--------|:------
