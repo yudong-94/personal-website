@@ -12,9 +12,24 @@
 
 ## My Projects
 
-### Data Visualization Projects
-[My Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)
+### Data Science Projects
+1. Fraud Detection Machine Learning Algorithms
+ - [Unsupervised Fraud Detection Project](https://github.com/yudong-94/Unsupervised-Fraud-Detection-Algorithm)
+ - [Realtime Unsupervised Fraud Detection Project](https://github.com/yudong-94/Realtime-Unsupervised-Fraud-Detection-Algorithm)
+ - [Supervised Fraud Detection Project](https://github.com/yudong-94/Supervised-Fraud-Detection-Algorithm)
+2. Kaggle Competitions
+ - [Instacart Market Basket Analysis](https://github.com/yudong-94/Kaggle-Instacart-Market-Basket-Analysis)
+ - [Porto Seguro’s Safe Driver Prediction](https://github.com/yudong-94/Kaggle-Safe-Driver-Prediction)
 
+
+### Data Mining Projects
+1. [City of LA 311 Call Center Data Analysis](https://github.com/yudong-94/City-of-LA-311-Call-Center-Data-Analysis)
+2. [Movie Recommender System](https://github.com/yudong-94/My-Movie-Recommender)
+
+
+### Data Visualization Projects
+
+[My Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)
 
 #### \#MakeoverMonday
 
@@ -80,20 +95,6 @@ Week | Topics | Data Source
 [**20181119**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119)|How Many Hours Americans Need to Work to Pay Their Mortgage |[howmuch.net](https://howmuch.net/sources/hours-work-afford-home)|
 [**20181126**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1126)|The Cost of A Night Out |[UBS](https://www.ubs.com/microsites/prices-earnings/en/stories/7-dinner-in-paris-party-in-miami-the-cheapest-and-priciest-cities-for-a-night-out/)|
 
-
-
-### Data Science Projects
-1. Fraud Detection Machine Learning Algorithms
- - [Unsupervised Fraud Detection Project](https://github.com/yudong-94/Unsupervised-Fraud-Detection-Algorithm)
- - [Realtime Unsupervised Fraud Detection Project](https://github.com/yudong-94/Realtime-Unsupervised-Fraud-Detection-Algorithm)
- - [Supervised Fraud Detection Project](https://github.com/yudong-94/Supervised-Fraud-Detection-Algorithm)
-2. Kaggle Competitions
- - [Instacart Market Basket Analysis](https://github.com/yudong-94/Kaggle-Instacart-Market-Basket-Analysis)
- - [Porto Seguro’s Safe Driver Prediction](https://github.com/yudong-94/Kaggle-Safe-Driver-Prediction)
-
-### Data Mining Projects
-1. [City of LA 311 Call Center Data Analysis](https://github.com/yudong-94/City-of-LA-311-Call-Center-Data-Analysis)
-2. [Movie Recommender System](https://github.com/yudong-94/My-Movie-Recommender)
 
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
