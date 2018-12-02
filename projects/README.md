@@ -29,6 +29,8 @@
 
 ### Data Visualization Projects
 
+![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)
+
 #### \#MakeoverMonday
 
 [MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
