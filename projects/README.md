@@ -29,7 +29,6 @@
 
 ### Data Visualization Projects
 
-![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)
 
 #### \#MakeoverMonday
 
@@ -95,6 +94,8 @@ Week| Date | Topic | Data Source
 46|20181119|[How Many Hours Americans Need to Work to Pay Their Mortgage](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119)|[howmuch.net](https://howmuch.net/sources/hours-work-afford-home)|
 47|20181126|[The Cost of A Night Out](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1126)|[UBS](https://www.ubs.com/microsites/prices-earnings/en/stories/7-dinner-in-paris-party-in-miami-the-cheapest-and-priciest-cities-for-a-night-out/)|
 
+
+![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)
 
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
