@@ -26,7 +26,7 @@ Week | Topics | Data Source
 [**20180129**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0129)|Most Profitable Companies |[TitleMax](https://www.titlemax.com/)|
 [**20180205**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0205)|US Baseball Players Ethnicity |[SABR.org](http://sabr.org/)|
 [**20180212**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0212)|The Winter Olympics |[Sports-Reference.com](http://sports-reference.com/)|
-[**20180219**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0219)|World Drugs and Medicine Trade |[TradeMap.org](http://www.trademap.org/Country_SelProduct_TS.aspx?nvpm=1|||||3004|||4|1|1|2|2|1|2|1|1)|
+[**20180219**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0219)|World Drugs and Medicine Trade |[TradeMap.org](http://www.trademap.org/Country_SelProduct_TS.aspx)|
 [**20180226**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0226)|World Economic Freedom |[Fraser Institute](https://www.fraserinstitute.org/economic-freedom/dataset)|
 [**20180305**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0305)|Survey on Gender Equality Measurements Awareness of Policymakers in Five Countries |[Equal Measures 2030](http://www.equalmeasures2030.org/products/policymaker-report/)|
 [**20180312**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0312)|Growth in Irish Whiskey Sales |[Board Bia](https://twitter.com/Bordbia) via [The IWSR](https://twitter.com/TheIWSR)|  
