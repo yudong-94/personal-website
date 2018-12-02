@@ -18,6 +18,18 @@
 
 #### \#MakeoverMonday
 
+[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
+"Each week we post a link to a chart, and its data, and then you rework the chart.
+Maybe you retell the story more effectively, or find a new story in the data.
+We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
+Together we can have broader conversations about and with data."
+
+Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
+The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
+
+My **MakeoverMonday** Vizzes:  
+
 Week | Topics | Data Source
 :-------|--------|:------
 [**20180108**](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108)|Across the globe, personality is rated as more important than looks | [YouGov](https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/ucgs0hwj7h/YouGov%20global%20partner%20preferences.pdf)|
