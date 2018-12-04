@@ -93,7 +93,7 @@ Week| Date | Topic | Data Source
 45|20181112|[Diversity in Tech](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1112)|[Company and Press Reports](https://docs.google.com/spreadsheets/d/1e5jevLJTK9Aayob2msk4Ss9qIMCqfris4m_m0kXO-7s/edit#gid=65558231)|
 46|20181119|[How Many Hours Americans Need to Work to Pay Their Mortgage](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119)|[howmuch.net](https://howmuch.net/sources/hours-work-afford-home)|
 47|20181126|[The Cost of A Night Out](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1126)|[UBS](https://www.ubs.com/microsites/prices-earnings/en/stories/7-dinner-in-paris-party-in-miami-the-cheapest-and-priciest-cities-for-a-night-out/)|
-
+48|20181203|[Women Constructors in the Shortz Era](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1203)|[XWord Info](https://www.xwordinfo.com/)|
 
 ![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)
 
