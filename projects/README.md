@@ -96,6 +96,7 @@ Week| Date | Topic | Data Source
 48|20181203|[Women Constructors in the Shortz Era](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1203)|[XWord Info](https://www.xwordinfo.com/)|
 49|20181210|[Land Use by Food Type](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1210)|[Our World in Data](https://ourworldindata.org/grapher/land-use-per-gram-of-protein-by-food-type)|
 50|20181217|[London Bus Safety Performance](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1217)|[TFL](https://tfl.gov.uk/corporate/publications-and-reports/bus-safety-data)|
+50|20181224|[Average spending on Christmas gifts in the U.S. 1999-2018](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1224)|[Statista](https://www.statista.com/statistics/246963/christmas-spending-in-the-us-during-november/)|
 
 ![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)
 
