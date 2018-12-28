@@ -73,6 +73,6 @@ Also, as I have worked on several classical map vizzes, this time, I created a h
 * For number of colonies, the states CA, ND and TX are always among the top states over years, but it worth to notice that, these states are not the ones with highest state exclusive colonies, potentially indicating we have many colonies maily stay in these states but migrate all around.  
   
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0423) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0507)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
