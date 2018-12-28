@@ -83,4 +83,6 @@ Below is my dashboard:
 * High net income will not promise a high fotune 500 ranking, as fortune 500 mainly considers the total annual revenue, and those companies earn less but has a higher profit margin () will win in net income. The companies on the upper left of the bubble chart are those with a high total income but low profit margin.
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0122) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0205)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
