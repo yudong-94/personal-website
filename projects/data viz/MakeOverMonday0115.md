@@ -86,4 +86,6 @@ However, one must notice that as these three states/districts actually have rela
 * Nevada did really poor on household income from 2009 to 2016 - it's the only state seen a increase in the  percentage of low income households, and its percentage of high income households almost stay the same.
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0122)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
