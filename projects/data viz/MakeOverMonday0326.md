@@ -79,5 +79,6 @@ I followed a detailed instruction on creating **bump charts** [here](http://www.
 This visualization credits to CDA.eu
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0319) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0402)  
 
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
