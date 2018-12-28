@@ -74,4 +74,6 @@ Besides, you could select one or more of the cute pet icons on the left to have 
 * I am really surprised that in the UK, close amount of households keeping horses as pets as those keeping hamsters...
   
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0312) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0326)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
