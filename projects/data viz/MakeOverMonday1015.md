@@ -41,7 +41,7 @@ Except from comparing the women representative percentage between the Republican
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday1015&#47;GenderDistributioninHouseofRepresentatives' />
   <param name='tabs' value='no' />
@@ -65,11 +65,11 @@ Except from comparing the women representative percentage between the Republican
 
 --  
 
-#### Insights 
+#### Insights
 * Althrough we are seeing more and more female in the House of Representatives, they still only count for less than 20% of the total representatives;  
 * Especially in the Republican Party, they only have less than 10% female representatives in the House.   
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1008) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1022)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

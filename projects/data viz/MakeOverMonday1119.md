@@ -46,7 +46,7 @@ This week I tried to incorprate the basic linear regression functionality in Tab
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday1119&#47;homepricevs_income' />
   <param name='tabs' value='no' />
@@ -70,12 +70,12 @@ This week I tried to incorprate the basic linear regression functionality in Tab
 
 --  
 
-#### Insights 
+#### Insights
 * SF is the city with highest Median Home Listing Price, and also the most overpriced city, based on the simple linear regression. The other most overpriced cities are NY, LA, Boston, and Miami;  
 * Gilbert, Arizona has the most underpriced home listing against its income level;  
 * California has many of the most expensive cities to mortgage a house, and the same group of cities also have highest household income level.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1112) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1126)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

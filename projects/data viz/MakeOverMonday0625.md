@@ -27,7 +27,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 ### Makeover Monday 0625
 
-This week's topic is Clycle Hire Usage in London in 2017. This is largest dataset I have ever seen in Makeover Monday... It has over 10 million rows, with start location coordinates, end location coordinates, and time info. 
+This week's topic is Clycle Hire Usage in London in 2017. This is largest dataset I have ever seen in Makeover Monday... It has over 10 million rows, with start location coordinates, end location coordinates, and time info.
 Basically, it tells when a user rented a bike and rode it from where to where.  
 
 
@@ -39,7 +39,7 @@ The second challenge is about how to plot routes. These two posts ([post 1](http
 The idea is that, you have to put the start point and end point into two rows, with unique identifier to each route, and order column to indicate which is the start and which is the end.  
 I segmented the cycling activities by weekday and weekends, trying to find out the typical rountes during workdays and after.  
 It spent me more than two hours today to make all these happen. But I learned a lot :)  
-  
+
 --  
 <div class='tableauPlaceholder' id='viz1529988998733' style='position: relative'>
 <noscript><a href='#'>
@@ -47,12 +47,12 @@ It spent me more than two hours today to make all these happen. But I learned a 
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0625&#47;mostpopularcyclingroutes' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0625&#47;mostpopularcyclingroutes&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0625&#47;mostpopularcyclingroutes&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -68,20 +68,20 @@ It spent me more than two hours today to make all these happen. But I learned a 
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';      
   vizElement.parentNode.insertBefore(scriptElement, vizElement);              
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * On median, each ride is 14 minutes - perfect for comuting.  
 * Most of the cylcings happened during the peak hour (8AM and 5PM). And we saw more rides in the Summer - probably just the best weather to bike.  
 * During the weekdays, most popular routes are those routes within the city, especially the area around Waterloo Station 3 to King's Cross.  
 * During the weekends, most popular routes are those around the Hyde Park, and Olympic Park - makes a lot of sense :).  
-  
+
 --  
 
-#### Appendix: R Code 
+#### Appendix: R Code
 
-  
+
 ```r  
 library(dplyr)  
 library(lubridate)  
@@ -145,8 +145,8 @@ routes_fin = bind_rows(routes_workday_fin, routes_weekend_fin)
 write.csv(routes_fin, 'routes.csv')  
 
 ```  
-  
+
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0618) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0702)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

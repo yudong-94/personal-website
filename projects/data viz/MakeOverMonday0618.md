@@ -35,7 +35,7 @@ You can find the complete report [here](https://www.cdc.gov/flu/weekly/#S11).
 Due to the issue I mentioned above, instead of showing the absolute number trend, I decided to plot the the percentage of cases by children and the elder over time, to understand when these two groups are more likely to catch influenza.  
 I spent around one hour to produce the below heatmap dashboard. You can hover on the heatmap to see the distribution of each age groups on that particular quarter as well.  
 Also, please notice that there is some data quality issue, that you will see some blank from 1998 to 2002 during Summer seasons.  
-  
+
 --  
 <div class='tableauPlaceholder' id='viz1529373762377' style='position: relative'>
 <noscript><a href='#'>
@@ -64,14 +64,14 @@ Also, please notice that there is some data quality issue, that you will see som
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);              
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * For both children under 4 May to June and Oct to Dec are two seasons that they are more likely to catch an influenza - temperature typically varies a lot during these two seasons.    
 * For the elder (age 65+), we cannot see any obvious seasionality pattern regarding months. However, we can see some years they are more prone to the Influenze than other years - maybe due to the type of Influenza popular in those years.    
-  
+
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0611) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0625)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

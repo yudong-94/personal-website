@@ -66,12 +66,12 @@ This time I tried a brand new type of chart -- Radial Stacked Bar Chart. Luckily
 
 --  
 
-#### Insights 
+#### Insights
 * The dinner cost at New York is the highest around the world, but for the other type of costs, actually it's not that high... Instead, Tokyo is the city with highest average cost for a Date Night;    
 * Surprisingly, Zurich is the most expensive city regarding the cost on the Party Night, largely due to its high price of longdrinks and Taxi;  
 * The cost of both Date Night and Party Night are cheapeast at Mexico City in our dataset.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1203)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

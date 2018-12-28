@@ -62,14 +62,14 @@ I am really struggling a lot with maps..... Tried for more than one hours, but s
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';   
   vizElement.parentNode.insertBefore(scriptElement, vizElement);            
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * Most of the top 10 over-tourism countries are in Europe. Some of them are here just because the country itself is too small (for example, Singapore)...  
 * Most of the top 10 under-tourism countries are relatively large (like China), or population-intensive (like African countries).  
-  
+
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0604) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0618)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

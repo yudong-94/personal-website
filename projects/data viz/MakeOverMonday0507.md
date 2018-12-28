@@ -27,7 +27,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 ### Makeover Monday 0507
 
-This week's topic is the skills difficulty level of different sports. It's interesting to see that some sports require high skills across all the fields, while some are rather easy to get started. 
+This week's topic is the skills difficulty level of different sports. It's interesting to see that some sports require high skills across all the fields, while some are rather easy to get started.
 And the original viz could be found [here](http://www.espn.com/espn/page2/sportSkills). This is essentially a table...  
 
 
@@ -44,7 +44,7 @@ Below is my dashboard.
   <img alt='Sports by Skills ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0507&#47;SportsbySkills&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0507&#47;SportsbySkills' />
@@ -69,12 +69,12 @@ Below is my dashboard.
 
 --  
 
-#### Insights 
+#### Insights
 * Boxing is one of those sports that require high-level skills in almost all fields.  
 * Some examples of sports require exceptionally good skill in one field is sprints, gymnastics, and auto racing.  
 * Based on the level of skills required, fishing could be the most relaxing sport.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0430) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0514)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

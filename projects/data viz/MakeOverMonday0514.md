@@ -33,7 +33,7 @@ But as the data is just 10 rows with 10 cities and their average commuting time,
 
 #### My Visualization
 
-For this dashboard, I spent only around 30 minutes, as the data is rather straightforward. 
+For this dashboard, I spent only around 30 minutes, as the data is rather straightforward.
 I marked the top 10 cities in map, and for the first time, used annotation in the dashboard.  
 Below is my dashboard.  
 
@@ -43,8 +43,8 @@ Below is my dashboard.
   <img alt='traffic jam in EU ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;46&#47;46MGDBD3T&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='path' value='shared&#47;46MGDBD3T' />
   <param name='toolbar' value='yes' />
   <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;46&#47;46MGDBD3T&#47;1.png' />
@@ -65,11 +65,11 @@ Below is my dashboard.
 
 --  
 
-#### Insights 
+#### Insights
 * London is definitely the most busy city regarding commuting time, but to my surprise, we have four cities from Germany in the top 10 list, and also two from Switzerland.  
 * It is said that overall, commuters in Los Angeles spent the most time stuck in traffic out of the 1,360 global cities included, at 102 hours... I know the pain :(  
   
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0507) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0521)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

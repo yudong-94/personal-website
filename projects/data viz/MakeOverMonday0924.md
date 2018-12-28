@@ -42,12 +42,12 @@ I spent around one hour to visualize the data with the purpose to compare people
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0924&#47;GenderEquality' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0924&#47;GenderEquality&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0924&#47;GenderEquality&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -55,7 +55,7 @@ I spent around one hour to visualize the data with the purpose to compare people
   <param name='display_count' value='yes' />
 </object></div>          
 <script type='text/javascript'>    
-  var divElement = document.getElementById('viz1537847983638'); 
+  var divElement = document.getElementById('viz1537847983638');
   var vizElement = divElement.getElementsByTagName('object')[0];    
   vizElement.style.width='800px';vizElement.style.height='827px';       
   var scriptElement = document.createElement('script');                
@@ -66,13 +66,13 @@ I spent around one hour to visualize the data with the purpose to compare people
 
 --  
 
-#### Insights 
+#### Insights
 * Across all the geo, people all agree that the top priority today in relation to gender equality is 'Reducing gender-based violence';  
 * Africa is the only region that put 'Economic empowerment, access to land and financial inclusion' as the second priority, reflecting the current poor gender equality situation in Africa;  
 * Meanwhile, the other regions except North American and Europe put 'Sexual and productive health and rights' as the second priority, and North American and Europe puts 'Women and work, unpaid care, pay gap' as the second priority, potentially indicating that in this region, securing the basic needs and rights for women has been pretty much done, and people are now focusing more on gender equality in worklife;  
 * Comparing the responses from respondents with different genders, Male and Female both agree on 'Reducing gender-based voilence' as the top priority, while the ones identified themselve as 'In another way' put 'Women's political and civil society participation' at the top priority.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0917) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1001)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

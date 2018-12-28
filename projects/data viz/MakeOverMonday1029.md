@@ -41,13 +41,13 @@ The data is rather simple, so I choose to put is in a simple way -- donut charts
   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1029_0&#47;WashHands&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday1029_0&#47;WashHands' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1029_0&#47;WashHands&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1029_0&#47;WashHands&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -67,11 +67,11 @@ The data is rather simple, so I choose to put is in a simple way -- donut charts
 
 --  
 
-#### Insights 
+#### Insights
 * On general, more female said they always wash hands after going to the toilet;  
 * More people having the habit of washing hands while at home or at work, than out and about.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1022) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1105)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

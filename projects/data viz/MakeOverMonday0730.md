@@ -42,13 +42,13 @@ As inspired by the original viz, I created a list of country with the small bar 
     <img alt='Big Mac Index ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0730&#47;BigMacIndex&#47;1_rss.png' style='border: none' />
   </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeoverMonday0730&#47;BigMacIndex' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0730&#47;BigMacIndex&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0730&#47;BigMacIndex&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -61,13 +61,15 @@ As inspired by the original viz, I created a list of country with the small bar 
   var scriptElement = document.createElement('script');         
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);    
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * Currency of the European countries are generally more over-valued, especially before 2012;  
 * Meanwhile, the Asian and Middle East countries' currency are more under-valued;  
 * Israel is probably the country that has the most equal-valued currency as compared to USD;  
-  
+
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0723) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0806)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

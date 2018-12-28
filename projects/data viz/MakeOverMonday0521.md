@@ -34,7 +34,7 @@ You can find the original report [here](https://amp.theguardian.com/football/201
 #### My Visualization
 
 At first, I was thinking about making some bump chart to visualize the difference between prediction and reality. However, considering we have 20 teams to visualize, which will make the bump chart kind of messy, I ended up with the below viz. (Not sure how to call this kind of chart...)     
-  
+
 
 --  
 <div class='tableauPlaceholder' id='viz1526958840075' style='position: relative'>
@@ -43,12 +43,12 @@ At first, I was thinking about making some bump chart to visualize the differenc
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0521&#47;PremierLeaguePredv_s_Actual' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0521&#47;PremierLeaguePredv_s_Actual&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0521&#47;PremierLeaguePredv_s_Actual&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -67,11 +67,11 @@ At first, I was thinking about making some bump chart to visualize the differenc
 
 --  
 
-#### Insights 
+#### Insights
 * It seems like predicting top players is much easier than predicting lower-rank teams - the deviation between prediction and reality is lower for top teams.  
-  
+
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0514) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0528)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

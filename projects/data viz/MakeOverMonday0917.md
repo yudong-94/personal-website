@@ -43,8 +43,8 @@ Also, please notice that the travel time here for plane, is the flight time + 3 
   <img alt='Train vs Plane Cost in Europe ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0917&#47;TrainvsPlaneCostinEurope&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0917&#47;TrainvsPlaneCostinEurope' />
   <param name='tabs' value='no' />
@@ -69,12 +69,12 @@ Also, please notice that the travel time here for plane, is the flight time + 3 
 
 --  
 
-#### Insights 
+#### Insights
 * Train always has strong advantage in EcoPassengerCO2;  
 * Comparing ticket price and travel time, it's Plane does not appear to be a strong winner;  
 * Consider all the info above, I would definitely recommend people taking train instead of plane in Europe.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0910) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0924)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

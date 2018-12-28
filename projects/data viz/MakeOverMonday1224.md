@@ -66,10 +66,10 @@ At the first glance of the chart, I was thinking, this trend should be in line w
 
 --  
 
-#### Insights 
+#### Insights
 * Average personal spend on Christmas gifts is in line with the real median household income -- there are two obvious drops, one in 2002 followed by the dot-com bubble, and another in 2008 due to the financial crsis.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1217) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1227)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

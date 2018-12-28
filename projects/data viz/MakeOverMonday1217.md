@@ -40,7 +40,7 @@ I spent around one hour to make a Tableau dashboard. It shows the Quarterly inju
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday1217&#47;LondonBusesSafetyDashQ2' />
   <param name='tabs' value='no' />
@@ -64,12 +64,12 @@ I spent around one hour to make a Tableau dashboard. It shows the Quarterly inju
 
 --  
 
-#### Insights 
+#### Insights
 * Overall, the London Bus incidents with injuries have been increasing over time -- 2018 Q2 we saw 4% increase of injuries comparing to Q1, and 4% increase comparing to 2017 Q2;  
 * Slip Trip Fall is the most common incident type in 2018 Q2, following by Personal Injury;  
 * Injuries that can be treated on the scene counted for over 80% of the injuries in 2018 Q2.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1210) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1224)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

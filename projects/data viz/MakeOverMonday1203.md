@@ -40,8 +40,8 @@ This week I used the Xwork game color palette, and created a simple heatmap.
   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1203&#47;EdittedbyMaleOnly&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday1203&#47;EdittedbyMaleOnly' />
   <param name='tabs' value='no' />
@@ -65,11 +65,11 @@ This week I used the Xwork game color palette, and created a simple heatmap.
 
 --  
 
-#### Insights 
+#### Insights
 * It seems like women are less likely to work as 'constructors' for the game on Friday and Saturday;  
 * Over year, we are seeing higher percentage of games with male 'constructors' only.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1126) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1210)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

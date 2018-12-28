@@ -46,7 +46,7 @@ As mentioned above, my goal this week is to replicate the original visualization
   <param name='name' value='MakeOverMonday0910&#47;PayingthePresidentDash' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0910&#47;PayingthePresidentDash&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0910&#47;PayingthePresidentDash&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -65,10 +65,10 @@ As mentioned above, my goal this week is to replicate the original visualization
 
 --  
 
-#### Insights 
+#### Insights
 * Prefer not to comment on this week's dataset as I am not very familiar with the related topics and regulations :)
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0903) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0917)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -34,15 +34,15 @@ This week's topic is rats sighting in NYC. Awwwww Rats! The [dataset](https://da
 #### My Visualization
 
 Dealing with data with time, a very typical thinking is to plot heatmap. And since the dataset has location and zip, I also plotted the zipcode level density map.    
-  
+
 --  
 <div class='tableauPlaceholder' id='viz1530584761514' style='position: relative'>
 <noscript><a href='#'>
   <img alt='rats sightings in NYC ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0702&#47;ratssightingsinNYC&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0702&#47;ratssightingsinNYC' />
   <param name='tabs' value='no' />
@@ -62,12 +62,14 @@ Dealing with data with time, a very typical thinking is to plot heatmap. And sin
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';     
   vizElement.parentNode.insertBefore(scriptElement, vizElement);           
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * Summer is the season with most rats sighting cases hapenning;  
 * The borough Brooklyn has seen most rats sighting cases, especially around the zipcode 11221.  
-  
+
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0625) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0709)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

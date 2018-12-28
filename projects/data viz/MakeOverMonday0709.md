@@ -40,7 +40,7 @@ Well... Again, maps plus summary bar charts...
   <img alt='vocalno eruption ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0709&#47;vocalnoeruption&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0709&#47;vocalnoeruption' />
@@ -62,13 +62,15 @@ Well... Again, maps plus summary bar charts...
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  
   vizElement.parentNode.insertBefore(scriptElement, vizElement);           
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * Regions with most volcanoes are not those with most active volcanoes - which is a good news?;  
 * As we probably all know, most of the volcanoes located along the coast or between two continent plates;  
 * Asian and Pacific Regions have seen most recently eruppted colvanoes.  
-  
+
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0702) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0716)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -42,7 +42,7 @@ Excepting knowing that older people consist of higher proportion in US over time
   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1105&#47;USPopulationProjection&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday1105&#47;USPopulationProjection' />
@@ -68,12 +68,12 @@ Excepting knowing that older people consist of higher proportion in US over time
 
 --  
 
-#### Insights 
+#### Insights
 * For new-born, actually there are always more male than females. However, after 60 days old, in older generations, females begin to have a higher proportion -- corresponding with the general perception that females have longer longevity;    
 * Though the population size of young White people is predicted to decline over time, it's not the case for the other races;  
 * We are seeing some very weird spike of population projection around 2030 for Age 60-79, which is potentially related to the baby boom in 1950s and 60s.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1029) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1112)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

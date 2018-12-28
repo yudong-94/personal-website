@@ -41,13 +41,13 @@ I made a very simple viz of scatter plots with a trendline showing how the media
   <img alt='NBA Player Salary Growth ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0716&#47;NBAPlayerSalaryGrowth&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0716&#47;NBAPlayerSalaryGrowth' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0716&#47;NBAPlayerSalaryGrowth&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0716&#47;NBAPlayerSalaryGrowth&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -63,12 +63,14 @@ I made a very simple viz of scatter plots with a trendline showing how the media
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';   
   vizElement.parentNode.insertBefore(scriptElement, vizElement);              
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * The team median salary has been increasing all the way since 1990. The average team median salary (...) has been 4x since 1990;    
 * The range of team median salary is also increasing - salary difference has been larger and larger among teams.  
-    
+
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0709) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0723)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

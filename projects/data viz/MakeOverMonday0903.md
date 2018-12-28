@@ -41,7 +41,7 @@ My viz this week is a simple map view, with other sheets linked in tooltip, show
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='path' value='views&#47;MakeOverMonday0903&#47;NikeFactory?:embed=y&amp;:display_count=y&amp;publish=yes' />
   <param name='toolbar' value='yes' />
   <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0903&#47;NikeFactory&#47;1.png' />
@@ -64,12 +64,12 @@ My viz this week is a simple map view, with other sheets linked in tooltip, show
 
 --  
 
-#### Insights 
+#### Insights
 * China has most Nike factories (135 factories with 161k+ workers);  
 * Most Nike materials were manufactured in developing countries like China, Brazil and South-eastern Asia countries, as the labor cost is relatively lower; while the North American countries' factories focus more on finished goods;  
 * There is no Nike footwear and material factory in the US...  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0827) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0910)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

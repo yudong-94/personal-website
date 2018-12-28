@@ -44,7 +44,7 @@ As said above, I put the paid leave length and average payment rate on the two a
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeoverMonday0723&#47;WorldParentalLeave' />
   <param name='tabs' value='no' />
@@ -64,13 +64,15 @@ As said above, I put the paid leave length and average payment rate on the two a
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';     
   vizElement.parentNode.insertBefore(scriptElement, vizElement);            
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * Genereally speaking, European countries, especially Eastern European countries have better (or more generous) Maternity/Parental Leave policy.  
-* Countries have different tendency - some tend to emphasize on better Maternity Leave, while others trying to offer better Parental Leave policy. 
+* Countries have different tendency - some tend to emphasize on better Maternity Leave, while others trying to offer better Parental Leave policy.
 * Wondering... What happened to US...  
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0716) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0730)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

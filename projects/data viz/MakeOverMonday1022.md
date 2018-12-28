@@ -65,11 +65,11 @@ Considering the size of beer differs at each stadium, I chose to compare the pri
 
 --  
 
-#### Insights 
+#### Insights
 * Boston Red Sox has always been the stadium with most expensive beer since 2013, and beer price at SF Giant has been more and more expensive, and it ended at 2nd place in 2018;  
 * Beer price varies among years -- there is no obvious increasing or decreasing trend during 2013 to 2018.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1015) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1029)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

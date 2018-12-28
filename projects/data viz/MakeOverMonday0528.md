@@ -64,10 +64,10 @@ This week's data is almost in the same format as two weeks ago (top 10 European 
 
 --  
 
-#### Insights 
+#### Insights
 * There are five European cities appear on the list as top expensive cities, including the top one city - Monaco (really unexpected to me).  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0521) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0604)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

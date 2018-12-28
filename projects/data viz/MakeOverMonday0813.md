@@ -33,8 +33,8 @@ This dataset include records of all his travels, the destinations, and a descrip
 
 #### My Visualization
 
-Despite from createing a map, as we have description column in the data, I tried for the first time to create word cloud in Tableau. But of course, this require some pre-processing of the column to transform the paragraphs to list of words. I used R to do this, and you can find the code at the end of this article. And you can find a breif introduction to how to make a word cloud in Tableau [here](https://kb.tableau.com/articles/howto/creating-a-word-cloud). 
-  
+Despite from createing a map, as we have description column in the data, I tried for the first time to create word cloud in Tableau. But of course, this require some pre-processing of the column to transform the paragraphs to list of words. I used R to do this, and you can find the code at the end of this article. And you can find a breif introduction to how to make a word cloud in Tableau [here](https://kb.tableau.com/articles/howto/creating-a-word-cloud).
+
 --  
 <div class='tableauPlaceholder' id='viz1534225799813' style='position: relative'>
 <noscript><a href='#'>
@@ -42,8 +42,8 @@ Despite from createing a map, as we have description column in the data, I tried
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' /> 
-  <param name='path' value='shared&#47;95GKTZBNM' /> 
+  <param name='embed_code_version' value='3' />
+  <param name='path' value='shared&#47;95GKTZBNM' />
   <param name='toolbar' value='yes' />
   <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;95&#47;95GKTZBNM&#47;1.png' />
   <param name='animate_transition' value='yes' />
@@ -61,18 +61,18 @@ Despite from createing a map, as we have description column in the data, I tried
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  
   vizElement.parentNode.insertBefore(scriptElement, vizElement);             
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * Anthony Bourdain's travels has been all over the world - even the antarctica.  
 * As for the most frequent words, of course his name are among the most frequent ones :) -- of course I have removed most of the stop words like 'a', 'an', 'the', ...  
-  
+
 --  
 
-#### Appendix: R Code 
+#### Appendix: R Code
 
-  
+
 ```r  
 library(lubridate)
 library(stringr)
@@ -96,10 +96,10 @@ for (i in 1:nrow(travels)) {
 content$word = tolower(content$word)
 
 write.csv(content, 'travel description.csv')
-  
+
 ```  
-  
+
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0806) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0820)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

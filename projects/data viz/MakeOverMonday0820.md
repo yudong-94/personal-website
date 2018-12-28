@@ -61,17 +61,17 @@ I spent around one hour to create a dashboard including - a map of all the confl
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';         
   vizElement.parentNode.insertBefore(scriptElement, vizElement);               
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * Most of the conflicts locate in Africa, Middle East, South Asia;  
 * Syria, Afghanistan, Yemen, and Irap are the four countries with most fatalities due to conflicts in 2017. India also has high amuont of conflicts happened in 2017, but the fatalities are much lower compared to these four countires;  
 * The conflict with highest fatality happened in Somalia on 10/14/2017 because of two car bomb explosion, with 587 people dead;  
 * Those battle with no territory changed caused most fatalities :(  
 
-  
+
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0813) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0827)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

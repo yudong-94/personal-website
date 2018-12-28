@@ -41,7 +41,7 @@ Trying to tell the story, I put one chart of absolute number trend with annotati
   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0101&#47;USMeatConsumption&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0101&#47;USMeatConsumption' />
@@ -67,7 +67,7 @@ Trying to tell the story, I put one chart of absolute number trend with annotati
 
 --  
 
-#### Insights 
+#### Insights
 * Total meat consumption per capita in US has increased from 16k pounds to 22k pounds, increased by 34%;  
 * The per capita consumption of Poultry has increased more than 2x since 1960, surpassed Pork consumption in 1975, and surpassed Beef consumption in 1988;  
 * Beef consumption peaked in 1976, but has been decreasing since then. Comparing to 1960, it has decreased by 15% now;  
@@ -76,6 +76,6 @@ Trying to tell the story, I put one chart of absolute number trend with annotati
 Btw, curious about why we see red meat consumption dropped a lot, I did some research online. As [this article](http://fortune.com/2015/10/27/red-meat-consumption-decline/) addressed, red meat has been linked to cancer since 1970s. Also, producing beef is much more environmentally costly (see [MakeoverMonday 1210](https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday1210)), and beef price is much higher than poultry.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1224) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1231)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

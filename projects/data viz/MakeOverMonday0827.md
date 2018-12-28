@@ -42,7 +42,7 @@ I created a single viz this week. Each circle is one device type (body location 
   <img alt='wearable devices ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday0827&#47;wearabledevices&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeoverMonday0827&#47;wearabledevices' />
@@ -67,12 +67,12 @@ I created a single viz this week. Each circle is one device type (body location 
 
 --  
 
-#### Insights 
+#### Insights
 * On average, the most expensive devices are those Medical device on hand -- though we only have two samples in this device type;  
 * The most popular device type is Fitness device on wrist -- you know, like Fitbit band;  
 * Fitness wearable devices have been developed across almost all the body locations (except hands..?)  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0820) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0903)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

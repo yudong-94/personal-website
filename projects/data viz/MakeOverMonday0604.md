@@ -27,7 +27,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 ### Makeover Monday 0604
 
-This week's topic is the gender pay gap in the UK. This is definitely an exciting dataset to look at. It includes the gender difference in median/average hourly pay, median/average bonus received, and the proportion of female in each pay quantile, in more than 10k companies in the UK. 
+This week's topic is the gender pay gap in the UK. This is definitely an exciting dataset to look at. It includes the gender difference in median/average hourly pay, median/average bonus received, and the proportion of female in each pay quantile, in more than 10k companies in the UK.
 The full report could be found [here](https://www.gov.uk/government/publications/hmrc-and-voa-gender-pay-gap-report-and-data-2017/hm-revenue-and-customs-gender-pay-gap-report-2017).  
 And also, SF Pride is coming!  
 
@@ -42,13 +42,13 @@ This week's dataset is relatively large compared to the previous ones. Also, it 
   <img alt='Pay Gap in UK ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0604&#47;PayGapinUK&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeOverMonday0604&#47;PayGapinUK' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0604&#47;PayGapinUK&#47;1.png' /> 
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday0604&#47;PayGapinUK&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -63,15 +63,15 @@ This week's dataset is relatively large compared to the previous ones. Also, it 
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);            
 </script>  
-  
+
 --  
 
-#### Insights 
+#### Insights
 * When we divide pay into four quantiles for each company - top, upper middle, lower middle, and lower quantile - generally speaking, the proportion of female decreases when the pay quantile goes up;  
 * Male and female in larger size companies tend to be more equivalent as regarding pay;  
 * For companies with size under 1,000, we are seeing largest deviation of differences in both median hourly pay, and bonus received.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0528) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0611)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

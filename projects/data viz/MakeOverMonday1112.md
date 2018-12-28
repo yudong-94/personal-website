@@ -40,8 +40,8 @@ This week, I just did something simple -- bar charts to compare the diversity of
   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday1112&#47;DiversityinTech&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='MakeoverMonday1112&#47;DiversityinTech' />
   <param name='tabs' value='no' />
@@ -66,7 +66,7 @@ This week, I just did something simple -- bar charts to compare the diversity of
 
 --  
 
-#### Insights 
+#### Insights
 * US Congress has a super low % of Female compare to the overall US Population distribution -- I would say this is not a good thing;  
 * Most tech companies in this dataset have less than half female employees -- typically there are more male engineers than female, though this could just be the result of social sterotype;  
 * As of ethnicity diversity, the non-White % in US Congress is also much lower than in the US population...;  
@@ -74,6 +74,6 @@ This week, I just did something simple -- bar charts to compare the diversity of
 
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1105) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1119)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
