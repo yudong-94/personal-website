@@ -46,7 +46,7 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 
 Week| Date | Topic | Data Source
 :-------|--------|--------|:------
-1|20180108|[Across the globe, personality is rated as more important than looks]((https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108))|[YouGov](https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/ucgs0hwj7h/YouGov%20global%20partner%20preferences.pdf)|
+1|20180108|[Across the globe, personality is rated as more important than looks]((https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0108)|[YouGov](https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/ucgs0hwj7h/YouGov%20global%20partner%20preferences.pdf)|
 2|20180115|[U.S. Household Income Distribution by State](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0115)|[US Census Bureau](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)|
 3|20180122|[Movement of Turkey Vultures in North and South America](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0122)|[Movebank.org](http://movebank.org/)|
 4|20180129|[Most Profitable Companies](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0129)|[TitleMax](https://www.titlemax.com/)|
