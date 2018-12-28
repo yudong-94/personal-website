@@ -72,6 +72,6 @@ Therefore, I made the classic bubble plot with diagonal reference line to show w
 * We can find the top producters and top consumers for each land type from the dashboard. For example, for crop land, Canada and Australia are top net ecological footprint producters, and Dijiboute is the top net consumer.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0416) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0430)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
