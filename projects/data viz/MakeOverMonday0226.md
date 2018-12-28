@@ -68,4 +68,6 @@ I spent about an hour to make similar interactive map in Tableau. Below is my da
 * Asian countries (mainly Russia and China) have seen great improvement in freedom index over year.  
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0219) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0305)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
