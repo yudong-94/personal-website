@@ -84,4 +84,6 @@ Below is my dashboard. You can select the measurement/topic on upper right, and 
 * Policymakers stating 'I know the answer' not necessarily make a better estimate than those stating 'Not sure but can find'. They were just stating so...  
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0226) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0312)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
