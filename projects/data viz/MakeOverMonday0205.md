@@ -80,4 +80,6 @@ indicating that the decline is not explanable by the change in total population;
 * Of course, all the above observations are not enough to draw any conclusion about the decline - it could be caused by the transformation of baseball strategy, people's interests on baseball, or other factors.
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0129) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0212)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
