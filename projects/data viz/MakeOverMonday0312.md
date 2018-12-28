@@ -71,4 +71,6 @@ Besides, you could hover on the bar to see the top 5 importers ranked by the cou
 * All the other countries on the top 5 consumption list are European countries - Latvia, Bulgaria, Czech Republic, Estonia, and Sweden.   
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0305) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0319)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
