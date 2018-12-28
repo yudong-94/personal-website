@@ -79,4 +79,6 @@ In the first half of the year (summer half), these birds fly north, and in the s
 
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0115) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0129)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
