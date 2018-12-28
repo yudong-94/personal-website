@@ -69,4 +69,7 @@ I spent about one hour from exploratory data analysis to visualization and analy
 * Meanwhile, women care more about how **wealthy** her partner is, and whether he is **humourous** enough.
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0115)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
+
