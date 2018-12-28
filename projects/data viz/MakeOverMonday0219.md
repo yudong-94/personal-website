@@ -81,4 +81,6 @@ Please notice that the data of 2017 is not complete - many countries still do no
 * From 2013 to 2016, the international trade pattern of drugs and medicine does not change much.  
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0212) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0226)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
