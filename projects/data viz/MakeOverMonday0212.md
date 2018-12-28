@@ -74,4 +74,6 @@ By the way, I don't like the boxplot in Tableau very much, as it is very restric
 * Althrough Olympics is for the younger athletes (some players won medal as young as 14), there are players of 42 winning medals - very inspiring!
 
 --  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0205) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0219)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
