@@ -70,6 +70,6 @@ Inspired by [this viz](https://public.tableau.com/profile/staticum#!/vizhome/TOP
 * Europe is definitelly the largest wine production area, but in almost all the continents, you can find some large wine makers.  
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0326) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0409)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
