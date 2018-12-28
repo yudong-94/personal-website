@@ -71,6 +71,6 @@ Again, for this time series data, I tried to explore the data with two dimension
 
 
 --  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0409) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday0423)  
 
-
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
