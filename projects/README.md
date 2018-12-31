@@ -98,6 +98,8 @@ Week| Date | Topic | Data Source
 50|20181217|[London Bus Safety Performance](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1217)|[TFL](https://tfl.gov.uk/corporate/publications-and-reports/bus-safety-data)|
 51|20181224|[Average spending on Christmas gifts in the U.S. 1999-2018](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1224)|[Statista](https://www.statista.com/statistics/246963/christmas-spending-in-the-us-during-november/)|
 52|20181227(make up 20180101)|[U.S. Per Capita Consumption of Poultry and Livestock](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1227)|[National Chicken Council](http://www.nationalchickencouncil.org/about-the-industry/statistics/per-capita-consumption-of-poultry-and-livestock-1965-to-estimated-2012-in-pounds/)|
+53|20181231|[NHL Attendance](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1231)|[ESPN](http://www.espn.com/nhl/attendance/_/year/2018)|
+
 
 ![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)
 
