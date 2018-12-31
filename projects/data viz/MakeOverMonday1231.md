@@ -27,12 +27,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 ### Makeover Monday 1231
 
-This is the last MakeoverMonday of 2018, as well as the last day of 2018! Time flies. Cannot believe that I have already completed 53 MakeoverMonday :) For everyone who are reading -- Happy New Year! Wish you have a fantastic 2019!  
+This is the last MakeoverMonday of 2018,  and today is the last day of 2018! Time flies. Cannot believe that I have already completed 53 MakeoverMonday :) For everyone who are reading -- Happy New Year! Wish you have a fantastic 2019!  
 This week, the dataset is about all NHL team ranking and their game attendance since 2000. The [orginal viz](https://nhltoseattle.com/2013/02/10/nhl-attendance-through-feb-9th/#prettyPhoto) focus on YoY change of attendance of each team. I personally am not a NHL fan, so I would like to use the data to verify a very basic assumption I have -- does team with better performance also attract more attendance?  
 
 #### My Visualization
 
-To answer my question above, I narrowed down to only the Canadian teams in NHL to control some external factors. I made two bump charts comparing the game ranking trend and attendance ranking trend over time of each team. Please note that the attendance here is ranked by the average attendance per game, as I noticed that sometimes, some teams may play one or two fewer games, and due to the [2012–13 NHL Lockout](https://en.wikipedia.org/wiki/2012–13_NHL_lockout), all the teams only play around half of the numbers of games as usual.
+To answer my question above, I narrowed down to only the Canadian teams in NHL to control some external factors and make the viz easier to understand. I made two bump charts comparing the game ranking trend and attendance ranking trend over time of each team. Please note that the attendance here is ranked by the average attendance per game, as I noticed that sometimes, some teams may play one or two fewer games, and due to the [2012–13 NHL Lockout](https://en.wikipedia.org/wiki/2012–13_NHL_lockout), all the teams only play around half of the numbers of games as usual.
 
 
 --  
