@@ -37,4 +37,4 @@ My own thoughts and experience on learning and working in the data fields.
 
 [My LinkedIn](https://www.linkedin.com/in/yudong1994/)  
 [My Github](https://github.com/yudong-94)  
-E-mail: yu.dong.2017@marshall.usc.edu
+E-mail: yu.dong.0029@gmail.com
