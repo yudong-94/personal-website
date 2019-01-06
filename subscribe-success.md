@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Thank you</title>
-    </head>
-    <body>
-        <h1>Thank you. Your entry has reached us!</h1>
-    </body>
-</html>
+### Email Subscription Success
+
+Thank you. Your entry has reached us! I will send you weekly update on this blog :)  
+
+If you want to unsubscribe (hopefully not), Please go to the [unsubscribe](https://yudong-94.github.io/personal-website/unsubscribe) page. Thank you again!
