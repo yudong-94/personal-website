@@ -12,3 +12,6 @@ Please input your email address below:
 </form>
 
 Notice: By submitting the subscribe form, you will receive weekly email updates on any new content on [this blog](https://yudong-94.github.io/personal-website/), including #MakeoverMonday viz posts, new project posts, and other blog posts.
+
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

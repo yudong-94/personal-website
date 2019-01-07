@@ -12,3 +12,6 @@ Please input your email address below:
 </form>
 
 Notice: By submitting the subscribe form, you will not receive weekly email updates any more.
+
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
