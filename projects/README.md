@@ -48,10 +48,10 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <table>
 <thead style="display:block;width:100%;">
 <tr style="display:block;">
-<th align="left" width="5%">Week</th>
-<th width="15%">Date</th>
-<th width="45%">Topic</th>
-<th align="left" width="35%">Data Source</th>
+<th align="left" width="3%">Week</th>
+<th width="20%">Date</th>
+<th width="40%">Topic</th>
+<th align="left" width="37%">Data Source</th>
 </tr>
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
