@@ -42,8 +42,7 @@ Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to c
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
 
-<details>
-<summary>My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)):</summary>  
+My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)):  
 
 Week| Date | Topic | Data Source
 :-------|--------|--------|:------
@@ -101,8 +100,6 @@ Week| Date | Topic | Data Source
 52|20181227(make up 20180101)|[U.S. Per Capita Consumption of Poultry and Livestock](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181227)|[National Chicken Council](http://www.nationalchickencouncil.org/about-the-industry/statistics/per-capita-consumption-of-poultry-and-livestock-1965-to-estimated-2012-in-pounds/)|
 53|20181231|[NHL Attendance](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181231)|[ESPN](http://www.espn.com/nhl/attendance/_/year/2018)|
 54|20190107|[Press Freedom’s Dark Horizon](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190107)|[Freedomhouse.org](https://freedomhouse.org/sites/default/files/FOTP1980-FOTP2017_Public-Data.xlsx)|
-
-</details>
 
 ![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)  
 
