@@ -46,7 +46,7 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 
 
 <table>
-<thead style="display:block;">
+<thead style="display:block;width:100%;">
 <tr style="display:block;">
 <th align="left" width="5%">Week</th>
 <th width="15%">Date</th>
