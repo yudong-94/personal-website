@@ -48,18 +48,18 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <table>
 <thead style="display:block;">
 <tr style="display:block;">
-<th align="left">Week</th>
-<th>Date</th>
-<th>Topic</th>
-<th align="left">Data Source</th>
+<th align="left" width="5%">Week</th>
+<th width="15%">Date</th>
+<th width="45%">Topic</th>
+<th align="left" width="35%">Data Source</th>
 </tr>
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
-<td align="left">1</td>
-<td>20180108</td>
-<td>[Across the globe, personality is rated as more important than looks](<a href="https://yudong-94.github.io/personal-website/projects/data" rel="nofollow">https://yudong-94.github.io/personal-website/projects/data</a> viz/MakeOverMonday20180108)</td>
-<td align="left"><a href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/ucgs0hwj7h/YouGov%20global%20partner%20preferences.pdf" rel="nofollow">YouGov</a></td>
+<td align="left" width="5%">1</td>
+<td width="15%">20180108</td>
+<td width="45%">[Across the globe, personality is rated as more important than looks](<a href="https://yudong-94.github.io/personal-website/projects/data" rel="nofollow">https://yudong-94.github.io/personal-website/projects/data</a> viz/MakeOverMonday20180108)</td>
+<td align="left" width="35%"><a href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/ucgs0hwj7h/YouGov%20global%20partner%20preferences.pdf" rel="nofollow">YouGov</a></td>
 </tr>
 <tr>
 <td align="left">2</td>
