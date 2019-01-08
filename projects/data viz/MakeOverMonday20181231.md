@@ -76,6 +76,6 @@ To answer my question above, I narrowed down to only the Canadian teams in NHL t
 
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday1227) 
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181227) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190107)
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
