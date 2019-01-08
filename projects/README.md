@@ -44,64 +44,6 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)):  
 
-Week| Date | Topic | Data Source
-:-------|--------|--------|:------
-1|20180108|[Across the globe, personality is rated as more important than looks](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180108)|[YouGov](https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/ucgs0hwj7h/YouGov%20global%20partner%20preferences.pdf)|
-2|20180115|[U.S. Household Income Distribution by State](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180115)|[US Census Bureau](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)|
-3|20180122|[Movement of Turkey Vultures in North and South America](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180122)|[Movebank.org](http://movebank.org/)|
-4|20180129|[Most Profitable Companies](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180129)|[TitleMax](https://www.titlemax.com/)|
-5|20180205|[US Baseball Players Ethnicity](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180205)|[SABR.org](http://sabr.org/)|
-6|0180212|[The Winter Olympics](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180212)|[Sports-Reference.com](http://sports-reference.com/)|
-7|20180219|[World Drugs and Medicine Trade](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180219)|[TradeMap.org](http://www.trademap.org/Country_SelProduct_TS.aspx)|
-8|20180226|[World Economic Freedom](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180226)|[Fraser Institute](https://www.fraserinstitute.org/economic-freedom/dataset)|
-9|20180305|[Survey on Gender Equality Measurements Awareness of Policymakers in Five Countries](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180305)|[Equal Measures 2030](http://www.equalmeasures2030.org/products/policymaker-report/)|
-10|20180312|[Growth in Irish Whiskey Sales](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180312)|[Board Bia](https://twitter.com/Bordbia) via [The IWSR](https://twitter.com/TheIWSR)|  
-11|20180319|[UK Pet Population](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180319)|[Pet Food Manufacturer’s Association](https://www.pfma.org.uk/pet-population-2017)|
-12|20180326|[Top 10 Popular Chocolate Bar Brands in the UK](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180326)|[CDA](https://www.cda.eu/)|
-13|20180402|[World Wine Production](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180402)|[International Organisation of Vine and Wine](http://www.oiv.int/public/medias/5287/oiv-noteconjmars2017-en.pdf)|
-14|20180409|[Arctic Sea Ice Extent](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180409)|[National Snow & Ice Data Center](https://nsidc.org/)|
-15|20180416|[Zambia Southern Province Confirmed Malaria Cases](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180416)|Simulated data from http://visualizenomalaria.org, contact jdrummey@path.org for data question|
-16|20180423|[Ecological Footprint per Capita](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180423)|[Global Footprint Network](https://data.world/footprint/nfa-2018-edition)|
-17|20180430|[Bee Colony Loss in the US](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180430)|[BeeInformed](https://bip2.beeinformed.org/loss-map/)|
-18|20180507|[Toughest Sport by Skill](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180507)|[ESPN](http://www.espn.com/espn/page2/sportSkills)|
-19|20180514|[Traffic Jam in Europe](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180514)|[Euronews](http://www.euronews.com/2018/02/07/which-european-commuters-spend-the-most-time-in-traffic-jams-)|
-20|20180521|[Premier League Rank Prediction Vesus Reality](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180521)|[The Guardian](https://amp.theguardian.com/football/2018/may/15/premier-league-2017-18-season-predictions-versus-reality)|
-21|20180528|[The World’s Most Expensive Prime Property](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180528)|[WeForum](https://www.weforum.org/agenda/2018/04/chart-of-the-day-the-worlds-most-expensive-prime-property)|
-22|20180604|[UK Gender Gap](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180604)|[GOV.UK](https://www.gov.uk/report-gender-pay-gap-data)|
-23|20180611|[Tourism Density Index](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180611)|[Intrepid Travel](https://intrepidgroup.bynder.com/transfer/bdd0abcac448329ed4c9057327b6ca660742e4b5ea16f18bd5a343b2c6d0d0c8)|
-24|20180618|[U.S. Influenza Surveillance Report](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180618)|[CDC](https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html)|
-25|20180625|[London Cycle Hire Usage](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180625)|[Transport for London](http://cycling.data.tfl.gov.uk/)|
-26|20180702|[Rat Sightings in NYC](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180702)|[NYC Open Data](https://nycopendata.socrata.com/Social-Services/Rat-Sightings/3q43-55fe/data)|
-27|20180709|[Volcano Eruptions](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180709)|[Global Volcanism Program](https://volcano.si.edu/list_volcano_holocene.cfm)|
-28|20180716|[Historical NBA Team Spending Against the Cap](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180716)|[CeltsHub](http://www.celticshub.com/2017/12/07/nba-player-salaries-1991-2017/)|
-29|20180723|[OECD Parental Leave System](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180723)|[OECD](https://www.oecd.org/els/soc/PF2_1_Parental_leave_systems.pdf)|
-30|20180730|[Big Mac Index](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180730)|[The Economist](https://github.com/TheEconomist/big-mac-data/tree/master/output-data)|
-31|20180806|[How Much Your Country Spends on Research & Development](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180806)|[UNESCO Institute for Statistics](http://data.uis.unesco.org/Index.aspx?DataSetCode=SCN_DS)|
-32|20180813|[Anthony Bourdain’s Travels](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180813)|[@ChristineZhang](https://twitter.com/christinezhang)|
-33|20180820|[ACLED: Visualizing Conflict](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180820)|[ACLED](https://www.acleddata.com/data/)|
-34|20180827|[Wearable Devices](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180827)|[Figure Eight](https://www.crowdflower.com/data-for-everyone/)|
-35|20180903|[Nike Factory Locations](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180903)|[Nike Inc.](http://manufacturingmap.nikeinc.com/)|
-36|20180910|[Paying the President](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180910)|[ProPublica](https://www.propublica.org/datastore/dataset/spending-at-trump-properties)|
-37|20180917|[Train Versus Plane in Europe](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180917)|[DW Data](https://github.com/dw-data/travel-cost)|
-38|20180924|[Visualzing Equality](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180924)|[EM 2030](http://data.em2030.org/wp-content/uploads/2018/09/EM2030-2018-Global-Report.pdf)|
-39|20181001|[Avocado Prices](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181001)|[Hass Avocado Board](http://www.hassavocadoboard.com/retail/volume-and-price-data)|
-40|20181008|[5-Year Cancer Survival Rates in US](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181008)|[Our World in Data](https://ourworldindata.org/cancer#are-death-rates-from-cancer-rising)|
-41|20181015|[Total Number of Women the House of Representatives: 1917-2018](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181015)|[Congressional Research Service](https://fas.org/sgp/crs/misc/RL30261.pdf)|
-42|20181022|[Beer Cost at Every MLB Stadium](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181022)|[Team Marketing Report](https://www.teammarketing.com/)|
-43|20181029|[Washing Hands After Going to the Toilet](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181029)|[YouGov](https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/yifb4ww12p/YouGov%20washing%20hands.pdf)|
-44|20181105|[US Population Projection by Age Group 2016-2060](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181105)|[United States Census Bureau](https://www.census.gov/data/datasets/2017/demo/popproj/2017-popproj.html)|
-45|20181112|[Diversity in Tech](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181112)|[Company and Press Reports](https://docs.google.com/spreadsheets/d/1e5jevLJTK9Aayob2msk4Ss9qIMCqfris4m_m0kXO-7s/edit#gid=65558231)|
-46|20181119|[How Many Hours Americans Need to Work to Pay Their Mortgage](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181119)|[howmuch.net](https://howmuch.net/sources/hours-work-afford-home)|
-47|20181126|[The Cost of A Night Out](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181126)|[UBS](https://www.ubs.com/microsites/prices-earnings/en/stories/7-dinner-in-paris-party-in-miami-the-cheapest-and-priciest-cities-for-a-night-out/)|
-48|20181203|[Women Constructors in the Shortz Era](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181203)|[XWord Info](https://www.xwordinfo.com/)|
-49|20181210|[Land Use by Food Type](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181210)|[Our World in Data](https://ourworldindata.org/grapher/land-use-per-gram-of-protein-by-food-type)|
-50|20181217|[London Bus Safety Performance](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181217)|[TFL](https://tfl.gov.uk/corporate/publications-and-reports/bus-safety-data)|
-51|20181224|[Average spending on Christmas gifts in the U.S. 1999-2018](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181224)|[Statista](https://www.statista.com/statistics/246963/christmas-spending-in-the-us-during-november/)|
-52|20181227(make up 20180101)|[U.S. Per Capita Consumption of Poultry and Livestock](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181227)|[National Chicken Council](http://www.nationalchickencouncil.org/about-the-industry/statistics/per-capita-consumption-of-poultry-and-livestock-1965-to-estimated-2012-in-pounds/)|
-53|20181231|[NHL Attendance](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181231)|[ESPN](http://www.espn.com/nhl/attendance/_/year/2018)|
-54|20190107|[Press Freedom’s Dark Horizon](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190107)|[Freedomhouse.org](https://freedomhouse.org/sites/default/files/FOTP1980-FOTP2017_Public-Data.xlsx)|
-
-
 <div style="height:100px;overflow:auto;">
 <table>
 <thead>
