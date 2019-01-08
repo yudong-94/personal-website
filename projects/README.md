@@ -44,7 +44,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)):  
 
-<div style="height:100px;overflow:auto;">
+<div style="height:800px;overflow:auto;">
 <table>
 <thead>
 <tr>
