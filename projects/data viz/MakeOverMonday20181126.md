@@ -1,0 +1,77 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
+
+
+## Data Visualization -- Makeover Monday 1126
+
+### About Makeover Monday
+
+[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
+"Each week we post a link to a chart, and its data, and then you rework the chart.
+Maybe you retell the story more effectively, or find a new story in the data.
+We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
+Together we can have broader conversations about and with data."
+
+Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
+The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
+
+### Makeover Monday 1126
+
+This week's data is around the cost of night out in some of the large cities around the world. There are two categories of nights -- Date Night (costs include Dinner, Drinks at dinner, and Cinema entry for two people), and Party Night (costs include Club entry, Taxi, 2 Longdrinks, and Big Mac for one person). You can find the original viz [here](https://www.thrillist.com/news/nation/cost-of-a-night-out-cities-around-the-world). It's a straightforward stacked bar chart -- easy to understand and compare across cities.  
+
+
+#### My Visualization
+
+This time I tried a brand new type of chart -- Radial Stacked Bar Chart. Luckily, I found this [very detailed turtorial](https://ryankrowland.wordpress.com/2016/10/20/radial-stacked-bar-charts-in-tableau/) online. It uses some 'magic' to plot the bar chart with polygon and calculate the x,y coordinates in Tableau. I simply followed the turtorial, and spent around one hour and a half to make the below dashboard.  
+
+--  
+<div class='tableauPlaceholder' id='viz1543283254698' style='position: relative'>
+<noscript><a href='#'>
+  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1126&#47;NightOutCost&#47;1_rss.png' style='border: none' />
+</a></noscript>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='MakeOverMonday1126&#47;NightOutCost' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1126&#47;NightOutCost&#47;1.png' />
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+  <param name='filter' value='publish=yes' />
+</object></div>              
+<script type='text/javascript'>          
+  var divElement = document.getElementById('viz1543283254698');         
+  var vizElement = divElement.getElementsByTagName('object')[0];     
+  vizElement.style.width='800px';vizElement.style.height='627px';         
+  var scriptElement = document.createElement('script');                  
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';        
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);           
+</script>  
+
+
+--  
+
+#### Insights
+* The dinner cost at New York is the highest around the world, but for the other type of costs, actually it's not that high... Instead, Tokyo is the city with highest average cost for a Date Night;    
+* Surprisingly, Zurich is the most expensive city regarding the cost on the Party Night, largely due to its high price of longdrinks and Taxi;  
+* The cost of both Date Night and Party Night are cheapeast at Mexico City in our dataset.  
+
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181119) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181203)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,0 +1,79 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
+
+
+## Data Visualization -- Makeover Monday 1105
+
+### About Makeover Monday
+
+[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
+"Each week we post a link to a chart, and its data, and then you rework the chart.
+Maybe you retell the story more effectively, or find a new story in the data.
+We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
+Together we can have broader conversations about and with data."
+
+Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
+The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
+
+### Makeover Monday 1105
+
+This week's data is from US Census -- US Population Projection 2016-2060. It has four dimensions: sex, origin, race, and age group. The original viz is displayed below, and it shows that US is getting aging.  
+
+<a href="https://www.census.gov/library/visualizations/2018/comm/historic-first.html?cid=embedded_infographic" target="_blank"><img src="https://www.census.gov/library/visualizations/2018/comm/historic-first/_jcr_content/map.detailitem.800.high.jpg/1520945944549.jpg" alt="An Aging Nation: Projected Number of Children and Older Adults" width="800" height="847" title="An Aging Nation: Projected Number of Children and Older Adults"/></a>[Source: U.S. Census Bureau]
+
+
+#### My Visualization
+
+Excepting knowing that older people consist of higher proportion in US over time, it's also interesting to see the sex and race distribution. I combined these dimensions with the age group dimension to show the change in the generations as well.    
+
+--  
+<div class='tableauPlaceholder' id='viz1541478203219' style='position: relative'>
+<noscript><a href='#'>
+  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1105&#47;USPopulationProjection&#47;1_rss.png' style='border: none' />
+</a></noscript>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='MakeOverMonday1105&#47;USPopulationProjection' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1105&#47;USPopulationProjection&#47;1.png' />
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+  <param name='filter' value='publish=yes' />
+</object></div>            
+<script type='text/javascript'>             
+  var divElement = document.getElementById('viz1541478203219');    
+  var vizElement = divElement.getElementsByTagName('object')[0];    
+  vizElement.style.width='800px';vizElement.style.height='827px';   
+  var scriptElement = document.createElement('script');              
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';         
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);          
+</script>  
+
+
+--  
+
+#### Insights
+* For new-born, actually there are always more male than females. However, after 60 days old, in older generations, females begin to have a higher proportion -- corresponding with the general perception that females have longer longevity;    
+* Though the population size of young White people is predicted to decline over time, it's not the case for the other races;  
+* We are seeing some very weird spike of population projection around 2030 for Age 60-79, which is potentially related to the baby boom in 1950s and 60s.  
+
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181029) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181112)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
