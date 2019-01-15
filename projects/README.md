@@ -381,6 +381,12 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190107">Press Freedom’s Dark Horizon</a></td>
 <td align="left"><a href="https://freedomhouse.org/sites/default/files/FOTP1980-FOTP2017_Public-Data.xlsx" rel="nofollow">Freedomhouse.org</a></td>
 </tr>
+<tr>
+<td align="left">55</td>
+<td>20190114</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190114">How many people earned the Federal minimum wage or less in each State?</a></td>
+<td align="left"><a href="https://www.bls.gov/opub/reports/minimum-wage/2017/home.htm" rel="nofollow">Bureau of Labor Statistics</a></td>
+</tr>
 </tbody>
 </table>
 
