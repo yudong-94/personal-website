@@ -71,6 +71,6 @@ Trying to expand what the original viz tells, I added a year filter, a top 10 an
 * European countries are always considered to have more press freedom than most of the other parts in the world.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181231) 
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181231) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190114)   
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
