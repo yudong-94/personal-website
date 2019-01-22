@@ -387,12 +387,19 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190114">How many people earned the Federal minimum wage or less in each State?</a></td>
 <td align="left"><a href="https://www.bls.gov/opub/reports/minimum-wage/2017/home.htm" rel="nofollow">Bureau of Labor Statistics</a></td>
 </tr>
+<tr>
+<td align="left">56</td>
+<td>20190121</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190121">Energy Use at 10 Downing Street</a></td>
+<td align="left"><a href="https://platform.carbonculture.net/apps/studydata/data-download?year=2018&id=9&subject=places" rel="nofollow">CarbonCulture</a></td>
+</tr>
 </tbody>
 </table>
 
 <br>
 <br>
 
+My best vizzes in 2018:  
 ![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)  
 
 you can also find all the above vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)  
