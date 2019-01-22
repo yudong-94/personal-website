@@ -72,6 +72,7 @@ Due to the concern I mentioned above, I decided to show the general trend instea
 * While in Monata, we see the most improvement -- the percentage dropped 69% from 2.9% in 2002 to 0.9% in 2017.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190107) 
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190107) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190121)  
+
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
