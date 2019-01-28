@@ -71,6 +71,6 @@ On this [dashboard](https://public.tableau.com/profile/yu.dong#!/vizhome/MakeOve
 * We see much more electricity consumption in Jun, July, Nov, and Dec in 2017, probably due to the weather.
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190114) 
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190114) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190128) 
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
