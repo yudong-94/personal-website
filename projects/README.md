@@ -393,6 +393,12 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190121">Energy Use at 10 Downing Street</a></td>
 <td align="left"><a href="https://platform.carbonculture.net/apps/studydata/data-download?year=2018&id=9&subject=places" rel="nofollow">CarbonCulture</a></td>
 </tr>
+<tr>
+<td align="left">57</td>
+<td>20190128</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190128">Digital Economy and Society Index (DESI)</a></td>
+<td align="left"><a href="https://digital-agenda-data.eu/charts/desi-components#chart={%22indicator%22:%22DESI%22,%22breakdown-group%22:%22DESI%22,%22unit-measure%22:%22pc_DESI%22,%22time-period%22:%222018%22}" rel="nofollow">European Commission</a></td>
+</tr>
 </tbody>
 </table>
 
