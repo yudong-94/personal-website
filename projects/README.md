@@ -397,7 +397,7 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <td align="left">57</td>
 <td>20190128</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190128">Digital Economy and Society Index (DESI)</a></td>
-<td align="left"><a href="https://digital-agenda-data.eu/charts/desi-components#chart={%22indicator%22:%22DESI%22,%22breakdown-group%22:%22DESI%22,%22unit-measure%22:%22pc_DESI%22,%22time-period%22:%222018%22}" rel="nofollow">European Commission</a></td>
+<td align="left"><a href="https://digital-agenda-data.eu/charts/desi-components" rel="nofollow">European Commission</a></td>
 </tr>
 </tbody>
 </table>
