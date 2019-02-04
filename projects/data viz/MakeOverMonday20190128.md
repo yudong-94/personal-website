@@ -71,6 +71,6 @@ This week, I tried to build a dashboard style viz again. It consists of three ch
 * From 2014 to 2018, most European coutries have seen great progress in DESI, especially on the Connnectivity dimension.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190121) 
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190121) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190204) 
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
