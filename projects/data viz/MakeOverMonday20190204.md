@@ -28,7 +28,10 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 ### Makeover Monday 20190204
 
 Today is Chinese New Year's Eve, Happy New Year!!! 新年快乐！  
-This week's topic is also around Chinese New Year (also known as Lunar New Year or Spring Festival). This is definitely a week I cannot skip. You can find the original artical and viz [here](https://www.statista.com/chart/3246/how-chinese-new-year-compares-with-thanksgiving/). It compares the number of trips, holiday retail/restaurant expenditure, and holiday TV viewership (Football Game at Thanksgiving in the US, and the Spring Festival Gala in China) during Chinese New Year and US Thanksgiving. It's not surpirsing to see the huge difference as China has a much larger population base.  
+This week's topic is also around Chinese New Year (also known as Lunar New Year or Spring Festival). This is definitely a week I cannot skip. The original viz is attached below. You can also find the original artical [here](https://www.statista.com/chart/3246/how-chinese-new-year-compares-with-thanksgiving/). It compares the number of trips, holiday retail/restaurant expenditure, and holiday TV viewership (Football Game at Thanksgiving in the US, and the Spring Festival Gala in China) during Chinese New Year and US Thanksgiving. It's not surpirsing to see the huge difference as China has a much larger population base.  
+
+Original Viz:  
+<a href="https://www.statista.com/chart/3246/how-chinese-new-year-compares-with-thanksgiving/" title="Infographic: How Chinese New Year Compares With Thanksgiving | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_3246_How_Chinese_New_Year_Compares_With_Thanksgiving_n.jpg" alt="Infographic: How Chinese New Year Compares With Thanksgiving | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> You will find more infographics at <a href="https://www.statista.com/chartoftheday/">Statista</a>
 
 #### My Visualization
 
