@@ -74,6 +74,6 @@ As mentioned above, to get rid of the impact of large population base in China, 
 * During Chinese New Year, it's quite astonishing to see on average, each person takes 2.1 trips, while in the US during Thanksgiving, it's only 0.2. This is potentially because Thanksgiving is more like a festival for family reunion, while Chinese New Year is not only for family reunion, but also for friends visits and hang-out.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190128) 
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190128) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190211) 
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
