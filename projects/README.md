@@ -399,11 +399,17 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190128">Digital Economy and Society Index (DESI)</a></td>
 <td align="left"><a href="https://digital-agenda-data.eu/charts/desi-components" rel="nofollow">European Commission</a></td>
 </tr>
- <tr>
+<tr>
 <td align="left">58</td>
-<td>20190128</td>
+<td>20190204</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190204">How Chinese New Year Compares With Thanksgiving</a></td>
 <td align="left"><a href="https://www.statista.com/chart/3246/how-chinese-new-year-compares-with-thanksgiving/" rel="nofollow">Bloomberg via Statista</a></td>
+</tr>
+<tr>
+<td align="left">59</td>
+<td>20190211</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190211">Trump’s “Executive Time”</a></td>
+<td align="left"><a href="https://www.axios.com/donald-trump-private-schedules-leak-executive-time-34e67fbb-3af6-48df-aefb-52e02c334255.html" rel="nofollow">Axios</a></td>
 </tr>
 </tbody>
 </table>
