@@ -411,6 +411,12 @@ My **MakeoverMonday** Vizzes (you can also find them in [my Tableau Gallery](htt
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190211">Trump’s “Executive Time”</a></td>
 <td align="left"><a href="https://www.axios.com/donald-trump-private-schedules-leak-executive-time-34e67fbb-3af6-48df-aefb-52e02c334255.html" rel="nofollow">Axios</a></td>
 </tr>
+<tr>
+<td align="left">60</td>
+<td>20190218</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190218">Which States Produce the Most Wind Energy</a></td>
+<td align="left"><a href="https://www.chooseenergy.com/news/article/best-worst-ranked-states-wind-power/" rel="nofollow">American Wind Energy Association via Choose Engery</a></td>
+</tr>
 </tbody>
 </table>
 
