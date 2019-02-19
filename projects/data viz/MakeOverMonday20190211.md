@@ -71,6 +71,6 @@ To make a similar heatmap as the interactive one you can find on the original ar
 * 59% (more than half) of his worktime during this period is marked as 'Executive Time', it could be some flexible time for him or something cannot be disclosed to public.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190204)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190204) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190218) 
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
