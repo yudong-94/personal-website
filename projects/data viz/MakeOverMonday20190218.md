@@ -69,6 +69,6 @@ Different from most of the time, I decided to make this viz super simple this ti
 * Originally, I thought there should be some geographical pattern of which states consume more wind powers, but sadly I did not find any (or because I am not good at US geographics...)
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190211)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190211) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190225)
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
