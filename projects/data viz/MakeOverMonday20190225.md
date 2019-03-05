@@ -69,6 +69,6 @@ Simple data, simple story this week. (This is the first time that I tried a dark
 * However, regarding the total number of imported bikes, we see it's declining over time -- This could be good if the bikes produced and sold in the UK were increasing, or it could indicate the total market is shrinking;  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190218)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190218) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190304)
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
