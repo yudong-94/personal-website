@@ -68,6 +68,6 @@ Due to the large amount of missing data in this dataaset, things we can do are h
 * With economic development from 1990 to 2015 in China, we see the maternal death risk dropped 86% (from 28% to 4%). This is easy to understand -- better healthcare envrionment must come from better economic condition.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190304) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190311)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190225) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190311)
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
