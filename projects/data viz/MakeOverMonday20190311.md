@@ -72,6 +72,6 @@ Got lost in all those tax terminology, I turned out replicate the original viz i
 * The most popular zipcode in 2018 is 19146.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190304)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190304) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190318)
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
