@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">65</td>
+<td>20190325</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190325">Consumer Spending by Generation</a></td>
+<td align="left"><a href="https://finance.yahoo.com/news/chart-reveals-huge-difference-millennials-201133732.html" rel="nofollow">Bank of America Merrill Lynch</a></td>
+</tr>
+<tr>
 <td align="left">64</td>
 <td>20190318</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190318">How do we really feel about women leaders?</a></td>
