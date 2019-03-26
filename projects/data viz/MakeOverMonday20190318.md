@@ -69,6 +69,6 @@ To better visualize the comparison, I made the bar chart looking like a running 
 * But still, all the countries have a long way towards equality in this case.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190311)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190311) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190325)
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
