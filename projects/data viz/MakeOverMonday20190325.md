@@ -71,6 +71,6 @@ I tried many different (and all very traditional) ideas this week -- stacked bar
 * Another contradiction is Traditionalists spend more on General/Misc, while Millenials spend more on Elec/Hobbies/Clothing.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190318) . 
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190318) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190401) 
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
