@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">66</td>
+<td>20190401</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190401">Wastes on UK Beaches</a></td>
+<td align="left"><a href="https://www.mcsuk.org/media/GBBC_2017_Report.pdf" rel="nofollow">Great British Beach Clean Report 2017</a></td>
+</tr>
+<tr>
 <td align="left">65</td>
 <td>20190325</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190325">Consumer Spending by Generation</a></td>
