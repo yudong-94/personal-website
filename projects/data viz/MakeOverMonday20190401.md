@@ -67,6 +67,6 @@ The dataset simply listed the top 10 kinds of wastes found on UK beaches and how
 * Plastics/polystyerene picese appear to be the most frequent waste on UK beach -- and considering its typical large size, it's definitely the dominant waste on the beach. And they mostly come from careless public.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190318)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190318) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190408) 
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
