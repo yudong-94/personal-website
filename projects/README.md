@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">67</td>
+<td>20190408</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190408">Ranking the States by Fiscal Condition</a></td>
+<td align="left"><a href="https://www.mercatus.org/statefiscalrankings" rel="nofollow">Mercatus Center</a></td>
+</tr>
+<tr>
 <td align="left">66</td>
 <td>20190401</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190401">Wastes on UK Beaches</a></td>
