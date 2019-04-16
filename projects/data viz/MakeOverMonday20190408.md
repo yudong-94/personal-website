@@ -70,6 +70,6 @@ I tried to visualize a real 'dashboard' this time :) .
 
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190401)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190401) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190415)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
