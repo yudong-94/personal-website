@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">68</td>
+<td>20190415</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190415">The words in ‘Info We Trust’</a></td>
+<td align="left"><a href="https://infowetrust.com/inspire/" rel="nofollow">RJ Andrews (Author)</a></td>
+</tr>
+<tr>
 <td align="left">67</td>
 <td>20190408</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190408">Ranking the States by Fiscal Condition</a></td>
