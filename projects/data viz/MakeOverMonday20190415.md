@@ -68,6 +68,6 @@ With that being said, of course, I cannot make a word cloud this time... Instead
 * Not surprisingly, we see some top words very much related to the topic of the section -- 'number' in mathemagical, color in metaphorical, ...
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190408)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190408) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190422)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
