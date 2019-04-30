@@ -70,6 +70,6 @@ To better compare across the areans (and make the plot a little bit fancier), I 
 * Oracel Arena of Golden State Warriors only got 19/25, and seems like it really needs to provide fresher popcorn, as anyway it's arena that Stephen Curry should have played at most.   
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190415)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190415) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190429)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
