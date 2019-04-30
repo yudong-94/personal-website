@@ -34,31 +34,31 @@ This week's data is about spacewalking at the International Space Station (ISS) 
 This week, I ended up with simple bar chart (and cute icons!). I noticed the overall spacewalk trend in the original viz -- peaked around 2007 and decreasing since then. I am curious does this trend holds true with # of spacewalkers as well.  
 
 --  
-<div class='tableauPlaceholder' id='viz1556587741700' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1556588684527' style='position: relative'>
 <noscript><a href='#'>
-  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20190429_15565751395310&#47;spacewalkersonISS&#47;1_rss.png' style='border: none' />
+  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20190429_15565751395310&#47;topspacewalkers&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' />
+  <param name='embed_code_version' value='3' /> 
   <param name='site_root' value='' />
-  <param name='name' value='MakeOverMonday20190429_15565751395310&#47;spacewalkersonISS' />
+  <param name='name' value='MakeOverMonday20190429_15565751395310&#47;topspacewalkers' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20190429_15565751395310&#47;spacewalkersonISS&#47;1.png' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20190429_15565751395310&#47;topspacewalkers&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
   <param name='display_overlay' value='yes' />
   <param name='display_count' value='yes' />
-</object></div>            
-<script type='text/javascript'>                  
-  var divElement = document.getElementById('viz1556587741700');      
-  var vizElement = divElement.getElementsByTagName('object')[0];      
+</object></div>             
+<script type='text/javascript'>      
+  var divElement = document.getElementById('viz1556588684527');      
+  var vizElement = divElement.getElementsByTagName('object')[0];                    
   vizElement.style.width='800px';vizElement.style.height='627px';     
-  var scriptElement = document.createElement('script');                
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';   
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);             
+  var scriptElement = document.createElement('script');        
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);           
 </script>
   
 --  
