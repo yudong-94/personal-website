@@ -68,6 +68,6 @@ This week, I ended up with simple bar chart (and cute icons!). I noticed the ove
 * Since 2008, in 10 years, we see much fewer spacewalkers -- potentially because of the effect of the financial crsis (the space costs might be cut since then).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190422)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190422) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190506)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
