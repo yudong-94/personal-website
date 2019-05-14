@@ -68,6 +68,6 @@ I followed the same metrics as the original viz (to avoid coming up with somethi
 * New York Yankees and Los Angeles Dodgers are the two teams that are most generous in season 2016 regarding almost all the metrics, but when it comes to the metrics 'salary per home run', SF Giants pay highest.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190429)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190429) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190513)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
