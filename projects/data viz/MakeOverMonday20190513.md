@@ -66,6 +66,6 @@ Regarding the visualization, I do like the original viz, though there are two sl
 * However, this does not neccessarily mean that the situation is getting better - it could be that the overall population of Rhino has decreased too much.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190506)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190506) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190520)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
