@@ -70,6 +70,6 @@ Nothing special... Made a dashboard with montly fatality count and a map of fata
 * Black bear attacks are more widely happened across North America than other two bear types -- this is definitely related to where the bear inhabits.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190513)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190513) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190527)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
