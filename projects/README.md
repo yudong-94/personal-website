@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">74</td>
+<td>20190527</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190527">CO2 emissions per capita</a></td>
+<td align="left"><a href="http://api.worldbank.org/v2/en/indicator/EN.ATM.CO2E.PC?downloadformat=csv" rel="nofollow">World Bank</a></td>
+</tr>
+<tr>
 <td align="left">73</td>
 <td>20190520</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190520">North American Bear Attacks</a></td>
