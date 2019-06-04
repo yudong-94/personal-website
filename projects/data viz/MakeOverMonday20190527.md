@@ -69,6 +69,6 @@ Another summary chart + map dashboard this week...
 * While for upper-middle income and middle income countries, the increase happened in 2000s, indicating a different economic development cycle.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190520)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190520) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190603)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
