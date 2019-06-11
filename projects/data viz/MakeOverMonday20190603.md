@@ -69,6 +69,6 @@ This data has three dimensions - age, gender, and type of day. It's always a cha
 * Women tend to sleep longer than men.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190527)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190527) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190610)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
