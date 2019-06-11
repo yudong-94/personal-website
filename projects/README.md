@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">76</td>
+<td>20190610</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190610">Is it wrong for same-sex couples to have sexual relations?</a></td>
+<td align="left"><a href="https://gssdataexplorer.norc.org/trends/Gender%20&%20Marriage?measure=homosex" rel="nofollow">GSS Data Explorer</a></td>
+</tr>
+<tr>
 <td align="left">75</td>
 <td>20190603</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190603">Sleepless in America?</a></td>
