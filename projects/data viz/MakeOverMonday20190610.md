@@ -67,6 +67,7 @@ My visualization this week is simple, and it's rainbow line chart over a raindow
 * Percentage of young people's (18-34) who think it's not wrong at all for same-sex couples to have sexual relations has been 4x since 70s, and now it's the majority view.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190603)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190603) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190617)
+  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
