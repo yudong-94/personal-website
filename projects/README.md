@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">77</td>
+<td>20190617</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190617">Berlin Airbnb Ratings</a></td>
+<td align="left"><a href="http://insideairbnb.com/get-the-data.html" rel="nofollow">Inside Airbnb</a></td>
+</tr>
+<tr>
 <td align="left">76</td>
 <td>20190610</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190610">Is it wrong for same-sex couples to have sexual relations?</a></td>
