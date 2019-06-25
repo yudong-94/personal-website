@@ -67,6 +67,6 @@ My visualization tries to build a simple UI for users to find the best Airbnb li
 * Central Berlin -- Pankow, Mitte, Friedrichshain-Kreuzberg and Neokullo have the most listings (I guess these are where most toursits stay), but the average rating is just about average in those neighbourhoods (especially Mitte, it has the lowest average rating...);  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190610)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190610) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190624)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
