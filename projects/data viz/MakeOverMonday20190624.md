@@ -68,6 +68,6 @@ I was trying to visualize the alcohol consumption by showing different 'water le
 * Within the top 25 countries, most of them are Europe countries (and Russia), with the exception of South Korea (ranked at 17, suprising to me) and Australia (19).   
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190617)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190617) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190701)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
