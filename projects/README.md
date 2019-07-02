@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">79</td>
+<td>20190701</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190701">Game of Thrones Deaths</a></td>
+<td align="left"><a href="https://data.world/datasaurusrex/game-of-thones-deaths">David Murphy</a></td>
+</tr>
+<tr>
 <td align="left">78</td>
 <td>20190624</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190624">Alcohol Consumption By Country</a></td>
