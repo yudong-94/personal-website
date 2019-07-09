@@ -70,6 +70,6 @@ My visualization this week tries to visualize the dataset from the perspective o
 
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190624)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190624) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190708)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
