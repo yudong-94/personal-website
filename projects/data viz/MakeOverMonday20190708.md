@@ -70,6 +70,6 @@ I created a simple dashboard displaying the total appliation and approval rate t
 
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190701)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190701) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190715)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
