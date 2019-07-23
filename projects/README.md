@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">82</td>
+<td>20190722</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190722">Arsenal FC’s 2018/19 season</a></td>
+<td align="left"><a href="https://www.premierleague.com/stats/top/players/goals">Premier League Stat Center</a></td>
+</tr>
+<tr>
 <td align="left">81</td>
 <td>20190715</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190715">The share of Americans not having sex has reached a record high</a></td>
