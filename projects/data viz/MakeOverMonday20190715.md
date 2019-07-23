@@ -68,6 +68,6 @@ Also, please notice that I removed all the Not Application / No Answer / Don't k
 * You can see a weird spike of people having sex in 2012, not sure what happend (maybe data issue), but could be somehow related to the end of world rumour lol.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190708)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190708) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190722)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
