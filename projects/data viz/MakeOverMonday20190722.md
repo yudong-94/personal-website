@@ -68,6 +68,6 @@ I tried to match the color schema with the soccer field color :)
 * Also, not surprising, there is no player good at all skills.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190715)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190715) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190729)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
