@@ -70,6 +70,6 @@ To understand what drives the overall increase of STD infection rate, I tried to
 * State wise, Alaska shows the highest STD infection rate, followed by Mississippi.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190722)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190722) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190805)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
