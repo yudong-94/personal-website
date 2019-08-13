@@ -66,6 +66,6 @@ Tried to show the trend of less coal usage since 2012, while being creative this
 * Historically, we've seen winter seasons have higher percentage of energy supplied by coal -- maybe due to the high overall energy demand during winter seasons.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190729)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190729) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190812)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
