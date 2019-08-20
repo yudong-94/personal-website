@@ -69,6 +69,6 @@ Instead of keeping all the info of the dataset as the original viz does, my viz 
 * Some diseases are mainly focused in some years -- for example, >150k people enrolled for the trails on Rotavirus Infection in early 2000, but the trial size gets much smaller later (I hope it's because a good cure has been found).
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190805)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190805) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190819)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
