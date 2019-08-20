@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">86</td>
+<td>20190819</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190819">Americans touch their smartphones 2,617 times a day</a></td>
+<td align="left"><a href="https://www.pewinternet.org/2018/08/22/how-teens-and-parents-navigate-screen-time-and-device-distractions/pi_2018-08-22_teens-screentime_0-01/">Pew Research Center</a></td>
+</tr>
+<tr>
 <td align="left">85</td>
 <td>20190812</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190812">A bird’s-eye view of clinical trials</a></td>
