@@ -69,6 +69,6 @@ I like the original viz as it's clear and straitforward with good color coding. 
 * However, significantly more teens claim they would check phone for messages as soon as waking up (probably parents just don't want to see those work-related messages lol).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190812)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190812) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190826)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
