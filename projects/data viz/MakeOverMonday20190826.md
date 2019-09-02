@@ -68,6 +68,6 @@ Simple dataset goes best with a simple line chart...
 * However, you can see the size of neither console gaming and PC gaming can really compare with the mobile gameing since 2016 -- Mobile gaming has been surging since 2012, and the revenue is projected to be 10x in 2020 than that of 2012. This could be explained by the popularity of mobile devices and the development of cross platform games all over the world.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190819)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190819) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190902)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
