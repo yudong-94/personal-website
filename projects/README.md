@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">88</td>
+<td>20190902</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190902">Fall is favorite season for most Americans</a></td>
+<td align="left"><a href="https://today.yougov.com/topics/lifestyle/articles-reports/2013/06/10/fall-favorite-season-most-americans-33-heartland-l">YouGov</a></td>
+</tr>
+<tr>
 <td align="left">87</td>
 <td>20190826</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190826">PCs to Become the Smallest Gaming Platform in 2018</a></td>
