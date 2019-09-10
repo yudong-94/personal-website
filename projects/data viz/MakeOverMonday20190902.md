@@ -67,6 +67,6 @@ Inspired by a [viz](https://public.tableau.com/profile/amarsingh#!/vizhome/Favou
 * Though all the age groups show higher preferences towards Fall, younger group (18-34) show relatively weaker preference, while people over 55 extremely dislike Winter and Summer -- this is understandable as extreme whether is always a challenge to older people.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190826)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190826) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190909)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
