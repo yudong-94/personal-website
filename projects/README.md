@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">89</td>
+<td>20190909</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190909">James Patterson Book Checkouts at Seattle Libraries</a></td>
+<td align="left"><a href="https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6/data">Seattle Open Data</a></td>
+</tr>
+<tr>
 <td align="left">88</td>
 <td>20190902</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20190902">Fall is favorite season for most Americans</a></td>
