@@ -68,6 +68,6 @@ I mimiced the original viz of Jane Austen book checkouts this week... not much i
 * Before that, 7th Heaven was extremely popular in 2008, but soon replaced by his new book Run For Your Life in 2009.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190902)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190902) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190916)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
