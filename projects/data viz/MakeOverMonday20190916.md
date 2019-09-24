@@ -66,6 +66,6 @@ I am totally confused by the data this week, as the original survey design is ki
 * Not surprisingly, more women respondents focus on gender equality than any other goals.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190909)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190909) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190923)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
