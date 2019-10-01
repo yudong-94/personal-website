@@ -69,6 +69,6 @@ This week's viz is very simple and classic -- a dashboard with trendline on top 
 * Also, overall we see most evictions happening in zipcode 94110 (around Misson), but this is not always the most frequent zipcode for all the causes.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190916)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190916) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190930)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
