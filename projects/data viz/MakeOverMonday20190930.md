@@ -68,6 +68,6 @@ To provide one level down info of the population projection, I put the three mai
 * If we assume the projection is actually reliable (regardless of the above issue), then natural poplation growth (birth - death), domestic migration, and international migration contribute similarly to the overall population growth.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190923)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190923) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191007)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
