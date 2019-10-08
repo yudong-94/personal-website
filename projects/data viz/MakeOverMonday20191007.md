@@ -1,0 +1,72 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
+
+
+## Data Visualization -- Makeover Monday 20191007
+
+### About Makeover Monday
+
+[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
+"Each week we post a link to a chart, and its data, and then you rework the chart.
+Maybe you retell the story more effectively, or find a new story in the data.
+We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
+Together we can have broader conversations about and with data."
+
+Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
+The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
+
+### Makeover Monday 20191007
+
+This week's data is about donations accepted by political parties since 2001 in the UK. The original viz is also a dashboard, and can be found [here](https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/financial-reporting/donations-and-loans/view-donations-and-loans/donations-accepted). There are actually a lot of interesting findings we can get from this dataset (actually I spent most of the one hour playing with the data today), for example, the House of Commons is actually one of the biggest "donor" in the dataset (but it's not actually donation, as they have to give money to each party based on the seats they have). It's also a good chance to learn more about UK political system lol.  
+
+#### My Visualization
+
+The original viz is a simple tableau dash -- it's an aggregated viz of the dataset, but not very good at telling stories. Therefore, I picked one angle -- the donation spike in 2016, and made a viz out of it.  
+
+--  
+<div class='tableauPlaceholder' id='viz1570493692717' style='position: relative'>
+<noscript><a href='#'>
+  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20191007&#47;UKPoliticsDonation&#47;1_rss.png' style='border: none' />
+</a></noscript>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='MakeOverMonday20191007&#47;UKPoliticsDonation' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20191007&#47;UKPoliticsDonation&#47;1.png' /> 
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+</object></div>        
+<script type='text/javascript'>        
+  var divElement = document.getElementById('viz1570493692717');           
+  var vizElement = divElement.getElementsByTagName('object')[0];         
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                
+  var scriptElement = document.createElement('script');   
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';       
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);             
+</script>
+  
+--  
+
+#### Insights
+* 2016 we saw a sudden spike of the donations accepted by political entities outside the three main parties, and this is mainly because of the campaigns running for BreExit Voting -- the two entities received most donations in 2016 Q2 are Vote Leave Limited and The In Campaign Ltd, with several smaller entities accepting donations for the same purpose.  
+
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190930)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
