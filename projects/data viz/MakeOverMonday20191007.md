@@ -67,6 +67,6 @@ The original viz is a simple tableau dash -- it's an aggregated viz of the datas
 * 2016 we saw a sudden spike of the donations accepted by political entities outside the three main parties, and this is mainly because of the campaigns running for BreExit Voting -- the two entities received most donations in 2016 Q2 are Vote Leave Limited and The In Campaign Ltd, with several smaller entities accepting donations for the same purpose.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190930)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190930) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191014)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
