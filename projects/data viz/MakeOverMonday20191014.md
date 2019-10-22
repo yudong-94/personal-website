@@ -68,6 +68,6 @@ To complete a easy to understand viz in one hour, my strategy is to choose one a
 * We can always see ~1 hour difference between the male winning time and female winning time.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191007)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191007) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191021)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
