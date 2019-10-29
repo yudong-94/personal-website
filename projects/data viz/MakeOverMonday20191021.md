@@ -70,6 +70,6 @@ Making a heatmap is my first intuition looking at this data. And instead of doin
 * If you need any help, please call 1-800-273-8255 :)
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191007) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191028)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191014) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191028)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
