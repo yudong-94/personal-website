@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">97</td>
+<td>20191104</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191104">Las Vegas Convention Attendance & Visitor Traffic: Jan 1970-Oct 2019</a></td>
+<td align="left"><a href="https://www.lvcva.com/stats-and-facts/visitor-statistics/">Las Vegas Convention and Visitors Authority</a></td>
+</tr>
+<tr>
 <td align="left">96</td>
 <td>20191028</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191028">World Cities Ranked by Average Annual Sunshine Hours</a></td>
