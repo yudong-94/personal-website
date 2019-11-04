@@ -68,6 +68,6 @@ I also made some radial charts with a shape similar to the sun to compare the su
 * But I am surprised that San Francisco actually has longer sunshine hours than Honolulu...
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191021)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191021) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191104)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
