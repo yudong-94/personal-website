@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">98</td>
+<td>20191111</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191111">Youth and Adult Literacy Rates</a></td>
+<td align="left"><a href="http://data.uis.unesco.org/index.aspx?queryid=3482">UNESCO SDG4</a></td>
+</tr>
+<tr>
 <td align="left">97</td>
 <td>20191104</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191104">Las Vegas Convention Attendance & Visitor Traffic: Jan 1970-Oct 2019</a></td>
