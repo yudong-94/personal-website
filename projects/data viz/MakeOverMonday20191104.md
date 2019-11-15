@@ -68,6 +68,6 @@ With so much info at hand, I chose one small angle to tell one story -- a trend 
 * Though we did see a slight drop in the weekend room occupancy trend around the recession near 2008 (and also the sharp room inventory increase in 2008-2009 contributed to that), recent years it has been as high as 95%.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191028)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191028) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191111)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
