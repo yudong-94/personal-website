@@ -68,6 +68,6 @@ For my viz, I picked the angle of comparing literacy rate between the two gender
 * Asia (especially Central and Southern Asia) and Africa do worse in both general literacy level and equal eduation between genders.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191104)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191104) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191118)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
