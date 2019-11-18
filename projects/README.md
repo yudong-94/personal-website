@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">99</td>
+<td>20191118</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191118">	Smartphone Ownership Among Youth Is on the Rise</a></td>
+<td align="left"><a href="https://www.commonsensemedia.org/sites/default/files/uploads/research/2019-census-8-to-18-full-report-updated.pdf">Common Sense (page 27)</a></td>
+</tr>
+<tr>
 <td align="left">98</td>
 <td>20191111</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191111">Youth and Adult Literacy Rates</a></td>
