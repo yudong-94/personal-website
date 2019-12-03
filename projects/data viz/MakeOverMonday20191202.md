@@ -1,0 +1,72 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
+
+
+## Data Visualization -- Makeover Monday 20191202
+
+### About Makeover Monday
+
+[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
+"Each week we post a link to a chart, and its data, and then you rework the chart.
+Maybe you retell the story more effectively, or find a new story in the data.
+We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
+Together we can have broader conversations about and with data."
+
+Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
+The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
+
+### Makeover Monday 20191202
+
+This week's data is very about US median weekly salary by whether in workers' union or not, by race, and by gender. The idea the [original article](https://www.theguardian.com/news/datablog/2019/nov/24/how-much-does-union-membership-benefit-americas-workers) tries to convey is that being a union member could benefit a worker with significantly higher salary. However, I personally believe the whole picture cannot revealed by just looking at these high level data, as there are a lot of confounding factors including industry, occupation, population size, etc., which all impact salary greatly.  
+
+#### My Visualization
+
+To avoid potential misleading breakdown (like the huge gender pay gap shown in the article), I tries to show high level trend only with disclaimers on the top.  
+
+--  
+<div class='tableauPlaceholder' id='viz1575353185440' style='position: relative'>
+<noscript><a href='#'>
+  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20191202&#47;USUnionWages&#47;1_rss.png' style='border: none' />
+</a></noscript>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='MakeOverMonday20191202&#47;USUnionWages' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20191202&#47;USUnionWages&#47;1.png' />
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+</object></div>              
+<script type='text/javascript'>      
+  var divElement = document.getElementById('viz1575353185440');         
+  var vizElement = divElement.getElementsByTagName('object')[0];   
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='827px';}       
+  var scriptElement = document.createElement('script');           
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+  
+--  
+
+#### Insights
+* As I mentioned, though union members consistently show a higher wage than the non-members, it does not imply a causation between union membership vs. salary -- more confounding factors like industry, occupation, etc. must be carefully examined to draw any conclusion.  
+
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191125)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
