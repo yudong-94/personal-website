@@ -57,9 +57,21 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">101</td>
+<td>20191202</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191202">How much does union membership benefit America’s workers?</a></td>
+<td align="left"><a href="https://www.bls.gov/webapps/legacy/cpslutab2.htm">Bureau of Labor Statistics</a></td>
+</tr>
+<tr>
+<td align="left">100</td>
+<td>20191125</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191125">2018 Central Park Squirrel Census Fur Map</a></td>
+<td align="left"><a href="https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw">NYC Open Data</a></td>
+</tr>
+<tr>
 <td align="left">99</td>
 <td>20191118</td>
-<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191118">	Smartphone Ownership Among Youth Is on the Rise</a></td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191118">Smartphone Ownership Among Youth Is on the Rise</a></td>
 <td align="left"><a href="https://www.commonsensemedia.org/sites/default/files/uploads/research/2019-census-8-to-18-full-report-updated.pdf">Common Sense (page 27)</a></td>
 </tr>
 <tr>
