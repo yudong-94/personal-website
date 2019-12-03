@@ -68,6 +68,6 @@ I layered shape and line together to create this viz, to show the smartphone own
 * The increase is especially high for those under 13 years old.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191111)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191111) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191125)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
