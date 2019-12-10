@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">102</td>
+<td>20191209</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191209">Ranked: Biggest Fast Food Chains in America</a></td>
+<td align="left"><a href="https://www.visualcapitalist.com/biggest-fast-food-chains-in-america/">Visual Capitalist</a></td>
+</tr>
+<tr>
 <td align="left">101</td>
 <td>20191202</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191202">How much does union membership benefit America’s workers?</a></td>
