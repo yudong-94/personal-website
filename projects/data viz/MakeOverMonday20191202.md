@@ -67,6 +67,6 @@ To avoid potential misleading breakdown (like the huge gender pay gap shown in t
 * As I mentioned, though union members consistently show a higher wage than the non-members, it does not imply a causation between union membership vs. salary -- more confounding factors like industry, occupation, etc. must be carefully examined to draw any conclusion.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191125)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191125) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191209)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
