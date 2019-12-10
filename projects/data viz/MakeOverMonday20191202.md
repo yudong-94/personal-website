@@ -27,7 +27,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 ### Makeover Monday 20191202
 
-This week's data is very about US median weekly salary by whether in workers' union or not, by race, and by gender. The idea the [original article](https://www.theguardian.com/news/datablog/2019/nov/24/how-much-does-union-membership-benefit-americas-workers) tries to convey is that being a union member could benefit a worker with significantly higher salary. However, I personally believe the whole picture cannot revealed by just looking at these high level data, as there are a lot of confounding factors including industry, occupation, population size, etc., which all impact salary greatly.  
+This week's data is about US median weekly salary by whether in workers' union or not, by race, and by gender. The idea the [original article](https://www.theguardian.com/news/datablog/2019/nov/24/how-much-does-union-membership-benefit-americas-workers) tries to convey is that being a union member could benefit a worker with significantly higher salary. However, I personally believe the whole picture cannot revealed by just looking at these high level data, as there are a lot of confounding factors including industry, occupation, population size, etc., which all impact salary greatly.  
 
 #### My Visualization
 
