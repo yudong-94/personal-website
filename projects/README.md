@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">103</td>
+<td>20191216</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191216">The Spurs Have Never Been This Bad At Defense – NBA Defensive Ratings</a></td>
+<td align="left"><a href="https://stats.nba.com/teams/defense/?sort=DEF_RATING&dir=-1&Season=2019-20&SeasonType=Regular%20Season">NBA</a></td>
+</tr>
+<tr>
 <td align="left">102</td>
 <td>20191209</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191209">Ranked: Biggest Fast Food Chains in America</a></td>
