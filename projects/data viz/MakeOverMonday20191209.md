@@ -70,6 +70,6 @@ As this data has both total sales and number of locations, one thing that occurs
 * Overall, burger-type restaurants perform well on both total sales and sales per location, but snack restaurants like Starbucks perform much worse on sales per location (which totally makes sense).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191202)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191202) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191216)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
