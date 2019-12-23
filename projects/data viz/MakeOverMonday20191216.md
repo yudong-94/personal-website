@@ -70,6 +70,6 @@ The original viz show the trend of the relative defensive score to league averag
 * But for the recent two seasons, its ranking has dropped to below 20th...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191209)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191209) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191223)   
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
