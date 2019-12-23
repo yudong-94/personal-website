@@ -57,6 +57,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">104</td>
+<td>20191223</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191223">Estimated Christmas spending by concept</a></td>
+<td align="left"><a href="https://www2.deloitte.com/uk/en/pages/consumer-business/articles/deloitte-christmas-survey-2019.html">Deloitte Christmas Survey 2019</a></td>
+</tr>
+<tr>
 <td align="left">103</td>
 <td>20191216</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191216">The Spurs Have Never Been This Bad At Defense – NBA Defensive Ratings</a></td>
