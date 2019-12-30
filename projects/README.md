@@ -42,7 +42,7 @@ Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to c
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
 
-**My 2019 MakeoverMonday Vizzes (Ongoing)**  
+**My 2019 MakeoverMonday Vizzes (Completed)**  
 (you can also find them in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/))  
 
 
@@ -56,6 +56,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </tr>
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
+<tr>
+<td align="left">105</td>
+<td>20191230</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20191230">The Most Popular Makeover Monday Topics</a></td>
+<td align="left"><a href="https://data.world/makeovermonday/2019w53">data.world</a></td>
+</tr>
 <tr>
 <td align="left">104</td>
 <td>20191223</td>
