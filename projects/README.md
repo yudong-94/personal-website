@@ -374,7 +374,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 
 My best vizzes in 2019:  
-![Tableau Gallery Screenshot 2019](makeovermonday 2019 best.jpg)  
+![Tableau Gallery Screenshot 2019](makeovermonday 2019 best.png)  
 
 
 
