@@ -70,6 +70,6 @@ Sometimes I feel that visualzing fewer data points is harder as there is fewer s
 * Spending on gifts is always the highest spending category for both UK and Europe consumers.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191216)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191216) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191230)    
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
