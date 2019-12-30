@@ -371,6 +371,13 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </tbody>
 </table>
 
+
+
+My best vizzes in 2019:  
+![Tableau Gallery Screenshot 2019](makeovermonday 2019 best.jpg)  
+
+
+
 **My 2018 MakeoverMonday Vizzes (Completed)**  
 (you can also find them in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/))  
 
@@ -711,7 +718,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 <br>
 
 My best vizzes in 2018:  
-![Tableau Gallery Screenshot](Tableau Gallery Screenshot.jpg)  
+![Tableau Gallery Screenshot 2018](makeovermonday 2018 best.jpg)  
 
 you can also find all the above vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)  
 
