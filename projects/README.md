@@ -56,7 +56,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 <th align="left" width="30%">Data Source</th>
 </tr>
 </thead>
-<tbody style="display:block;height:500px;overflow:auto;width:500px;">
+<tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
 <td align="left">106</td>
 <td>20200106</td>
