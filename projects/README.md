@@ -50,13 +50,13 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 <table>
 <thead style="display:block;width:100%;">
 <tr style="display:block;">
-<th align="left" width="3%">Week</th>
-<th width="20%">Date</th>
-<th width="40%">Topic</th>
-<th align="left" width="37%">Data Source</th>
+<th align="left" width="5%">Week</th>
+<th width="15%">Date</th>
+<th width="50%">Topic</th>
+<th align="left" width="30%">Data Source</th>
 </tr>
 </thead>
-<tbody style="display:block;height:500px;overflow:auto;width:100%;">
+<tbody style="display:block;height:500px;overflow:auto;width:500px;">
 <tr>
 <td align="left">106</td>
 <td>20200106</td>
@@ -76,10 +76,10 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 <table>
 <thead style="display:block;width:100%;">
 <tr style="display:block;">
-<th align="left" width="3%">Week</th>
-<th width="20%">Date</th>
-<th width="40%">Topic</th>
-<th align="left" width="37%">Data Source</th>
+<th align="left" width="5%">Week</th>
+<th width="15%">Date</th>
+<th width="50%">Topic</th>
+<th align="left" width="30%">Data Source</th>
 </tr>
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
@@ -741,8 +741,7 @@ My best vizzes in 2019:
 </tbody>
 </table>
 
-<br>
-<br>
+  
 
 My best vizzes in 2018:  
 ![Tableau Gallery Screenshot 2018](makeovermonday 2018 best.jpg)  
