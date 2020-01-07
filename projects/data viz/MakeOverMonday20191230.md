@@ -71,6 +71,6 @@ Also, I feel the best thing about #MakeoverMonday is that you can always learn s
 * Not an insight, but I am curious that how the submission trend looks like -- does it follow the same pattern of downloads, or we will see a huge drop of submission rate after W39? (sadly the submission tracker dash is not downloadable, so I cannot find the answer lol).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191223)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191223)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200106)    
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
