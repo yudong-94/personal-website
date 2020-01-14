@@ -69,6 +69,6 @@ The dataset is kind of weird that it skipped several years between 2004 and 2017
 * However, the competition of the second popular sport is very fierce -- Basketball, Baseball, and None (no favorite sports) have got very close support of 10-15% respondants.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191230)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191230)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200113)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
