@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">107</td>
+<td>20200113</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200113">The USA lags behind other agricultural nations in banning harmful pesticides</a></td>
+<td align="left"><a href="https://ehjournal.biomedcentral.com/articles/10.1186/s12940-019-0488-0">Environmental Health</a></td>
+</tr>
+<tr>
 <td align="left">106</td>
 <td>20200106</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200106">What is America’s most popular sport?</a></td>
