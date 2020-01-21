@@ -11,7 +11,7 @@
 </head>
 
 
-## Data Visualization -- Makeover Monday 20200106
+## Data Visualization -- Makeover Monday 20200113
 
 ### About Makeover Monday
 
@@ -25,7 +25,7 @@ Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to 
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
 
-### Makeover Monday 20200106
+### Makeover Monday 20200113
 
 This week's dataset is very close to our daily life -- it's about how many of the pesticides used in USA agriculture are actually banned in EU, China and Brazil. The original viz can be found [here](https://ehjournal.biomedcentral.com/articles/10.1186/s12940-019-0488-0/figures/1). It is kind of confusing to understand the chart as it's showing number of pesticides banned in one country side by side with the number of pesticides banned in at least one or two or three countries...  
 Also, somehow the dataset provided tells the weight of those pesticides, instead of number of kinds as in the original viz.  
@@ -70,6 +70,6 @@ Initially I was trying hard to create a Venn digram this week -- but then I foun
 * Just looking at those pesticides that are allowed in the US, EU appears to have the most strict regulation on pesticides. But it would be interesting to know the real banned pesticides overlap among all the possible harmful pesticides.    
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200106)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200106)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200120)    
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
