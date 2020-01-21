@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">108</td>
+<td>20200120</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200120">Is it time to treat sugar like smoking?</a></td>
+<td align="left"><a href="https://www.nutrition.org.uk/nutritioninthenews/new-reports/ndnsyears7and8.html">The British Nutrition Foundation</a></td>
+</tr>
+<tr>
 <td align="left">107</td>
 <td>20200113</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200113">The USA lags behind other agricultural nations in banning harmful pesticides</a></td>
