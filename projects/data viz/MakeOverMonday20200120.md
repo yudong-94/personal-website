@@ -69,6 +69,6 @@ The viz I made is a yearly line trend across all the age groups, and put childre
 * Different from the popular view of women like sweets more than men, based on the survey, adult men actually consumes slightly more sugar than women.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200113)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200113)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200127)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
