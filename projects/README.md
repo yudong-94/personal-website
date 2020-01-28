@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">109</td>
+<td>20200127</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200127">Bridges to Prosperity</a></td>
+<td align="left"><a href="https://bridges.app.box.com/s/pdvbowjrsakl6t2mmx0zpnzm1f1tzzu2">Bridges to Prosperity</a></td>
+</tr>
+<tr>
 <td align="left">108</td>
 <td>20200120</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200120">Is it time to treat sugar like smoking?</a></td>
