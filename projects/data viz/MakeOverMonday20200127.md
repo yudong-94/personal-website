@@ -70,6 +70,6 @@ I tried to make something similar with Tableau -- a map with projects all around
 * Bridge to Prosperity also covered rural areas in South America, Southeast Asia, and there is even one project in the US.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200120)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200120)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200203)    
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
