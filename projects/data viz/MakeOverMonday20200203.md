@@ -70,6 +70,6 @@ To show the difference of people thinking it's acceptable / unacceptable to a ce
 * And more surprisingly, among the four different James Bond image, the least acceptable for both group are 'Women James Bond' and 'Non-British James Bond'...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020203)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020203)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200210)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
