@@ -70,6 +70,6 @@ Also to solve the problem I mentioned above, I created a viz similar to heatmap 
 * For people born after 2001, sadly there has not been any time in their life that US is not at war (though they may not really feel it as it's mostly happening in the Middle East).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020203)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020203)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200217)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
