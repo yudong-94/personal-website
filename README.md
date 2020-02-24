@@ -14,7 +14,7 @@
 
 ### About Me
 
-Hi there! I am Yu Dong. I am currently working as a Product Analyst at Ancestry.com and I graduated from MS Business Analytics program from USC Marshall School of Business in Dec 2017. I am passionate about interepreting data under business context and data-driven business decision-making.
+Hi there! I am Yu Dong. I am a detail-oriented data analyst and storyteller. I graduated from MS Business Analytics program from USC Marshall School of Business in Dec 2017. Since then, I have been working as a product analyst at Ancestry.com. I am passionate about interepreting data under business context and data-driven business decision-making.
 
 I'm also a lifelong learner with deep curiosity. I have completed [more than 30 online courses](https://yudong-94.github.io/personal-website/blogs/MOOCList) on Coursera, edX and other MOOC platforms in subjects ranging from Statistics to Machine Learning.
 
