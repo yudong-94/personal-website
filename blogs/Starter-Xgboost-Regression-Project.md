@@ -14,10 +14,14 @@
 
 These days I have been writing too much SQL... Therefore, last week, to refresh my knowledge on xgboost and general modeling project process in R and Python, I spent two days to write the simple starter code for the Kaggle beginner level completition ['House Prices: Advanced Regression Techniques'](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) with a R version and a Python version. The result turns out to be acceptable since the code does not include very comprehensive feature engineering (sorry I am lazy lol). The RMSE is 0.134. But please forgive me that I do not want to mention the ranking on leaderboard since there are >30 submission with RMSE 0, which obviously submited the result from this publicly available dataset :(   
 My code can be found in this [github repo](https://github.com/yudong-94/Kaggle-House-Prices-Prediction). Hope you will find it helpful in some way.    
+<br>
+<br>
 
 ### About the [dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 
 The dataset is a public dataset compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset.  
+<br>
+<br>
 
 ### What I Did (The Modeling Process I Followed)
 
@@ -33,12 +37,16 @@ And in the case of models like xgboost which does not accept categorical variabl
 Last but not least, don't forget to create some new features based on domain knowledge or just common sense (here for this starter code, I just created some pretty simple ones, not much feature engineering are involved).     
 4. **Modeling with Xgboost**  
 I used the regressor in Xgboost for modeling, and the objective is set to optimize the RMSE of log(SalePrice), which is the same as the evaluation criteria of the competition. Also, I only did a 80/20 split of the training set for model validation, but ideally, you know, you should do a k-fold (especially when there are more data available).  
+<br>
+<br>
 
 ### Packages Used  
 **R** -- tidyverse (mainly dplyr and ggplot2), xgboost  
 **Python** -- numpy, pandas, matplotlib, seaborn, xgboost, scikit-learn (for splitting data only...)  
 
 btw it's the first time I have used seaborn, and its grammar is surprisingly intuitive comparing to ggplot2 and matplotlib...  
+<br>
+<br>
 
 ### What Can Be Improved From This Code
 Nothing is perfect, not to mention that this is just a starter code which spent only a weekend to write...  
