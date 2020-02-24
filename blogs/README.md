@@ -12,9 +12,8 @@
 
 ## My Blogs
 
-### My Online Courses Reviews
-
-[My Online Courses Reviews](https://yudong-94.github.io/personal-website/blogs/MOOCList)
+1. [My Online Courses Reviews](https://yudong-94.github.io/personal-website/blogs/MOOCList)  
+2. [A Starter Code For Xgboost Regression in R and Python](https://yudong-94.github.io/personal-website/blogs/Starter-Xgboost-Regression-Project)
 
 --  
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
