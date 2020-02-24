@@ -23,7 +23,7 @@ My analytical skillset includes:
 - Visualization: Tableau, R Shiny
 - Databases: MySQL, Amazon Redshift
 - A/B Testing
-- Strong machine learning skills
+- Machine learning skills
 
 ### About This Site
 
