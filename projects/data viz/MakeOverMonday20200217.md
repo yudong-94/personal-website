@@ -74,6 +74,6 @@ To understand how skewed the country wealth size is, I put top 1 (US), top 2 to 
 
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020210)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020210)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200224)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
