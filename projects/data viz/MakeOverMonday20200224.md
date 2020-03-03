@@ -11,7 +11,7 @@
 </head>
 
 
-## Data Visualization -- Makeover Monday 20200224
+## Data Visualization -- Makeover Monday 20200302
 
 ### About Makeover Monday
 
@@ -25,7 +25,7 @@ Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to 
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
 
-### Makeover Monday 20200224
+### Makeover Monday 20200302
 
 This week's dataset is about the [Housing outcomes for clients of Australian Specialist Homelessness Services](https://www.housingdata.gov.au/dashboard/rex4y12rnpp8rky). This is definitely a great project and seems it does helped homeless people to get private housing and largely reduced the number of rough sleepers.  
 
@@ -71,6 +71,6 @@ The original viz is a Sankey Diagram in Tableau, which I always wanna have a try
 * Though the 'unknown' category makes me a little bit concerned...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020217)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020217)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200302)
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
