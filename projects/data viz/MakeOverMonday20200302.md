@@ -71,6 +71,6 @@ I think in this case, we want to see the difference of hours of sleep as well as
 * However, none of the average sleep time meets the recomended sleep time, and things get worse when you are at higher grade...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020224)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020224)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200309). 
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
