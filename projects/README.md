@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">116</td>
+<td>20200316</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200316">Happiness and Life Satisfaction</a></td>
+<td align="left"><a href="https://datacatalog.worldbank.org/dataset/world-development-indicators">World Bank</a></td>
+</tr>
+<tr>
 <td align="left">115</td>
 <td>20200309</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200309">Violence Against Women & Girls – perceptions in African, Asian and South American countries</a></td>
