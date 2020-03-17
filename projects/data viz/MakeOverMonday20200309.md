@@ -71,6 +71,6 @@ I am using simple bar charts to show the differences between men and women's per
 * It worth to notice that the survey is conducted through 2005 to 2018 in different countries, so simply comparing the countries may not be fair...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020302)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200302)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200316)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
