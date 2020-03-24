@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">117</td>
+<td>20200323</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200323">Courses in Berkeley 1900-2011</a></td>
+<td align="left"><a href="https://berkeley.app.box.com/v/CoursesBerkeley">UC ClioMetric History Project</a></td>
+</tr>
+<tr>
 <td align="left">116</td>
 <td>20200316</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200316">Happiness and Life Satisfaction</a></td>
