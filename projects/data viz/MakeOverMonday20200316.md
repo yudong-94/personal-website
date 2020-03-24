@@ -71,6 +71,6 @@ To answer the question of 'does higher GDP guarantee a higher life satisfaction'
 * For example, in the region south/Latin America, the country Nicaragua is the third poorest country and meanwhile the third happiest country...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200309)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200309)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200323)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
