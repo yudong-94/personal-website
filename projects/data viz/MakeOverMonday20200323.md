@@ -71,6 +71,6 @@ To compare the number of courses by area over time, I created a bump chart. But 
 * Meanwhile, "Education" has almost always been at the bottom.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200316)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200316)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200330)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
