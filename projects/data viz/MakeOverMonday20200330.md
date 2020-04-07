@@ -70,6 +70,6 @@ I am using Gantt plot (again) this week to show the differences between male and
 * There are four toppings that over half of both male and female showed preference on -- ham, chicken, pepper, and mushroom.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200323)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200323)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200406)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
