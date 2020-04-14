@@ -71,6 +71,6 @@ Another week of Gantt plot :) I am using it too much recently.
 * The northern Europe countries (Sweden, Norway and Denmark) did best regarding the gender gap of unpaid work time, but even the top country still has 5% gap...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200330)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200330)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200413)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
