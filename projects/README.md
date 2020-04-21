@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">121</td>
+<td>20200420</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200420">Focus on what you eat, not whether your food is local</a></td>
+<td align="left"><a href="https://ourworldindata.org/uploads/2020/02/GHG-emissions-by-life-cycle-stage-OurWorldinData-upload.csv">GHG Emissions by Lifecycle stage</a></td>
+</tr>
+<tr>
 <td align="left">120</td>
 <td>20200413</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200413">Messi Vs Ronaldo Stats</a></td>
