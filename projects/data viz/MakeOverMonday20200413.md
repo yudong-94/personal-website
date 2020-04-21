@@ -69,6 +69,6 @@ Not too excited about the data, so I built a simple viz with a stats switcher on
 * I am not an expert on sports stats, but simply looking at the trends here, seems like Messi and Ronaldo are catching up each other tightly without an obvious winner. Both are great players :)
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200406)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200406)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200420)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
