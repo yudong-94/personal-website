@@ -71,6 +71,6 @@ To show that which supply chain step generates most greenhouse gas emission for 
 * Though two plat based products pop up with high greenhouse gas emission -- dark chocolate and coffee.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200413)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200413)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200427)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
