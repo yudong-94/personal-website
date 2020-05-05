@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">123</td>
+<td>20200504</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200504">Obstetric Fistula in Madagascar</a></td>
+<td align="left"><a href="https://data.world/makeovermonday/2020w18/file/Visualize%20Gender%20Equality%20Dataset%20%233.pdf">Operation Fistula via data.world</a></td>
+</tr>
+<tr>
 <td align="left">122</td>
 <td>20200427</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200427">Pump prices over time</a></td>
