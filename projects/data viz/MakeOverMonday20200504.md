@@ -72,6 +72,6 @@ This is the first time I have tried to create a long information chart.
 * And as the result of fistula, almost all the women would suffer from leaking urine, and most likely it would be a still birth...
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200427)
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200427)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200511)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
