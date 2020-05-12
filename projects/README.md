@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">124</td>
+<td>20200511</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200511">World Happiness Report 2020</a></td>
+<td align="left"><a href="https://worldhappiness.report/">Gallup World Poll</a></td>
+</tr>
+<tr>
 <td align="left">123</td>
 <td>20200504</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200504">Obstetric Fistula in Madagascar</a></td>
