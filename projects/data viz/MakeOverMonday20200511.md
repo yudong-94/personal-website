@@ -72,6 +72,6 @@ So this is a perfect case to make visualization with map. I also added a set act
 * Except from the six factors considered, there are still a decent amount of happiness score cannot be explained -- well, happiness is definitely a complicated metric :)  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200504)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200504)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200518)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
