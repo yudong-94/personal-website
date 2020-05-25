@@ -70,6 +70,6 @@ Gantt plot again! (lazy me...)
 * All other states' full coverage cost are much lower than Michigan's minimum coverage cost...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200511)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200511)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200525)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
