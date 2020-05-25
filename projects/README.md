@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">126</td>
+<td>20200525</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200525">Visualising 40 Years of Music Industry Sales</a></td>
+<td align="left"><a href="https://www.riaa.com/u-s-sales-database/">RIAA</a></td>
+</tr>
+<tr>
 <td align="left">125</td>
 <td>20200518</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200518">Auto Insurance Rate by State 2020</a></td>
