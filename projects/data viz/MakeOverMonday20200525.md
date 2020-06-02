@@ -71,6 +71,6 @@ So, I did make a stacked area chart, but only a small one on the top right for a
 * However, the overall sales is not every growing -- its peak was around 2000, when CD dominated the market.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200518)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200518)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200601)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
