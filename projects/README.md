@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">127</td>
+<td>20200601</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200601">Safe Houses For Girls At Risk of FGM in Tanzania</a></td>
+<td align="left"><a href="https://hopeforgirlsandwomen.com/safe-houses/">Hope for Girls and Women Tanzania</a></td>
+</tr>
+<tr>
 <td align="left">126</td>
 <td>20200525</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200525">Visualising 40 Years of Music Industry Sales</a></td>
