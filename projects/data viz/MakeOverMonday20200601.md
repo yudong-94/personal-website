@@ -71,6 +71,6 @@ The dataset is pretty rich with when the girls are adimitted at what age and wit
 * There are 35% of the girls arriving at the safe houses with some health issues, which indicates the poor living/health condition of young girls there.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200525)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200525)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200608)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
