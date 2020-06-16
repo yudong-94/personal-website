@@ -70,6 +70,6 @@ Well, stacked bar chart is good but a little boring... So I plotted number of re
 * There are more pescatarian who eat animal-free products at least some time, than vegetarians -- makes sense as pescatarian eats fish but not other meat.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200601)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200601)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200615)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
