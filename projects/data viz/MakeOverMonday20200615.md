@@ -70,6 +70,6 @@ Since the dataset provides numbers for both boys and girls, and by states, I am 
 * But for high school girls, there are more variance among the states -- most of the states in the middle are dominated by volleyball, but there are many other popular sports like basketball, soccer, track and field, etc.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200608)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200608)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200622)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
