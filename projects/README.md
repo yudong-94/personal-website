@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">131</td>
+<td>20200629</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200629">Economic Empowerment</a></td>
+<td align="left"><a href="https://wbl.worldbank.org/en/wbl-data">World Bank</a></td>
+</tr>
+<tr>
 <td align="left">130</td>
 <td>20200622</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200622">Amazon’s tiny profits, explained</a></td>
