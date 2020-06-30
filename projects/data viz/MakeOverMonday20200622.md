@@ -71,6 +71,6 @@ This week, I am creating simple line charts with text on it to convey the ideas 
 * But year over year, Amazon's revenue has been every climbing, which generates substainable free cash flow.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200615)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200615)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200629)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
