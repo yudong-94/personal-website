@@ -72,6 +72,6 @@ I am doing boxplot for score distribution and radar plot for breakdown this week
 * And among all question categories, marrige empowerment is the lowest for Middle East countries, followed by Assets.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200622)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200622)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200706)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
