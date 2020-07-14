@@ -72,6 +72,6 @@ Since we have two dimension -- age and gender, to show the trend of % of people 
 * One very weird age group is the group 16-24 -- men show much lower mental disorder proportion at this age, but women show very very high percentage -- my personal assumption is about the pressure women getting from the society at this age (from the society as they start career and even marriage).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200629)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200629)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200713)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
