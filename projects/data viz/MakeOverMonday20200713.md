@@ -11,7 +11,7 @@
 </head>
 
 
-## Data Visualization -- Makeover Monday 20200706
+## Data Visualization -- Makeover Monday 20200713
 
 ### About Makeover Monday
 
@@ -25,28 +25,28 @@ Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to 
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
 
-### Makeover Monday 20200706
+### Makeover Monday 20200713
 
-This week's dataset is on mental health. Though the dataset itself is talking about how frequent the mental disorder is by age and gender, the [original article](https://www.bbc.com/news/health-41125009) actually carries much more info to help people understand the scale of mental health problem. It is pretty insightful, and I am suprised on how big a problem it is.  
+This week we are looking at the Palmer Station penguins observation data. [This dataset](https://github.com/allisonhorst/palmerpenguins) includes these penguins' basic bio and stats, such as species, bill depth, body mass, flipper length, etc. As the data descirption says, "The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to iris.". Everyone learning Data Science probably played **iris** at some point, but now we have an alternative :)  
 
 #### My Visualization
 
-Since we have two dimension -- age and gender, to show the trend of % of people with mental disorder symptoms across age groups and the differece between men and women, I used grantt chart this week.  
+Simple 2x2 scatter charts with black and whilte background (because it's penguin color).  
 
 --  
 
-<div class='tableauPlaceholder' id='viz1594078672429' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1594691603143' style='position: relative'>
 <noscript><a href='#'>
-  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020706ComparingCommonMentalDisorderbySex&#47;CommonMentalDisorderbySex&#47;1_rss.png' style='border: none' />
+   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020713PalmerStationPenguins&#47;PalmerStationPenguins&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-  <param name='embed_code_version' value='3' />
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='embed_code_version' value='3' /> 
   <param name='site_root' value='' />
-  <param name='name' value='MakeOverMonday2020706ComparingCommonMentalDisorderbySex&#47;CommonMentalDisorderbySex' />
+  <param name='name' value='MakeOverMonday2020713PalmerStationPenguins&#47;PalmerStationPenguins' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020706ComparingCommonMentalDisorderbySex&#47;CommonMentalDisorderbySex&#47;1.png' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020713PalmerStationPenguins&#47;PalmerStationPenguins&#47;1.png' />
   <param name='animate_transition' value='yes' />
   <param name='display_static_image' value='yes' />
   <param name='display_spinner' value='yes' />
@@ -54,24 +54,20 @@ Since we have two dimension -- age and gender, to show the trend of % of people 
   <param name='display_count' value='yes' />
   <param name='language' value='en' />
 </object></div>           
-<script type='text/javascript'>    
-  var divElement = document.getElementById('viz1594078672429');  
-  var vizElement = divElement.getElementsByTagName('object')[0];    
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';} 
-  var scriptElement = document.createElement('script');                 
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);              
+<script type='text/javascript'>     
+  var divElement = document.getElementById('viz1594691603143');   
+  var vizElement = divElement.getElementsByTagName('object')[0];              
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);               
 </script>
   
   
 --  
 
 #### Insights
-* Among all age groups, female seems to be much more prone to mental disorder than male -- though in the article it also mentions that men has higher suicide rate;  
-* Generally speaking, older age groups have lower proportion of people with mental disorder symptoms -- well, but I have to say that there is some sampling bias since people who lived to 75+ may be less likely to have experienced mental disorder;  
-* One very weird age group is the group 16-24 -- men show much lower mental disorder proportion at this age, but women show very very high percentage -- my personal assumption is about the pressure women getting from the society at this age (from the society as they start career and even marriage).  
-
+* These three species of penguins can largely be distinguished by the four stats --  
+* Generally speaking, Gentoo penguins are heavier, with longer flipper and culmen, but lower culmen depth;  
+* Adelie and Chinstrap penguins show similar body mass, culmen depth and flipper length, but Adelie tends to have shorter culmen.  
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200629)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200713)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200706)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
