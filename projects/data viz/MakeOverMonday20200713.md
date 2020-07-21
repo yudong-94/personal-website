@@ -68,6 +68,6 @@ Simple 2x2 scatter charts with black and whilte background (because it's penguin
 * Generally speaking, Gentoo penguins are heavier, with longer flipper and culmen, but lower culmen depth;  
 * Adelie and Chinstrap penguins show similar body mass, culmen depth and flipper length, but Adelie tends to have shorter culmen.  
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200706)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200706)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200720)    
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
