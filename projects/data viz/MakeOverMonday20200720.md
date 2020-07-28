@@ -71,6 +71,6 @@ I am using the line charts to show the difference between those who see religion
 * Comparing across countires, West European countries and North American countries show higher acceptance to homosexuality, while Middle East and East Eruopean countries show the lowest.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200713)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200713)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200727)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
