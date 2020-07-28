@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">135</td>
+<td>20200727</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200727">Women in Power</a></td>
+<td align="left"><a href="http://api.worldbank.org/v2/en/indicator/SG.GEN.PARL.ZS?downloadformat=excel">World Bank</a></td>
+</tr>
+<tr>
 <td align="left">134</td>
 <td>20200720</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200720">The Global Divide on Homosexuality Persists</a></td>
