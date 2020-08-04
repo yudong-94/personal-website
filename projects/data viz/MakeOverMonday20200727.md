@@ -72,6 +72,6 @@ Doing similar chart as last time -- line chart showing the trend in each country
 * Which surprised me a lot is some of the top countries -- Rwanda has the highest proportion from the 2016 data, and it has also seen the highest increase in the proportion, and it's followed by Cuba and Bolivia.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200720)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200720)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200803)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
