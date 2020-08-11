@@ -71,6 +71,6 @@ Since we only have one time series without any further segments, I am also doing
 * There is a clear drop in visits around 2018-2010, most likely due to the financial crisis.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200727)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200727)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200810)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
