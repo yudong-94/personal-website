@@ -58,6 +58,18 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">137</td>
+<td>20200810</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200810">Benefits of Remote Work</a></td>
+<td align="left"><a href="https://lp.buffer.com/state-of-remote-work-2020">State of Remote Work 2020</a></td>
+</tr>
+<tr>
+<td align="left">136</td>
+<td>20200803</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200803">UK visits abroad: All visits Thousands – SA</a></td>
+<td align="left"><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/leisureandtourism/timeseries/gmax/ott">ONS</a></td>
+</tr>
+<tr>
 <td align="left">135</td>
 <td>20200727</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200727">Women in Power</a></td>
