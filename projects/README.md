@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">138</td>
+<td>20200817</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200817">Scotland - The state of the Digital Nation</a></td>
+<td align="left"><a href="https://companyconnecting.com/news/stats-graphs-and-interesting-facts">Company Connecting</a></td>
+</tr>
+<tr>
 <td align="left">137</td>
 <td>20200810</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200810">Benefits of Remote Work</a></td>
