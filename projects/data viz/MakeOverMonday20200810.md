@@ -70,6 +70,6 @@ Well, given the data only has six rows and two columns.... I spent some time fin
 * Flixbility on schedule and work location are the top benefits people selected. But actually there are many overlap / correlation among the survey options -- for example, a flexible schedule and no need to communte means people can spend more time with family, and work from home is definitely part of the 'work from any location'...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200803)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200803)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200817)  
   
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
