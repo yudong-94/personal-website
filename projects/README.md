@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">139</td>
+<td>20200824</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200824">Sexual and Reproductive Health and Rights</a></td>
+<td align="left"><a href="https://www.guttmacher.org/sites/default/files/report_pdf/adding-it-up-2017-estimation-methodology.pdf">Guttmacher Institute’s report</a></td>
+</tr>
+<tr>
 <td align="left">138</td>
 <td>20200817</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200817">Scotland - The state of the Digital Nation</a></td>
