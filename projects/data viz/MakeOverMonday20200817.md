@@ -70,6 +70,6 @@ Another super small dataset... So let's make a map and bar chart, with the highl
 * Midlothian and Glasgow are two counties relatively small in the size on the map, but they contributed ~60% of the digital companies in Scotland.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200817)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200824)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200811)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200824)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
