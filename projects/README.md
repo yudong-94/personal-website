@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">140</td>
+<td>20200831</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200831">Indian Batsmen vs Left-Arm Pace</a></td>
+<td align="left"><a href="https://www.espncricinfo.com/story/_/id/26927142/how-india-beat-australia">ESPNcricinfo.com</a></td>
+</tr>
+<tr>
 <td align="left">139</td>
 <td>20200824</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200824">Sexual and Reproductive Health and Rights</a></td>
