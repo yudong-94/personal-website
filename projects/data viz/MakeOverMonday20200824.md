@@ -71,6 +71,6 @@ well... not very creative, but bar chart with map :)
 * As for Northern Africa, it has the second lowest percentage of women with unmet countraceptive needs, but this is mainly because it in the meantime shows the highest percentage who stated they don't want to avoid pregnancy -- there could be some complicated reasons behind it (religion, culture, tradition, etc.).   
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200817)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200817)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200831)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
