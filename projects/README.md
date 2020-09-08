@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">141</td>
+<td>20200907</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200907">Breakfast Cereals: Healthy or Unhealthy?</a></td>
+<td align="left"><a href="https://www.kaggle.com/crawford/80-cereals?select=cereal.csv">Kaggle: 80 Cereals</a></td>
+</tr>
+<tr>
 <td align="left">140</td>
 <td>20200831</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20200831">Indian Batsmen vs Left-Arm Pace</a></td>
