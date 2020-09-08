@@ -70,6 +70,6 @@ Since we only have five rows with two dimensions, let's do a scatterplot to bett
 * Looking at the battings average and dismissal stats, if we use battings average / dismissal as the measure, Kedar is the best player among the five.   
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200824)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200824)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200907)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
