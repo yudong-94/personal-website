@@ -12,16 +12,16 @@ This summer I got the opprotunity to mentor an intern in the Product Analytics t
 Focus on how to utilize web behavior data to understand user engagement and drive business insights  
 
 #### *Readings*
-1. DS&Analytics Blogs by tech companies
-  * Google: http://www.unofficialgoogledatascience.com/
-  * Linkedin: https://engineering.linkedin.com/blog/topic/data-science
-  * Facebook: https://research.fb.com/category/data-science/
-  * Microsoft: https://medium.com/data-science-at-microsoft
-  * Airbnb: https://medium.com/airbnb-engineering
-  * Netflix: https://netflixtechblog.com/
-  * Uber: https://eng.uber.com/category/articles/uberdata/
-  * Lyft: https://eng.lyft.com/tagged/data-science
-  * Pinterest: https://medium.com/@Pinterest_Engineering
+1. Tech Company DS&Analytics Blogs
+  * [Google](http://www.unofficialgoogledatascience.com/)
+  * [Linkedin](https://engineering.linkedin.com/blog/topic/data-science)
+  * [Facebook](https://research.fb.com/category/data-science/)
+  * [Microsoft](https://medium.com/data-science-at-microsoft)
+  * [Airbnb](https://medium.com/airbnb-engineering)
+  * [Netflix](https://netflixtechblog.com/)
+  * [Uber](https://eng.uber.com/category/articles/uberdata/)
+  * [Lyft](https://eng.lyft.com/tagged/data-science)
+  * [Pinterest](https://medium.com/@Pinterest_Engineering)
 2. Videos about Product Growth  
   * [Growth](https://www.youtube.com/watch?v=8qwV-sAHsG8)  
   * [How to get users and grow](https://www.youtube.com/watch?v=T9ikpoF2GH0)  
