@@ -72,6 +72,6 @@ This week I try to keep it simple with the most important information I wanna co
 * Besides, it seems like the pay gap among head teachers is getting larger, but ideally we also want to adjust it by inflation.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200907)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200907)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200921)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
