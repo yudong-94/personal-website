@@ -70,6 +70,6 @@ The original chart plotted the two price trend, but they have different starting
 * As a result, since 2017, book price has been lower than the all-item HICP.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200914)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200914)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200928)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
