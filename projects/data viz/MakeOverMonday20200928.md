@@ -71,6 +71,6 @@ I used a revised gantt plot + line charts to show the % of female married under 
 * However, in all those countries with high percentage of child marriage, the % of male getting married under 18 is always much lower -- potentially indicating young girls are forced to marry someone much older than them :(  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200921)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200921)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201005)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
