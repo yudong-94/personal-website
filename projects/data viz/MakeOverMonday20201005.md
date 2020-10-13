@@ -69,6 +69,6 @@ Well, not getting much inspiration today, so let's do a map + list, with set act
 * Most large dots on the maps (the counties with higher GDP) are along the coast, with much lower GDPs in middle (especially middle west) US.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200928)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200928)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201012)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
