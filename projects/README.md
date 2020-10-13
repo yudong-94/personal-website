@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">146</td>
+<td>20201012</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201012">Data Assets and Data Culture</a></td>
+<td align="left"><a href="https://www.dataiq.co.uk/market-insight/data-assets-and-data-culture">DataIQ</a></td>
+</tr>
+<tr>
 <td align="left">145</td>
 <td>20201005</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201005">The U.S. Counties With the Highest Economic Output</a></td>
