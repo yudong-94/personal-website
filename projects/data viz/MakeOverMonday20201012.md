@@ -70,6 +70,6 @@ I used a revised gantt chart this time to show the industry distribution.
 * I am actually curious how this distribution maps to the population -- whether all the companies adopting data culture follow a similar distribution...  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201005)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201005)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201019)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
