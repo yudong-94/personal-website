@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">147</td>
+<td>20201019</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201019">US Health Spending</a></td>
+<td align="left"><a href="https://data.oecd.org/healthres/health-spending.htm">OECD Data</a></td>
+</tr>
+<tr>
 <td align="left">146</td>
 <td>20201012</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201012">Data Assets and Data Culture</a></td>
