@@ -70,6 +70,6 @@ Though this dataset has data across the world, I am only focusing on US this tim
 * When breakding down by spending types, we can see a significant increase in compulsory health spending since 2014, couples with a significant decrease in voluntary health spending. And this correspond with the time that the Obamacare is introduced -- I am not super familiar with this act, but after some research, this seems to be the most likely reason behind this sudden change.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201012)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201012)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201026)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
