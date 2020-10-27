@@ -58,6 +58,12 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">148</td>
+<td>20201026</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201026">Apparel Exports to the US</a></td>
+<td align="left"><a href="https://otexa.trade.gov/msrpoint.htm">Otexa</a></td>
+</tr>
+<tr>
 <td align="left">147</td>
 <td>20201019</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201019">US Health Spending</a></td>
