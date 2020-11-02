@@ -287,6 +287,6 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 (index starts from my first #Makeoovermonday viz in 2018)
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2020)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2019)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
