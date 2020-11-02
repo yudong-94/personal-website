@@ -29,6 +29,7 @@
 
 ### Data Visualization Projects
 
+1. [FLC Data Viz - The Impact of New H1-B Wage Regulation](https://yudong-94.github.io/personal-website/projects/data%20viz/FLCDataViz)
 
 #### \#MakeoverMonday
 
