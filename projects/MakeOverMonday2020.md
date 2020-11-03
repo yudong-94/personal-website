@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">149</td>
+<td>20201102</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201102">The Digital Gender Gap</a></td>
+<td align="left"><a href="https://theinclusiveinternet.eiu.com/explore/countries/performance?category=overall">The Inclusive Internet Index</a></td>
+</tr>
+<tr>
 <td align="left">148</td>
 <td>20201026</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201026">Apparel Exports to the US</a></td>
