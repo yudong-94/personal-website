@@ -71,6 +71,6 @@ I used simple line chart with color coding to tell an intuitive story.
 * Relatively speaking, Vietnam show the lowest drop among the six countries (20% YoY drop in July) -- but it this partly due to its much higher total export value -- this 20% drop represents >$200M loss, which is even larger than the total apparel exports from El Salvador to the US in July 2019.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201019)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201019)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201102)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
