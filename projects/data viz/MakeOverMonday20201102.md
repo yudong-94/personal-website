@@ -72,6 +72,6 @@ I combined line chart that shows the difference between internet access gender g
 * We also see some Southeast and East Asian countries with a small reverse gender gap in Internet access (more female have access than male).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201026)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201026)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201109)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
