@@ -70,6 +70,6 @@ I am focusing on the visual design component this week to make a simple but visu
 * On the software side, sales units are increasing linearly in all regions -- no surprise as soo many great games released on Switch (Zelda, Mario Oddessey, Xenoblade, Fire Emblem, Animal Crossing, etc....).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201102)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201102)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201116)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
