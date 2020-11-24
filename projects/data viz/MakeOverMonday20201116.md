@@ -69,6 +69,6 @@ I went with a simple line, but did some research to create a dashed line for the
 * Though from 2012 and 2016, the share of TV ads is pretty consistent at ~34%, beginning 2016, Internet ads obviously starts eating its pie, and TV ads spend now is at ~25% of total ads spend.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201109)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201109)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201123)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
