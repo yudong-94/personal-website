@@ -71,6 +71,6 @@ I combined line chart with gantt chart to make this simple and clear chart this 
 * And the recent COVID pandemic is making the deficit even larger.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201116)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201116)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201130)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
