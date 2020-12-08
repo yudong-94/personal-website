@@ -72,6 +72,6 @@ This week I created a report-style viz with key stats to visualize the success o
 * Each dollar spent in this program brings over 20+ more days to one's life :)  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201123)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201123)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201207)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
