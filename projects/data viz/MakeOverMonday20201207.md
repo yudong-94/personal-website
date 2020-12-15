@@ -70,6 +70,6 @@ The original viz has four lines with the breakdown of country and responses. I b
 * We see higher fluctuation among the German's responses though, especially in 2019.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201130)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201130)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201214)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
