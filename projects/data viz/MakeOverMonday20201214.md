@@ -70,6 +70,6 @@ Besides, a high conditonal probability of item A given item B also does not mean
 * A tree, trees, deciduous trees, etc. are actually the most common elements in Ross's paintings.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201207)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201207)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201221)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
