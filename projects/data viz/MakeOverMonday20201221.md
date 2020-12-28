@@ -70,6 +70,6 @@ I have very limited knowledge in sports, so I have to google many of the stats..
 * Also it seems to me the last season was a tough one as well with four of the six metrics appear to be historically low, excluding the current one.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201214)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201214)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201228)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
