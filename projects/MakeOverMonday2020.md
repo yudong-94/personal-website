@@ -10,7 +10,7 @@
 </script>
 </head>
 
-**My 2020 MakeoverMonday Vizzes (Ongoing)**  
+**My 2020 MakeoverMonday Vizzes**  
 
 [MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
 "Each week we post a link to a chart, and its data, and then you rework the chart.
@@ -35,6 +35,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </tr>
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
+<tr>
+<td align="left">157</td>
+<td>20201228</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20201228">Global Import of Cocoa Beans 2015-2019</a></td>
+<td align="left"><a href="https://www.cbi.eu/market-information/cocoa/trade-statistics#">CBI (Centre for the Promotion of Imports)</a></td>
+</tr>
 <tr>
 <td align="left">156</td>
 <td>20201221</td>
