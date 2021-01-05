@@ -71,6 +71,6 @@ As this is the last viz of 2020, I decided to do something slightly complicated.
 * But when we look at the data, one thing to note is that -- Economics courses tell us supply and demand will try to strike a balance, and here we are only looking at one side, that is the demand of Cocoa. The Cocoa import demand is determined by how much cocoa Europe itself can grow, how much chocolate the European manufacturers want to make, and of course, the demand and profitability of chocolate (the end product).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201221)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201221)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210104)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
