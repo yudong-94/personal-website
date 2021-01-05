@@ -28,6 +28,7 @@
 
 1. [FLC Data Viz - The Impact of New H1-B Wage Regulation](https://yudong-94.github.io/personal-website/projects/data%20viz/FLCDataViz)
 2. \#MakeoverMonday - Weekly Social Data Visualization Project  
+ - [My MakeoverMonday2021 Vizzes (Ongoing)](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2021)  
  - [My MakeoverMonday2020 Vizzes](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2020)  
  - [My MakeoverMonday2019 Vizzes](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2019)  
  - [My MakeoverMonday2018 Vizzes](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2018)  
