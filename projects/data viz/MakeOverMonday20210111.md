@@ -54,7 +54,7 @@ As the first viz of the year, let's do something fancy :) I built a clockwise ra
 <script type='text/javascript'> 
   var divElement = document.getElementById('viz1610422875964');     
   var vizElement = divElement.getElementsByTagName('object')[0];            
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}             
+  vizElement.style.width='100%';vizElement.style.height='100%';             
   var scriptElement = document.createElement('script');       
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';      
   vizElement.parentNode.insertBefore(scriptElement, vizElement);        
@@ -65,7 +65,7 @@ As the first viz of the year, let's do something fancy :) I built a clockwise ra
 #### Insights
 * We see huge spike in incident rate per 1000 uninfected population in late 90s in countries including Eswatini, Lesotho, South Africa, Zimbabwe, etc;  
 * And there is also a spike in death rate per 100000 population in early 2000s potentially due to the infection spike in late 90s;  
-* We are also seeing in almost all African countries, generally speaking, number of people living with AIDS has been increasing -- this basically means new infection is greater than death each year, and is a result of the accumulative infections, also could potentially be due to better treatment and lower death rate.  
+* We are also seeing in many African countries, generally speaking, number of people living with AIDS has been increasing -- this basically means new infection is greater than death each year, and is a result of the accumulative infections, also could potentially be due to better treatment and lower death rate.  
 
 --  
 [⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210104)  
