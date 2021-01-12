@@ -70,6 +70,6 @@ As the first viz of the year, let's do something fancy :) I built a clockwise ra
 * Generally speaking, we also see more people cycling from April to September (as the weather is nicer).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201228)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201228)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210111)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
