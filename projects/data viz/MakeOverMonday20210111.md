@@ -27,11 +27,11 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 
 ### Makeover Monday 20210111
 
-This is the first #viz5 of 2021 -- this time we are looking at the gender inequality in HIV infections in Adolescents (age 10-19) in Africa, with the measures of indicate rate per 1000 population, deaths per 1000000 population, and population living with AIDS. We all know AIDS is a huge problem in Africa today, but I did not realize it's impacting young female so much more than male there.  
+This is the first #viz5 of 2021 -- this time we are looking at the gender inequality in HIV infections in Adolescents (age 10-19) in Africa, with the measures of incidence rate per 1,000 population, deaths per 100,000 population, and population living with AIDS. We all know AIDS is a huge problem in Africa today, but I did not realize it's impacting young female so much more than male there.  
 
 #### My Visualization
 
-As the first viz of the year, let's do something fancy :) I built a clockwise radar chart to compare the total trial counts between 2019 and 2020, and a bar chart on top with the YoY diff.  
+To easily compare the metrics across the countries and showing the trend over time, I chose the grid layout with a small map at the bottom right.  
 
 --  
 <div class='tableauPlaceholder' id='viz1610425000124' style='position: relative'>
