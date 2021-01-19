@@ -69,6 +69,6 @@ As the first viz of the year, let's do something fancy :) I built a clockwise ra
 * We are also seeing in many African countries, generally speaking, number of people living with AIDS has been increasing -- this basically means new infection is greater than death each year, and is a result of the accumulative infections, also could potentially be due to better treatment and lower death rate.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210104)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210104)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210118)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
