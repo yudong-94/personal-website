@@ -69,6 +69,7 @@ This week I am using simple scatter plot + moving average lines as the story is 
 * The temperature in Northern hemisphere seems lifting much faster than Southern hemisphere -- this makes sense as Northern hemisphere has more land with countries of highest greenhouse gas emission, while water covers more of Southern hemisphere, making temperature change slightly slower.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210111)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210111)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210125)  
+
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
