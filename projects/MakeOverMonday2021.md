@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">161</td>
+<td>20210125</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210125">Indian Coal Mine Location and Production</a></td>
+<td align="left"><a href="https://doi.org/10.1088/2633-1357/abdbbb">Sandeep Pai and Hisham Zerriffi via Harvard Dataverse</a></td>
+</tr>
+<tr>
 <td align="left">160</td>
 <td>20210118</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210118">Global Temperature 1880-2020</a></td>
