@@ -70,6 +70,6 @@ Data source: Sandeep Pai and Hisham Zerriffi. A novel dataset for analysing sub-
 * There are also some smaller ones in west and south borders.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210118)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210118)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210201)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
