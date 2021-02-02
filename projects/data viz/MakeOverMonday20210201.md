@@ -1,0 +1,75 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
+
+
+## Data Visualization -- Makeover Monday 20210201
+
+### About Makeover Monday
+
+[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
+"Each week we post a link to a chart, and its data, and then you rework the chart.
+Maybe you retell the story more effectively, or find a new story in the data.
+We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
+Together we can have broader conversations about and with data."
+
+Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
+The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
+
+### Makeover Monday 20210201
+
+This week's data is about the energy generation in the Europe -- it's absolutely encouraging to see that renewables are overtaking fossial fuels in the Europe. The full report can be found [here](https://ember-climate.org/project/eu-power-sector-2020/). As we all know, gloabl warming has been almost unstoppable now... We really need to make our own contribution to at least make it slower as it's something impact all human beings.  
+
+#### My Visualization
+
+--  
+<div class='tableauPlaceholder' id='viz1612240821755' style='position: relative'>
+<noscript><a href='#'>
+  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20210201RenewablesOvertakeFossilFuelsinEurope&#47;energygenerationinEurope&#47;1_rss.png' style='border: none' />
+</a></noscript>
+<object class='tableauViz'  style='display:none;'>
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='MakeOverMonday20210201RenewablesOvertakeFossilFuelsinEurope&#47;energygenerationinEurope' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20210201RenewablesOvertakeFossilFuelsinEurope&#47;energygenerationinEurope&#47;1.png' /> 
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+  <param name='language' value='en' />
+  <param name='filter' value='publish=yes' />
+</object></div>            
+<script type='text/javascript'>      
+  var divElement = document.getElementById('viz1612240821755');          
+  var vizElement = divElement.getElementsByTagName('object')[0];              
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}    
+  var scriptElement = document.createElement('script');                
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';       
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);           
+</script>
+  
+--  
+
+[Dashboard link](https://public.tableau.com/profile/yu.dong#!/vizhome/MakeOverMonday20210201RenewablesOvertakeFossilFuelsinEurope/energygenerationinEurope?publish=yes)
+
+#### Insights
+* For europe overall, we've seen the energy generated from renewables surparssed those generated from fossil in 2020 -- hopefully this trend will sustain;  
+* While renewables are overtaking fossial fuels, it's also eating the share of nuclear -- Overall, energy generated from nuclear account for roughly 25% of all the energy generated in 2020, but in some of the countries the percentage is much more higher. For example, France generated over 2/3 of its energy fron nuclear now (dropped from its all time high of 79%).  
+
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210125)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
