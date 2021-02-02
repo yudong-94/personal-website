@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">162</td>
+<td>20210201</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210201">Renewables Overtake Fossil Fuels in Europe</a></td>
+<td align="left"><a href="https://ember-climate.org/project/eu-power-sector-2020/">Ember</a></td>
+</tr>
+<tr>
 <td align="left">161</td>
 <td>20210125</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210125">Indian Coal Mine Location and Production</a></td>
