@@ -70,6 +70,6 @@ This week's data is about the energy generation in the Europe -- it's absolutely
 * While renewables are overtaking fossial fuels, it's also eating the share of nuclear -- Overall, energy generated from nuclear account for roughly 25% of all the energy generated in 2020, but in some of the countries the percentage is much more higher. For example, France generated over 2/3 of its energy fron nuclear now (dropped from its all time high of 79%).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210125)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210125)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210208)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
