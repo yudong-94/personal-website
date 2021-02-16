@@ -73,6 +73,6 @@ This is another week of #Viz5. The dataset is very fasinating -- perceived obsta
 * Looking at China specifically, one thing very interesting is that the responses difference between male and female are relatively smaller comparing to most other countries.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210201)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210201)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210215)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
