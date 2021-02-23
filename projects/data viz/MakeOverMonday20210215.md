@@ -69,6 +69,6 @@ Yesterday is Valentine's Day, and today's dataset is very relavent -- 'what's th
 * Men tend to be much more 'realistic' on their views on Valentine's Day, as their second and third voted points are 'sex' and 'to go out for dinner' (added up 43% for men, but only 14% for women).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210208)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210208)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210222)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
