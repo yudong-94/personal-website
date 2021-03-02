@@ -69,6 +69,6 @@ This week's dataset is all the protests against the ruling of limiting abortion 
 * Of course most protests happened in Poland, but there are also protests in many other European countries, in Asia, North America, and Oceania.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210215)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210215)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210301)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
