@@ -1,5 +1,7 @@
 ## Reading Notes 2021 Jan - Feb
 
+This year, I put reading data science related Medium & blog posts on my resolution list -- the plan is to read three posts on Friday night and three on Sunday night every week. Very foturnately, I also find a friend doing this with me so we can share thoughts, great articles, and brainstorming :) And not surprisingly, in just two months, my reading notes have grown to 20+ pages. Therefore, I decided to pick the best ones I read in the last two months, and share it here.  
+
 #### Product Experimentation and Causal Inference  
 
 1. [**Experimentation Analysis at Lime**](https://medium.com/lime-eng/experimentation-analysis-at-lime-bee846d62dd): A very systematic article on experimentation framework, process, and considerations
