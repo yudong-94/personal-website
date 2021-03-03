@@ -38,3 +38,6 @@ This year, I put reading data science related Medium & blog posts on my resoluti
 
 1. [**Supporting Content Decision Makers with Machine Learning**](https://netflixtechblog.com/supporting-content-decision-makers-with-machine-learning-995b7b76006f): How Netflix utilized transfer learning to optimize content display  
 2. [**Improving Deep Learning for Ranking Stays at Airbnb**](https://medium.com/airbnb-engineering/improving-deep-learning-for-ranking-stays-at-airbnb-959097638bde): Talked about the considerations and solutions on how to improve the list ranking model in Airbnb   
+
+--  
+<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
