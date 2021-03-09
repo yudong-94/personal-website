@@ -70,6 +70,7 @@ This week we are looking at the percentage of seats held by women in national pa
 * Generally speaking, we see North European countries leading the race (as we see in many other stats measuring gender equality), and we see the percentage increasing much faster in other European countries as they are catching up.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210222)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210222)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210308)  
+
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
