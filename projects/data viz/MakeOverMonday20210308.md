@@ -70,6 +70,6 @@ Happy International Women's Day! This is a global day celebrating the social, ec
 * The two rates increase at a very similar speed and pattern as the increase of women's events is definitely a catalyst of more women participating in Olympics.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210301)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210301)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210315)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
