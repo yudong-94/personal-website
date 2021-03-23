@@ -73,6 +73,6 @@ When I was playing with different ways to visualize the data, I came across this
 * Soybean production has more than 10x since 1960s, and went up from 5th to 3rd by production in Americas.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210308)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210308)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210322)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
