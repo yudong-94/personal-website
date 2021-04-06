@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">171</td>
+<td>20210405</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210405">Multiclass Classification of Dry Beans</a></td>
+<td align="left"><a href="https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset">UCI Machine Learning Repository</a></td>
+</tr>
+<tr>
 <td align="left">170</td>
 <td>20210329</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210329">Exports to EU plunge by 40% in first month since Brexit</a></td>
