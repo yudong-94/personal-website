@@ -70,6 +70,6 @@ This week's data is from this [report from The Guardian](https://www.theguardian
 * Though we also see significant YoY drop in many categories in the first half of 2020 due to COVID, the drop is worse (or close to worst drop during COVID) in this Jan.  
  
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210322)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210322)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210405)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
