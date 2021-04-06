@@ -72,6 +72,6 @@ I made some rose-shape chart to visualize the YoY expenditure change % with the 
 * Similar pattern can be seen in other categories -- a significant (and most of the time, historically high) YoY increase is seen in March 2021, then things flatten out but YoY increase still much higher than normal years.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210315)    [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210329)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210315)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210329)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
