@@ -72,6 +72,6 @@ I created a viz for the purpose of EDA -- you can pick four measures and look at
 * We can clearly see some correlation between feature pairs, for example, compactness and aspect ratio are negatively correlated.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210329)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210329)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210412)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
