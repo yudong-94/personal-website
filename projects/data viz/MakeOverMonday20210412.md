@@ -71,6 +71,6 @@ I actually like the way the origial viz did it, as it normalized the fouls by ga
 * By checking some outliers, we can find some referees with interesting behaviors -- for example, in season 2019-20 regular season, Though referee Bennie Adams showed overall average total fouls, he actually did the highest number of Offensive Charge, Loose Ball, Defensive Goaltending, and Defensive 3 seconds types of fouls per game among all referees.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210405)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210405)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210419)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
