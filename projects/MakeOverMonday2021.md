@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">173</td>
+<td>20210419</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210419">US Air Travel Falls Due to Covid Epidemic</a></td>
+<td align="left"><a href="https://www.transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FMF">Bureau of Transportation Statistics</a></td>
+</tr>
+<tr>
 <td align="left">172</td>
 <td>20210412</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210412">Fouls Called By NBA Referees</a></td>
