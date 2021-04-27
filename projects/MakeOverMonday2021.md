@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">174</td>
+<td>20210426</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210426">Regional Price Parity For Each State</a></td>
+<td align="left"><a href="https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=8">U.S. Bureau of Economic Analysis</a></td>
+</tr>
+<tr>
 <td align="left">173</td>
 <td>20210419</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210419">US Air Travel Falls Due to Covid Epidemic</a></td>
