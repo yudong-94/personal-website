@@ -70,6 +70,6 @@ The dataset is pretty large as each flight is a record. So I first used Python t
 * We see a significant drop in air passengers departing from all US cities, and in major cities, the passenger amount in 2019 is only 1/3 to 1/4 from that of 2020. 
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210412)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210412)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210426)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
