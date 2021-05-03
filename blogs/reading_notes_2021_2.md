@@ -20,7 +20,6 @@ As mentioned in the last post, this year I have been reading DS&Analytics relate
 1. [**Keyword Extraction with BERT**](https://towardsdatascience.com/keyword-extraction-with-bert-724efca412ea): How to utilize BERT to do keyword extraction
 2. [**Interactive Topic Modeling with BERTopic**](https://towardsdatascience.com/interactive-topic-modeling-with-bertopic-1ea55e7d73d8): Introduces BERTopic package that is built on BERT for topic modeling  
 3. [**Sentiment Analysis of COVID-19 Vaccine Tweets**](https://towardsdatascience.com/sentiment-analysis-of-covid-19-vaccine-tweets-dc6f41a5e1af): A sentiment analysis of COVID-19 vaccine related tweets using TextBlob  
-4. [**Synthetic Data Vault (SDV): A Python Library for Dataset Modeling**](https://towardsdatascience.com/synthetic-data-vault-sdv-a-python-library-for-dataset-modeling-b48c406e7398): A python package that can help to build fake data that captures the behavior of the actual data  
 
 #### Machine Learning  
 1. [**The 5 Clustering Algorithms Data Scientists Need to Know**](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68): Talks about the 5 common clustering algorithms and pros and cons  
@@ -30,6 +29,7 @@ As mentioned in the last post, this year I have been reading DS&Analytics relate
 5. [**Comparison of Segmentation Approaches**](https://www.decisionanalyst.com/whitepapers/comparesegmentation/): Different algorithms for segmentation (clustering)  
 6. [**17 types of similarity and dissimilarity measures used in data science**](https://towardsdatascience.com/17-types-of-similarity-and-dissimilarity-measures-used-in-data-science-3eb914d2681): A very detailed introduction of 17 different similarity/distance measures and pros and cons  
 7. [**How to use Facebook’s NeuralProphet and why it’s so powerful**](https://towardsdatascience.com/how-to-use-facebooks-neuralprophet-and-why-it-s-so-powerful-136652d2da8b): The new neural network version Prophet package by Facebook and examples on real data  
+8. [**Synthetic Data Vault (SDV): A Python Library for Dataset Modeling**](https://towardsdatascience.com/synthetic-data-vault-sdv-a-python-library-for-dataset-modeling-b48c406e7398): A python package that can help to build fake data that captures the behavior of the actual data  
 
 #### Data Team & Infrastructure  
 1. [**Visualizing Data Timeliness at Airbnb**](https://medium.com/airbnb-engineering/visualizing-data-timeliness-at-airbnb-ee638fdf4710): Talks about how Airbnb built a dashboard to monitor data pipeline SLAs and optimize timeliness  
