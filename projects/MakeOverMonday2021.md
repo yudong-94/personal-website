@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">175</td>
+<td>20210503</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210503">CEO-to-Worker Compensation Ratio</a></td>
+<td align="left"><a href="https://www.epi.org/publication/ceo-compensation-surged-14-in-2019-to-21-3-million-ceos-now-earn-320-times-as-much-as-a-typical-worker/">Economic Policy Institute</a></td>
+</tr>
+<tr>
 <td align="left">174</td>
 <td>20210426</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210426">Regional Price Parity For Each State</a></td>
