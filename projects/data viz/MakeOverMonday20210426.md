@@ -73,6 +73,6 @@ I decided to go with bump chart this week to show the top 10 and bottom 10 state
 * Not surprisingly, the most expensive ones are mostly locate along the west or east coasts, while the cheapest ones are mainly in the mid.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210419)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210419)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210503)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
