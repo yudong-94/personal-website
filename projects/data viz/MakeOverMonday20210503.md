@@ -71,6 +71,7 @@ This week's topic is very interesting -- CEO-to-worker compensation ratio. The o
 * The CEO-to-worker compensation ratio calculated with granted CEO compensation and realized CEO compensation used to align very closely before 1993, however, in recent 20 years, we have seen much more fluctuation.
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210426)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210426)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210510)  
+
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
