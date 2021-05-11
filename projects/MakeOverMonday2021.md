@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">176</td>
+<td>20210510</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210510">What Does 1GB of Mobile Data Cost in Every Country?</a></td>
+<td align="left"><a href="https://www.visualcapitalist.com/cost-of-mobile-data-worldwide/">Visual Capitalist</a></td>
+</tr>
+<tr>
 <td align="left">175</td>
 <td>20210503</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210503">CEO-to-Worker Compensation Ratio</a></td>
