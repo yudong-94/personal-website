@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">177</td>
+<td>20210517</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210517">What Animal Could You Beat in a Fight?</a></td>
+<td align="left"><a href="https://docs.cdn.yougov.com/07vgk5e81j/YouGov%20-%20Human%20vs%20animal%20fight.pdf">YouGov</a></td>
+</tr>
+<tr>
 <td align="left">176</td>
 <td>20210510</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210510">What Does 1GB of Mobile Data Cost in Every Country?</a></td>
