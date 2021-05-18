@@ -72,6 +72,6 @@ With this simple dataset of two columns -- country and costs, I made a simple ma
 * Also generally speaking, we see the most expensive countries are mostly in Africa, due to lack of infrastructure, while Asia overall show cheaper mobile data costs potentially due to market competition, low labor costs, high reliance on mobile device, etc.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210503)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210503)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210517)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
