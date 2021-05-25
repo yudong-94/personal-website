@@ -70,6 +70,6 @@ This week we have a fun dataset -- What animal could you beat in a fight? It's t
 * Most gender differences are seen among the survey results against medium power animals -- for goose and medium-sized dog, 20% more men are confident in beating it than women; and for eagle, large dog, and king cobora, the difference is 15%.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210510)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210510)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210524)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
