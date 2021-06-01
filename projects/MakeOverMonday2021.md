@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">179</td>
+<td>20210531</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210531">The Plastic Waste Makers Index</a></td>
+<td align="left"><a href="https://www.minderoo.org/plastic-waste-makers-index/data/indices/producers/">Minderoo</a></td>
+</tr>
+<tr>
 <td align="left">178</td>
 <td>20210524</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210524">How are wildlife populations changing?</a></td>
