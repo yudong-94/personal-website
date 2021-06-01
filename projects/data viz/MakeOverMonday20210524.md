@@ -72,6 +72,6 @@ The dataset is pretty simple and a stacked bar chart is the most natural way to 
 * Amphibians had the greatest share of population in decline.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210517)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210517)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210531)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
