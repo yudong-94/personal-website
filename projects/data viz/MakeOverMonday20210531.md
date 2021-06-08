@@ -70,6 +70,6 @@ I used a scatter plot this week to plot the plastic waste makers on two importan
 * We see quite a few companies in petroleum industry at the top of the list as fossil fuels are one of the most important ingredients to make plastics.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210524)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210524)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210607)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
