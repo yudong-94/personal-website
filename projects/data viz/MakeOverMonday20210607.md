@@ -72,6 +72,6 @@ As this dataset has three dimensions (year, gender, and age bucket) and there ar
 * And among all age groups, we see higher percentage of male never married than female.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210531)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210531)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210614)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
