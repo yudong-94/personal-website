@@ -21,7 +21,7 @@ I took notes in all the meeting series, and today I would like to share the top 
 **1. Ask Questions**  
 *'Don't hesitate to ask around'*  
 *'Feel free to reach out to people'*  
-*'Ask lots of questions early one'*  
+*'Ask lots of questions early on'*  
 *'Ask questions sooner, and it doesn't hurt to ask'*  
 ...  
   
