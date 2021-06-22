@@ -71,6 +71,6 @@ I tried to plot gantt bars on top of the map to show the size of each school's t
 * But of course, this is looking at the total student loan -- it is a different story if we compare the avg amoung of loan originated per recipient, for example, TX is the state with highest total loan size, but by avg loan size, it's on the lower end, while CA have both very high total loan size and very high avg loan size.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210607)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210607)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210621)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
