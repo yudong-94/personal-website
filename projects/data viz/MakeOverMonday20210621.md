@@ -71,6 +71,6 @@ To compare the trend across different ethnicities, I made a simple line chart by
 * Comparing the stop and search rate by ethnicities, black ethnicity always have the highest rate, while white ethnicity is the only one below average -- but of course, this could be a result from many many different factors, so no conclusion could be drawn here without more care data analysis.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210614)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210614)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210628)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
