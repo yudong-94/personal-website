@@ -39,6 +39,6 @@ As mentioned in the last post, this year I have been reading DS&Analytics relate
 5. [**How To Estimate The Value of Data Products**](https://towardsdatascience.com/how-to-estimate-the-value-of-data-products-8297dd92109): Discuss how to estimate the value of data products  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/blogs/reading_notes_2021_1)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/blogs/reading_notes_2021_1)   [➡️Next](https://yudong-94.github.io/personal-website/blogs/reading_notes_2021_3)  
 
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
