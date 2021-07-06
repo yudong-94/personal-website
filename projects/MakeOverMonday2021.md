@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">184</td>
+<td>20210705</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210705">2020 Electoral Map If Only ____ Voted</a></td>
+<td align="left"><a href="https://docs.google.com/spreadsheets/d/1j-sTWtIrXuqMOj6I67X0Q9bpQ-XmKkf71jXj48j_BmE/edit#gid=244779571">Dustin Gibson via AP Votecast Exit Polls</a></td>
+</tr>
+<tr>
 <td align="left">183</td>
 <td>20210628</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210628">How Common is Your Birthday?</a></td>
