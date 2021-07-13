@@ -72,6 +72,6 @@ The original viz is a heatmap. I am also creating a heatmap but with two added b
 * Interestingly, there is also a very obvious weekly pattern -- more births during the weekdays while fewer on the weekend.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210614)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210705)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210621)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210705)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
