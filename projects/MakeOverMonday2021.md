@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">185</td>
+<td>20210712</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210712">UK Vaccine Coverage by Age and Ethnicity</a></td>
+<td align="left"><a href="https://reports.opensafely.org/reports/vaccine-coverage/">OpenSAFELY</a></td>
+</tr>
+<tr>
 <td align="left">184</td>
 <td>20210705</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210705">2020 Electoral Map If Only ____ Voted</a></td>
