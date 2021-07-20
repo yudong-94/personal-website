@@ -71,6 +71,6 @@ I used simple stacked bar charts and grouped demographics into several categorie
 * And as you would imagine, different states vary a lot on this topic -- for example, Biden almost always got States like CA and MA no matter what demographics you are looking at, except Prostetants and Voted on Election Day.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210614)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210712)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210628)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210712)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
