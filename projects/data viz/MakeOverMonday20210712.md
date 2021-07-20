@@ -70,6 +70,6 @@ To easily compare the vaccination coverage trend by age and ethnicity, I put eac
 * Among the different ethnicity groups white show the highest coverage rate as almost all 50+ age groups has reached 90% coverage, while black show the lowest coverage rate -- it would be interesting to understand more why this is the case.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210628)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210705)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210719)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
