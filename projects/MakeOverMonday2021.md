@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">187</td>
+<td>20210726</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210726">America's Racial Breakdown by State</a></td>
+<td align="left"><a href="https://data.world/makeovermonday/2021w30a">Kaiser Family Foundation, U.S. Census</a></td>
+</tr>
+<tr>
 <td align="left">186</td>
 <td>20210719</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210719">UK COVID-19 Mortality Rate by Ethnicity</a></td>
