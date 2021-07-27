@@ -72,6 +72,6 @@ I used a very similar way to visualize this data as the original viz - use gantt
 * But of course, there are many confounding factors that are correlated to both ethnicity and death rate, and this datasets provided adjusted meansures by age, region, population, etc. Seeing how the numbers change after the adjustments, it's hard to make a call of what actually leads to the higher death rate and is Ethnicity really a deterministic factor.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210712)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210712)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210726)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
