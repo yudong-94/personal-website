@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">188</td>
+<td>20210802</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210802">Bike Collisions in London (2005-2019)</a></td>
+<td align="left"><a href="https://bikedata.cyclestreets.net/collisions/#9.44/51.4814/0.0567">CycleStreets</a></td>
+</tr>
+<tr>
 <td align="left">187</td>
 <td>20210726</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210726">America's Racial Breakdown by State</a></td>
