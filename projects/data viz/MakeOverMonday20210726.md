@@ -72,6 +72,6 @@ With a similar idea, I made a hex-tile US map, and adjusted color and size with 
 * For the minority ethinicities, we see some obvious pattern in where they live -- lots of Asian live in CA, WA, NJ and NY; States on the Mexico borders like TX, NM and CA see highest percentage of Hispanic; While southeast states see most black American.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210719)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210719)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210802)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
