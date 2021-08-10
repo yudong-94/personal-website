@@ -71,6 +71,6 @@ I also plot the collisions on the map, with monthly trend and weekday x hour hea
 * Regarding the fatality accident rate, we see a steady decline from 2005 (0.76%) to to 2010 (0.25%), and has been ~0.25% since then;  
 * Among the busist season (May to Oct), the fatality rate is actually lower than other months, both due to the volume and potentially weather condition.  
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210726)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210726)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210809)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
