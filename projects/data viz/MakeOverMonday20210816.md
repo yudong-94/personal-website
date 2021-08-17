@@ -1,0 +1,77 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
+
+
+## Data Visualization -- Makeover Monday 20210816
+
+### About Makeover Monday
+
+[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
+"Each week we post a link to a chart, and its data, and then you rework the chart.
+Maybe you retell the story more effectively, or find a new story in the data.
+We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
+Together we can have broader conversations about and with data."
+
+Starting from Jan 08, 2018, I decided to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
+The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).
+
+### Makeover Monday 20210816
+
+This week's dataset is about UCAS clearing. Honestly, I have no idea what UCAS clearning is, so I have to google to get some idea (if you are in the same boat, you can check outt [this article](https://www.standard.co.uk/news/uk/university-clearing-2021-process-ucas-open-close-dates-a4521976.html)). [The original viz](https://wonkhe.com/wonk-corner/hows-clearing-going-then/) is also a Tableau dashboard. As I don't have much knowledge on this topic, I decided to polish the current viz, instead of doing something very different.  
+
+#### My Visualization
+
+I made two mean changes: 1. Updated the nesting from year -> JCQ to JCQ -> year to make it easier to see the status distribution change trend; 2. Removed the bars which make the original dashboard very confusing in my opinion.  
+
+--  
+<div class='tableauPlaceholder' id='viz1629177213559' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='How&#39;s UCAS clearing going? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20210816HowsUCASclearinggoing&#47;HowsUCASclearinggoing&#47;1_rss.png' style='border: none' />
+    </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='MakeOverMonday20210816HowsUCASclearinggoing&#47;HowsUCASclearinggoing' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday20210816HowsUCASclearinggoing&#47;HowsUCASclearinggoing&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+    <param name='filter' value='publish=yes' />
+  </object></div>        
+  <script type='text/javascript'>         
+  var divElement = document.getElementById('viz1629177213559');    
+  var vizElement = divElement.getElementsByTagName('object')[0];            
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}              
+  var scriptElement = document.createElement('script');                  
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';       
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);             
+</script>
+  
+--  
+
+[Dashboard link](https://public.tableau.com/views/MakeOverMonday20210816HowsUCASclearinggoing/HowsUCASclearinggoing?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+  
+#### Insights
+* Over time, we see the group 'placed' taking higher percentage, while the 'free to be placed' decreasing (but seems bounced back a bit in 2021);  
+* Higher JCQ seems to have a higher percentage of 'placed'.  
+
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210809)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
