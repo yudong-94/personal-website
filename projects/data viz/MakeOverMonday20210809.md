@@ -70,6 +70,6 @@ I also plot the collisions on the map, with monthly trend and weekday x hour hea
 * Female Have always show lower mortality rate than male, and Wales mortality rate is slightly higher than England;  
 * The difference between female and male are decreasing though -- in 2001, male's mortality rate is around ~50% higher than female, but now it's around 33%.    
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210802)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210802)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210816)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
