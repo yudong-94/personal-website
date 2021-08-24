@@ -72,6 +72,6 @@ I made two mean changes: 1. Updated the nesting from year -> JCQ to JCQ -> year 
 * Higher JCQ seems to have a higher percentage of 'placed'.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210809)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210809)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210823)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
