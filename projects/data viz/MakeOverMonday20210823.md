@@ -74,6 +74,6 @@ I made a very similar viz to the original one (as the dataset is pretty simple),
 * This also makes me wondering -- maybe it's something related to how different industries / job functions defines their job ladders, and of course the market demand and supply.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210816)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210816)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210830)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
