@@ -72,6 +72,6 @@ I don't have creative idea this week, so a traditional viz with bar charts on th
 * On the other end, European countries, Latin American countries, and eastern Asian countries all show low % of male circumcision.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210823)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210823)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210906)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
