@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">193</td>
+<td>20210906</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210906">What Do Americans Think About Abortion?</a></td>
+<td align="left"><a href="https://news.gallup.com/poll/1576/abortion.aspx">Gallup</a></td>
+</tr>
+<tr>
 <td align="left">192</td>
 <td>20210830</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210830">Estimation of Country-Specific and Global Prevalence of Male Circumcision</a></td>
