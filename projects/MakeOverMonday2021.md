@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">194</td>
+<td>20210913</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210913">The 20 Largest Solar Power Plants</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/List_of_photovoltaic_power_stations">Wikipedia</a></td>
+</tr>
+<tr>
 <td align="left">193</td>
 <td>20210906</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210906">What Do Americans Think About Abortion?</a></td>
