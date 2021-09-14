@@ -71,6 +71,6 @@ To show the divergent opinions on whether abortion should be legal, I combined g
 * Half of the respondents says they believe abortion should be legal under certain circumstances, however, the 'certain circusmtances' could vary a lot among different people.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210830)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210830)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210913)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
