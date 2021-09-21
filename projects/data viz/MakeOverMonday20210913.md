@@ -73,6 +73,6 @@ To simplify the chart a bit, I also created a radial bar chart to rank the plant
 * Not surprisingly, India, China and US have most solar power plants among the top 20 list.
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210830)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210906)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210920)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
