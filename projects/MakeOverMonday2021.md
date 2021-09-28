@@ -36,6 +36,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">196</td>
+<td>20210927</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210927">MLB All-Time Wins Above Replacement</a></td>
+<td align="left"><a href="https://www.espn.com/mlb/war/leaders/_/type/offensive/alltime/true">ESPN</a></td>
+</tr>
+<tr>
 <td align="left">195</td>
 <td>20210920</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20210920">Dark Web Price Index 2021</a></td>
