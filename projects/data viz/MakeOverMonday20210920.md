@@ -72,6 +72,6 @@ I used scatter plot to show the price distribution of products within each categ
 * The cheapest products are the social media accounts and followers as they are easy to create/fake and also easy to identify.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210913)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210913)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210927)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
