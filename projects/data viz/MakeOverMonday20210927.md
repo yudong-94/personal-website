@@ -70,6 +70,6 @@ I used scatter plots with standardized metrics to show the stats distribution am
 * With very limited knowledge on MLB stats, I can only comment on the distribution of the metrics -- looks like RAR and RBR are left-skewed (higher points density after standardization), Trpg is more of a uniform distribution, while the others are more normally distributed.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210920)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210920)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211004)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
