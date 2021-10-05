@@ -12,9 +12,9 @@
 
 **My 2021 Weekly Vizzes**  
 
-With [MakeoverMonday](http://www.makeovermonday.co.uk/) project going into an 'indefinite hiatus' from 2021/9/27, I decided to keep on this weekly Tableau visualization journey.  
+Though [MakeoverMonday](http://www.makeovermonday.co.uk/) project went into an 'indefinite hiatus' from 2021/9/27, I will keep on this weekly Tableau visualization journey.  
 
-You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/).  
+You can also find all the vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/).  
 
 
 <table>
