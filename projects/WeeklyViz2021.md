@@ -10,17 +10,9 @@
 </script>
 </head>
 
-**My 2021 MakeoverMonday Vizzes (Ongoing)**  
+**My 2021 Weekly Vizzes**  
 
-[MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
-"Each week we post a link to a chart, and its data, and then you rework the chart.
-Maybe you retell the story more effectively, or find a new story in the data.
-We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
-Together we can have broader conversations about and with data."
-
-Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
-
-The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
+With [MakeoverMonday](http://www.makeovermonday.co.uk/) project going into an 'indefinite hiatus' from 2021/9/27, I decided to keep on this weekly Tableau visualization journey.  
 
 You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/).  
 
@@ -35,6 +27,12 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 </tr>
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
+<tr>
+<td align="left">197</td>
+<td>20211004</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211004">Pfizer Stock Performance During Covid</a></td>
+<td align="left"><a href="https://www.kaggle.com/varpit94/pfizer-stock-data">Kaggle</a></td>
+</tr>
 <tr>
 <td align="left">196</td>
 <td>20210927</td>
