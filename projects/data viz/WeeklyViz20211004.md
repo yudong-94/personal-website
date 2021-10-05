@@ -1,0 +1,62 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
+
+
+## Data Visualization -- Weekly Viz 20211004
+
+Today, when I log into [MakeoverMonday](https://www.makeovermonday.co.uk/) as always, I smelled something different, as there is no dataset posted for this week. Then after some Twitter search, I realized last week was not only the 300th makeovermonday, but the last one before its [indefinite hiatus](https://twitter.com/VizWizBI/status/1442408060450865158). I feel so sad :( I started my MakeoverMonday back in 2018 Jan, when I just started my career at Ancestry, and after 196 weeks, it has been part of my life, my Monday routine. But I totally understand how much effort running such a project involves, and truly appreciate everyone that made this happen.  
+With that being said, I decide to keep this weekly habit, and find my own dataset going forward. We will see how long I can persist :)  
+  
+This week, I opened Kaggle (after such a long time). And while scrolling down the homepage, the [Pfizer stock price dataset](https://www.kaggle.com/varpit94/pfizer-stock-data) caught my eye. So I made a visualization on this dataset to see whether PFE stock price benefits from COVID.  
+
+#### My Visualization
+
+I added S&P 500 index closing price as a benchmark to better understand PFE's performance against the market.  
+
+--  
+<div class='tableauPlaceholder' id='viz1633404829771' style='position: relative'>
+<noscript><a href='#'>
+  <img alt='Pfizer Stock Performance during COVID ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20211004PfizerStockPerformanceDuringCovid&#47;PfizerStockPerformanceduringCOVID&#47;1_rss.png' style='border: none' />
+</a></noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+  <param name='embed_code_version' value='3' />
+  <param name='site_root' value='' />
+  <param name='name' value='20211004PfizerStockPerformanceDuringCovid&#47;PfizerStockPerformanceduringCOVID' />
+  <param name='tabs' value='no' />
+  <param name='toolbar' value='yes' />
+  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20211004PfizerStockPerformanceDuringCovid&#47;PfizerStockPerformanceduringCOVID&#47;1.png' />
+  <param name='animate_transition' value='yes' />
+  <param name='display_static_image' value='yes' />
+  <param name='display_spinner' value='yes' />
+  <param name='display_overlay' value='yes' />
+  <param name='display_count' value='yes' />
+  <param name='language' value='en-US' />
+  <param name='filter' value='publish=yes' />
+</object></div>     
+<script type='text/javascript'>      
+  var divElement = document.getElementById('viz1633404829771');      
+  var vizElement = divElement.getElementsByTagName('object')[0];              
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    
+--  
+
+[Dashboard link](https://public.tableau.com/views/20211004PfizerStockPerformanceDuringCovid/PfizerStockPerformanceduringCOVID?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+  
+#### Insights
+* When the market dived in March 2020, we saw a similar dip for PFE. However, PFE was not able to catch up with the crazy S&P 500 uptrend last year;  
+* We can see two clear spikes of PFE in the past 12 months -- once in 2020 Dec with FDA issued EUA for Pfizer COVID-19 Vaccine, and another one in 2021 Aug with FDA's official approval of the Vaccine.   
+  
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210927)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
