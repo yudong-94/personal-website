@@ -28,6 +28,12 @@ You can also find all the vizzes in [my Tableau Gallery](https://public.tableau.
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">198</td>
+<td>20211011</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211011">Most Popular Steam Games 2012-2021</a></td>
+<td align="left"><a href="https://www.kaggle.com/jackogozaly/steam-player-data">Kaggle</a></td>
+</tr>
+<tr>
 <td align="left">197</td>
 <td>20211004</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211004">Pfizer Stock Performance During Covid</a></td>
