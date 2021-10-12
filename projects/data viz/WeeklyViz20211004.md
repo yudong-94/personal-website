@@ -57,6 +57,6 @@ I added S&P 500 index closing price as a benchmark to better understand PFE's pe
 * We can see two clear spikes of PFE in the past 12 months -- once in 2020 Dec with FDA issued EUA for Pfizer COVID-19 Vaccine, and another one in 2021 Aug with FDA's official approval of the Vaccine.   
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210927)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210927)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211011)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
