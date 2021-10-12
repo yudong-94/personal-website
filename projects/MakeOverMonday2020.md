@@ -355,7 +355,7 @@ My best vizzes in 2020:
 (index starts from my first #Makeoovermonday viz in 2018)
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2019)  [➡️Next](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2021)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2019)  [➡️Next](https://yudong-94.github.io/personal-website/projects/WeeklyViz2021)  
 
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
