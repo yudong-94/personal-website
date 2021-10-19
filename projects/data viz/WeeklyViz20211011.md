@@ -59,6 +59,6 @@ Bump chart is my favorite whenever I need to visualization ranking changes. Howe
 * above two games are examples of games being loved for long, however, there are also games that made to top 5 for one year (the year released typically) and disappeared from the list, for example Cyberpunk2077 last year.  
   
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211004)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211004)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211018)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
