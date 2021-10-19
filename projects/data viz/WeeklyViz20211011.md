@@ -11,7 +11,7 @@
 </head>
 
 
-## Data Visualization -- Weekly Viz 20211004
+## Data Visualization -- Weekly Viz 20211011
 
 This week, I made visualization using the [Steam Player Data](https://www.kaggle.com/jackogozaly/steam-player-data) on Kaggle. The dataset is originally scraped from [steamcharts](https://steamcharts.com/top), which keeps track of top steam games.  
 
