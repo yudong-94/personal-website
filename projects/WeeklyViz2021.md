@@ -28,6 +28,12 @@ You can also find all the vizzes in [my Tableau Gallery](https://public.tableau.
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">199</td>
+<td>20211018</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211018">Top Data Breaches 2004 - 2021</a></td>
+<td align="left"><a href="https://en.wikipedia.org/wiki/List_of_data_breaches">Wikipedia</a></td>
+</tr>
+<tr>
 <td align="left">198</td>
 <td>20211011</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211011">Most Popular Steam Games 2012-2021</a></td>
