@@ -29,7 +29,7 @@ You can also find all the vizzes in [my Tableau Gallery](https://public.tableau.
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
 <td align="left">200</td>
-<td>20211018</td>
+<td>20211025</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211025">Coursera Top 20 Courses</a></td>
 <td align="left"><a href="https://www.kaggle.com/siddharthm1698/coursera-course-dataset">Kaggle</a></td>
 </tr>
