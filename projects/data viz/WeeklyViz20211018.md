@@ -31,6 +31,6 @@ The dataset is pretty simple, and the visualization is also starightforward -- p
 * Over half of the breaches are caused by hacking, but there are also ~30% of the breaches being caused by poor security, lost or stolen.  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211011)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211011)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211025)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
