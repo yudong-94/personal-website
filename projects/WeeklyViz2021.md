@@ -28,6 +28,12 @@ You can also find all the vizzes in [my Tableau Gallery](https://public.tableau.
 </thead>
 <tbody style="display:block;height:500px;overflow:auto;width:100%;">
 <tr>
+<td align="left">201</td>
+<td>20211101</td>
+<td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211101">Programming Languages Use On A Regular Basis</a></td>
+<td align="left"><a href="https://www.kaggle.com/c/kaggle-survey-2021/data">Kaggle</a></td>
+</tr>
+<tr>
 <td align="left">200</td>
 <td>20211025</td>
 <td><a href="https://yudong-94.github.io/personal-website/projects/data%20viz/WeeklyViz20211025">Coursera Top 20 Courses</a></td>
