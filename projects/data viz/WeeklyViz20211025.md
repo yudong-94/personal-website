@@ -58,6 +58,6 @@ I extracted the top 20 courses by students enrolled and listed their title, orga
 * Courses that are most popular are not neccessarily the ones most highly rated (sometimes, maybe it's the title being very attractive or broad).  
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211018)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211018)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211101)  
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
