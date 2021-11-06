@@ -55,6 +55,7 @@ We also talked about potentially using surveys and pop-ups to collect true flags
 
 
 --  
-[⬅️Previous](https://yudong-94.github.io/personal-website/blogs/reading_notes_2021_2)  
+[⬅️Previous](https://yudong-94.github.io/personal-website/blogs/reading_notes_2021_3)  [➡️Next](https://yudong-94.github.io/personal-website/blogs/reading_notes_2021_5)  
+
 
 <a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
