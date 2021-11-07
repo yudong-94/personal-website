@@ -1,16 +1,14 @@
-<head>
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "My Data Science Projects List"
+date: 2021-11-01
+categories:
+  - project
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
-
-## My Projects
+This is an archive of my past data science and analytics projects.  
 
 ### Data Science & Analytics Projects
 1. Fraud Detection Machine Learning Algorithms
@@ -26,14 +24,11 @@
 
 ### Data Visualization Projects
 
-1. [FLC Data Viz - The Impact of New H1-B Wage Regulation](https://yudong-94.github.io/personal-website/projects/data%20viz/FLCDataViz)
+1. [FLC Data Viz - The Impact of New H1-B Wage Regulation](hhttps://yudong-94.github.io/personal-website/data%20viz/FLCDataViz/)
 2. Weekly Data Visualizations
- - [My Weekly Vizzes 2021 (Ongoing)](https://yudong-94.github.io/personal-website/projects/WeeklyViz2021)  
- - [My MakeoverMonday2020 Vizzes](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2020)  
- - [My MakeoverMonday2019 Vizzes](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2019)  
- - [My MakeoverMonday2018 Vizzes](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2018)  
+ - [My Weekly Vizzes 2021 (Ongoing)](hhttps://yudong-94.github.io/personal-website/project/WeeklyViz2021/)  
+ - [My MakeoverMonday2020 Vizzes](https://yudong-94.github.io/personal-website/project/MakeOverMonday2020/)  
+ - [My MakeoverMonday2019 Vizzes](https://yudong-94.github.io/personal-website/project/MakeOverMonday2019/)  
+ - [My MakeoverMonday2018 Vizzes](https://yudong-94.github.io/personal-website/project/MakeOverMonday2018/)  
 
 you can also find all the above vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/)  
-
---  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>
