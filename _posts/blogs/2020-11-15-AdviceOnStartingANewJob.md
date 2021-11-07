@@ -73,7 +73,3 @@ When one gets started with a data science job, there is a long way to make real 
 Above are the top five recommendations I got during my meet & greet sessions with teammates and stakeholders. Of course, it’s hard to cover all the great advice in one article – there are many other valuable ones, for example, people also mentioned '*don’t stress out in the first three months*', and '*set the boundary for work, especially when working from home*'.
 
 I have been trying to follow all the advice in my first month, and it worked out pretty well. Hopefully, you will also find some of the advice here helpful and have a smooth onboarding :)
-
-
---  
-<a href="https://yudong-94.github.io/personal-website/" title="Back to Home Page">Back to Home Page</a>

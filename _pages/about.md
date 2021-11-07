@@ -1,3 +1,7 @@
+---
+permalink: /about/
+title: "About"
+---
 
 Hi there! I am Yu Dong. I am a detail-oriented data analyst and storyteller. I graduated from MS Business Analytics program from USC Marshall School of Business in Dec 2017. After graduation, I worked as a product analyst at Ancestry.com for three years, using analytics to understand user behavior, improve product engagement, and enable data-driven business decision-making. I recently joined Brex as a Data Scientist, hoping to explore more analytics and data science application in the fintech industry. I am passionate about interepreting data under business context and data-driven business decision-making.
 
