@@ -1,6 +1,6 @@
 ---
 title: "My 2018 MakeoverMonday Vizzes"
-date: 2018-01-01
+date: 2018-12-31
 categories:
   - project
 tags:
