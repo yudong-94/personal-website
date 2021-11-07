@@ -1,5 +1,7 @@
 ---
 title: "My 2019 MakeoverMonday Vizzes"
+header:
+  image: /assets/images/makeovermonday 2019 best.png
 date: 2019-12-30
 categories:
   - project
@@ -21,10 +23,6 @@ Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to c
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
 
 You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/).  
-
-
-My best vizzes in 2019:  
-![Tableau Gallery Screenshot 2019](./assets/images/makeovermonday 2019 best.png)  
 
 
 <table>

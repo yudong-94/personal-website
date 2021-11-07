@@ -1,5 +1,7 @@
 ---
 title: "My 2018 MakeoverMonday Vizzes"
+header:
+  image: /assets/images/makeovermonday 2018 best.jpg
 date: 2018-12-31
 categories:
   - project
@@ -19,10 +21,6 @@ Together we can have broader conversations about and with data."
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
 
 You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/).  
-
-
-My best vizzes in 2018:  
-![Tableau Gallery Screenshot 2018](./assets/images/makeovermonday 2018 best.jpg)  
 
 
 <table>
