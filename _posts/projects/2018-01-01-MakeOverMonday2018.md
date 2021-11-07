@@ -8,13 +8,13 @@ tags:
   - tableau
 ---
 
+Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
+
 [MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
 "Each week we post a link to a chart, and its data, and then you rework the chart.
 Maybe you retell the story more effectively, or find a new story in the data.
 We’re curious to see the different approaches you all take. Whether it’s a simple bar chart or an elaborate infographic, we encourage everyone of all skills to partake.
 Together we can have broader conversations about and with data."
-
-Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
 
 The datasets are published each week at: [MakeoverMonday Datasets](http://www.makeovermonday.co.uk/data/).  
 
@@ -22,7 +22,7 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 
 
 My best vizzes in 2018:  
-![Tableau Gallery Screenshot 2018](/assets/images/makeovermonday 2018 best.jpg)  
+![Tableau Gallery Screenshot 2018](./assets/images/makeovermonday 2018 best.jpg)  
 
 
 <table>

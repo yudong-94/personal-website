@@ -8,6 +8,8 @@ tags:
   - tableau
 ---
 
+Throughout 2019, I have been putting aside one hour every Monday to work on my Tableau visualizations following the Makeovermonday project.
+
 [MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
 "Each week we post a link to a chart, and its data, and then you rework the chart.
 Maybe you retell the story more effectively, or find a new story in the data.
@@ -22,7 +24,7 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 
 
 My best vizzes in 2019:  
-![Tableau Gallery Screenshot 2019](/assets/images/makeovermonday 2019 best.png)  
+![Tableau Gallery Screenshot 2019](./assets/images/makeovermonday 2019 best.png)  
 
 
 <table>
