@@ -1,4 +1,4 @@
 title: Yu Dong's Blog
 description: Data Science & Analytics, Data Storyteller
 author: Yu Dong
-theme: jekyll-theme-slate
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
