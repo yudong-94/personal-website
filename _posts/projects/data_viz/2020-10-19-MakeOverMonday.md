@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-10-19"
-date: 2020-10-19
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*US Health Spending*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201019
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Though this dataset has data across the world, I am only focusing on US this tim
 * Overall, US health spending (measured as % of GDP) has been trending up since 1970, from 6% to 17%;  
 * When breakding down by spending types, we can see a significant increase in compulsory health spending since 2014, couples with a significant decrease in voluntary health spending. And this correspond with the time that the Obamacare is introduced -- I am not super familiar with this act, but after some research, this seems to be the most likely reason behind this sudden change.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201012)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201026)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

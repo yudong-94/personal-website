@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-11-09"
-date: 2020-11-09
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Nintendo Switch Sales Units*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201109
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ I am focusing on the visual design component this week to make a simple but visu
 * Althrough we see a hardware sales growth stagnant in FY2019 in Japan, across the world, the sales has been increasing steadily since 2018;  
 * On the software side, sales units are increasing linearly in all regions -- no surprise as soo many great games released on Switch (Zelda, Mario Oddessey, Xenoblade, Fire Emblem, Animal Crossing, etc....).  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201102)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201116)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

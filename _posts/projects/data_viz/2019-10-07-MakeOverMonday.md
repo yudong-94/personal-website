@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-10-07"
-date: 2019-10-07
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Donations accepted by political parties*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191007
 
 ### About Makeover Monday
 
@@ -64,3 +66,7 @@ The original viz is a simple tableau dash -- it's an aggregated viz of the datas
 #### Insights
 * 2016 we saw a sudden spike of the donations accepted by political entities outside the three main parties, and this is mainly because of the campaigns running for BreExit Voting -- the two entities received most donations in 2016 Q2 are Vote Leave Limited and The In Campaign Ltd, with several smaller entities accepting donations for the same purpose.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190930) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191014)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

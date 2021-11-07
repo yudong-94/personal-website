@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-03-05"
-date: 2018-03-05
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Survey on Gender Equality Measurements Awareness of Policymakers in Five Countries*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0305
 
 ### About Makeover Monday
 
@@ -81,3 +83,7 @@ Below is my dashboard. You can select the measurement/topic on upper right, and 
 * The most extreme estimate deviation case happened for estimating 'maternal mortality rate for women' by Kenya policymakers - there is an estimate deviated by over 1800% (the estimate is not even a reasonable number as a rate);  
 * Policymakers stating 'I know the answer' not necessarily make a better estimate than those stating 'Not sure but can find'. They were just stating so...  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180226) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180312)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

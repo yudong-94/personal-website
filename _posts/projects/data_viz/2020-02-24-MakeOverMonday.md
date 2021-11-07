@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-02-24"
-date: 2020-02-24
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Housing outcomes for clients of Australian Specialist Homelessness Services*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200302
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ The original viz is a Sankey Diagram in Tableau, which I always wanna have a try
 * The number of clients with public/communtiy housing or even private housing increased siginificantly;  
 * Though the 'unknown' category makes me a little bit concerned...  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020217)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200302)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

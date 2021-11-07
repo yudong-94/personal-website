@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-10-12"
-date: 2020-10-12
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Data Assets and Data Culture*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201012
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ I used a revised gantt chart this time to show the industry distribution.
 * Finance industries (including insurance, banking, and others) counts for 1/4 of the respondents;  
 * I am actually curious how this distribution maps to the population -- whether all the companies adopting data culture follow a similar distribution...  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201005)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201019)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

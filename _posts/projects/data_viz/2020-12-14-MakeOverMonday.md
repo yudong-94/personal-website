@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-12-14"
-date: 2020-12-14
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*A Statistical Analysis of the Work of Bob Ross*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201214
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Besides, a high conditonal probability of item A given item B also does not mean
 * Most elements Ross use frequently in paintings are the natural elements;  
 * A tree, trees, deciduous trees, etc. are actually the most common elements in Ross's paintings.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201207)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201221)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-01-13"
-date: 2020-01-13
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*The USA lags behind other agricultural nations in banning harmful pesticides*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200113
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Initially I was trying hard to create a Venn digram this week -- but then I foun
 * There are over one quarter of the pesticides that used in the USA are banned in EU;  
 * Just looking at those pesticides that are allowed in the US, EU appears to have the most strict regulation on pesticides. But it would be interesting to know the real banned pesticides overlap among all the possible harmful pesticides.    
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200106)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200120)    
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

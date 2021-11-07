@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-06-18"
-date: 2018-06-18
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*U.S. Influenza Surveillance Report*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0618
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ Also, please notice that there is some data quality issue, that you will see som
 * For both children under 4 May to June and Oct to Dec are two seasons that they are more likely to catch an influenza - temperature typically varies a lot during these two seasons.    
 * For the elder (age 65+), we cannot see any obvious seasionality pattern regarding months. However, we can see some years they are more prone to the Influenze than other years - maybe due to the type of Influenza popular in those years.    
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180611) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180625)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

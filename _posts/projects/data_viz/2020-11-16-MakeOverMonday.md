@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-11-16"
-date: 2020-11-16
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Share of US Ad Spend*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201116
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ I went with a simple line, but did some research to create a dashed line for the
 * Share of Internet ads spending climbed up constantly from 16% in 2012 to 62% in 2024 (projected) while all the other categories are declining;  
 * Though from 2012 and 2016, the share of TV ads is pretty consistent at ~34%, beginning 2016, Internet ads obviously starts eating its pie, and TV ads spend now is at ~25% of total ads spend.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201109)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201123)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

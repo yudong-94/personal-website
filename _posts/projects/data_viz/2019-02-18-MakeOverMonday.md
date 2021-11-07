@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-02-18"
-date: 2019-02-18
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Which States Produce the Most Wind Energy*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190218
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ Different from most of the time, I decided to make this viz super simple this ti
 * The total installed wind power capacity of Texas exceeds the total of the 2nd to 4th highest states, and counts for more than 25% of the total installed capacity in the US;  
 * Originally, I thought there should be some geographical pattern of which states consume more wind powers, but sadly I did not find any (or because I am not good at US geographics...)
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190211) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190225)
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

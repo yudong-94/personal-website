@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-01-25"
-date: 2021-01-25
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Indian Coal Mine Location and Production*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210125
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Data source: Sandeep Pai and Hisham Zerriffi. A novel dataset for analysing sub-
 * From the map, we can see three 'belts' of coal mines in India, along the mountains -- mostly in middle and east India. 
 * There are also some smaller ones in west and south borders.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210118)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210201)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

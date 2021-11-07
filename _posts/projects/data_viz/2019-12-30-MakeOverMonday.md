@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-12-30"
-date: 2019-12-30
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*The Most Popular Makeover Monday Topics*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191230
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Also, I feel the best thing about #MakeoverMonday is that you can always learn s
 * However, last year it has always been pretty low at ~ 40 downloads -- wondering when did data.world become the official dataset post site;  
 * Not an insight, but I am curious that how the submission trend looks like -- does it follow the same pattern of downloads, or we will see a huge drop of submission rate after W39? (sadly the submission tracker dash is not downloadable, so I cannot find the answer lol).  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191223)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200106)    
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

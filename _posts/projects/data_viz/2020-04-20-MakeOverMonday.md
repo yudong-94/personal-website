@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-04-20"
-date: 2020-04-20
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Focus on what you eat, not whether your food is local*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200420
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ To show that which supply chain step generates most greenhouse gas emission for 
 * Animal based products (meat, milk, egg, etc.) generates far more greenhouse gas than the plant based products;  
 * Though two plat based products pop up with high greenhouse gas emission -- dark chocolate and coffee.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200413)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200427)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

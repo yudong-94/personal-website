@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-09-10"
-date: 2018-09-10
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Paying the President*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0910
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ As mentioned above, my goal this week is to replicate the original visualization
 #### Insights
 * Prefer not to comment on this week's dataset as I am not very familiar with the related topics and regulations :)
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180903) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180917)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

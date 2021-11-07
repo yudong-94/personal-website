@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-07-12"
-date: 2021-07-12
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*UK Vaccine Coverage by Age and Ethnicity*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210712
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ To easily compare the vaccination coverage trend by age and ethnicity, I put eac
 * Elder age groups (80+) started vaccination process earlier so their vaccination coverage ramps up faster than the other age groups;  
 * Among the different ethnicity groups white show the highest coverage rate as almost all 50+ age groups has reached 90% coverage, while black show the lowest coverage rate -- it would be interesting to understand more why this is the case.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210705)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210719)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

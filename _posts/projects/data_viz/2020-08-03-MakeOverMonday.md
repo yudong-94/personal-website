@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-08-03"
-date: 2020-08-03
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*UK visits abroad: All visits Thousands – SA*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200803
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Since we only have one time series without any further segments, I am also doing
 * Generally speaking, the visits number have been trending up, and it has been 3x in 30 years;  
 * There is a clear drop in visits around 2018-2010, most likely due to the financial crisis.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200727)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200810)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

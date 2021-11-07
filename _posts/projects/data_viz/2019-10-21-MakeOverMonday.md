@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-10-21"
-date: 2019-10-21
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*The age at which most people are dying by suicide*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191021
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Making a heatmap is my first intuition looking at this data. And instead of doin
 * Somehow, the Gen X shows much higher suicides than the other generations;  
 * If you need any help, please call 1-800-273-8255 :)
   
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191014) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191028)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

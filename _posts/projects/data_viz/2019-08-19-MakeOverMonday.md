@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-08-19"
-date: 2019-08-19
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Americans touch their smartphones 2,617 times a day*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190819
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ I like the original viz as it's clear and straitforward with good color coding. 
 * Parents are more likely to be distracted by phone during work/class/in-person conversation than teens (at least the survey says so...);  
 * However, significantly more teens claim they would check phone for messages as soon as waking up (probably parents just don't want to see those work-related messages lol).  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190812) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190826)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

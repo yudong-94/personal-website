@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-04-09"
-date: 2018-04-09
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Arctic Sea Ice Extent*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0409
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Therefore, I visualized the data with two dimensions: yearly and monthly.
 * From the above chart (yearly chart), you can obviously see that the median Ice Extent is decreasing over year. Both the maximum Extent and minimum Extent has been decreasing as well. From the below chart (monthly chart), you can see that all the lines with deeper colors, i.e., the lines that represent recent years, are lower than average, indicating again, the Ice Extent is shrinking.  
 * The minimum Ice Extent was always seen in September. Also, in September, we can see the largest year-over-year differences.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180402) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180416)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

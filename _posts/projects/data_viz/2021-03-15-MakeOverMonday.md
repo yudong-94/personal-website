@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-03-15"
-date: 2021-03-15
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Top Five Crops by Production*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210315
 
 ### About Makeover Monday
 
@@ -70,3 +72,7 @@ When I was playing with different ways to visualize the data, I came across this
 * Crops used to produce sugar (sugar cane and sugar beet) are always among top 2 in all areas, though Europe relies on sugar beet while all other continents plant more sugar cane;  
 * Soybean production has more than 10x since 1960s, and went up from 5th to 3rd by production in Americas.  
   
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210308)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210322)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

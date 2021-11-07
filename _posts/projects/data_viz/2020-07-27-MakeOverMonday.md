@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-07-27"
-date: 2020-07-27
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Women in Power*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200727
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ Doing similar chart as last time -- line chart showing the trend in each country
 * And there seem to be a strong correlation between income level and % of women in national parliament (hard to say whether it's causal and which leads to which though);  
 * Which surprised me a lot is some of the top countries -- Rwanda has the highest proportion from the 2016 data, and it has also seen the highest increase in the proportion, and it's followed by Cuba and Bolivia.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200720)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200803)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

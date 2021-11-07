@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-09-16"
-date: 2019-09-16
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Positive Impact Events – Committments from the Event Industry for the Sustainable Development Goals*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190916
 
 ### About Makeover Monday
 
@@ -63,3 +65,7 @@ I am totally confused by the data this week, as the original survey design is ki
 * US, UK and Canada are the three top countries that the survey respondents are from and they show different focus of the sustainable development goals -- the most popular goals among US respondents are Climate Action, Zero Hunger, and Clean Water & Sanitation (and they value them equally), however, for UK, CA and other countries, the respondents focus on climate change much more than the other goals;   
 * Not surprisingly, more women respondents focus on gender equality than any other goals.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190909) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190923)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

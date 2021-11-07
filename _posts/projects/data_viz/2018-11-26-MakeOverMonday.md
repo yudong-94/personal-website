@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-11-26"
-date: 2018-11-26
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*The Cost of A Night Out*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 1126
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ This time I tried a brand new type of chart -- Radial Stacked Bar Chart. Luckily
 * Surprisingly, Zurich is the most expensive city regarding the cost on the Party Night, largely due to its high price of longdrinks and Taxi;  
 * The cost of both Date Night and Party Night are cheapeast at Mexico City in our dataset.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181119) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181203)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

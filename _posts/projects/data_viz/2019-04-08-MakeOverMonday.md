@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-04-08"
-date: 2019-04-08
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Ranking the States by Fiscal Condition*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190408
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ I tried to visualize a real 'dashboard' this time :) .
 * There are also some states have very different performance among the five dimensions -- for exmaple, Arizona ranked 9th in Trust, but 46th in Cash.  
 
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190401) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190415)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

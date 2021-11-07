@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-09-21"
-date: 2020-09-21
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Pick up a book and read!*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200921
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ The original chart plotted the two price trend, but they have different starting
 * Over the past 10 years, all-item HICP has been up for 17%, while for books category, it's much slower at 10%;  
 * As a result, since 2017, book price has been lower than the all-item HICP.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200914)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200928)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-07-05"
-date: 2021-07-05
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*2020 Electoral Map If Only ____ Voted*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210705
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ I used simple stacked bar charts and grouped demographics into several categorie
 * We see very divergent opinions among different age groups, eudcation levels, income level, and location; Even men and women give us totally different election results;  
 * And as you would imagine, different states vary a lot on this topic -- for example, Biden almost always got States like CA and MA no matter what demographics you are looking at, except Prostetants and Voted on Election Day.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210628)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210712)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

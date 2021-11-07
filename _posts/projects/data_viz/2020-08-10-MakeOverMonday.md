@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-08-10"
-date: 2020-08-10
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Benefits of Remote Work*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200810
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Well, given the data only has six rows and two columns.... I spent some time fin
 #### Insights
 * Flixbility on schedule and work location are the top benefits people selected. But actually there are many overlap / correlation among the survey options -- for example, a flexible schedule and no need to communte means people can spend more time with family, and work from home is definitely part of the 'work from any location'...  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200803)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200817)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

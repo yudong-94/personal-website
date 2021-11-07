@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-10-14"
-date: 2019-10-14
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Ironman World Championship Medalists*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191014
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ To complete a easy to understand viz in one hour, my strategy is to choose one a
 * The winning time to complete the Ironman World Championship has been decreasing slowly over time, and hits a record low in 2019;  
 * We can always see ~1 hour difference between the male winning time and female winning time.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191007) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191021)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

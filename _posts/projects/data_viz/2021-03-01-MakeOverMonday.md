@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-03-01"
-date: 2021-03-01
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Seats Held by Women in National Parliaments*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210301
 
 ### About Makeover Monday
 
@@ -67,3 +69,8 @@ This week we are looking at the percentage of seats held by women in national pa
 * Overall in EU, from 2013 to 2019, the percentage of seats held by women in namtional parliaments has been increasing steadily from 20% to 32%;    
 * Generally speaking, we see North European countries leading the race (as we see in many other stats measuring gender equality), and we see the percentage increasing much faster in other European countries as they are catching up.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210222)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210308)  
+
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

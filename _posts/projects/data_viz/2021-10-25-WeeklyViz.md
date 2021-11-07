@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-10-25"
-date: 2021-10-25
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Coursera Top 20 Courses*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Weekly Viz 20211025
 
 This week, I found this [Coursera Course Dataset](https://www.kaggle.com/siddharthm1698/coursera-course-dataset) on Kaggle. I was a big fan of Coursera (see my MOOC reviews [here](https://yudong-94.github.io/personal-website/blogs/MOOCList)), and it helped me braek into the data science field as an accounting student back in undergrad. So it's not surprising for me to see how much of the most popular courses are actually data science related.  
 
@@ -55,3 +57,7 @@ I extracted the top 20 courses by students enrolled and listed their title, orga
 * Half of the top 20 most popular courses are data science related, and among the rest, half of them are about English speaking and writing -- I think this could indicate that this is a very international learning platform :)  
 * Courses that are most popular are not neccessarily the ones most highly rated (sometimes, maybe it's the title being very attractive or broad).  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211018)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211101)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

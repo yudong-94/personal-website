@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-05-21"
-date: 2018-05-21
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Premier League Rank Prediction Vesus Reality*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0521
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ At first, I was thinking about making some bump chart to visualize the differenc
 * It seems like predicting top players is much easier than predicting lower-rank teams - the deviation between prediction and reality is lower for top teams.  
 
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180514) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180528)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

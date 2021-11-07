@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-04-15"
-date: 2019-04-15
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*The words in ‘Info We Trust’*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190415
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ With that being said, of course, I cannot make a word cloud this time... Instead
 * 'data' has always been among the top 5 words in all the sections (atually it's the top 1 in four out of six sections) -- information with data definitely seems more trustworthy;  
 * Not surprisingly, we see some top words very much related to the topic of the section -- 'number' in mathemagical, color in metaphorical, ...
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190408) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190422)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

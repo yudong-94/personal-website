@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-01-18"
-date: 2021-01-18
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Global Temperature 1880-2020*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210118
 
 ### About Makeover Monday
 
@@ -66,3 +68,8 @@ This week I am using simple scatter plot + moving average lines as the story is 
 * The temperature fluctuation between 1880 to 1980 is much milder, comparing to 1980 onwards, which is almost linear;  
 * The temperature in Northern hemisphere seems lifting much faster than Southern hemisphere -- this makes sense as Northern hemisphere has more land with countries of highest greenhouse gas emission, while water covers more of Southern hemisphere, making temperature change slightly slower.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210111)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210125)  
+
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

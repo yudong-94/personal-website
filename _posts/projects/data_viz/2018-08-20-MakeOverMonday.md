@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-08-20"
-date: 2018-08-20
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*ACLED: Visualizing Conflict*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0820
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ I spent around one hour to create a dashboard including - a map of all the confl
 * Those battle with no territory changed caused most fatalities :(  
 
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180813) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180827)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

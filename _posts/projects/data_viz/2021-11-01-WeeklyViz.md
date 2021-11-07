@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-11-01"
-date: 2021-11-01
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Programming Languages Use On A Regular Basis*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Weekly Viz 20211101
 
 This week, after hours of searching datasets (yes it's very hard to find one that is interesting to visualize sometimes...), I decided to go with the [2021 Kaggle ML&DS Survey](https://www.kaggle.com/c/kaggle-survey-2021/data). This is a very rich survey dataset, so there are lots of stories you can tell from it. I will potentially keep making viz from it for several weeks :)   
 
@@ -56,3 +58,7 @@ So for this first one, let's look at the correlation between the programming lan
 * There are two exceptions though -- Among DBA/Database managers, it was surpassed by SQL by 7%; And among Statistian, it was surpassed by R by 5%;
 * Though there have been lots of debates on R or Python, looks like in real life, R's adoption is much lower than Python or SQL, and it has a similar popularity as Java, Javascript, C, C++, etc.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211025)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

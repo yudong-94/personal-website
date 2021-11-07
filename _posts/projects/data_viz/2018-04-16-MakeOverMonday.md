@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-04-16"
-date: 2018-04-16
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Zambia Southern Province Confirmed Malaria Cases*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0416
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Again, for this time series data, I tried to explore the data with two dimension
 * March to May is the time period that seen most Malaria outbreaks, and also the deviation of cases amount among all the districts is the highest during these period.  
 
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180409) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180423)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

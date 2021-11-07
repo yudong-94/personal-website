@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-07-09"
-date: 2018-07-09
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Volcano Eruptions*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0709
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Well... Again, maps plus summary bar charts...
 * As we probably all know, most of the volcanoes located along the coast or between two continent plates;  
 * Asian and Pacific Regions have seen most recently eruppted colvanoes.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180702) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180716)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

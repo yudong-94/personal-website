@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-03-30"
-date: 2020-03-30
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Does pineapple belong on a pizza?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200330
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ I am using Gantt plot (again) this week to show the differences between male and
 * Interesting enough, for all the meat and spices toppings, there are more male saying they like it on pizza than female; And it's the opposite for vegetable and fruits toppings;  
 * There are four toppings that over half of both male and female showed preference on -- ham, chicken, pepper, and mushroom.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200323)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200406)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

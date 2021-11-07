@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-06-03"
-date: 2019-06-03
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Sleepless in America?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190603
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ This data has three dimensions - age, gender, and type of day. It's always a cha
 * Not surprisingly, 65+ age group also has the shortest sleep hour gap between weekday and weekends;  
 * Women tend to sleep longer than men.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190527) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190610)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

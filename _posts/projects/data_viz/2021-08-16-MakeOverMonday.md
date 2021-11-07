@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-08-16"
-date: 2021-08-16
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*How’s UCAS Clearing Going?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210816
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ I made two mean changes: 1. Updated the nesting from year -> JCQ to JCQ -> year 
 * Over time, we see the group 'placed' taking higher percentage, while the 'free to be placed' decreasing (but seems bounced back a bit in 2021);  
 * Higher JCQ seems to have a higher percentage of 'placed'.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210809)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210823)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

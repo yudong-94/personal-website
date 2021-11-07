@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-02-11"
-date: 2019-02-11
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Trump’s “Executive Time”*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190211
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ To make a similar heatmap as the interactive one you can find on the original ar
 * But his average work hour is 9.9 hours daily, which is longer than me, so I will not blame him for taking more days off than me;  
 * 59% (more than half) of his worktime during this period is marked as 'Executive Time', it could be some flexible time for him or something cannot be disclosed to public.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190204) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190218) 
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

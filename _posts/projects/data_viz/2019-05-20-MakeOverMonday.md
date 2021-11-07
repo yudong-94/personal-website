@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-05-20"
-date: 2019-05-20
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*North American Bear Attacks*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190520
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Nothing special... Made a dashboard with montly fatality count and a map of fata
 * Alaska has most fatal bear attacks since 1990 (but sure, Alaska is much larger than many of other states);  
 * Black bear attacks are more widely happened across North America than other two bear types -- this is definitely related to where the bear inhabits.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190513) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190527)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

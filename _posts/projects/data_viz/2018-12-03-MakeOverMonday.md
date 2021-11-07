@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-12-03"
-date: 2018-12-03
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Women Constructors in the Shortz Era*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 1203
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ This week I used the Xwork game color palette, and created a simple heatmap.
 * It seems like women are less likely to work as 'constructors' for the game on Friday and Saturday;  
 * Over year, we are seeing higher percentage of games with male 'constructors' only.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181126) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181210)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

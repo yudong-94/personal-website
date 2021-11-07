@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-04-13"
-date: 2020-04-13
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Messi Vs Ronaldo Stats*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200413
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ Not too excited about the data, so I built a simple viz with a stats switcher on
 #### Insights
 * I am not an expert on sports stats, but simply looking at the trends here, seems like Messi and Ronaldo are catching up each other tightly without an obvious winner. Both are great players :)
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200406)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200420)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

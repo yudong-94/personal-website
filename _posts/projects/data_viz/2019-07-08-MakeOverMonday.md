@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-07-08"
-date: 2019-07-08
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Asylum Applications in EU*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190708
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ I created a simple dashboard displaying the total appliation and approval rate t
 * Germany has been the top country received most applications since 2013, especially in 2016 and 2017, the cases Germany received counted for more than half of the total applications in EU.  
 
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190701) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190715)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

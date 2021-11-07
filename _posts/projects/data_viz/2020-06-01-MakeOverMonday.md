@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-06-01"
-date: 2020-06-01
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Safe Houses For Girls At Risk of FGM in Tanzania*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200601
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ The dataset is pretty rich with when the girls are adimitted at what age and wit
 * We are seeing the highest number of protection cases from Mara region in Tanzania, which is corresponding with the fact that Mara is the region with the highest prevalence of FGM in Tanzania;  
 * There are 35% of the girls arriving at the safe houses with some health issues, which indicates the poor living/health condition of young girls there.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200525)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200608)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

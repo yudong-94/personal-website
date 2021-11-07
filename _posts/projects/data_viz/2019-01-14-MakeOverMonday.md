@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-01-14"
-date: 2019-01-14
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*How many people earned the Federal minimum wage or less in each State?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190114
 
 ### About Makeover Monday
 
@@ -69,3 +71,8 @@ Due to the concern I mentioned above, I decided to show the general trend instea
 * The state with most increase of people below or under Federal Minmum Wage in 2017 comparing to 2002 is Tennessee, in which we see 38% increase;  
 * While in Monata, we see the most improvement -- the percentage dropped 69% from 2.9% in 2002 to 0.9% in 2017.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190107) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190121)  
+
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

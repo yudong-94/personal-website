@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-09-30"
-date: 2019-09-30
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*London Population Predictions*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190930
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ To provide one level down info of the population projection, I put the three mai
 * Something I found interesting about the data is that -- though from 2011 to 2017, London has experienced some severe domestic population loss (I lot of London people migrated out of London to other part of the UK), however, it still predicts the domestic population became a net gain since 2018 (I believe since 2018 the dataset is a projection...)...  
 * If we assume the projection is actually reliable (regardless of the above issue), then natural poplation growth (birth - death), domestic migration, and international migration contribute similarly to the overall population growth.  
   
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190923) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191007)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

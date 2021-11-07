@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-11-12"
-date: 2018-11-12
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Diversity in Tech*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 1112
 
 ### About Makeover Monday
 
@@ -71,3 +73,7 @@ This week, I just did something simple -- bar charts to compare the diversity of
 * More than half of the tech companies have better ethinicity diversity -- they have higher proportion of non-white people comparing to US population, though many of the minority employees might not be US citizens.  
 
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181105) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181119)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

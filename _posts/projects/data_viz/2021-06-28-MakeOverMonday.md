@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-06-28"
-date: 2021-06-28
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*How Common is Your Birthday?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210628
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ The original viz is a heatmap. I am also creating a heatmap but with two added b
 * People also try to avoid giving birth on holidays like 1/1 or 12/25, as these days have very low births in general;  
 * Interestingly, there is also a very obvious weekly pattern -- more births during the weekdays while fewer on the weekend.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210621)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210705)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-07-30"
-date: 2018-07-30
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*Big Mac Index*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0730
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ As inspired by the original viz, I created a list of country with the small bar 
 * Meanwhile, the Asian and Middle East countries' currency are more under-valued;  
 * Israel is probably the country that has the most equal-valued currency as compared to USD;  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180723) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180806)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

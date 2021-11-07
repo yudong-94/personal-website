@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-02-19"
-date: 2018-02-19
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-###*World Drugs and Medicine Trade*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0219
 
 ### About Makeover Monday
 
@@ -78,3 +80,7 @@ Please notice that the data of 2017 is not complete - many countries still do no
 * High exports does not neccessarily means low imports, vice versa. For example, Belgium is both the top 1 import country and export country in 2013. This could be due to the imbalanced demand and supply of different categories of drugs and medicine;  
 * From 2013 to 2016, the international trade pattern of drugs and medicine does not change much.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180212) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180226)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
