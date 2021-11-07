@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-08-23"
+date: 2021-08-23
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *"Entry-level" jobs on LinkedIn require 3+ years of experience*
 
-
-## Data Visualization -- Makeover Monday 20210823
 
 ### About Makeover Monday
 
@@ -73,7 +71,3 @@ I made a very similar viz to the original one (as the dataset is pretty simple),
 * But this varies a lot among the different type of jobs -- this is most frequent seen on Software & IT Services posts (60%), but least on Retail (8%);  
 * This also makes me wondering -- maybe it's something related to how different industries / job functions defines their job ladders, and of course the market demand and supply.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210816)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210830)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

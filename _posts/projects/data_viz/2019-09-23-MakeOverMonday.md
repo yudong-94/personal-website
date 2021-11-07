@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-09-23"
+date: 2019-09-23
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Evictions in San Francisco*
 
-
-## Data Visualization -- Makeover Monday 20190923
 
 ### About Makeover Monday
 
@@ -68,7 +66,3 @@ This week's viz is very simple and classic -- a dashboard with trendline on top 
 * But the two spikes were caused by differen reasons -- the 1998 one mainly caused by high volumn of 'owner moved in', while the 2016 one has more diversed causes;  
 * Also, overall we see most evictions happening in zipcode 94110 (around Misson), but this is not always the most frequent zipcode for all the causes.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190916) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190930)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

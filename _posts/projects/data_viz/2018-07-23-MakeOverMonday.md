@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-07-23"
+date: 2018-07-23
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *OECD Parental Leave System*
 
-
-## Data Visualization -- Makeover Monday 0723
 
 ### About Makeover Monday
 
@@ -72,7 +70,3 @@ As said above, I put the paid leave length and average payment rate on the two a
 * Countries have different tendency - some tend to emphasize on better Maternity Leave, while others trying to offer better Parental Leave policy.
 * Wondering... What happened to US...  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180716) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180730)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

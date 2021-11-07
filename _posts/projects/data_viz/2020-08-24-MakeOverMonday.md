@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-08-24"
+date: 2020-08-24
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Sexual and Reproductive Health and Rights*
 
-
-## Data Visualization -- Makeover Monday 20200824
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ well... not very creative, but bar chart with map :)
 * We are seeing highest percentage (>20%) of women with unmet countraceptive needs in Middle, Western and Eastern Africa;  
 * As for Northern Africa, it has the second lowest percentage of women with unmet countraceptive needs, but this is mainly because it in the meantime shows the highest percentage who stated they don't want to avoid pregnancy -- there could be some complicated reasons behind it (religion, culture, tradition, etc.).   
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200817)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200831)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

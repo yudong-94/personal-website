@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-02-15"
+date: 2021-02-15
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *What’s the point of Valentine’s Day?*
 
-
-## Data Visualization -- Makeover Monday 20210215
 
 ### About Makeover Monday
 
@@ -68,7 +66,3 @@ Yesterday is Valentine's Day, and today's dataset is very relavent -- 'what's th
 * The top voted point by both men and women is 'show how much you care', but the percentage difference is very large (29% vs. 51%);  
 * Men tend to be much more 'realistic' on their views on Valentine's Day, as their second and third voted points are 'sex' and 'to go out for dinner' (added up 43% for men, but only 14% for women).  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210208)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210222)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

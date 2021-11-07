@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-03-22"
+date: 2021-03-22
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *The Cereal Industry Had A Very Weird Year*
 
-
-## Data Visualization -- Makeover Monday 20210322
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ I made some rose-shape chart to visualize the YoY expenditure change % with the 
 * For cereal category, there is a 25% YOY increase in personal expenditure in March 2021 -- the last time we see a 20% increase was in 1974 (maybe due to the Oil Crisis?);  
 * Similar pattern can be seen in other categories -- a significant (and most of the time, historically high) YoY increase is seen in March 2021, then things flatten out but YoY increase still much higher than normal years.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210315)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210329)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

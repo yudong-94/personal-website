@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-03-09"
+date: 2020-03-09
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Violence Against Women & Girls – perceptions in African, Asian and South American countries*
 
-
-## Data Visualization -- Makeover Monday 20200309
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I am using simple bar charts to show the differences between men and women's per
 * Comparing the % agreed that the voilence can be justified across segments within the category, the two demographics category that show up to have effects on changing people's perceptions are education and residence. But residence (rural/urban) can actually be confounded by education;  
 * It worth to notice that the survey is conducted through 2005 to 2018 in different countries, so simply comparing the countries may not be fair...  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200302)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200316)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

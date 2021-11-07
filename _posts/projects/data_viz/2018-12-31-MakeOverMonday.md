@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-12-31"
+date: 2018-12-31
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *NHL Attendance*
 
-
-## Data Visualization -- Makeover Monday 1231
 
 ### About Makeover Monday
 
@@ -75,7 +73,3 @@ To answer my question above, I narrowed down to only the Canadian teams in NHL t
 * Actually when I was looking at the whole dataset with all the NHL teams, I also noticed that teams in the North generally outperform teams based in the South -- this totally makes sense as Hockey is an ice game.  
 
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181227) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190107)
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

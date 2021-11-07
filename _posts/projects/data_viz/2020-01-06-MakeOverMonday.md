@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-01-06"
+date: 2020-01-06
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *What is America’s most popular sport?*
 
-
-## Data Visualization -- Makeover Monday 20200106
 
 ### About Makeover Monday
 
@@ -68,7 +66,3 @@ The dataset is kind of weird that it skipped several years between 2004 and 2017
 * Football is no doubt the most popular sport in the US with over 1/3 of the respondants saying it's their favorite;  
 * However, the competition of the second popular sport is very fierce -- Basketball, Baseball, and None (no favorite sports) have got very close support of 10-15% respondants.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191230)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200113)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

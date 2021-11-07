@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-04-27"
+date: 2020-04-27
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Pump prices over time*
 
-
-## Data Visualization -- Makeover Monday 20200427
 
 ### About Makeover Monday
 
@@ -68,7 +66,3 @@ I plot a line trend of the petrol / diesel price, with black line capped at the 
 #### Insights
 * There have been two obvious drops of oil price in the past -- one in 2008 due to the global recession, which takes about three years to climb back to the price before the recession; Another between 2013 and 2016 due to the world oil supply glut, and since then the petrol price has not gone back to the previous peak yet.      
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200420)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200504)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

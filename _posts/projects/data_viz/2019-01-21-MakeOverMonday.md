@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-01-21"
+date: 2019-01-21
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Energy Use at 10 Downing Street*
 
-
-## Data Visualization -- Makeover Monday 20190121
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ On this [dashboard](https://public.tableau.com/profile/yu.dong#!/vizhome/MakeOve
 * The 10 Downing St. clearly uses more electricity between 9AM to 3PM;  
 * We see much more electricity consumption in Jun, July, Nov, and Dec in 2017, probably due to the weather.
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190114) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190128) 
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-05-06"
+date: 2019-05-06
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Major League Baseball Most Efficient Batters*
 
-
-## Data Visualization -- Makeover Monday 20190506
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ I followed the same metrics as the original viz (to avoid coming up with somethi
 * The variation of player salary has increased a lot since 1985 (but of course, to be more rigorous here, I should consider inflation as well);   
 * New York Yankees and Los Angeles Dodgers are the two teams that are most generous in season 2016 regarding almost all the metrics, but when it comes to the metrics 'salary per home run', SF Giants pay highest.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190429) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190513)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-09-17"
+date: 2018-09-17
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Train Versus Plane in Europe*
 
-
-## Data Visualization -- Makeover Monday 0917
 
 ### About Makeover Monday
 
@@ -74,7 +72,3 @@ Also, please notice that the travel time here for plane, is the flight time + 3 
 * Comparing ticket price and travel time, it's Plane does not appear to be a strong winner;  
 * Consider all the info above, I would definitely recommend people taking train instead of plane in Europe.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180910) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180924)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

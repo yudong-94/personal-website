@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-03-16"
+date: 2020-03-16
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Happiness and Life Satisfaction*
 
-
-## Data Visualization -- Makeover Monday 20200316
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ To answer the question of 'does higher GDP guarantee a higher life satisfaction'
 * However, as you would imagine, there are a lot of other factors impacting life satisfaction, thus not a perfect 100% correlation observed;  
 * For example, in the region south/Latin America, the country Nicaragua is the third poorest country and meanwhile the third happiest country...  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200309)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200323)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

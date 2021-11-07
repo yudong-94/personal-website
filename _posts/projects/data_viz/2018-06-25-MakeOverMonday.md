@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-06-25"
+date: 2018-06-25
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *London Cycle Hire Usage*
 
-
-## Data Visualization -- Makeover Monday 0625
 
 ### About Makeover Monday
 
@@ -146,7 +144,3 @@ write.csv(routes_fin, 'routes.csv')
 
 ```  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180618) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180702)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

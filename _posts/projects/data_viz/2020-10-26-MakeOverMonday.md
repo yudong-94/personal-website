@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-10-26"
+date: 2020-10-26
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Apparel Exports to the US*
 
-
-## Data Visualization -- Makeover Monday 20201026
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I used simple line chart with color coding to tell an intuitive story.
 * Since April, all six countries show significantly lower export of apparel to the US comparing to 2019, with the biggest drop of 92% seen from El Salvador and Hondruas in April;  
 * Relatively speaking, Vietnam show the lowest drop among the six countries (20% YoY drop in July) -- but it this partly due to its much higher total export value -- this 20% drop represents >$200M loss, which is even larger than the total apparel exports from El Salvador to the US in July 2019.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201019)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201102)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-03-04"
+date: 2019-03-04
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *World Development Indicators – Health and Equality*
 
-
-## Data Visualization -- Makeover Monday 20190304
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ Due to the large amount of missing data in this dataaset, things we can do are h
 #### Insights
 * With economic development from 1990 to 2015 in China, we see the maternal death risk dropped 86% (from 28% to 4%). This is easy to understand -- better healthcare envrionment must come from better economic condition.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190225) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190311)
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

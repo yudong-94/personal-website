@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-05-11"
+date: 2020-05-11
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *World Happiness Report 2020*
 
-
-## Data Visualization -- Makeover Monday 20200511
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ So this is a perfect case to make visualization with map. I also added a set act
 * Only around 20% of the happiness score can be explained by GDP, but what plays a bigger role is actually the social support;  
 * Except from the six factors considered, there are still a decent amount of happiness score cannot be explained -- well, happiness is definitely a complicated metric :)  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200504)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200518)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

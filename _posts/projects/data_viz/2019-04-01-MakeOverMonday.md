@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-04-01"
+date: 2019-04-01
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Wastes on UK Beaches*
 
-
-## Data Visualization -- Makeover Monday 20190401
 
 ### About Makeover Monday
 
@@ -66,7 +64,3 @@ The dataset simply listed the top 10 kinds of wastes found on UK beaches and how
 #### Insights
 * Plastics/polystyerene picese appear to be the most frequent waste on UK beach -- and considering its typical large size, it's definitely the dominant waste on the beach. And they mostly come from careless public.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190318) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190408) 
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

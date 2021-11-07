@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-12-21"
+date: 2020-12-21
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Arsenal’s worst ever Premier League start*
 
-
-## Data Visualization -- Makeover Monday 20201221
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ I have very limited knowledge in sports, so I have to google many of the stats..
 * Though the season has not ended yet (I believe?), for many of the metrics, current season performance is the worst or second-worst in the history for Arsenal...  
 * Also it seems to me the last season was a tough one as well with four of the six metrics appear to be historically low, excluding the current one.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201214)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201228)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

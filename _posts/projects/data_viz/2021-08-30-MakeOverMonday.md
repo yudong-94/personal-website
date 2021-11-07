@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-08-30"
+date: 2021-08-30
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Estimation of Country-Specific and Global Prevalence of Male Circumcision*
 
-
-## Data Visualization -- Makeover Monday 20210830
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ I don't have creative idea this week, so a traditional viz with bar charts on th
 * MC prevalance varies a lot among different regions, and seems to be highly correlated with religious belief and culture, as regions like western Asia and Northern Africa show super higher overall MC %;  
 * On the other end, European countries, Latin American countries, and eastern Asian countries all show low % of male circumcision.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210823)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210906)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

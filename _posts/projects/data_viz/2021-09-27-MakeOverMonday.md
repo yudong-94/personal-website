@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-09-27"
+date: 2021-09-27
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *MLB All-Time Wins Above Replacement*
 
-
-## Data Visualization -- Makeover Monday 20210927
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ I used scatter plots with standardized metrics to show the stats distribution am
 #### Insights
 * With very limited knowledge on MLB stats, I can only comment on the distribution of the metrics -- looks like RAR and RBR are left-skewed (higher points density after standardization), Trpg is more of a uniform distribution, while the others are more normally distributed.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210920)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211004)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

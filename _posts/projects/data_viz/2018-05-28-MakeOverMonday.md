@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-05-28"
+date: 2018-05-28
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *The World’s Most Expensive Prime Property*
 
-
-## Data Visualization -- Makeover Monday 0528
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ This week's data is almost in the same format as two weeks ago (top 10 European 
 #### Insights
 * There are five European cities appear on the list as top expensive cities, including the top one city - Monaco (really unexpected to me).  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180521) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180604)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

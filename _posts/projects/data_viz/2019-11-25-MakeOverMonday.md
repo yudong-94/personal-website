@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-11-25"
+date: 2019-11-25
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *2018 Central Park Squirrel Census Fur Map*
 
-
-## Data Visualization -- Makeover Monday 20191125
 
 ### About Makeover Monday
 
@@ -66,7 +64,3 @@ I put a huge (and cute) squirrel in the center of the viz, with smaller squirrel
 #### Insights
 * Among chasing, climbing, running, eating, and foraging, the most seen action is foraging, which could be relevent to the time period that the census was done (Oct).   
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191118) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191202)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

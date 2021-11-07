@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-05-25"
+date: 2020-05-25
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Visualising 40 Years of Music Industry Sales*
 
-
-## Data Visualization -- Makeover Monday 20200525
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ So, I did make a stacked area chart, but only a small one on the top right for a
 * There is a very clear trend of music format transition: LP/DF (1970s) -> Cassette (1980s) -> CD (1990 to 2010) -> Streaming;  
 * However, the overall sales is not every growing -- its peak was around 2000, when CD dominated the market.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200518)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200601)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

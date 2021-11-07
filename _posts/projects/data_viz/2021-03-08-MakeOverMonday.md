@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-03-08"
+date: 2021-03-08
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Women in Olympics*
 
-
-## Data Visualization -- Makeover Monday 20210308
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Happy International Women's Day! This is a global day celebrating the social, ec
 * Both % of women participants and % of women's events have been steadily increasing since 1900s, and now is getting much closer to 50%;  
 * The two rates increase at a very similar speed and pattern as the increase of women's events is definitely a catalyst of more women participating in Olympics.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210301)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210315)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

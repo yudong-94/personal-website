@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-09-06"
+date: 2021-09-06
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *What Do Americans Think About Abortion?*
 
-
-## Data Visualization -- Makeover Monday 20210906
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ To show the divergent opinions on whether abortion should be legal, I combined g
 * Overall, the percentage of people that believe abort should be legal under any or certain circumstances have slightly increased over time, from 75% in 70s to 80% in the most recent poll;  
 * Half of the respondents says they believe abortion should be legal under certain circumstances, however, the 'certain circusmtances' could vary a lot among different people.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210830)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210913)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

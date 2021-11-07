@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-10-18"
+date: 2021-10-18
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Top Data Breaches 2004 - 2021*
 
-
-## Data Visualization -- Weekly Viz 20211018
 
 This week, I found this [List of Top Data Breaches 2004-2021](https://www.kaggle.com/hishaamarmghan/list-of-top-data-breaches-2004-2021) dataset on Kaggle. It listed 295 large data breaches with records breached size from 6,700 to 3B.  
 
@@ -56,7 +54,3 @@ The dataset is pretty simple, and the visualization is also starightforward -- p
 * The Yahoo data breach in 2013 is by far the largest data breach, and the only one leaked over 1B of records;  
 * Over half of the breaches are caused by hacking, but there are also ~30% of the breaches being caused by poor security, lost or stolen.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211011)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211025)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

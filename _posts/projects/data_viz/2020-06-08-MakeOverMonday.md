@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-06-08"
+date: 2020-06-08
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Animal-free products consumption in Great Britain*
 
-
-## Data Visualization -- Makeover Monday 20200608
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Well, stacked bar chart is good but a little boring... So I plotted number of re
 * Over 80% of the vegans eat animal-free products at least weekly, while only 11% meat-eaters eat animal-free products at least weekly;  
 * There are more pescatarian who eat animal-free products at least some time, than vegetarians -- makes sense as pescatarian eats fish but not other meat.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200601)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200615)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

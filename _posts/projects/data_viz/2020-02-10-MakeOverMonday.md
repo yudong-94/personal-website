@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-02-10"
+date: 2020-02-10
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Nearly a quarter of Americans have never experienced the U.S. in a time of peace*
 
-
-## Data Visualization -- Makeover Monday 20200210
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Also to solve the problem I mentioned above, I created a viz similar to heatmap 
 * For the most long-living man in the US now (born at 1905), 35% of his life to date, US has been at war with other countries;  
 * For people born after 2001, sadly there has not been any time in their life that US is not at war (though they may not really feel it as it's mostly happening in the Middle East).  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020203)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200217)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

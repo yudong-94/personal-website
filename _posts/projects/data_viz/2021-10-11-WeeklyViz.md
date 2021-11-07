@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-10-11"
+date: 2021-10-11
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Most Popular Steam Games 2012-2021*
 
-
-## Data Visualization -- Weekly Viz 20211011
 
 This week, I made visualization using the [Steam Player Data](https://www.kaggle.com/jackogozaly/steam-player-data) on Kaggle. The dataset is originally scraped from [steamcharts](https://steamcharts.com/top), which keeps track of top steam games.  
 
@@ -58,7 +56,3 @@ Bump chart is my favorite whenever I need to visualization ranking changes. Howe
 * Meanwhile, we see some great upward trend of Counter Strike: Global Offensive, as it was released in 2012, and climbed from 5th all the way to 1st;  
 * above two games are examples of games being loved for long, however, there are also games that made to top 5 for one year (the year released typically) and disappeared from the list, for example Cyberpunk2077 last year.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211004)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211018)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

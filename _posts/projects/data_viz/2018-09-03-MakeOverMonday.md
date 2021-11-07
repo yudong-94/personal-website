@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-09-03"
+date: 2018-09-03
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Nike Factory Locations*
 
-
-## Data Visualization -- Makeover Monday 0903
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ My viz this week is a simple map view, with other sheets linked in tooltip, show
 * Most Nike materials were manufactured in developing countries like China, Brazil and South-eastern Asia countries, as the labor cost is relatively lower; while the North American countries' factories focus more on finished goods;  
 * There is no Nike footwear and material factory in the US...  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180827) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180910)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

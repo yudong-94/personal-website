@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-09-20"
+date: 2021-09-20
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Dark Web Price Index 2021*
 
-
-## Data Visualization -- Makeover Monday 20210920
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ I used scatter plot to show the price distribution of products within each categ
 * Forged physical documents has the highest average prices on the dark web, which makes sense as those are most valuable and not that fake stuff (I guess);  
 * The cheapest products are the social media accounts and followers as they are easy to create/fake and also easy to identify.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210913)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210927)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

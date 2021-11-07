@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-09-09"
+date: 2019-09-09
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *James Patterson Book Checkouts at Seattle Libraries*
 
-
-## Data Visualization -- Makeover Monday 20190909
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ I mimiced the original viz of Jane Austen book checkouts this week... not much i
 * James Patterson's most recent hit is NYPD Red3, which was very much popular at Seattle libraries from 2013 to 2016;  
 * Before that, 7th Heaven was extremely popular in 2008, but soon replaced by his new book Run For Your Life in 2009.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190902) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190916)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

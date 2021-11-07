@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-07-01"
+date: 2019-07-01
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Game of Thrones Deaths*
 
-
-## Data Visualization -- Makeover Monday 20190701
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ My visualization this week tries to visualize the dataset from the perspective o
 * Daenerys ranked at the top killer with 1008 death that far surpassed any of her competitors.. This is related to the 772 deaths she caused in the last season in King's Landing...  
 
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190624) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190708)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

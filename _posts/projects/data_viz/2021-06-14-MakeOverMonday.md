@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-06-14"
+date: 2021-06-14
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *What Schools Create the Most Student Loans in the U.S.?*
 
-
-## Data Visualization -- Makeover Monday 20210614
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I tried to plot gantt bars on top of the map to show the size of each school's t
 * When comparing by the total student loan originated, the top 1 school in most states are public school instead of private schools -- there could be some bias as people going to private schools could be those more likely to afford the tuition);  
 * But of course, this is looking at the total student loan -- it is a different story if we compare the avg amoung of loan originated per recipient, for example, TX is the state with highest total loan size, but by avg loan size, it's on the lower end, while CA have both very high total loan size and very high avg loan size.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210607)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210621)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-01-04"
+date: 2021-01-04
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *The Great Bicycle Boom of 2020*
 
-
-## Data Visualization -- Makeover Monday 20210104
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ As the first viz of the year, let's do something fancy :) I built a clockwise ra
 * COVID seems to have a larger positive imapact on cycling than on walking (makes sense);  
 * Generally speaking, we also see more people cycling from April to September (as the weather is nicer).  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201228)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210111)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

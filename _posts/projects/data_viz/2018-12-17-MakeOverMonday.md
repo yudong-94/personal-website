@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-12-17"
+date: 2018-12-17
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *London Bus Safety Performance*
 
-
-## Data Visualization -- Makeover Monday 1217
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ I spent around one hour to make a Tableau dashboard. It shows the Quarterly inju
 * Slip Trip Fall is the most common incident type in 2018 Q2, following by Personal Injury;  
 * Injuries that can be treated on the scene counted for over 80% of the injuries in 2018 Q2.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181210) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181224)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

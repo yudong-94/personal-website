@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-08-31"
+date: 2020-08-31
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Indian Batsmen vs Left-Arm Pace*
 
-
-## Data Visualization -- Makeover Monday 20200831
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Since we only have five rows with two dimensions, let's do a scatterplot to bett
 #### Insights
 * Looking at the battings average and dismissal stats, if we use battings average / dismissal as the measure, Kedar is the best player among the five.   
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200824)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200907)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

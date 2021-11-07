@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-07-15"
+date: 2019-07-15
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *The share of Americans not having sex has reached a record high*
 
-
-## Data Visualization -- Makeover Monday 20190715
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ Also, please notice that I removed all the Not Application / No Answer / Don't k
 * Americans with high sex frequency (more than weekly) keeps decreasing since 1990. The percentage said they did not have any sex reached a record high of 27% in 2018;  
 * You can see a weird spike of people having sex in 2012, not sure what happend (maybe data issue), but could be somehow related to the end of world rumour lol.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190708) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190722)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

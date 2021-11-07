@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-04-26"
+date: 2021-04-26
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Regional Price Parity For Each State*
 
-
-## Data Visualization -- Makeover Monday 20210426
 
 ### About Makeover Monday
 
@@ -72,7 +70,3 @@ I decided to go with bump chart this week to show the top 10 and bottom 10 state
 * But we see more changes in the 2nd to 5th place -- DC ranked 2nd initially and even 1st for a short period time, but now declined to 5th place, while CA climbed to the 2nd place (it even ranked 1st in the 'Rent' category), followed by NY and NJ;  
 * Not surprisingly, the most expensive ones are mostly locate along the west or east coasts, while the cheapest ones are mainly in the mid.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210419)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210503)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

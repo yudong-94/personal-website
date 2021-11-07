@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-11-05"
+date: 2018-11-05
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *US Population Projection by Age Group 2016-2060*
 
-
-## Data Visualization -- Makeover Monday 1105
 
 ### About Makeover Monday
 
@@ -73,7 +71,3 @@ Excepting knowing that older people consist of higher proportion in US over time
 * Though the population size of young White people is predicted to decline over time, it's not the case for the other races;  
 * We are seeing some very weird spike of population projection around 2030 for Age 60-79, which is potentially related to the baby boom in 1950s and 60s.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181029) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181112)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

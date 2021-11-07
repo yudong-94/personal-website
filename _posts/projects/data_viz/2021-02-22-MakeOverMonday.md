@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-02-22"
+date: 2021-02-22
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Protests Against Limiting Abortion Rights in Poland*
 
-
-## Data Visualization -- Makeover Monday 20210222
 
 ### About Makeover Monday
 
@@ -68,7 +66,3 @@ This week's dataset is all the protests against the ruling of limiting abortion 
 * Since the new rule came out on 10/22, we've seen over 1000 protests around the world, with the majority of them happened within one month;  
 * Of course most protests happened in Poland, but there are also protests in many other European countries, in Asia, North America, and Oceania.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210215)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210301)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

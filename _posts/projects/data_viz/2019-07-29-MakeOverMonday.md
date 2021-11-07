@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-07-29"
+date: 2019-07-29
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *STD Infections Rates in America*
 
-
-## Data Visualization -- Makeover Monday 20190729
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ To understand what drives the overall increase of STD infection rate, I tried to
 * Also, Chalmydia is the only one of the three that we observe a very different infection rate between male and female;  
 * State wise, Alaska shows the highest STD infection rate, followed by Mississippi.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190722) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190805)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-04-19"
+date: 2021-04-19
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *US Air Travel Falls Due to Covid Epidemic*
 
-
-## Data Visualization -- Makeover Monday 20210419
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ The dataset is pretty large as each flight is a record. So I first used Python t
 #### Insights
 * We see a significant drop in air passengers departing from all US cities, and in major cities, the passenger amount in 2019 is only 1/3 to 1/4 from that of 2020. 
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210412)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210426)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

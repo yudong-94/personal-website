@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-10-15"
+date: 2018-10-15
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Total Number of Women the House of Representatives: 1917-2018*
 
-
-## Data Visualization -- Makeover Monday 1015
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Except from comparing the women representative percentage between the Republican
 * Althrough we are seeing more and more female in the House of Representatives, they still only count for less than 20% of the total representatives;  
 * Especially in the Republican Party, they only have less than 10% female representatives in the House.   
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181008) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181022)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

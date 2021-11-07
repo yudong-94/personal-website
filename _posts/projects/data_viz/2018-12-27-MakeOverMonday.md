@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-12-27"
+date: 2018-12-27
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *U.S. Per Capita Consumption of Poultry and Livestock*
 
-
-## Data Visualization -- Makeover Monday 1227
 
 ### About Makeover Monday
 
@@ -75,7 +73,3 @@ Trying to tell the story, I put one chart of absolute number trend with annotati
 
 Btw, curious about why we see red meat consumption dropped a lot, I did some research online. As [this article](http://fortune.com/2015/10/27/red-meat-consumption-decline/) addressed, red meat has been linked to cancer since 1970s. Also, producing beef is much more environmentally costly (see [MakeoverMonday 1210](https://yudong-94.github.io/personal-website/projects/data%20viz/MakeOverMonday20181210)), and beef price is much higher than poultry.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181224) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181231)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

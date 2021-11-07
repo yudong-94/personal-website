@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-03-26"
+date: 2018-03-26
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Top 10 Popular Chocolate Bar Brands in the UK*
 
-
-## Data Visualization -- Makeover Monday 0326
 
 ### About Makeover Monday
 
@@ -78,7 +76,3 @@ I followed a detailed instruction on creating **bump charts** [here](http://www.
 ![original viz](https://www.cda.eu/wp-content/uploads/2017/01/chocolate.jpg)  
 This visualization credits to CDA.eu
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180319) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180402)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

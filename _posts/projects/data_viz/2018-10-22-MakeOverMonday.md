@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-10-22"
+date: 2018-10-22
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Beer Cost at Every MLB Stadium*
 
-
-## Data Visualization -- Makeover Monday 1022
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Considering the size of beer differs at each stadium, I chose to compare the pri
 * Boston Red Sox has always been the stadium with most expensive beer since 2013, and beer price at SF Giant has been more and more expensive, and it ended at 2nd place in 2018;  
 * Beer price varies among years -- there is no obvious increasing or decreasing trend during 2013 to 2018.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181015) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181029)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

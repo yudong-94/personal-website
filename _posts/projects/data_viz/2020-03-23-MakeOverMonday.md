@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-03-23"
+date: 2020-03-23
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Courses in Berkeley 1900-2011*
 
-
-## Data Visualization -- Makeover Monday 20200323
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ To compare the number of courses by area over time, I created a bump chart. But 
 * The recent increase of courses in "Professional" area is led by the increase in "Business", "Health Service" and "Architecture";  
 * Meanwhile, "Education" has almost always been at the bottom.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200316)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200330)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

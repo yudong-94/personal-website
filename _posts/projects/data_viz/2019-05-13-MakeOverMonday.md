@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-05-13"
+date: 2019-05-13
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Rhino Poaching in South Africa*
 
-
-## Data Visualization -- Makeover Monday 20190513
 
 ### About Makeover Monday
 
@@ -65,7 +63,3 @@ Regarding the visualization, I do like the original viz, though there are two sl
 * The number of poaching has been increasing dramastically since 2009, and seems like having reached peak at around 1.2k per year in 2014;  
 * However, this does not neccessarily mean that the situation is getting better - it could be that the overall population of Rhino has decreased too much.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190506) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190520)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

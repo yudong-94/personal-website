@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-11-23"
+date: 2020-11-23
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Why America’s debt doesn’t stop growing*
 
-
-## Data Visualization -- Makeover Monday 20201123
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I combined line chart with gantt chart to make this simple and clear chart this 
 * But due to the financial crisis in 2008, the debt number has been surging, with a drop and later slow growth of GDP. As a result, we saw total public debt surpassed GDP the first time in 2012Q4;   
 * And the recent COVID pandemic is making the deficit even larger.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201116)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201130)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

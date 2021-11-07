@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-10-29"
+date: 2018-10-29
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Washing Hands After Going to the Toilet*
 
-
-## Data Visualization -- Makeover Monday 1029
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ The data is rather simple, so I choose to put is in a simple way -- donut charts
 * On general, more female said they always wash hands after going to the toilet;  
 * More people having the habit of washing hands while at home or at work, than out and about.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181022) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181105)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

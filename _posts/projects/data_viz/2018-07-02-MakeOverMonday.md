@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-07-02"
+date: 2018-07-02
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *Rat Sightings in NYC*
 
-
-## Data Visualization -- Makeover Monday 0702
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Dealing with data with time, a very typical thinking is to plot heatmap. And sin
 * Summer is the season with most rats sighting cases hapenning;  
 * The borough Brooklyn has seen most rats sighting cases, especially around the zipcode 11221.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180625) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180709)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

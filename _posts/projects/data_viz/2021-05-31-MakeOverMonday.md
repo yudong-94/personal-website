@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-05-31"
+date: 2021-05-31
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+### *The Plastic Waste Makers Index*
 
-
-## Data Visualization -- Makeover Monday 20210531
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ I used a scatter plot this week to plot the plastic waste makers on two importan
 #### Insights
 * We see quite a few companies in petroleum industry at the top of the list as fossil fuels are one of the most important ingredients to make plastics.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210524)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210607)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)
