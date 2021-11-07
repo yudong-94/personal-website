@@ -7,8 +7,6 @@ tags:
   - career
 ---
 
-### Context  
-
 This week marked my first month at Brex. Time flies and it’s always surprising to see how many discoveries I have made in this first month when looking back. I gained more understanding of my responsibility as a Data Scientist, of Brex business and products, and the company culture.
 
 Starting a new journey is never an easy thing. But if you find the right approach, things can be significantly smoother and easier. I remember on my first meeting with my manager, he sent me an onboarding doc. And one of the top items there -- expect the essential steps like setting up tools and coding environment -- is to set up meet & greet sessions with almost 30 people, including teammates and key stakeholders. Honestly, as a super introverted person, I was very nervous to have 1:1 meetings with soo many strangers. But I know this is the time that I have to jump out of my comfort zone. Therefore, I went ahead and did all those 1:1s in the first two weeks. It turned out to be a very rewarding experience.

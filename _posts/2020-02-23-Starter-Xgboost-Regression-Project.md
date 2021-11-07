@@ -1,15 +1,3 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
-
 ---
 title: "A Starter Code for Xgboost Regression"
 date: 2020-02-23
@@ -18,7 +6,6 @@ categories:
 tags:
   - learning
 ---
-
 
 These days I have been writing too much SQL... Therefore, last week, to refresh my knowledge on xgboost and general modeling project process in R and Python, I spent two days to write the simple starter code for the Kaggle beginner level completition ['House Prices: Advanced Regression Techniques'](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) with a R version and a Python version. The result turns out to be acceptable since the code does not include very comprehensive feature engineering (sorry I am lazy lol). The RMSE is 0.134. But please forgive me that I do not want to mention the ranking on leaderboard since there are >30 submission with RMSE 0, which obviously submited the result from this publicly available dataset :(   
 My code can be found in this [github repo](https://github.com/yudong-94/Kaggle-House-Prices-Prediction). Hope you will find it helpful in some way.    
