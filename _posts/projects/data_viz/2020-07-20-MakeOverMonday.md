@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-07-20"
+date: 2020-07-20
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*The Global Divide on Homosexuality Persists*
 
-
-## Data Visualization -- Makeover Monday 20200720
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I am using the line charts to show the difference between those who see religion
 * In all the countries, people who think 'Religion is not very important' show higher percentage believing 'homosexuality should be accepted by the society', vice versa -- But this is a correlation, not neccessarily a causation. Many other confounded factors like age, education, etc. could play a role here;  
 * Comparing across countires, West European countries and North American countries show higher acceptance to homosexuality, while Middle East and East Eruopean countries show the lowest.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200713)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200727)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

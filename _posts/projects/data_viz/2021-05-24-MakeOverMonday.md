@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-05-24"
+date: 2021-05-24
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*How are wildlife populations changing?*
 
-
-## Data Visualization -- Makeover Monday 20210524
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ The dataset is pretty simple and a stacked bar chart is the most natural way to 
 * Around half of the populations are declining and half are increasing with a small percentage (~5%) being stable; But if we average the declining/increasing magnitude, we will get an average decine rate of 68%;  
 * Amphibians had the greatest share of population in decline.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210517)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210531)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

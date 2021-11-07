@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-04-30"
+date: 2018-04-30
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Bee Colony Loss in the US*
 
-
-## Data Visualization -- Makeover Monday 0430
 
 ### About Makeover Monday
 
@@ -72,7 +70,3 @@ Also, as I have worked on several classical map vizzes, this time, I created a h
 * But for the number of beekeepers, the states PA, VA, CA and NC are always among the top states over years;  
 * For number of colonies, the states CA, ND and TX are always among the top states over years, but it worth to notice that, these states are not the ones with highest state exclusive colonies, potentially indicating we have many colonies maily stay in these states but migrate all around.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180423) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180507)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

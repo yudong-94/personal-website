@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-06-04"
+date: 2018-06-04
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*UK Gender Gap*
 
-
-## Data Visualization -- Makeover Monday 0604
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ This week's dataset is relatively large compared to the previous ones. Also, it 
 * Male and female in larger size companies tend to be more equivalent as regarding pay;  
 * For companies with size under 1,000, we are seeing largest deviation of differences in both median hourly pay, and bonus received.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180528) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180611)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

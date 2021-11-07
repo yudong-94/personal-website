@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-04-02"
+date: 2018-04-02
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*World Wine Production*
 
-
-## Data Visualization -- Makeover Monday 0402
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Inspired by [this viz](https://public.tableau.com/profile/staticum#!/vizhome/TOP
 * Italy, Spain and France have been the top 3 wine production countries since 2012, and always counted for over half of the world wine production;  
 * Europe is definitelly the largest wine production area, but in almost all the continents, you can find some large wine makers.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180326) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180409)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

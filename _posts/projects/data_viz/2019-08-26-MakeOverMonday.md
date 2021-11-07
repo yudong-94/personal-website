@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-08-26"
+date: 2019-08-26
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*PCs to Become the Smallest Gaming Platform in 2018*
 
-
-## Data Visualization -- Makeover Monday 20190826
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ Simple dataset goes best with a simple line chart...
 * Based on the projection, revenue on console gaming surpassed that on PC in 2018, making PC the smallest gaming platform;  
 * However, you can see the size of neither console gaming and PC gaming can really compare with the mobile gameing since 2016 -- Mobile gaming has been surging since 2012, and the revenue is projected to be 10x in 2020 than that of 2012. This could be explained by the popularity of mobile devices and the development of cross platform games all over the world.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190819) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190902)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

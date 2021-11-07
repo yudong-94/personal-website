@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-04-22"
+date: 2019-04-22
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Steph Curry’s Stadium Popcorn Rankings*
 
-
-## Data Visualization -- Makeover Monday 20190422
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ To better compare across the areans (and make the plot a little bit fancier), I 
 * The popcorn at American Airlines Center of Dallas Mavericks get 24/25, with only 1 point lost at crunchiness;  
 * Oracel Arena of Golden State Warriors only got 19/25, and seems like it really needs to provide fresher popcorn, as anyway it's arena that Stephen Curry should have played at most.   
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190415) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190429)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

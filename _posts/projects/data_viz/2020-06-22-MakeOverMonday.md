@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-06-22"
+date: 2020-06-22
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Amazon’s tiny profits, explained*
 
-
-## Data Visualization -- Makeover Monday 20200622
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ This week, I am creating simple line charts with text on it to convey the ideas 
 * Amazon's revenue has very clear seaonality --Q4 is always the highest of the year due to holiday season, then drop in Q1, climb up in Q2 and Q3;  
 * But year over year, Amazon's revenue has been every climbing, which generates substainable free cash flow.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200615)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200629)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

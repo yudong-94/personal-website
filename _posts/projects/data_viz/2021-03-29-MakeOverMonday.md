@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-03-29"
+date: 2021-03-29
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Exports to EU plunge by 40% in first month since Brexit*
 
-
-## Data Visualization -- Makeover Monday 20210329
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ This week's data is from this [report from The Guardian](https://www.theguardian
 * We see signifiant YoY drop in exports among all categories, with over 50% drop in 'Animal & Vegetable Oils & Fact' and 'Food & Live Animals' categories -- maybe there are some restriction of importing animal related products to EU?  
 * Though we also see significant YoY drop in many categories in the first half of 2020 due to COVID, the drop is worse (or close to worst drop during COVID) in this Jan.  
  
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210322)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210405)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

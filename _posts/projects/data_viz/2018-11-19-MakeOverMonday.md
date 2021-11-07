@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-11-19"
+date: 2018-11-19
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*How Many Hours Americans Need to Work to Pay Their Mortgage*
 
-
-## Data Visualization -- Makeover Monday 1119
 
 ### About Makeover Monday
 
@@ -75,7 +73,3 @@ This week I tried to incorprate the basic linear regression functionality in Tab
 * Gilbert, Arizona has the most underpriced home listing against its income level;  
 * California has many of the most expensive cities to mortgage a house, and the same group of cities also have highest household income level.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181112) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181126)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

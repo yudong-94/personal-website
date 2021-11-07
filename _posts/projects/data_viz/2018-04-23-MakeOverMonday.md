@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-04-23"
+date: 2018-04-23
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Ecological Footprint per Capita*
 
-
-## Data Visualization -- Makeover Monday 0423
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ Therefore, I made the classic bubble plot with diagonal reference line to show w
 * Overall, both total ecological consumption and total production are increasing over time;  
 * We can find the top producters and top consumers for each land type from the dashboard. For example, for crop land, Canada and Australia are top net ecological footprint producters, and Dijiboute is the top net consumer.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180416) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180430)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-07-22"
+date: 2019-07-22
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Arsenal FC’s 2018/19 season*
 
-
-## Data Visualization -- Makeover Monday 20190722
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ I tried to match the color schema with the soccer field color :)
 * Those who played longest time do not neccessariy to be the top players regarding the metrics selected...  
 * Also, not surprising, there is no player good at all skills.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190715) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190729)
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

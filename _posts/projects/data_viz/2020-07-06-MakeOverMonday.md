@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-07-06"
+date: 2020-07-06
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Comparing Common Mental Disorder by Sex*
 
-
-## Data Visualization -- Makeover Monday 20200706
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ Since we have two dimension -- age and gender, to show the trend of % of people 
 * Generally speaking, older age groups have lower proportion of people with mental disorder symptoms -- well, but I have to say that there is some sampling bias since people who lived to 75+ may be less likely to have experienced mental disorder;  
 * One very weird age group is the group 16-24 -- men show much lower mental disorder proportion at this age, but women show very very high percentage -- my personal assumption is about the pressure women getting from the society at this age (from the society as they start career and even marriage).  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200629)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200713)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

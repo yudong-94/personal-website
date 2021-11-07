@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-12-23"
+date: 2019-12-23
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Estimated Christmas spending by concept*
 
-
-## Data Visualization -- Makeover Monday 20191223
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Sometimes I feel that visualzing fewer data points is harder as there is fewer s
 * UK consumer's Chirstmas spending on traveling has significantly increased by 22%, though it's still lower than Europe consumers' average traveling spending (though it might not be a fair comparison due to currency exchange, typical traveling expense, etc.);  
 * Spending on gifts is always the highest spending category for both UK and Europe consumers.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191216) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191230)    
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

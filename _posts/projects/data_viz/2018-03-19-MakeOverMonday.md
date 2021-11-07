@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-03-19"
+date: 2018-03-19
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*UK Pet Population*
 
-
-## Data Visualization -- Makeover Monday 0319
 
 ### About Makeover Monday
 
@@ -73,7 +71,3 @@ Besides, you could select one or more of the cute pet icons on the left to have 
 * However, more households have them does not neccessarily mean they have the largest population as pets in the UK - on average, for each household keeping outdoor fish as pets, they have 11 outdoor fish per household, and for those keeping indoor fish, this number is 6.9; On contrast, this number is 1.7 for cats and 1.3 for dogs;  
 * I am really surprised that in the UK, close amount of households keeping horses as pets as those keeping hamsters...
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180312) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180326)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

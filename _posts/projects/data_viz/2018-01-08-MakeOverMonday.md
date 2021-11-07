@@ -1,16 +1,15 @@
-<head>
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-01-08"
+date: 2018-01-08
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Across the globe, personality is rated as more important than looks*
 
-## Data Visualization -- Makeover Monday 0108
 
 ### About Makeover Monday
 
@@ -68,7 +67,3 @@ I spent about one hour from exploratory data analysis to visualization and analy
 * Men and women have the greatest differences on the rating of **Good Looking** - it seems like men care more about whether his partner is beautiful or not (sad story);  
 * Meanwhile, women care more about how **wealthy** her partner is, and whether he is **humourous** enough.
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180115)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

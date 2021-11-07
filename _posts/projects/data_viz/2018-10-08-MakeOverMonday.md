@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-10-08"
+date: 2018-10-08
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*5-Year Cancer Survival Rates in US*
 
-
-## Data Visualization -- Makeover Monday 1008
 
 ### About Makeover Monday
 
@@ -73,7 +71,3 @@ This week, I again tried to replicate the original viz in Tableau. I like the wa
 * From the data, we are seeing Female has higher survival rate compared to Male.  
 
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181001) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181015)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

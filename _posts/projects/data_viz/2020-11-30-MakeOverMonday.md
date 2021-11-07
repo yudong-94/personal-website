@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-11-30"
+date: 2020-11-30
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*The Success of Operation Fistula’s Pilot Program*
 
-
-## Data Visualization -- Makeover Monday 20201130
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ This week I created a report-style viz with key stats to visualize the success o
 * Most of the patients treated are still very young, in their 20-30s; And on median they gained 13 years' life thanks to the surgery;  
 * Each dollar spent in this program brings over 20+ more days to one's life :)  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201123)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201207)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

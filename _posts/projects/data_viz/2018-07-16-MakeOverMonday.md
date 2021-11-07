@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-07-16"
+date: 2018-07-16
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Historical NBA Team Spending Against the Cap*
 
-
-## Data Visualization -- Makeover Monday 0716
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I made a very simple viz of scatter plots with a trendline showing how the media
 * The team median salary has been increasing all the way since 1990. The average team median salary (...) has been 4x since 1990;    
 * The range of team median salary is also increasing - salary difference has been larger and larger among teams.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180709) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180723)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

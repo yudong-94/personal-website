@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-03-02"
+date: 2020-03-02
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Costing Kids Sleep*
 
-
-## Data Visualization -- Makeover Monday 20200224
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I think in this case, we want to see the difference of hours of sleep as well as
 * Generally speaking, the lower the grade, the longer the sleep time is;  
 * However, none of the average sleep time meets the recomended sleep time, and things get worse when you are at higher grade...  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020224)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200309)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

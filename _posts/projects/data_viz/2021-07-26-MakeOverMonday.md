@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-07-26"
+date: 2021-07-26
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*America's Racial Breakdown by State*
 
-
-## Data Visualization -- Makeover Monday 20210726
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ With a similar idea, I made a hex-tile US map, and adjusted color and size with 
 * States on the east and west coasts show highest percentage of non-white population, for example, CA only has 36% white people;  
 * For the minority ethinicities, we see some obvious pattern in where they live -- lots of Asian live in CA, WA, NJ and NY; States on the Mexico borders like TX, NM and CA see highest percentage of Hispanic; While southeast states see most black American.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210719)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210802)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

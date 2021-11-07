@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-06-10"
+date: 2019-06-10
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Is it wrong for same-sex couples to have sexual relations?*
 
-
-## Data Visualization -- Makeover Monday 20190610
 
 ### About Makeover Monday
 
@@ -66,8 +64,3 @@ My visualization this week is simple, and it's rainbow line chart over a raindow
 #### Insights
 * Percentage of young people's (18-34) who think it's not wrong at all for same-sex couples to have sexual relations has been 4x since 70s, and now it's the majority view.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190603) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190617)
-  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

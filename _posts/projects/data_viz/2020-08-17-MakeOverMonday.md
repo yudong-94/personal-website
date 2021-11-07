@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-08-17"
+date: 2020-08-17
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Scotland - The state of the Digital Nation*
 
-
-## Data Visualization -- Makeover Monday 20200817
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ Another super small dataset... So let's make a map and bar chart, with the highl
 #### Insights
 * Midlothian and Glasgow are two counties relatively small in the size on the map, but they contributed ~60% of the digital companies in Scotland.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200811)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200824)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

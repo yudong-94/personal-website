@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-02-08"
+date: 2021-02-08
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Viz5: Perceived Obstacles to Gender Equality*
 
-
-## Data Visualization -- Makeover Monday 20210208
 
 ### About Makeover Monday
 
@@ -72,7 +70,3 @@ This is another week of #Viz5. The dataset is very fasinating -- perceived obsta
 * Different from what I thought, looking at the different regions, actually respondents from countries in the same region could have very different opionions (except New Zealand and Australia);  
 * Looking at China specifically, one thing very interesting is that the responses difference between male and female are relatively smaller comparing to most other countries.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210201)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210215)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

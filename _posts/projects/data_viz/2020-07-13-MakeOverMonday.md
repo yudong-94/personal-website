@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-07-13"
+date: 2020-07-13
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Penguins at Palmer Station*
 
-
-## Data Visualization -- Makeover Monday 20200713
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ Simple 2x2 scatter charts with black and whilte background (because it's penguin
 * These three species of penguins can largely be distinguished by the four stats --  
 * Generally speaking, Gentoo penguins are heavier, with longer flipper and culmen, but lower culmen depth;  
 * Adelie and Chinstrap penguins show similar body mass, culmen depth and flipper length, but Adelie tends to have shorter culmen.  
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200706)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200720)    
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-10-04"
+date: 2021-10-04
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Pfizer Stock Performance During Covid*
 
-
-## Data Visualization -- Weekly Viz 20211004
 
 Today, when I log into [MakeoverMonday](https://www.makeovermonday.co.uk/) as always, I smelled something different, as there is no dataset posted for this week. Then after some Twitter search, I realized last week was not only the 300th makeovermonday, but the last one before its [indefinite hiatus](https://twitter.com/VizWizBI/status/1442408060450865158). I feel so sad :( I started my MakeoverMonday back in 2018 Jan, when I just started my career at Ancestry, and after 196 weeks, it has been part of my life, my Monday routine. But I totally understand how much effort running such a project involves, and truly appreciate everyone that made this happen.  
 With that being said, I decide to keep this weekly habit, and find my own dataset going forward. We will see how long I can persist :)  
@@ -56,7 +54,3 @@ I added S&P 500 index closing price as a benchmark to better understand PFE's pe
 * When the market dived in March 2020, we saw a similar dip for PFE. However, PFE was not able to catch up with the crazy S&P 500 uptrend last year;  
 * We can see two clear spikes of PFE in the past 12 months -- once in 2020 Dec with FDA issued EUA for Pfizer COVID-19 Vaccine, and another one in 2021 Aug with FDA's official approval of the Vaccine.   
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210927)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/WeeklyViz20211011)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

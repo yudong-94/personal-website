@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-06-07"
+date: 2021-06-07
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Percentage of Never Married Adults Is on the Rise*
 
-
-## Data Visualization -- Makeover Monday 20210607
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ As this dataset has three dimensions (year, gender, and age bucket) and there ar
 * The increase rate is higher among younger age groups;  
 * And among all age groups, we see higher percentage of male never married than female.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210531)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210614)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

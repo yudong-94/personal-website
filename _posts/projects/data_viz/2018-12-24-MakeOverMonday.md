@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-12-24"
+date: 2018-12-24
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Average spending on Christmas gifts in the U.S. 1999-2018*
 
-
-## Data Visualization -- Makeover Monday 1224
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ At the first glance of the chart, I was thinking, this trend should be in line w
 #### Insights
 * Average personal spend on Christmas gifts is in line with the real median household income -- there are two obvious drops, one in 2002 followed by the dot-com bubble, and another in 2008 due to the financial crsis.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181217) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181227)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

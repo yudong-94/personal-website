@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-12-10"
+date: 2018-12-10
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Land Use by Food Type*
 
-
-## Data Visualization -- Makeover Monday 1210
 
 ### About Makeover Monday
 
@@ -67,7 +65,3 @@ This time I combined summary stats and bar charts to compare the land needed by 
 * It's astonishing that the land needed to produce one gram of protein from Beef can produce almost 100 grams of protein from pulses;  
 * From the perspective of producing protein, pulses and maize are the most effective food, while beef and pork are the worst.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181203) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181217)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

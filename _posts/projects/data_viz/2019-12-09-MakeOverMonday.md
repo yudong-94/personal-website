@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-12-09"
+date: 2019-12-09
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Ranked: Biggest Fast Food Chains in America*
 
-
-## Data Visualization -- Makeover Monday 20191209
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ As this data has both total sales and number of locations, one thing that occurs
 * However, when you compare sales per location, Chick-fli-A generates highest sales per location (even if it does not open on Sundays);  
 * Overall, burger-type restaurants perform well on both total sales and sales per location, but snack restaurants like Starbucks perform much worse on sales per location (which totally makes sense).  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191202) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191216)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

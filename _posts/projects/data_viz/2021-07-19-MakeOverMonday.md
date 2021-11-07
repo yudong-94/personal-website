@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-07-19"
+date: 2021-07-19
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*UK COVID-19 Mortality Rate by Ethnicity*
 
-
-## Data Visualization -- Makeover Monday 20210719
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ I used a very similar way to visualize this data as the original viz - use gantt
 * Among all the ethnicity groups within BAME, we see higher death risk for male than female;  
 * But of course, there are many confounding factors that are correlated to both ethnicity and death rate, and this datasets provided adjusted meansures by age, region, population, etc. Seeing how the numbers change after the adjustments, it's hard to make a call of what actually leads to the higher death rate and is Ethnicity really a deterministic factor.  
   
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210712)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210726)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-09-28"
+date: 2020-09-28
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Child Marriage*
 
-
-## Data Visualization -- Makeover Monday 20200928
 
 ### About Makeover Monday
 
@@ -70,7 +68,3 @@ I used a revised gantt plot + line charts to show the % of female married under 
 * There are 7 African countries with over 50% female getting married under 18 years old;  
 * However, in all those countries with high percentage of child marriage, the % of male getting married under 18 is always much lower -- potentially indicating young girls are forced to marry someone much older than them :(  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200921)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201005)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

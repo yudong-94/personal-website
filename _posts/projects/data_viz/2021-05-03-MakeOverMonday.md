@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-05-03"
+date: 2021-05-03
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*CEO-to-Worker Compensation Ratio*
 
-
-## Data Visualization -- Makeover Monday 20210503
 
 ### About Makeover Monday
 
@@ -70,8 +68,3 @@ This week's topic is very interesting -- CEO-to-worker compensation ratio. The o
 * Generally speaking, the CEO-to-worker compensation ratio has been increasing since 1965, and is 16x now (20 to 320). The fastest growth was seen right before 2000 -- the ratio tripled from 1995 to 2000;  
 * The CEO-to-worker compensation ratio calculated with granted CEO compensation and realized CEO compensation used to align very closely before 1993, however, in recent 20 years, we have seen much more fluctuation.
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210426)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210510)  
-
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

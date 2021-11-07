@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-12-16"
+date: 2019-12-16
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*The Spurs Have Never Been This Bad At Defense – NBA Defensive Ratings*
 
-
-## Data Visualization -- Makeover Monday 20191216
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ The original viz show the trend of the relative defensive score to league averag
 * The Spurs has always been among the top 5 defensive teams in NBA from 1997 to 2018 (except the three seasons from 2008 to 2011);  
 * But for the recent two seasons, its ranking has dropped to below 20th...  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191209) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191223)   
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

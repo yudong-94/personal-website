@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-02-17"
+date: 2020-02-17
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*All the World’s Wealth in One Visual*
 
-
-## Data Visualization -- Makeover Monday 20200217
 
 ### About Makeover Monday
 
@@ -73,7 +71,3 @@ To understand how skewed the country wealth size is, I put top 1 (US), top 2 to 
 * Meanwhile, total wealth of the countries ranked over 20th is even lower than the top 2nd country (China), less than half of US wealth...  
 
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020210)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200224)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-05-14"
+date: 2018-05-14
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Traffic Jam in Europe*
 
-
-## Data Visualization -- Makeover Monday 0514
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ Below is my dashboard.
 * London is definitely the most busy city regarding commuting time, but to my surprise, we have four cities from Germany in the top 10 list, and also two from Switzerland.  
 * It is said that overall, commuters in Los Angeles spent the most time stuck in traffic out of the 1,360 global cities included, at 102 hours... I know the pain :(  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180507) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180521)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

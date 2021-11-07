@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2020-02-03"
+date: 2020-02-03
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Brexit James Bond*
 
-
-## Data Visualization -- Makeover Monday 20200203
 
 ### About Makeover Monday
 
@@ -69,7 +67,3 @@ To show the difference of people thinking it's acceptable / unacceptable to a ce
 * Very obviously, people who voted leave in Brexit are less open-minded to have a James Bond who is not a stright white British guy;  
 * And more surprisingly, among the four different James Bond image, the least acceptable for both group are 'Women James Bond' and 'Non-British James Bond'...  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday2020127)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200210)  
-  
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

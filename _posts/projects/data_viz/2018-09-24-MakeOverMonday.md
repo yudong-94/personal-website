@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-09-24"
+date: 2018-09-24
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Visualzing Equality*
 
-
-## Data Visualization -- Makeover Monday 0924
 
 ### About Makeover Monday
 
@@ -72,7 +70,3 @@ I spent around one hour to visualize the data with the purpose to compare people
 * Meanwhile, the other regions except North American and Europe put 'Sexual and productive health and rights' as the second priority, and North American and Europe puts 'Women and work, unpaid care, pay gap' as the second priority, potentially indicating that in this region, securing the basic needs and rights for women has been pretty much done, and people are now focusing more on gender equality in worklife;  
 * Comparing the responses from respondents with different genders, Male and Female both agree on 'Reducing gender-based voilence' as the top priority, while the ones identified themselve as 'In another way' put 'Women's political and civil society participation' at the top priority.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180917) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181001)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2018-08-06"
+date: 2018-08-06
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*How Much Your Country Spends on Research & Development*
 
-
-## Data Visualization -- Makeover Monday 0806
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ Here is a great [thread](https://community.tableau.com/thread/209591) on how to 
 * European countries typically invest higher proportion of GDP in R&D;  
 * Though China's GDP has surpassed US, its expense in R&D is still lower than US now (though the expense is also increasing significantly over year).  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180730) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180813)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

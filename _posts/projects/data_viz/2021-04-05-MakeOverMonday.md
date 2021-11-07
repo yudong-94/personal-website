@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2021-04-05"
+date: 2021-04-05
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*Multiclass Classification of Dry Beans*
 
-
-## Data Visualization -- Makeover Monday 20210405
 
 ### About Makeover Monday
 
@@ -71,7 +69,3 @@ I created a viz for the purpose of EDA -- you can pick four measures and look at
 * Bombay seems like a easy to classify bean as its has much larger area compared to the others;    
 * We can clearly see some correlation between feature pairs, for example, compactness and aspect ratio are negatively correlated.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210329)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210412)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

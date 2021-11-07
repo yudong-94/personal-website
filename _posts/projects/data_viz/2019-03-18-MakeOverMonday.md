@@ -1,17 +1,15 @@
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+title: "Weekly Viz 2019-03-18"
+date: 2019-03-18
+categories:
+  - data_viz
+tags:
+  - data visualization
+  - tableau
+---
 
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
+###*How do we really feel about women leaders?*
 
-
-## Data Visualization -- Makeover Monday 20190318
 
 ### About Makeover Monday
 
@@ -68,7 +66,3 @@ To better visualize the comparison, I made the bar chart looking like a running 
 * It's interesting to see that the scores of the top 4 countries are very close, and the bottom 3 are also very close... This could be a cultural thing, and it can be greatly impacted by who is the leader now and how he/she is performing.    
 * But still, all the countries have a long way towards equality in this case.  
 
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190311) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190325)
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)
