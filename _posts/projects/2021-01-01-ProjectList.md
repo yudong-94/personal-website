@@ -4,8 +4,7 @@ date: 2021-01-01
 categories:
   - project
 tags:
-  - data visualization
-  - tableau
+  - learning
 ---
 
 This is an archive of my past data science and analytics projects.  
