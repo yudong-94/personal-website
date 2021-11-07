@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Yu Dong"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio_photo.jpg"
   bio    : "Data Science & Analytics, Data Storyteller"
   links:
     - label: "LinkedIn"
