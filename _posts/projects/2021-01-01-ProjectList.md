@@ -24,9 +24,9 @@ This is an archive of my past data science and analytics projects.
 
 ### Data Visualization Projects
 
-1. [FLC Data Viz - The Impact of New H1-B Wage Regulation](hhttps://yudong-94.github.io/personal-website/data%20viz/FLCDataViz/)
+1. [FLC Data Viz - The Impact of New H1-B Wage Regulation](https://yudong-94.github.io/personal-website/data%20viz/FLCDataViz/)
 2. Weekly Data Visualizations
- - [My Weekly Vizzes 2021 (Ongoing)](hhttps://yudong-94.github.io/personal-website/project/WeeklyViz2021/)  
+ - [My Weekly Vizzes 2021 (Ongoing)](https://yudong-94.github.io/personal-website/project/WeeklyViz2021/)  
  - [My MakeoverMonday2020 Vizzes](https://yudong-94.github.io/personal-website/project/MakeOverMonday2020/)  
  - [My MakeoverMonday2019 Vizzes](https://yudong-94.github.io/personal-website/project/MakeOverMonday2019/)  
  - [My MakeoverMonday2018 Vizzes](https://yudong-94.github.io/personal-website/project/MakeOverMonday2018/)  
