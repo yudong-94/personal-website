@@ -1,6 +1,6 @@
 ---
 title: "My Data Science Projects List"
-date: 2021-11-01
+date: 2021-01-01
 categories:
   - project
 tags:
