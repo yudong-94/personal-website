@@ -90,6 +90,17 @@ defaults:
       comments: true
       share: true
       related: true
+  # _posts/projects/data_viz
+  - scope:
+      path: "_posts/projects/data_viz"
+      type: posts
+    values:
+      layout: single
+      author_profile: false #do not show weekly viz on homepage
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
