@@ -26,7 +26,7 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 
 
 My best vizzes in 2018:  
-![Tableau Gallery Screenshot 2018](makeovermonday 2018 best.jpg)  
+![Tableau Gallery Screenshot 2018](/assets/images/makeovermonday 2018 best.jpg)  
 
 
 <table>
@@ -362,7 +362,7 @@ My best vizzes in 2018:
 </tbody>
 </table>
 
-  
+
 
 --  
 [➡️Next](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2019)  

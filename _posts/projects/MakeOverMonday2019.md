@@ -26,7 +26,7 @@ You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/
 
 
 My best vizzes in 2019:  
-![Tableau Gallery Screenshot 2019](makeovermonday 2019 best.png)  
+![Tableau Gallery Screenshot 2019](/assets/images/makeovermonday 2019 best.png)  
 
 
 <table>

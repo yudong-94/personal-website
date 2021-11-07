@@ -25,7 +25,7 @@ The datasets are published each week at: [MakeoverMonday Datasets](http://www.ma
 You can also find all vizzes in [my Tableau Gallery](https://public.tableau.com/profile/yu.dong#!/).  
 
 My best vizzes in 2020:  
-![Tableau Gallery Screenshot 2019](makeovermonday 2020 best.png)
+![Tableau Gallery Screenshot 2019](/assets/images/makeovermonday 2020 best.png)
 
 <table>
 <thead style="display:block;width:100%;">
