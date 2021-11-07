@@ -1,16 +1,12 @@
-<head>
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
-
-**My 2020 MakeoverMonday Vizzes**  
+---
+title: "My 2020 MakeoverMonday Vizzes"
+date: 2020-01-01
+categories:
+  - project
+tags:
+  - data visualization
+  - tableau
+---
 
 [MakeoverMonday](http://www.makeovermonday.co.uk/) is a social data project:
 "Each week we post a link to a chart, and its data, and then you rework the chart.
@@ -353,9 +349,3 @@ My best vizzes in 2020:
 </table>
 
 (index starts from my first #Makeoovermonday viz in 2018)
-
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2019)  [➡️Next](https://yudong-94.github.io/personal-website/projects/WeeklyViz2021)  
-
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)

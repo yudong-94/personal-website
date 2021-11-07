@@ -1,16 +1,12 @@
-<head>
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112502179-1');
-</script>
-</head>
-
-**My 2021 Weekly Vizzes**  
+---
+title: "My 2021 Weekly Vizzes (Ongoing)"
+date: 2021-01-01
+categories:
+  - project
+tags:
+  - data visualization
+  - tableau
+---
 
 Though [MakeoverMonday](http://www.makeovermonday.co.uk/) project went into an 'indefinite hiatus' from 2021/9/27, I will keep on this weekly Tableau visualization journey.  
 
@@ -295,8 +291,3 @@ You can also find all the vizzes in [my Tableau Gallery](https://public.tableau.
 </table>
 
 (index starts from my first #Makeoovermonday viz in 2018)
-
---  
-[⬅️Previous](https://yudong-94.github.io/personal-website/projects/MakeOverMonday2020)  
-
-[Back to Home Page](https://yudong-94.github.io/personal-website/)
