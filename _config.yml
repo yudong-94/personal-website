@@ -54,20 +54,27 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : "UA-112502179-1"
+    anonymize_ip         : false
+
 author:
   name   : "Yu Dong"
   avatar : "/assets/images/bio_photo.jpg"
   bio    : "Data Science & Analytics, Data Storyteller"
   links:
     - label: "LinkedIn"
-      url: "https://https://www.linkedin.com/in/yudong1994/"
+      url: "https://www.linkedin.com/in/yudong1994/"
     - label: "GitHub"
       url: "https://github.com/yudong-94"
 
 footer:
   links:
     - label: "LinkedIn"
-      url: "https://https://www.linkedin.com/in/yudong1994/"
+      url: "https://www.linkedin.com/in/yudong1994/"
     - label: "GitHub"
       url: "https://github.com/yudong-94"
 

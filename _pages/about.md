@@ -14,14 +14,6 @@ My analytical skillset includes:
 - A/B Testing
 - Machine learning skills
 
-### About This Site
-
-This site works as a gallery of my data projects as well as my own thoughts on data analysis.
-- [Projects](https://yudong-94.github.io/personal-website/projects/):
-My data mining, data visualization, and machine learning projects.
-- [Blog](https://yudong-94.github.io/personal-website/):
-My own thoughts and experience on learning and working in the data fields.  
-
 ### Contact Me    
 
 [My LinkedIn](https://www.linkedin.com/in/yudong1994/)  
