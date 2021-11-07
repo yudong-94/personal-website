@@ -1,9 +1,17 @@
-### Background
+---
+title: "FDLC Salary Data Visualization"
+date: 2020-11-01
+categories:
+  - data viz
+tags:
+  - data visualization
+  - tableau
+---
 
-On 10/6/2020, DHS issued the [Strengthening the H-1B Nonimmigrant Visa Classification Program]( https://www.federalregister.gov/documents/2020/10/08/2020-22347/strengthening-the-h-1b-nonimmigrant-visa-classification-program) Interim Final Rule, which raised the bar of the H1B wage levels from 17-34-50-67th percentiles to 45-62-78-95th percentiles. Theoretically, Bachelor’s new grad’s prevailing wage should meet L1 requirement, and L2 for Master’s new grad. This new rule will dramatically tighten H1B Visa access for foreign talents. 
-  
+On 10/6/2020, DHS issued the [Strengthening the H-1B Nonimmigrant Visa Classification Program]( https://www.federalregister.gov/documents/2020/10/08/2020-22347/strengthening-the-h-1b-nonimmigrant-visa-classification-program) Interim Final Rule, which raised the bar of the H1B wage levels from 17-34-50-67th percentiles to 45-62-78-95th percentiles. Theoretically, Bachelor’s new grad’s prevailing wage should meet L1 requirement, and L2 for Master’s new grad. This new rule will dramatically tighten H1B Visa access for foreign talents.
+
 As an H1B visa holder, this news spread very fast among my friends who are in the same situation, with a lot of discussion of the potential impact and concern of the continuous policy uncertainty recently. To help understand how much it has raised the bar and how it could impact each one of us, I built a [tableau dashboard](https://public.tableau.com/profile/yu.dong#!/vizhome/FDLCWageDataViz/FLCWageData) based on the public wage level data from the [FLC data center](https://www.flcdatacenter.com/Download.aspx) with the flexibility to query your own job code, location and base salary.
-  
+
 I also posted the dashboard on [LinkedIn](https://www.linkedin.com/posts/yudong1994_h1bvisa-activity-6720134269953564672-J-eu) and in two weeks, the post got over 50k views in the feed, with over 500 reactions, and the dashboard also hit over 5k views. This definitely shows how much attention this issue has got, as well as how much we can do to the community with our own skillsets.
 
 ### Dashboard
@@ -13,7 +21,7 @@ I also posted the dashboard on [LinkedIn](https://www.linkedin.com/posts/yudong1
   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FD&#47;FDLCWageDataViz&#47;FLCWageData&#47;1_rss.png' style='border: none' />
 </a></noscript>
 <object class='tableauViz'  style='display:none;'>
-  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
   <param name='name' value='FDLCWageDataViz&#47;FLCWageData' />
