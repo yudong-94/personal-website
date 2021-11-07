@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-11-18"
-date: 2019-11-18
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Smartphone Ownership Among Youth Is on the Rise*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191118
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ I layered shape and line together to create this viz, to show the smartphone own
 * Comparing 2015 and 2019, we see higher smartphone ownership rate among all the age groups.  
 * The increase is especially high for those under 13 years old.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191111) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191125)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

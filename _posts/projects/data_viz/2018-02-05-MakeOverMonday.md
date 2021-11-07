@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-02-05"
-date: 2018-02-05
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *US Baseball Players Ethnicity*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0205
 
 ### About Makeover Monday
 
@@ -77,3 +79,7 @@ indicating that the decline is not explanable by the change in total population;
 * Meanwhile, the increase of Latino US population has been in line with the increase of Lantino baseball players;  
 * Of course, all the above observations are not enough to draw any conclusion about the decline - it could be caused by the transformation of baseball strategy, people's interests on baseball, or other factors.
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180129) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180212)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-11-04"
-date: 2019-11-04
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Las Vegas Convention Attendance & Visitor Traffic: Jan 1970-Oct 2019*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191104
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ With so much info at hand, I chose one small angle to tell one story -- a trend 
 * Room occupancy rate is typically ~10% higher during the weekends than during the weekdays;  
 * Though we did see a slight drop in the weekend room occupancy trend around the recession near 2008 (and also the sharp room inventory increase in 2008-2009 contributed to that), recent years it has been as high as 95%.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191028) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191111)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

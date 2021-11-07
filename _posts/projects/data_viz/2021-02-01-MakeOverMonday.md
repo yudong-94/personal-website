@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-02-01"
-date: 2021-02-01
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Renewables Overtake Fossil Fuels in Europe*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210201
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ This week's data is about the energy generation in the Europe -- it's absolutely
 * For europe overall, we've seen the energy generated from renewables surparssed those generated from fossil in 2020 -- hopefully this trend will sustain;  
 * While renewables are overtaking fossial fuels, it's also eating the share of nuclear -- Overall, energy generated from nuclear account for roughly 25% of all the energy generated in 2020, but in some of the countries the percentage is much more higher. For example, France generated over 2/3 of its energy fron nuclear now (dropped from its all time high of 79%).  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210125)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210208)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

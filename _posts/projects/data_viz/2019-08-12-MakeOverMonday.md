@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-08-12"
-date: 2019-08-12
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *A bird’s-eye view of clinical trials*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190812
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ Instead of keeping all the info of the dataset as the original viz does, my viz 
 * Influenza is so far the condition that recruited most people for trial -- this is understandable, as Influenza is a very common disease with lots of peole suffered from it, however, it's not the condition with most trials;  
 * Some diseases are mainly focused in some years -- for example, >150k people enrolled for the trails on Rotavirus Infection in early 2000, but the trial size gets much smaller later (I hope it's because a good cure has been found).
   
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190805) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190819)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

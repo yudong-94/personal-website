@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-02-25"
-date: 2019-02-25
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Economic value of the bicycle industry*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190225
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ Simple data, simple story this week. (This is the first time that I tried a dark
 * We see the proportion of e-bikes out of all the imported bikes overall has been increasing from 2012 to 2016, and the spike was in 2015 Q4, in which e-bikes counted for 12% of all imported bikes;  
 * However, regarding the total number of imported bikes, we see it's declining over time -- This could be good if the bikes produced and sold in the UK were increasing, or it could indicate the total market is shrinking;  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190218) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190304)
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

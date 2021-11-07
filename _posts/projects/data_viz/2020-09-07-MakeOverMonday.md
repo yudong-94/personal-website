@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-09-07"
-date: 2020-09-07
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Breakfast Cereals: Healthy or Unhealthy?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200907
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ To help people the cereal based on their nutrition preference, I built this dash
 * It's interesting that calories per serving could vary from 50 to 160, similarly, sugar could vary from 0g to 15g per serving (but obviously, serving size is another variable here);  
 * Generally speaking, high sugar is correlated with high calorie.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200831)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200914)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

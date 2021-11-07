@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-03-11"
-date: 2019-03-11
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Philadelphia Real Estate Transfers*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190311
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ Got lost in all those tax terminology, I turned out replicate the original viz i
 * The most common document types are mortgate and satisfaction;  
 * The most popular zipcode in 2018 is 19146.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190304) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190318)
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

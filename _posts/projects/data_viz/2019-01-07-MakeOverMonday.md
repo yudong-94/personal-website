@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-01-07"
-date: 2019-01-07
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Press Freedom’s Dark Horizon*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190107
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Trying to expand what the original viz tells, I added a year filter, a top 10 an
 * Overall, the world press freedom got worse comparing 2016 to 1993, as we saw obviously more 'red' in Soutch America and Africa;  
 * European countries are always considered to have more press freedom than most of the other parts in the world.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20181231) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190114)   
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

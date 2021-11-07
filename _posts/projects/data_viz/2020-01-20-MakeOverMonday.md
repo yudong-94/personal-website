@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-01-20"
-date: 2020-01-20
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Is it time to treat sugar like smoking?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200120
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ The viz I made is a yearly line trend across all the age groups, and put childre
 * UK teenagers consumes three times more sugar than recommended (5%), as a share of total calories;  
 * Different from the popular view of women like sweets more than men, based on the survey, adult men actually consumes slightly more sugar than women.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200113)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200127)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

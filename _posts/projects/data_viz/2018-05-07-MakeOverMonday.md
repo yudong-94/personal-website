@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-05-07"
-date: 2018-05-07
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Toughest Sport by Skill*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0507
 
 ### About Makeover Monday
 
@@ -72,3 +74,7 @@ Below is my dashboard.
 * Some examples of sports require exceptionally good skill in one field is sprints, gymnastics, and auto racing.  
 * Based on the level of skills required, fishing could be the most relaxing sport.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180430) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180514)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

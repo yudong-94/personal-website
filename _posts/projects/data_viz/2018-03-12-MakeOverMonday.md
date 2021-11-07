@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-03-12"
-date: 2018-03-12
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Growth in Irish Whiskey Sales*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0312
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Besides, you could hover on the bar to see the top 5 importers ranked by the cou
 * When I normalized Irish Whiskey consumption by the country population, Irish is always on the top of the consumption - In 2016, on average, for every 100 Irish people, 10 cases of Irish Whiskey were consumed.  
 * All the other countries on the top 5 consumption list are European countries - Latvia, Bulgaria, Czech Republic, Estonia, and Sweden.   
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180305) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180319)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

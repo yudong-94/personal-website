@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-04-12"
-date: 2021-04-12
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Fouls Called By NBA Referees*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210412
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ I actually like the way the origial viz did it, as it normalized the fouls by ga
 #### Insights
 * By checking some outliers, we can find some referees with interesting behaviors -- for example, in season 2019-20 regular season, Though referee Bennie Adams showed overall average total fouls, he actually did the highest number of Offensive Charge, Loose Ball, Defensive Goaltending, and Defensive 3 seconds types of fouls per game among all referees.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210405)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210419)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

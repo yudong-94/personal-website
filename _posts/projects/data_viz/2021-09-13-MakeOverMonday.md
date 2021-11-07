@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-09-13"
-date: 2021-09-13
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *The 20 Largest Solar Power Plants*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210913
 
 ### About Makeover Monday
 
@@ -70,3 +72,7 @@ To simplify the chart a bit, I also created a radial bar chart to rank the plant
 * However, the soloar power plant with largest capacity is not neccessarily the most efficient one, if we look at the capacity / size ratio;  
 * Not surprisingly, India, China and US have most solar power plants among the top 20 list.
   
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210906)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210920)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-04-29"
-date: 2019-04-29
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *ISS Spacewalks*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190429
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ This week, I ended up with simple bar chart (and cute icons!). I noticed the ove
 * We can see two peaks of the unique spacewalkers in a year -- one around 2001, and another around 2008. This is very similar to what we see of the spacewalk counts trend.  
 * Since 2008, in 10 years, we see much fewer spacewalkers -- potentially because of the effect of the financial crsis (the space costs might be cut since then).  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190422) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190506)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

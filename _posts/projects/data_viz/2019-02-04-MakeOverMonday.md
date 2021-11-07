@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-02-04"
-date: 2019-02-04
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *How Chinese New Year Compares With Thanksgiving*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190204
 
 ### About Makeover Monday
 
@@ -71,3 +73,7 @@ As mentioned above, to get rid of the impact of large population base in China, 
 * 52% of the Chinese people viewed Spring Festival Gala on the TV, while in the US, only 10% viewed the Football game on Thanksgiving. This could have something to do with the different cultural, as in China, families will typically watch Spring Festival Gala （春节联欢晚会） when they are unioning together for New Year Eve's Dinner (年夜饭）; 
 * During Chinese New Year, it's quite astonishing to see on average, each person takes 2.1 trips, while in the US during Thanksgiving, it's only 0.2. This is potentially because Thanksgiving is more like a festival for family reunion, while Chinese New Year is not only for family reunion, but also for friends visits and hang-out.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190128) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190211) 
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

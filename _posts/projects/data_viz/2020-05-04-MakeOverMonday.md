@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-05-04"
-date: 2020-05-04
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Obstetric Fistula in Madagascar*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200504
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ This is the first time I have tried to create a long information chart.
 * Over half of the labor with fistula is longer than 2 days -- I cannot imagine how painful it would be...  
 * And as the result of fistula, almost all the women would suffer from leaking urine, and most likely it would be a still birth...
   
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200427)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200511)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

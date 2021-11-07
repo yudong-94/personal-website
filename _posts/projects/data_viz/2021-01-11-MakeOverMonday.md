@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-01-11"
-date: 2021-01-11
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Viz5: Gender Inequality in HIV Infections in Adolescents*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210111
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ To easily compare the metrics across the countries and showing the trend over ti
 * And there is also a spike in death rate per 100000 population in early 2000s potentially due to the infection spike in late 90s;  
 * We are also seeing in many African countries, generally speaking, number of people living with AIDS has been increasing -- this basically means new infection is greater than death each year, and is a result of the accumulative infections, also could potentially be due to better treatment and lower death rate.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210104)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210118)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

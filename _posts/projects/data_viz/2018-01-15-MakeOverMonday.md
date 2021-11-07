@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-01-15"
-date: 2018-01-15
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *U.S. Household Income Distribution by State*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0115
 
 ### About Makeover Monday
 
@@ -83,3 +85,7 @@ Below is my dashboard:
 However, one must notice that as these three states/districts actually have relatively small number of total households, it's more easy for them to get a boost in the percentages;
 * Nevada did really poor on household income from 2009 to 2016 - it's the only state seen a increase in the  percentage of low income households, and its percentage of high income households almost stay the same.
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180108) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180122)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-01-22"
-date: 2018-01-22
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Movement of Turkey Vultures in North and South America*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0122
 
 ### About Makeover Monday
 
@@ -76,3 +78,7 @@ In the first half of the year (summer half), these birds fly north, and in the s
 * There is a correlation that heavier birds travel shorter. It could be either they are too heavy to travel far, or they travel too little so they are fat :).
 
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180115) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180129)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

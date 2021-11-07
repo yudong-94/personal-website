@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-01-27"
-date: 2020-01-27
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Bridges to Prosperity*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200127
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ I tried to make something similar with Tableau -- a map with projects all around
 * Most of the bridge projects are in Africa, as there are more under developed rural areas needing help in Africa;   
 * Bridge to Prosperity also covered rural areas in South America, Southeast Asia, and there is even one project in the US.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200120)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200203)    
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

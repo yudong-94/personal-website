@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-12-28"
-date: 2020-12-28
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Global Import of Cocoa Beans 2015-2019*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201228
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ As this is the last viz of 2020, I decided to do something slightly complicated.
 * As we know, Europe is the world's largest chocolate producer, however, it's not the largest cocoa producer. Therefore, we have been consistenly seeing most cocoa (>60%) imported to Europe;  
 * But when we look at the data, one thing to note is that -- Economics courses tell us supply and demand will try to strike a balance, and here we are only looking at one side, that is the demand of Cocoa. The Cocoa import demand is determined by how much cocoa Europe itself can grow, how much chocolate the European manufacturers want to make, and of course, the demand and profitability of chocolate (the end product).  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201221)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210104)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

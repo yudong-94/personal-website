@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-04-06"
-date: 2020-04-06
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Unpaid work: Allocation of time and time-use*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200406
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ Another week of Gantt plot :) I am using it too much recently.
 * The gender gap is most severe in African countries and some Middle East countries;  
 * The northern Europe countries (Sweden, Norway and Denmark) did best regarding the gender gap of unpaid work time, but even the top country still has 5% gap...  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200330)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200413)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

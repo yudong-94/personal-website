@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-12-07"
-date: 2020-12-07
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Divergent Opinions on Transatlantic Alliance*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201207
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ The original viz has four lines with the breakdown of country and responses. I b
 * The proportion of US respondents that think the relations today between US and Germany are good, are close to the percentage of Germans that think the relations are bad, vice versa...  
 * We see higher fluctuation among the German's responses though, especially in 2019.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201130)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201214)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

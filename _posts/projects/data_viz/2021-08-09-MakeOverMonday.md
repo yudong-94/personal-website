@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-08-09"
-date: 2021-08-09
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Monthly Mortality Rates in England and Wales*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210809
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ I also plot the collisions on the map, with monthly trend and weekday x hour hea
 * Overall, we are seeing mortality rate in all genders and locations are trending down;  
 * Female Have always show lower mortality rate than male, and Wales mortality rate is slightly higher than England;  
 * The difference between female and male are decreasing though -- in 2001, male's mortality rate is around ~50% higher than female, but now it's around 33%.    
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210802)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210816)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

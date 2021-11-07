@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-01-28"
-date: 2019-01-28
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Digital Economy and Society Index (DESI)*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190128
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ This week, I tried to build a dashboard style viz again. It consists of three ch
 * Overall, we see the Northern European coutries such as Denmark, Sweden, and Finland has highest DESI, indicating higher digital competitiveness;  
 * From 2014 to 2018, most European coutries have seen great progress in DESI, especially on the Connnectivity dimension.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190121) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190204) 
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

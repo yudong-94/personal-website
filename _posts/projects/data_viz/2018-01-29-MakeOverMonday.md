@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-01-29"
-date: 2018-01-29
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Most Profitable Companies*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0129
 
 ### About Makeover Monday
 
@@ -80,3 +82,7 @@ Below is my dashboard:
 * Considering net income, Apple is really outperforming all the other top companies in 2016. It almost doubles the net income of the 2nd most profitable company (JP Morgan Chase), and its net income in two months almost equals to the annual net income of 25th most profitable company (Comcast).
 * High net income will not promise a high fotune 500 ranking, as fortune 500 mainly considers the total annual revenue, and those companies earn less but has a higher profit margin () will win in net income. The companies on the upper left of the bubble chart are those with a high total income but low profit margin.
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180122) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180205)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-08-02"
-date: 2021-08-02
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Bike Collisions in London (2005-2019)*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210802
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ I also plot the collisions on the map, with monthly trend and weekday x hour hea
 * Overall, we see most collissions in summer months (May to Oct) and during commute hours (6-9 & 17-19) on weekdays, which align with the overall bike traffic volume;  
 * Regarding the fatality accident rate, we see a steady decline from 2005 (0.76%) to to 2010 (0.25%), and has been ~0.25% since then;  
 * Among the busist season (May to Oct), the fatality rate is actually lower than other months, both due to the volume and potentially weather condition.  
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210726)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210809)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

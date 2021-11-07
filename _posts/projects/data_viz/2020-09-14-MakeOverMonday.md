@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-09-14"
-date: 2020-09-14
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *School workforce in England*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200914
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ This week I try to keep it simple with the most important information I wanna co
 * However, we have to admit that there is not conclusive information for us to say that female teachers are not paid fairly -- ideally we need to consider other confounding variables, for example, location (are female teachers more likely to be in those lower play regions), class they teach (maybe there are more female teachers in lower salary disciplines), etc.  
 * Besides, it seems like the pay gap among head teachers is getting larger, but ideally we also want to adjust it by inflation.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200907)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200921)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

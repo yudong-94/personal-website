@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-02-26"
-date: 2018-02-26
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *World Economic Freedom*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0226
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ I spent about an hour to make similar interactive map in Tableau. Below is my da
 * Generally speaking, economies in North America and Australia are more free, while those in Africa are the least free;  
 * Asian countries (mainly Russia and China) have seen great improvement in freedom index over year.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180219) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180305)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

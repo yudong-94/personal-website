@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-05-17"
-date: 2021-05-17
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *What Animal Could You Beat in a Fight?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210517
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ This week we have a fun dataset -- What animal could you beat in a fight? It's t
 * Male overall are more confident than Female in beating most types of animals, but this difference gets much closer when facing the strongest animals (elephant, crocodile, and grizzly bear) as below 10% people think they could win for both gender;  
 * Most gender differences are seen among the survey results against medium power animals -- for goose and medium-sized dog, 20% more men are confident in beating it than women; and for eagle, large dog, and king cobora, the difference is 15%.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210510)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210524)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

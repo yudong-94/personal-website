@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-05-27"
-date: 2019-05-27
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *CO2 emissions per capita*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190527
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ Another summary chart + map dashboard this week...
 * For the countries classified as high-income, there is a increase of CO2 Emission from 1960s to 1970s, but became flat afterwards;  
 * While for upper-middle income and middle income countries, the increase happened in 2000s, indicating a different economic development cycle.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190520) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190603)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-06-21"
-date: 2021-06-21
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Stop & Search Rates by Ethnicity in the UK*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210621
 
 ### About Makeover Monday
 
@@ -68,3 +70,7 @@ To compare the trend across different ethnicities, I made a simple line chart by
 * Overall we see a decrease in stop and search rate across all ethnicities from 2009 to 2018, but bounced back since 2018;  
 * Comparing the stop and search rate by ethnicities, black ethnicity always have the highest rate, while white ethnicity is the only one below average -- but of course, this could be a result from many many different factors, so no conclusion could be drawn here without more care data analysis.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210614)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210628)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

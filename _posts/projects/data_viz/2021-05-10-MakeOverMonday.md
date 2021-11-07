@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2021-05-10"
-date: 2021-05-10
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *What Does 1GB of Mobile Data Cost in Every Country?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20210510
 
 ### About Makeover Monday
 
@@ -69,3 +71,7 @@ With this simple dataset of two columns -- country and costs, I made a simple ma
 * Surprisingly, mobile data costs in North America countries are on the higher end -- US ranked 18th most expensive, and Canada ranked 10th most expensive;  
 * Also generally speaking, we see the most expensive countries are mostly in Africa, due to lack of infrastructure, while Asia overall show cheaper mobile data costs potentially due to market competition, low labor costs, high reliance on mobile device, etc.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210503)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20210517)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

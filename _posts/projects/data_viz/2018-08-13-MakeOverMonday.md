@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-08-13"
-date: 2018-08-13
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Anthony Bourdain’s Travels*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0813
 
 ### About Makeover Monday
 
@@ -97,3 +99,7 @@ write.csv(content, 'travel description.csv')
 
 ```  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180806) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180820)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-06-17"
-date: 2019-06-17
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Berlin Airbnb Ratings*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190617
 
 ### About Makeover Monday
 
@@ -64,3 +66,7 @@ My visualization tries to build a simple UI for users to find the best Airbnb li
 #### Insights
 * Central Berlin -- Pankow, Mitte, Friedrichshain-Kreuzberg and Neokullo have the most listings (I guess these are where most toursits stay), but the average rating is just about average in those neighbourhoods (especially Mitte, it has the lowest average rating...);  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190610) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190624)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

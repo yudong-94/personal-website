@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-05-18"
-date: 2020-05-18
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Auto Insurance Rate by State 2020*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200518
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Gantt plot again! (lazy me...)
 * Michigan is the most expensive state to buy car insurance for both minimum ($5,282) and full coverage ($8,723) policies due to its unique requirement of no-limit personal injury protection;  
 * All other states' full coverage cost are much lower than Michigan's minimum coverage cost...  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200511)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200525)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

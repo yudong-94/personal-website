@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-12-02"
-date: 2019-12-02
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *How much does union membership benefit America’s workers?*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191202
 
 ### About Makeover Monday
 
@@ -64,3 +66,7 @@ To avoid potential misleading breakdown (like the huge gender pay gap shown in t
 #### Insights
 * As I mentioned, though union members consistently show a higher wage than the non-members, it does not imply a causation between union membership vs. salary -- more confounding factors like industry, occupation, etc. must be carefully examined to draw any conclusion.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191125) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191209)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

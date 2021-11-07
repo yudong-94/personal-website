@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-02-12"
-date: 2018-02-12
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *The Winter Olympics*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0212
 
 ### About Makeover Monday
 
@@ -71,3 +73,7 @@ By the way, I don't like the boxplot in Tableau very much, as it is very restric
 * The age range of medal winners of some sports, for example, Freestyle Skiing and Nordic Combined, is narrower than the others - different sports have different optimal age to play, and some are less restrictive on ages;  
 * Althrough Olympics is for the younger athletes (some players won medal as young as 14), there are players of 42 winning medals - very inspiring!
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180205) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180219)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

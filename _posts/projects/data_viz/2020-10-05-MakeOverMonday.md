@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-10-05"
-date: 2020-10-05
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *The U.S. Counties With the Highest Economic Output*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20201005
 
 ### About Makeover Monday
 
@@ -66,3 +68,7 @@ Well, not getting much inspiration today, so let's do a map + list, with set act
 * County-wise, LA county shows up as the one with highest GDP. However, please notice that counties have different sizes and populations. LA county is actually also the one most populated in the US (could be a correlation or causation)...   
 * Most large dots on the maps (the counties with higher GDP) are along the coast, with much lower GDPs in middle (especially middle west) US.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200928)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20201012)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

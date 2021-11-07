@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2018-08-27"
-date: 2018-08-27
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Wearable Devices*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 0827
 
 ### About Makeover Monday
 
@@ -70,3 +72,7 @@ I created a single viz this week. Each circle is one device type (body location 
 * The most popular device type is Fitness device on wrist -- you know, like Fitbit band;  
 * Fitness wearable devices have been developed across almost all the body locations (except hands..?)  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180820) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20180903)  
+
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

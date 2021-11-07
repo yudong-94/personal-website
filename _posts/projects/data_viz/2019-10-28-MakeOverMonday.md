@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-10-28"
-date: 2019-10-28
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *World Cities Ranked by Average Annual Sunshine Hours*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20191028
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ I also made some radial charts with a shape similar to the sun to compare the su
 * It's not surpising that cities with longest sunshine hours are in Arizona, and those with shortest hours are in Alaska and other northern states.  
 * But I am surprised that San Francisco actually has longer sunshine hours than Honolulu...
   
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191021) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20191104)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

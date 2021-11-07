@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2020-06-15"
-date: 2020-06-15
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Most Popular Sports Among US High School Boys and Girls*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20200615
 
 ### About Makeover Monday
 
@@ -67,3 +69,7 @@ Since the dataset provides numbers for both boys and girls, and by states, I am 
 * For high school boys, Football (11-player) is the sport that dominates most states, except a few states in the north, and this has always been the case since 2000s;  
 * But for high school girls, there are more variance among the states -- most of the states in the middle are dominated by volleyball, but there are many other popular sports like basketball, soccer, track and field, etc.  
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200608)  [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20200622)  
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)

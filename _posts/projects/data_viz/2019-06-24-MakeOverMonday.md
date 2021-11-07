@@ -1,15 +1,17 @@
----
-title: "Weekly Viz 2019-06-24"
-date: 2019-06-24
-categories:
-  - data_viz
-tags:
-  - data visualization
-  - tableau
----
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112502179-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-### *Alcohol Consumption By Country*
+  gtag('config', 'UA-112502179-1');
+</script>
+</head>
 
+
+## Data Visualization -- Makeover Monday 20190624
 
 ### About Makeover Monday
 
@@ -65,3 +67,7 @@ I was trying to visualize the alcohol consumption by showing different 'water le
 #### Insights
 * Within the top 25 countries, most of them are Europe countries (and Russia), with the exception of South Korea (ranked at 17, suprising to me) and Australia (19).   
 
+--  
+[⬅️Previous](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190617) [➡️Next](https://yudong-94.github.io/personal-website/projects/data viz/MakeOverMonday20190701)
+  
+[Back to Home Page](https://yudong-94.github.io/personal-website/)
