@@ -50,3 +50,5 @@ I also posted the dashboard on [LinkedIn](https://www.linkedin.com/posts/yudong1
 
 
 [Back to Home Page](https://yudong-94.github.io/personal-website/)
+
+*Follow [this link](https://yudong-94.github.io/personal-website/project/MakeOverMonday2020/) to find more weekly vizzes :)*
