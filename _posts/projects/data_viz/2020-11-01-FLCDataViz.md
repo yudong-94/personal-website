@@ -16,6 +16,8 @@ I also posted the dashboard on [LinkedIn](https://www.linkedin.com/posts/yudong1
 
 ### Dashboard
 
+*Please notice that all the visualizations are designed for desktop view, so it is recommended to view them on a desktop device.*  
+
 <div class='tableauPlaceholder' id='viz1604277353538' style='position: relative'>
 <noscript><a href='#'>
   <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FD&#47;FDLCWageDataViz&#47;FLCWageData&#47;1_rss.png' style='border: none' />
