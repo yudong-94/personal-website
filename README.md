@@ -14,16 +14,18 @@
 
 ### About Me
 
-Hi there! I am Yu Dong. I am a detail-oriented data analyst and storyteller. I graduated from MS Business Analytics program from USC Marshall School of Business in Dec 2017. After graduation, I worked as a product analyst at Ancestry.com for three years, using analytics to understand user behavior, improve product engagement, and enable data-driven business decision-making. I recently joined Brex as a Data Scientist, hoping to explore more analytics and data science application in the fintech industry. I am passionate about interepreting data under business context and data-driven business decision-making.
+Hi there! I am Yu Dong. I am a detail-oriented data scientist and storyteller. I graduated from MS Business Analytics program from USC Marshall School of Business in Dec 2017. After graduation, I worked as a product analyst at Ancestry.com for three years, using analytics to understand user behavior, improve product engagement, and enable data-driven business decision-making. Then I joined Brex as a Data Scientist in late 2020, exploring more analytics and data science application in the fintech industry. I am passionate about interepreting data under business context and data-driven business decision-making.
 
-I'm also a lifelong learner with deep curiosity. I have completed [more than 30 online courses](https://yudong-94.github.io/personal-website/blogs/MOOCList) on Coursera, edX and other MOOC platforms in subjects ranging from Statistics to Machine Learning.
+I'm also a lifelong learner with deep curiosity. I have completed [more than 30 online courses](https://yudong-94.github.io/personal-website/blogs/MOOCList) on Coursera, edX and other MOOC platforms in subjects ranging from Statistics to Machine Learning. 
+
+Outside work, I make one data visualization on Tableau Public every week since 2018. You can find my collections [here](https://yudong-94.github.io/personal-website/project/ProjectList/).   
 
 My analytical skillset includes:
 - Data mining: R, Python, Spark (in Scala and PySpark), Excel 
 - Visualization: Tableau, R Shiny
-- Databases: MySQL, Amazon Redshift
-- A/B Testing
-- Machine learning skills
+- Databases: MySQL, Amazon Redshift, Snowflake
+- A/B Testing and Causal Inference
+- Machine learning models
 
 ### About This Site
 
