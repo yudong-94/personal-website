@@ -8,7 +8,7 @@ tags:
 ---
 
 
-I did my first [Leetcode Weekly Contest](https://leetcode.com/contest/) back in April 2020 ([Contest 186](https://leetcode.com/contest/weekly-contest-186/)). Since then, I have been participating in the weekly contest almost every Saturday, and finished 123 of them. Honestly it is pretty uncommon for a person like me, who chose a data science career (especially analytics focus), to keep grinding Leetcode. Well, to be fair, I am not really grinding, but only doing the weekly contests. So I feel it might be interesting to write a post to share my experience and learnings.  
+I did my first [Leetcode Weekly Contest](https://leetcode.com/contest/) back in April 2020 ([Contest 186](https://leetcode.com/contest/weekly-contest-186/)). Since then, I have been participating in the weekly contest almost every Saturday, and finished 124 of them. Honestly it is pretty uncommon for a person like me, who chose a data science career (especially analytics focus), to keep grinding Leetcode. Well, to be fair, I am not really grinding, but only doing the weekly contests. So I feel it might be interesting to write a post to share my experience and learnings.  
 
 ### My Background  
 
@@ -32,12 +32,12 @@ Not surprisingly, the first one was a total failure -- I spent 17 minutes finish
 
 As I did not want to spend extra time grinding Leetcode (as I knew it was very unlikely to see those questions in my interviews), my strategy was to make the best use of the weekly contests. I kept abstracting the questions and googling during the contest, and after the contests end, I read the discussion forum and the solutions posted by other participants so I could always learn something. And this worked. Each contest has four questions -- usually one Easy, two Medium, and one Hard. After refreshing the basics like the Big O notation of common operations and algorithms, I was able to solve the first three questions in my fourth contest for the first time. The rating trend represents the learning curve pretty well. In the first year of participating in the contest, I was able to uplevel my contest rating from 1480 to 1954. After then, the progress became much slower as you can imagine, but I did not stop as it has become my Saturday night routine.   
 
-![LeetCode Summary](https://yudong-94.github.io/personal-website/assets/images/Leetcode Screenshot 1.png)  
+<img src="https://yudong-94.github.io/personal-website/assets/images/Leetcode Screenshot 1.png" alt="LeetCode Summary" width="600" height="400">
+  
 
-Now after 123 contests, I usually have no problem solving the first three in 30-40 minutes, and with some luck, I can solve the fourth question occasionally (solved them 8 times in the most recent 20 contests). I have reached a rating of 2153, which is top 1.32% among all contest participants. And I have solved almost 400 questions, including 31 Hard. Skill wise, I remember one year ago, I was still struggling understanding many of the dynamic programming (DP) solutions in the discussion board, but now I can design my own DP solution during the contest. I am pretty confident in when I can use algorithms like binary search and techniques like two pointers. And in many cases, I am able to tell if a solution will get TLE (Time Limit Exceeded) given the data size and big O, before actually trying it out. So honestly I am pretty happy and proud of what I have achieved.  
-
-![LeetCode Skills Section](https://yudong-94.github.io/personal-website/assets/images/Leetcode Screenshot 2.png)  
-
+Now after 124 contests, I usually have no problem solving the first three in 30-40 minutes, and with some luck, I can solve the fourth question occasionally (solved them 8 times in the most recent 20 contests). I have reached a rating of 2166, which is top 1.32% among all contest participants. And I have solved almost 400 questions, including 31 Hard. Skill wise, I remember one year ago, I was still struggling understanding many of the dynamic programming (DP) solutions in the discussion board, but now I can design my own DP solution during the contest. I am pretty confident in when I can use algorithms like binary search and techniques like two pointers. And in many cases, I am able to tell if a solution will get TLE (Time Limit Exceeded) given the data size and big O, before actually trying it out. So honestly I am pretty happy and proud of what I have achieved.  
+  
+<img src="https://yudong-94.github.io/personal-website/assets/images/Leetcode Screenshot 2.png" alt="LeetCode Skills Section" width="250" height="500">
 
 ### Does It Help Anything?  
 
