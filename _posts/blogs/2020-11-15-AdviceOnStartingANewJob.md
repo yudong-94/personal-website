@@ -5,6 +5,7 @@ categories:
   - blog
 tags:
   - career
+  - my blog
 ---
 
 This week marked my first month at Brex. Time flies and it’s always surprising to see how many discoveries I have made in this first month when looking back. I gained more understanding of my responsibility as a Data Scientist, of Brex business and products, and the company culture.

@@ -4,8 +4,7 @@ date: 2020-09-10
 categories:
   - blog
 tags:
-  - online courses
-  - learning
+  - my blog
 ---
 
 This summer I got the opprotunity to mentor an intern in the Product Analytics team at Ancestry. I personally learned a lot from my mentor when I was an analyst intern three years ago (he later became my first full-time manager, and has been the one I turn to whenever I need career guidance). Therefore, I feel like it's the perfect time for me to give back to those who helped me along the way. I am putting together this reading list as a gift to my intern, hoping except from the hands-on experience, he also gets more inspiration in his Data Science & Analytics career from this internship.    
@@ -94,5 +93,3 @@ Again, Medium is a good resource for short readings. Below are some articles I f
 4. [The 5 most useful Techniques to Handle Imbalanced datasets](https://towardsdatascience.com/the-5-most-useful-techniques-to-handle-imbalanced-datasets-6cdba096d55a)  
 5. [All about categorical variable encoding](https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd02)  
 6. [Cross-validation the Right Way](https://medium.com/machine-learning-eli5/cross-validation-the-right-way-386839ed39b1)  
-
-	

@@ -4,7 +4,7 @@ date: 2021-11-07
 categories:
   - blog
 tags:
-  - learning
+  - my blog
 ---
 
 This weekend, I spent ~5 hours ramping up the UI of this personal website. Previously, it was using the default 'slate' Jekyll theme, which was set up directly from Github Pages settings. But now, it is using a custom Jekyll theme [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/).  
