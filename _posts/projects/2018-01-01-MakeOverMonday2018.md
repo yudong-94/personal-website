@@ -7,7 +7,6 @@ categories:
   - project
 tags:
   - data visualization
-  - tableau
 ---
 
 Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to create some visualization and find some insights from the data.

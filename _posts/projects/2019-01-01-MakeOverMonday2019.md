@@ -7,7 +7,6 @@ categories:
   - project
 tags:
   - data visualization
-  - tableau
 ---
 
 Throughout 2019, I have been putting aside one hour every Monday to work on my Tableau visualizations following the Makeovermonday project.

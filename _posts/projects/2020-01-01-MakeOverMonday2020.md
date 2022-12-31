@@ -7,7 +7,6 @@ categories:
   - project
 tags:
   - data visualization
-  - tableau
 ---
 
 This has been my third year doing Tableau Makeovermonday. Another fruitful year trying out 52 different visualizations on various topics :)  

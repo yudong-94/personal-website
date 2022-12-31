@@ -5,7 +5,6 @@ categories:
   - data viz
 tags:
   - data visualization
-  - tableau
 ---
 
 On 10/6/2020, DHS issued the [Strengthening the H-1B Nonimmigrant Visa Classification Program]( https://www.federalregister.gov/documents/2020/10/08/2020-22347/strengthening-the-h-1b-nonimmigrant-visa-classification-program) Interim Final Rule, which raised the bar of the H1B wage levels from 17-34-50-67th percentiles to 45-62-78-95th percentiles. Theoretically, Bachelor’s new grad’s prevailing wage should meet L1 requirement, and L2 for Master’s new grad. This new rule will dramatically tighten H1B Visa access for foreign talents.
