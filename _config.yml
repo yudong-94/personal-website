@@ -70,6 +70,14 @@ author:
       url: "https://www.linkedin.com/in/yudong1994/"
     - label: "GitHub"
       url: "https://github.com/yudong-94"
+    - label: "Tableau Public"
+      url: "https://public.tableau.com/app/profile/yu.dong#!/"
+    - label: "✅ My Weekly Vizzes"
+      url: "https://yudong-94.github.io/personal-website/tags/#data-visualization"
+    - label: "✅ My Bi-Monthly Reading Notes"
+      url: "https://yudong-94.github.io/personal-website/tags/#reading-notes"
+    - label: "✅ My Blogs"
+      url: "https://yudong-94.github.io/personal-website/tags/#my-blog"
 
 footer:
   links:

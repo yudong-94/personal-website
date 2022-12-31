@@ -32,7 +32,7 @@ My analytical skillset includes:
 This site works as a gallery of my data projects as well as my own thoughts on data analysis. You will find:  
 1. [My Weekly Tableau Visualizations](https://yudong-94.github.io/personal-website/tags/#data-visualization) since 2018 at the **data visualization** tag  
 2. [Bi-monthly Reading Notes](https://yudong-94.github.io/personal-website/tags/#reading-notes) since 2020 at the **reading notes** tag  
-3. My own thoughts and experience in the data science fields at the **my blog** tag  
+3. [Blogs](https://yudong-94.github.io/personal-website/tags/#my-blog) on my own thoughts and experience in the data science fields at the **my blog** tag  
 
 ### Contact Me    
 

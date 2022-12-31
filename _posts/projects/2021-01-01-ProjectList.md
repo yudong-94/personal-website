@@ -4,7 +4,7 @@ date: 2022-01-01
 categories:
   - project
 tags:
-  - learning
+  - my blog
 ---
 
 This is an archive of my past data science and analytics projects.  
