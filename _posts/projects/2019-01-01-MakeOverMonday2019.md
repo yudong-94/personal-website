@@ -4,9 +4,9 @@ header:
   image: /assets/images/makeovermonday 2019 best.png
 date: 2019-12-30
 categories:
-  - project
+  - data viz
 tags:
-  - data visualization
+  - data visualization summary
 ---
 
 Throughout 2019, I have been putting aside one hour every Monday to work on my Tableau visualizations following the Makeovermonday project.

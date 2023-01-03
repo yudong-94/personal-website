@@ -4,9 +4,9 @@ header:
   image: /assets/images/makeovermonday 2020 best.png
 date: 2020-12-28
 categories:
-  - project
+  - data viz
 tags:
-  - data visualization
+  - data visualization summary
 ---
 
 This has been my third year doing Tableau Makeovermonday. Another fruitful year trying out 52 different visualizations on various topics :)  

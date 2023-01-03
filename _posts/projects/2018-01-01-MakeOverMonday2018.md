@@ -4,9 +4,9 @@ header:
   image: /assets/images/makeovermonday 2018 best.jpg
 date: 2018-12-31
 categories:
-  - project
+  - data viz
 tags:
-  - data visualization
+  - data visualization summary
 ---
 
 Starting from Jan 08, 2018, I decide to put aside one hour on Monday weekly to create some visualization and find some insights from the data.
