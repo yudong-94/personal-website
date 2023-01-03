@@ -5,7 +5,6 @@ categories:
   - blog
 tags:
   - career
-  - my blog
 ---
 
 I started my first full-time data science job in Jan 2018, working as an Associate Product Analyst at Ancestry.com. This month, I officially finished the 5th year of my DS career, as a Senior Data Scientist at Brex. Five years passed very fast (especially with the pandemic). I feel it’s time for me to look back at this journey. Here are some of my learnings along the way.

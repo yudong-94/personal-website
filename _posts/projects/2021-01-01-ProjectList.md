@@ -2,9 +2,10 @@
 title: "My Data Science Projects List"
 date: 2022-01-01
 categories:
-  - project
+  - blog
 tags:
-  - my blog
+  - data visualization
+  - machine learning
 ---
 
 This is an archive of my past data science and analytics projects.  

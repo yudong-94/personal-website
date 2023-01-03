@@ -4,7 +4,8 @@ date: 2020-09-10
 categories:
   - blog
 tags:
-  - my blog
+  - reading notes
+  - online courses
 ---
 
 This summer I got the opprotunity to mentor an intern in the Product Analytics team at Ancestry. I personally learned a lot from my mentor when I was an analyst intern three years ago (he later became my first full-time manager, and has been the one I turn to whenever I need career guidance). Therefore, I feel like it's the perfect time for me to give back to those who helped me along the way. I am putting together this reading list as a gift to my intern, hoping except from the hands-on experience, he also gets more inspiration in his Data Science & Analytics career from this internship.    
