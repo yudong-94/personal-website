@@ -17,6 +17,23 @@ Keen to gather fresh ideas for my website improvement, the first step obviously 
 
 <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/blog-summary.png" alt="GPT Blog Summary">
 
+### I Want A New Website Title
+
+The original title of my blog — Yu Dong's Blog — has served me well, yet it's simplicity called for a dash of creativity. Knowing GPT's flair for inventive text, I solicited some suggestions. Among the various imaginative titles, 'DongDataDive' struck a chord with me for its rhythmic appeal.  
+
+```
+DataStoryteller: A name that highlights your focus on storytelling through data.
+DongDataDive: Alliteration can make a name catchy, and this one suggests a deep dive into data science topics.
+AnalyticsAlcove: This name suggests a cozy, insightful corner where readers can explore analytics.
+TheDataNarrative: Emphasizes your blog as a place where data tells a story.
+YuInsights: A play on “you insights,” suggesting personalized insights from data.
+NarrativeNumbers: Reflects a blog where numbers are turned into narratives.
+Dong'sDataDen: Another alliterative name that suggests expertise and a specialized focus on data.
+DataVizDiary: For a blog that frequently shares data visualizations.
+InsightfulBytes: Implies that readers will gain insightful information in small, digestible formats.
+AnalyticAdventures: Suggests a journey through the world of analytics.
+```
+
 
 ### Let's Create A Profile Picture!
 
@@ -69,7 +86,7 @@ GPT also enlightened me on local site testing - a practice I had bypassed by dir
 
 <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/seo-tags.png" alt="SEO Tags">
 
-### Summary  
+### Conclusion  
 
 In this example, I tried multiple GPT features, including browsing, DALLE3, image recognition, code interpreter, etc. And that all happened in one chat and took me less than 2 hours! This absolutely blew my mind. If I want to do all these myself, I might need to learn several new tools, spend hours and hours googling, and have 10+ stackoverflow tabs open. And of course, I will never be able to create a picture of a cute cat with the data science theme. By the way, this post is also polished by GPT. Thank you, GPT :)
 
