@@ -9,6 +9,8 @@ tags:
   - website
 ---
 
+In my [previous post](https://yudong-94.github.io/personal-website/blog/BlogUpdateWithGPT/), I delved into the exciting realm of OpenAI's latest offerings, setting the stage for an even more intriguing exploration this week. Today, I'm excited to share my hands-on experience with custom GPTs, showcasing both successes and learning curves.
+
 <style>
     .container {
         display: flex;
@@ -21,8 +23,6 @@ tags:
         height: auto;
     }
 </style>
-
-In my [previous post](https://yudong-94.github.io/personal-website/blog/BlogUpdateWithGPT/), I delved into the exciting realm of OpenAI's latest offerings, setting the stage for an even more intriguing exploration this week. Today, I'm excited to share my hands-on experience with custom GPTs, showcasing both successes and learning curves.
 
 ### *Credit Card Advisor*: A Simple Text-based GPT
 
