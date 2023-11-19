@@ -39,7 +39,7 @@ Curious to see it in action? Experience the the Credit Card Advisor [here](https
 
 ### *Purrfect Tales Illustrator*: Blending External API with DALLE3
 
-Next, I ventured into combining GPT with external APIs and DALLE3. Utilizing the 'Configure' tab, I integrated the whimsical [meowfacts](https://github.com/wh-iterabb-it/meowfacts) API, which serves random cat facts. The GPT then collaborates with DALLE3 to transform these facts into charming four-panel comic strips.
+Except from setting up GPT by chatting with the GPT Builder, one can also make advanced configurations manually. Next, I ventured into combining GPT with external APIs and DALLE3. Utilizing the ‘Actions' in the 'Configure' tab, I integrated the whimsical [meowfacts](https://github.com/wh-iterabb-it/meowfacts) API, which serves random cat facts. The GPT then collaborates with DALLE3 to transform these facts into charming four-panel comic strips.
 
 Discover the creativity of the [Purrfect Tales Illustrator](https://chat.openai.com/g/g-YiCtRzp8i-purrfect-tales-illustrator), aptly named by GPT itself.
 
@@ -50,7 +50,7 @@ Discover the creativity of the [Purrfect Tales Illustrator](https://chat.openai.
 
 ### *Hyrule Villager*: Elevating API Integration
 
-To challenge the GPT further, I interacted with the [Hyrule-Compendium-API](https://github.com/gadhagod/Hyrule-Compendium-API), which contains info of one of my faviorate games '*The Legend of Zelda: Breath of the Wild*'. This GPT automatically picks up any item or regions the user mentioned and passes it to the API to collect info. It then masquerads as a Hylian villager, weaves the API responses into humorous stories.  
+In the above GPT, it only uses default parameter values in the API calls. To challenge the GPT further, I interacted with the [Hyrule-Compendium-API](https://github.com/gadhagod/Hyrule-Compendium-API), which contains info of one of my faviorate games '*The Legend of Zelda: Breath of the Wild*'. This GPT automatically picks up any item or regions the user mentioned and passes it to the API to collect info. It then masquerads as a Hylian villager, weaves the API responses into humorous stories.  
 
 Chat with the Hyrule Villager [here](https://chat.openai.com/g/g-0IWi7Ue96-hyrule-villager).  
 
@@ -61,18 +61,18 @@ Chat with the Hyrule Villager [here](https://chat.openai.com/g/g-0IWi7Ue96-hyrul
 
 ### *Data Analysis Report Creator*: Merging Knowledge Base with Code Interpreter
 
-Intrigued by GPT's potential in data analysis, I created a GPT equipped with a Code Interpreter. In this GPT, I provided instructions on data analysis practices. I also uploaded an analysis report template and some examples to the knowledge base, and asks the GPT to generate a report in DOCX following the format (but please note that it fails to follow the format from time to time, and I still need to do more prompt engineering).
+Intrigued by GPT's potential in data analysis, I created a GPT equipped with a Code Interpreter. In this GPT, I provided instructions on general data analysis practices. I also uploaded an analysis report template and some examples to the knowledge base, and asks the GPT to generate a report in DOCX following the format.
 
-Despite its impressive capabilities, I observed notable gaps in its ability to produce statistically sound and business-actionable analyses. These insights, which I'll detail in a future post, highlight the need for further advancements in AI-driven data science.
+Despite its impressive capabilities, I observed notable gaps in its ability to produce statistically sound and business-actionable analyses. These insights, which I'll detail in a future post, highlight the need for further advancements in AI-driven data science (which means I will not lose my job to AI at least for now).
 
-Test the Data Analysis Report Creator [here](https://chat.openai.com/g/g-PwcNwRMyE-data-analysis-report-creator) and see its capabilities for yourself.  
+Test the Data Analysis Report Creator [here](https://chat.openai.com/g/g-PwcNwRMyE-data-analysis-report-creator) and see its capabilities for yourself. However, please note that it fails to follow the format from time to time, so I still need to do more prompt engineering there.  
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/data_analysis_gpt1.jpg" alt="Data Analysis Report Creator Example" width="300" height="400">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/data_analysis_gpt2.jpg" alt="Data Analysis Report Creator Result" width="300" height="400">
 </div>
 
-### Conclusion  
+### Final Thoughts  
 
 Not all my experiments turned into GPTs:   
 * I tried to set up 'Actions' with more comprehensive APIs like the Google Slides API, but had no luck there given the complexity.
