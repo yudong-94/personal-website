@@ -20,6 +20,7 @@ twitter_username: username
 github_username: yudong-94
 minimal_mistakes_skin: default
 search: true
+excerpt_separator: "<!--more-->"
 
 # Build settings
 markdown: kramdown
