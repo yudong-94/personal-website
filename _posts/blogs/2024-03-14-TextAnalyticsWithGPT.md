@@ -30,19 +30,19 @@ tags:
 Since 2021, I've dedicated Friday and Sunday nights to reading data science blogs, aiming for four to five each week. I summarize noteworthy articles on my blog bi-monthly (linked [here](https://yudong-94.github.io/personal-website/categories/#reading-notes)). Recently, I've noticed an uptick in blogs related to LLM, sparking my curiosity about other trends in my reading habits. To analyze this, I realized I needed a categorized record of my past readings. Fortunately, GPT is here to assist!
 
 <div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/text_analytics_robot_cartoon.png" alt="Cleaned Dataset" width="400" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/text_analytics_robot_cartoon.png" alt="DALLE Robot Cartoon Image" width="400" height="400">
 </div>
 
 #### Topic Extraction with GPT
 
-ChatGPT excels in text analytics, efficiently summarizing and categorizing text. In the section below, I will walk through how I use the OpenAI API to call the `gpt-3.5-turbo` model for this task. While GPT-3.5 was chosen for cost reasons, it proved sufficient for my purposes.
+ChatGPT excels in text analytics, efficiently summarizing and categorizing text. In the section below, I will walk through how I used the OpenAI API to call the `gpt-3.5-turbo` model for this task. While GPT-3.5 was chosen for cost reasons, it is proved sufficient for my purposes.
 
 ##### 1. Dataset Preparation
 Of course, the first step in any analysis is to prepare the dataset. Luckily, my reading summaries are consistently formatted, making this process smoother. I will skip the detailed data scraping process here since it is not the focus of this article, but the cleaned dataset comprises 521 rows (each representing a blog post I've read) and includes the following four columns:
-1. Id: Unique ID of the blog post (1 to 521)
-2. Month: When I read the blog post
-3. Title: Blog title
-4. Description: A one-sentence blog description
+1. **Id**: Unique ID of the blog post (1 to 521)
+2. **Month**: When I read the blog post
+3. **Title**: Blog title
+4. **Description**: A one-sentence blog description
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/text_analytics_reading_notes_df.png" alt="Cleaned Dataset" width="600" height="400">
@@ -273,6 +273,7 @@ However, this didn't fully answer how my interests evolved over time. I followed
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/text_analytics_trends3.png" alt="GPT Heatmap Analysis 3" width="300" height="400">
 </div>
 
+  
 So let me answer my question myself:  
 * *A/B Testing and Causal Inference* consistently intrigued me. It is a complicated area with lots of interesting methodologies. Besides, since I have read lots of them, Medium keeps showing more on my homepage -- that’s how the recommender system works :)
 * *Data Quality Management* surprisingly emerged as a major interest all time -- I honestly didn’t expect this high volume but I guess I was just troubled too much by data management at work.
