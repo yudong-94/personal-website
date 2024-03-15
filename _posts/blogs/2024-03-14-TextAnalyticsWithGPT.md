@@ -29,6 +29,10 @@ tags:
 
 Since 2021, I've dedicated Friday and Sunday nights to reading data science blogs, aiming for four to five each week. I summarize noteworthy articles on my blog bi-monthly (linked [here](https://yudong-94.github.io/personal-website/categories/#reading-notes)). Recently, I've noticed an uptick in blogs related to LLM, sparking my curiosity about other trends in my reading habits. To analyze this, I realized I needed a categorized record of my past readings. Fortunately, GPT is here to assist!
 
+<div class="container">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/text_analytics_robot_cartoon.png" alt="Cleaned Dataset" width="400" height="400">
+</div>
+
 #### Topic Extraction with GPT
 
 ChatGPT excels in text analytics, efficiently summarizing and categorizing text. In the section below, I will walk through how I use the OpenAI API to call the `gpt-3.5-turbo` model for this task. While GPT-3.5 was chosen for cost reasons, it proved sufficient for my purposes.
