@@ -88,7 +88,7 @@ It provided high-level recommendations as well as step-by-step guidance. These w
 
 ### Final Thoughts
 
-n the sections above, I demonstrated how the GPT Desktop App can be seamlessly integrated into day-to-day analytics workflows. The example is simple but highlights the potential for various use cases. Here are some ideas that came to mind:
+In the sections above, I demonstrated how the GPT Desktop App can be seamlessly integrated into day-to-day analytics workflows. The example is simple but highlights the potential for various use cases. Here are some ideas that came to mind:
 * Summarize the articles you are reading and answer questions on the topic;
 * Ask coding questions and get real-time debugging help;
 * Reply to incoming emails;
