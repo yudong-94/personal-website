@@ -1,5 +1,5 @@
 ---
-title: "Use the GPT Desktop App to Assist in Data Analysis"
+title: "Boost Your Data Analysis with the New ChatGPT Desktop App"
 date: 2024-05-26
 categories:
   - blog
