@@ -26,7 +26,7 @@ tags:
     }
 </style>
 
-In [a past article](https://yudong-94.github.io/personal-website/blog/TextAnalyticsWithGPT/), I walked through how to summarize and categorize text using the OpenAI API. In this post, I will take it one step further and show you how to integrate web scraping into this workflow to extract structured data info from a series of web pages.
+In [a past article](https://yudong-94.github.io/personal-website/blog/TextAnalyticsWithGPT/), I explored how to summarize and categorize text using the OpenAI API. In this post, I will take it one step further and show you how to integrate web scraping into this workflow to extract structured data info from a series of web pages.
 
 ### Context
 
@@ -36,11 +36,11 @@ I have been making [one visualization weekly](https://yudong-94.github.io/person
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_tableau_screenshot.png" alt="My Weekly Visualizations" width="600" height="400">
 </div>
 
-While I do have [visualization catalog pages](https://yudong-94.github.io/personal-website/data%20viz/WeeklyViz2024/) with the running list of visualization titles and data sources, it doesn’t fully answer the questions above. To identify the visualization topics and types, I need to read through the 139 weekly visualization [posts](https://yudong-94.github.io/personal-website/data%20viz/WeeklyViz20240527/), which is not realistic. Therefore, it’s time to get help from web scraping and the OpenAI API.
+While I have [visualization catalog pages](https://yudong-94.github.io/personal-website/data%20viz/WeeklyViz2024/) with a running list of visualization titles and data sources, it doesn't tell the visualization topic details and the specific chart types I used. Instead, I need to read through the 139 weekly visualization [posts](https://yudong-94.github.io/personal-website/data%20viz/WeeklyViz20240527/) to identify them, which is not realistic. Therefore, it's time to get help from web scraping and the OpenAI API.
 
 ### Step I - Prepare the URL Lists
 
-To get the list of URLs to those visualization posts, it is easiest to scrap the list from my [visualization catalog pages](https://yudong-94.github.io/personal-website/tags/#data-visualization-summary). Let’s start with the [2024 page](https://yudong-94.github.io/personal-website/data%20viz/WeeklyViz2024/). By inspecting the HTML code, you can see the URLs are embedded in the 'table' within the 'page__content' class.
+To get the list of URLs to those visualization posts, it is easiest to scrap the list from my [visualization catalog pages](https://yudong-94.github.io/personal-website/tags/#data-visualization-summary). Let’s start with the [2024 page](https://yudong-94.github.io/personal-website/data%20viz/WeeklyViz2024/). By inspecting the HTML code, you can see the URLs are embedded in the 'table' tags within the 'page__content' class.
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_viz_catalog_html.png" alt="Visualization Catalog Pages HTML" width="600" height="400">
@@ -106,6 +106,7 @@ In the above steps, we have prepared the URL list and the code snippet to extrac
 To achieve these goals, the key part is to write the prompt. Here is the final prompt after rounds of iteration. For example, I tried to omit the category descriptions, but it outputted lots of ‘Others’. So one takeaway is always to be specific and detailed if possible.
 
 ```python
+prompt = f"""
     Below is the text content of my weekly visualization blog post. I describes visualization data source, visualization types, and insights in the post.  
     '''
     {blog_content}
@@ -136,9 +137,10 @@ To achieve these goals, the key part is to write the prompt. Here is the final p
      "topic_category":"Economics",
      "visualization_type":"Line chart"}}
     '''
+"""
 ```
 
-I also used the [function calling](https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models) capability for consistent JSON output. The code below specifies function arguments.
+I also used the [function calling](https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models) capability for consistent JSON output. The code below specifies function arguments. This helps to enforce GPT output to always follow your desired JSON format and reduce data pipeline errors.
 
 ```python
 func = [
@@ -195,6 +197,8 @@ Now let’s piece together the code -- loop through the blog URLs, extract the t
 
 ```python
 def extract_info(blog_content, model="gpt-3.5-turbo"):
+    ## main function to feed the blog content to the OpenAI API
+    ## and extract visualization_topic, topic_category, and visualization_type
 
     prompt = f"""
     Below is the text content of my weekly visualization blog post. I describes visualization data source, visualization types, and insights in the post.  
@@ -243,6 +247,8 @@ def extract_info(blog_content, model="gpt-3.5-turbo"):
 
     return func_arguments
 
+## loop through the URL lists and store the OpenAI responses
+## you should add some error handling logic in a production data pipeline
 viz_summary = []
 
 for i in range(len(viz_urls)):
@@ -282,7 +288,7 @@ viz_summary_df = pd.DataFrame(viz_summary)
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_output_df_screenshot.png" alt="Visualization Summary Dataframe" width="600" height="400">
 </div>
 
-It’s also necessary to do a quick data validation on the output. As observed in the [last post](https://yudong-94.github.io/personal-website/blog/TextAnalyticsWithGPT/), there are always cases where GPT outputted values are not in the predefined value lists. For example, here it created a new category ‘Society’, which overlaps with the ‘Social Issues’ value I provided -- well, maybe ‘Society’ is a better name… I ended up making some manual adjustments myself to correct those outlier values.
+It’s also necessary to do a quick data validation on the output. As observed in the [last post](https://yudong-94.github.io/personal-website/blog/TextAnalyticsWithGPT/), there are always cases where GPT outputted values are not in the predefined value lists. For example, here it created a new category ‘Society’, which overlaps with the ‘Social Issues’ value I provided -- well, maybe ‘Society’ is a better name… I ended up making some manual adjustments myself to overwrite those outlier values.
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_category_output_count.png" alt="Counts of GPT Generated Visualization Topic Categories" width="600" height="400">
@@ -290,7 +296,7 @@ It’s also necessary to do a quick data validation on the output. As observed i
 
 ### Visualization Habit Analysis
 
-Now let’s go back to my visualization habit questions. I shared the cleaned dataset in a CSV file with ChatGPT 4o and it did the analysis and created visualizations automatically for me. I like how it captured the main questions and the table structure quickly and accurately. It can make basic charts quickly, but not always in the best way. For example, the two trends over time charts are too messy and hardly readable. Therefore, I have to provide guidance on how to improve them -- yet it failed to follow my instruction of not reusing the same label color… It also doesn’t provide any interpretations of the charts. You can find a more comprehensive evaluation of GPT’s data analysis capability [here](https://yudong-94.github.io/personal-website/blog/EvaluatingChatGPTinDataScience/).
+Now let’s go back to my visualization habit questions. I shared the cleaned dataset in a CSV file with ChatGPT 4o and it did the analysis and created visualizations automatically for me. I like how it captured the main questions and the table structure accurately. It can make basic charts quickly, but not always in the best way. For example, the two trends over time charts are too messy and hardly readable. Therefore, I had to provide guidance on how to improve them -- yet ChatGPT failed to follow my instruction of not reusing the same label color… It also doesn’t provide any interpretations of the charts. You can find a more comprehensive evaluation of ChatGPT’s data analysis capability [here](https://yudong-94.github.io/personal-website/blog/EvaluatingChatGPTinDataScience/).
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_gpt_analysis1.png" alt="GPT Visualization Habit Analysis 1" width="300" height="400">
@@ -302,35 +308,37 @@ Now let’s go back to my visualization habit questions. I shared the cleaned da
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_gpt_analysis4.png" alt="GPT Visualization Habit Analysis 4" width="300" height="400">
 </div>
 
-Here are my main takeaways:
-1. Line and bar charts are the two dominant chart types, followed by Gantt charts  
+Here are my main takeaways from this dataset:  
 
-It’s not a surprise that line charts and bar charts are the top two common types (47% combined). These are basic, simple, but straightforward ways of visualization. My third favorite chart type is the Gantt chart (14%). The Gantt chart is usually used as a project management tool. However, in Tableau, it is a very powerful tool to make plots that do not start from 0. I often use it to show changes or differences between two groups or two time points.  You can find two Gantt chart examples below. The first one visualizes the Caltrain passenger flow at each station during the morning commute time ([Tableau link](https://public.tableau.com/app/profile/yu.dong/viz/20220919CaltrainPeakTimePassengerFlow/CaltrainPeakTimePassengerFlow)). The second one plots the differences between men's and women's retirement ages around the world ([Tableau link](https://public.tableau.com/app/profile/yu.dong/viz/20230417RetirementAgesAroundtheWorld/RetirementAgesAroundtheWorld)).  
+**1. Line and bar charts are the two dominant chart types, followed by Gantt charts**  
+
+It’s not a surprise that line charts and bar charts are the top two common types (47% combined). These are basic, simple, but straightforward ways of visualization. My third favorite chart type is the Gantt chart (14%). The Gantt chart is usually used as a project management tool. However, in Tableau, it is a very powerful tool to make plots that do not start from 0. I often use it to show changes or differences between two groups or two time points.  You can find two Gantt chart examples below. The [first one](https://public.tableau.com/app/profile/yu.dong/viz/20220919CaltrainPeakTimePassengerFlow/CaltrainPeakTimePassengerFlow) visualizes the Caltrain passenger flow at each station during the morning commute time. The [second one](https://public.tableau.com/app/profile/yu.dong/viz/20230417RetirementAgesAroundtheWorld/RetirementAgesAroundtheWorld) plots the differences between men's and women's retirement ages around the world.  
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_gantt_example1.png" alt="Gantt Chart Example 1" width="300" height="400">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_gantt_example2.png" alt="Gantt Chart Example 2" width="300" height="400">
 </div>
 
-I have also used some less common visualization types like radial charts and bump charts. The prior is used to show comparisons among categories in circular shapes ([Tableau link](https://public.tableau.com/app/profile/yu.dong/viz/20230724DailyBoxOffice2019-202307/DailyBoxOffice2019-202307)), and the latter is useful to visualize the ranking shifts over time ([Tableau link](https://public.tableau.com/app/profile/yu.dong/viz/20220110GitHubPopularLanguages2012-2020/GitHubPopularLanguages2012-2020)). If you are interested to learn how these visualizations are made in Tableau, leave a comment below :)
+I have also used some less common visualization types like radial charts and bump charts. The prior is used to show comparisons among categories in circular shapes ([Tableau example link](https://public.tableau.com/app/profile/yu.dong/viz/20230724DailyBoxOffice2019-202307/DailyBoxOffice2019-202307)), and the latter is useful to visualize the ranking shifts over time ([Tableau example link](https://public.tableau.com/app/profile/yu.dong/viz/20220110GitHubPopularLanguages2012-2020/GitHubPopularLanguages2012-2020)).
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_radial_example.png" alt="radial Chart Example" width="300" height="400">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_bump_example.png" alt="Bump Chart Example" width="300" height="400">
 </div>
 
-2. Business is my favorite visualization topic  
+**2. Business is my favorite visualization topic**  
 
-Working at a startup, I am fascinated by entrepreneurship data points. The recent macroeconomics concerns and waves of tech layoffs also inspired several visualization ideas. Here are two examples: the first one shows the new business's 1-year survival rate by region ([Tableau link](https://public.tableau.com/app/profile/yu.dong/viz/20240422NewBusiness1-YearSurvivalRates/NewBusiness1-YearSurvivalRates)), and the second one shows the job postings on Indeed by selected industries ([Tableau link](https://public.tableau.com/app/profile/yu.dong/viz/20240311JobPostingonIndeed/JobPostingonIndeed)).
+Working at a startup, I am fascinated by entrepreneurship data points. The recent macroeconomics concerns and waves of tech layoffs also inspired several visualization ideas. Here are two examples: the [first one](https://public.tableau.com/app/profile/yu.dong/viz/20240422NewBusiness1-YearSurvivalRates/NewBusiness1-YearSurvivalRates) shows the new business's 1-year survival rate by region, and the [second one](https://public.tableau.com/app/profile/yu.dong/viz/20240311JobPostingonIndeed/JobPostingonIndeed) shows the job postings on Indeed by selected industries.
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_biz_example1.png" alt="Business Related Visualization Example 1" width="300" height="400">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gpt_viz_summary_biz_example2.png" alt="Business Related Visualization Example 2" width="300" height="400">
 </div>
 
+I will write more in the future about my weekly visualization journey. Stay tuned if you are interested!
 
 ### Final Thoughts
 
-In the above example, I demonstrated how to integrate web scraping with the text analytics capabilities offered by GPT models. I used my portfolio site to showcase a relatively simple process here, but this approach unlocks many opportunities to extract information in a structured manner from web pages. Whether you are a data scientist, a researcher, or just someone interested in extracting insights from web pages, these techniques can save you time and effort.
+In the above example, I demonstrated how to integrate web scraping with the text analytics capabilities offered by GPT models. I used my portfolio site to showcase a relatively simple process here, but this approach unlocks many opportunities to extract information in a structured manner from web pages. Whether you are a data scientist, a researcher, or just someone interested in extracting insights from web pages, these techniques can save you significant time and effort.
 
-Last but not least, web scraping could violate a website's terms of service. Please make sure to check out the website’s policy first and use official APIs when appropriate.  
+Last but not least, web scraping could violate a website's terms of service. Please make sure to check out the website's policy first and use official APIs when appropriate.
