@@ -7,7 +7,6 @@ tags:
   - gpt
   - data science
   - analysis
-  - reading notes
   - text analytics
   - coding
 ---
@@ -273,7 +272,7 @@ However, this didn't fully answer how my interests evolved over time. I followed
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/text_analytics_trends3.png" alt="GPT Heatmap Analysis 3" width="300" height="400">
 </div>
 
-  
+
 So let me answer my question myself:  
 * *A/B Testing and Causal Inference* consistently intrigued me. It is a complicated area with lots of interesting methodologies. Besides, since I have read lots of them, Medium keeps showing more on my homepage -- that’s how the recommender system works :)
 * *Data Quality Management* surprisingly emerged as a major interest all time -- I honestly didn’t expect this high volume but I guess I was just troubled too much by data management at work.
