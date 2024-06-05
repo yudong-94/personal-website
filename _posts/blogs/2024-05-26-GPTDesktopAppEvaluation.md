@@ -7,7 +7,6 @@ tags:
   - gpt
   - data science
   - analysis
-  - reading notes
 ---
 
 <style>
