@@ -133,9 +133,9 @@ prompt = f"""
 
     Example:
     '''
-    {{"visualization_topic":"Unemployment Rate 2000-2024",
+    {"visualization_topic":"Unemployment Rate 2000-2024",
      "topic_category":"Economics",
-     "visualization_type":"Line chart"}}
+     "visualization_type":"Line chart"}
     '''
 """
 ```
