@@ -38,4 +38,5 @@ This site works as a gallery of my data projects as well as my own thoughts on d
 
 [My LinkedIn](https://www.linkedin.com/in/yudong1994/)  
 [My Github](https://github.com/yudong-94)  
+[My Medium Profile](https://medium.com/@ydong029)  
 E-mail: yu.dong.0029@gmail.com
