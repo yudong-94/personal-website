@@ -30,7 +30,9 @@ Luckily, if you use Snowflake SQL at work, they have the invaluable [Query Profi
 
 For example, in the below screenshot, you can see the Join step taking the longest time, followed by the Aggregate (SUM) operation.  
 
-![Query Profile Screenshot](/assets/images/sql_optimization_query_profile.png)
+<div class="container">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/sql_optimization_query_profile.png" alt="Query Profile Screenshot" width="600" height="350">
+</div>
 
 This tool is incredibly helpful for identifying inefficient query steps. When you try out the optimization tips below, you can also compare the query profile before and after to understand the underlying changes better.
 
