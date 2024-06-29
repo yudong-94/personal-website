@@ -11,8 +11,8 @@ tags:
 
 #### Six Simple Yet Effective SQL Tips That Helped Me Reduce 50 Hours of Snowflake Query Time Every Day
 
-SQL is probably the most fundamental technical skill every data analyst and data scientist should master. It's usually part of the interview process, and we spend significant time coding in SQL at work to collect data. However, writing a functional query is different from writing a good query.  
-At my recent job, we have over 1,000 queries scheduled on Airflow daily by our data scientists. I observed our Snowflake credits increased by 50% in just one year. When I volunteered to examine the top 10 credit usage queries, I soon realized there were numerous optimization opportunities, some quite simple. This article highlights six simple but effective tips that helped  me reduce SQL query running time by 50 hours daily. Some of them are extremely simple to apply, but remember, 20% effort in SQL optimization leads to 80% of performance improvements. 
+SQL is probably the most fundamental technical skill every data analyst and data scientist should master. It's usually part of the interview process, and we spend significant time coding in SQL at work to collect data. Without it, there is no analysis or machine learning models. However, writing a functional query is different from writing a good query.  
+At my recent job, we have over 1,000 queries scheduled on Airflow daily by our data scientists. I observed our Snowflake credits increased by 50% in just one year. When I volunteered to examine the top 10 credit usage queries, I soon realized there were numerous optimization opportunities, some quite simple. This article highlights six simple yet effective tips that helped me reduce SQL query running time by 50 hours daily. Some of them are extremely simple to apply, but remember, 20% effort in SQL optimization leads to 80% of performance improvements. 
 
 Note: 
 * This article is written for those who are already familiar with basic SQL grammar. If you are a fellow data analyst or data scientist who writes SQL daily but wants to improve your queries (and make your data engineer friends happy), this is for you!  
@@ -74,7 +74,7 @@ WITH first_order AS (
 
 )
 
-SELECT user_id, order_id, sum(price) AS first_order_amount
+SELECT first_order.user_id, first_order.order_id, sum(price) AS first_order_amount
 FROM first_order
 JOIN ordered_products
   ON first_order.order_id = ordered_products.order_id
@@ -96,7 +96,7 @@ WITH first_order AS (
 
 )
 
-SELECT user_id, order_id, sum(price) AS first_order_amount
+SELECT first_order.user_id, first_order.order_id, sum(price) AS first_order_amount
 FROM first_order
 JOIN ordered_products
   ON first_order.order_id = ordered_products.order_id
@@ -131,11 +131,11 @@ WITH first_order AS (
   FROM orders
   JOIN users
     ON orders.user_id = users.user_id
-  QUALIFY ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY order_time) = 1
+  QUALIFY ROW_NUMBER() OVER (PARTITION BY users.user_id ORDER BY order_time) = 1
 
 )
 
-SELECT user_id, order_id, sum(price) AS first_order_amount
+SELECT first_order.user_id, first_order.order_id, sum(price) AS first_order_amount
 FROM first_order
 JOIN ordered_products
   ON first_order.order_id = ordered_products.order_id
@@ -158,11 +158,11 @@ WITH first_order AS (
   JOIN users
     ON orders.user_id = users.user_id
   WHERE users.country = 'US'
-  QUALIFY ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY order_time) = 1
+  QUALIFY ROW_NUMBER() OVER (PARTITION BY users.user_id ORDER BY order_time) = 1
 
 )
 
-SELECT user_id, order_id, sum(price) AS first_order_amount
+SELECT first_order.user_id, first_order.order_id, sum(price) AS first_order_amount
 FROM first_order
 JOIN ordered_products
   ON first_order.order_id = ordered_products.order_id
@@ -202,9 +202,9 @@ WITH first_order AS (
   -- here we are running window function on this already wide users table
   -- and carry all the data with it
   FROM users
-  JOIN orders
+  LEFT JOIN orders
     ON users.user_id = orders.user_id
-  QUALIFY ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY order_time) = 1
+  QUALIFY ROW_NUMBER() OVER (PARTITION BY users.user_id ORDER BY order_time) = 1
 
 ),
 
@@ -212,7 +212,7 @@ SELECT first_order.*, sum(price) AS first_order_amount
 -- and here we run aggregation on all those columns from users table
 -- this will really slow things down
 FROM first_order
-JOIN ordered_products
+LEFT JOIN ordered_products
   ON first_order.order_id = ordered_products.order_id
 GROUP BY ALL
 -- yes GROUP BY ALL is a legit and handy grammar in snowflake :)
@@ -232,7 +232,7 @@ WITH first_order AS (
 ),
 
 first_order_amount AS (
-  SELECT user_id, order_id, sum(price) AS first_order_amount
+  SELECT first_order.user_id, first_order.order_id, sum(price) AS first_order_amount
   -- the aggregation here is also simple with two columns grouped by
   FROM first_order
   JOIN ordered_products
@@ -343,7 +343,7 @@ For example, in a query I examined, 85% of the partition key values were empty. 
 
 ##### 6. Avoid layers of nested sub-queries and replace them with CTEs  
 
-Writing a huge query with nested sub-queries is hard for people to navigate. Replacing them with CTEs will make the query easier to read and debug. It also makes it possible to optimize the queries step by step (by applying the principles above) and only carry the necessary pieces of data along.  
+Writing a huge query with nested sub-queries is hard for people to navigate. Replacing them with CTEs will make the query easier to read and debug. It also makes it possible to optimize the queries step by step (by applying the principles above) and only carry the necessary pieces of data along. However, please note that different SQL engines may optimize CTEs differently, so try optimizing CTEs and compare the impact in practice for your data warehouse.
 
 **DO:**   
 Break down nested sub-queries to CTEs
