@@ -6,7 +6,7 @@ categories:
 tags:
   - data science
   - analysis
-  - data visualization summary
+  - coding
 ---
 
 #### Six Simple Yet Effective SQL Tips That Helped Me Reduce 50 Hours of Snowflake Query Time Every Day

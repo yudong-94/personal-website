@@ -4,7 +4,7 @@ date: 2023-11-09
 categories:
   - blog
 tags:
-  - gpt
+  - llm
   - coding
   - website
 ---

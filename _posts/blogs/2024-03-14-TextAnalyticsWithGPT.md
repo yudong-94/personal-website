@@ -4,10 +4,10 @@ date: 2024-03-14
 categories:
   - blog
 tags:
-  - gpt
+  - llm
   - data science
   - analysis
-  - text analytics
+  - nlp
   - coding
 ---
 

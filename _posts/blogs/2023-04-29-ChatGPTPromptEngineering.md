@@ -6,7 +6,7 @@ categories:
 tags:
   - online courses
   - reading notes
-  - gpt
+  - llm
 ---
 
 

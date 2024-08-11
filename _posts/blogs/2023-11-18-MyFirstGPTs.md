@@ -4,7 +4,7 @@ date: 2023-11-18
 categories:
   - blog
 tags:
-  - gpt
+  - llm
   - coding
   - analysis
 ---

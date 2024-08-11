@@ -4,7 +4,7 @@ date: 2024-08-05
 categories:
   - blog
 tags:
-  - gpt
+  - llm
   - data science
   - analysis
 ---
