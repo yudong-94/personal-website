@@ -28,7 +28,8 @@ tags:
 
 ### Context  
 
-Welcome back to the second installment of my series, ChatGPT vs. Claude vs. Gemini for Data Analysis! In this series, I aim to compare these AI tools across various data science and analytics tasks to help fellow data enthusiasts and professionals choose the best AI assistant for their needs. If you missed the first article, I compared their performance in writing and optimizing SQL queries - be sure to check it out!
+Welcome back to the second installment of my series, **ChatGPT vs. Claude vs. Gemini for Data Analysis**! In this series, I aim to compare these AI tools across various data science and analytics tasks to help fellow data enthusiasts and professionals choose the best AI assistant for their needs. If you missed the [first article](https://yudong-94.github.io/personal-website/blog/LLMComparisonSQL/), I compared their performance in writing and optimizing SQL queries - be sure to check it out!  
+
 Although the 2024 Olympics have concluded, our AI competition is just heating up. So far, Claude 3.5 Sonnet has taken the lead! But can it maintain its position, or will ChatGPT and Gemini catch up? 🏆  
 
 In this second article, we'll focus on their ability to independently conduct Exploratory Data Analysis (EDA). As a data scientist, imagine the convenience of having an AI tool that can instantly provide data insights and recommendations for a new dataset to inform advanced analysis and modeling. Let's see which model delivers the best EDA.  
