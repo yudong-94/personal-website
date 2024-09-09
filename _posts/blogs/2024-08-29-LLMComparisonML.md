@@ -265,6 +265,8 @@ Therefore, I gave it 2 out of 4 points.
   <img src="https://yudong-94.github.io/personal-website/assets/images/llm-comparison/ml_gemini_training_code.png" alt="Gemini — Model training and evaluation3" width="600" height="400">
 </div>
 
+--- 
+
 ### Final Results  
 
 <div class="container">
