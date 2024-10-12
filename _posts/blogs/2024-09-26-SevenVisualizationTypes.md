@@ -23,7 +23,33 @@ A bump chart is a special type of line chart that visualizes the change in rank 
 
 **Limitations**: Since it only keeps the rank information but overlooks the underlying value, it doesn’t show the scale of differences between categories and the value change of each category over time. Therefore, it’s your choice depending on the story you want to tell — If your main goal is to emphasize the relative rank changes among certain categories, it is the perfect visualization type for you; But if you also want to show how the differences between two categories are increasing/shrinking over time, a traditional line chart might be better.
 
-<div class='tableauPlaceholder' id='viz1728706911933' style='position: relative'><noscript><a href='#'><img alt='Top US Credit Cards Issuers ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20230424TopUSCreditCardsIssuers&#47;TopUSCreditCardsIssuers&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='20230424TopUSCreditCardsIssuers&#47;TopUSCreditCardsIssuers' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20230424TopUSCreditCardsIssuers&#47;TopUSCreditCardsIssuers&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1728706911933');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='727px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='727px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1728706911933' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='Top US Credit Cards Issuers ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20230424TopUSCreditCardsIssuers&#47;TopUSCreditCardsIssuers&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='20230424TopUSCreditCardsIssuers&#47;TopUSCreditCardsIssuers' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20230424TopUSCreditCardsIssuers&#47;TopUSCreditCardsIssuers&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object></div>          
+  <script type='text/javascript'>         
+    var divElement = document.getElementById('viz1728706911933');         
+    var vizElement = divElement.getElementsByTagName('object')[0];          
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='727px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='727px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                  
+    var scriptElement = document.createElement('script');           
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);     
+  </script>
 
 **Example**: In the above visualization, I plotted the rank of U.S. credit card issuers based on their purchase volume by year. You can clearly see that while American Express was in the 1st place, Chase has surpassed it since 2020. Meanwhile, Citi has always been in the 3rd place between 2016 and 2021. However, as mentioned earlier, this chart does not tell us how large the differences between Chase and American Express are, or if the overall market is expanding or shrinking.
 
@@ -41,8 +67,33 @@ A [Gantt Plot](https://en.wikipedia.org/wiki/Gantt_chart) is a special type of b
 
 **Limitations**: A Gantt plot contains rich information as it shows both the schedules and durations in one chart. However, the fact that not all bars start from the same value makes it less intuitive to compare the duration across the events or categories. If you need to emphasize the duration differences, it might not be the best choice.
 
-<div class='tableauPlaceholder' id='viz1728706965689' style='position: relative'><noscript><a href='#'><img alt='Caltrain Peak Time Passenger Flow ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220919CaltrainPeakTimePassengerFlow&#47;CaltrainPeakTimePassengerFlow&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='20220919CaltrainPeakTimePassengerFlow&#47;CaltrainPeakTimePassengerFlow' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220919CaltrainPeakTimePassengerFlow&#47;CaltrainPeakTimePassengerFlow&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1728706965689');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
+<div class='tableauPlaceholder' id='viz1728706965689' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='Caltrain Peak Time Passenger Flow ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220919CaltrainPeakTimePassengerFlow&#47;CaltrainPeakTimePassengerFlow&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='20220919CaltrainPeakTimePassengerFlow&#47;CaltrainPeakTimePassengerFlow' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220919CaltrainPeakTimePassengerFlow&#47;CaltrainPeakTimePassengerFlow&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object></div>         
+  <script type='text/javascript'>      
+    var divElement = document.getElementById('viz1728706965689');         
+    var vizElement = divElement.getElementsByTagName('object')[0];         
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     
+    var scriptElement = document.createElement('script');           
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';   
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);         
+  </script>
 
 **Example**: My visualization above shows the Caltrain passenger flow at each station during its peak time. In this Gantt Plot, I do not visualize the time schedule but show the passenger volume changes. The red bars represent how many passengers get on the train, while the grey bars represent the number of passengers getting off. For example, during the morning peak hours, on the northbound trains, we see more passengers board at stations like San Jose and Sunnyvale, while more people get off than get on at the Palo Alto Station.
 
@@ -61,7 +112,34 @@ A [radar chart](https://en.wikipedia.org/wiki/Radar_chart) is also known as a sp
 
 **Limitations**: While radar charts are helpful in visualizing multiple dimensions, that does not mean you can include as many axes as you want. When there are too many dimensions, the chart will get very busy, making it hard for the audience to digest useful information quickly.
 
-<div class='tableauPlaceholder' id='viz1728706990899' style='position: relative'><noscript><a href='#'><img alt='McDonald’s Food Nutrition ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240923McDonaldsNutritionFacts&#47;McDonaldsFoodNutrition&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='20240923McDonaldsNutritionFacts&#47;McDonaldsFoodNutrition' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240923McDonaldsNutritionFacts&#47;McDonaldsFoodNutrition&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1728706990899');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1728706990899' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='McDonald’s Food Nutrition ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240923McDonaldsNutritionFacts&#47;McDonaldsFoodNutrition&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='20240923McDonaldsNutritionFacts&#47;McDonaldsFoodNutrition' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240923McDonaldsNutritionFacts&#47;McDonaldsFoodNutrition&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+    <param name='filter' value='publish=yes' />
+  </object></div>         
+  <script type='text/javascript'>           
+    var divElement = document.getElementById('viz1728706990899');            
+    var vizElement = divElement.getElementsByTagName('object')[0];               
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}          
+    var scriptElement = document.createElement('script');         
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';   
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);   
+  </script>
 
 
 **Example**: In the visualization above, I compared the nutrition profiles of multiple McDonald’s menu items using a radar chart. Each axis of the chart represents a common nutrient like Carbs or Protein, and each colored curve is one menu item. For example, you can see that the Chocolate Triple Thick Shake is extremely high in Total Carbs and Sugars, while the Hamburger is more balanced across the nutrients. I also normalized the dimensions by the maximum value, so they all start with 0% and end with 100% (of maximum), as shown by the grey reference lines.
@@ -85,7 +163,32 @@ A [rose chart](https://en.wikipedia.org/wiki/Wind_rose), also known as a polar a
 
 **Limitations**: Rose charts can be difficult to read when there are too many categories or when the differences between the categories are too small. They are also not as intuitive as stacked bar charts for audiences who are unfamiliar with this type of visualization.
 
-<div class='tableauPlaceholder' id='viz1728707011488' style='position: relative'><noscript><a href='#'><img alt='Night Out Cost ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1126&#47;NightOutCost&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MakeOverMonday1126&#47;NightOutCost' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1126&#47;NightOutCost&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1728707011488');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1728707011488' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='Night Out Cost ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1126&#47;NightOutCost&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='MakeOverMonday1126&#47;NightOutCost' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday1126&#47;NightOutCost&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object></div>         
+  <script type='text/javascript'>               
+    var divElement = document.getElementById('viz1728707011488');          
+    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='627px';           
+    var scriptElement = document.createElement('script');            
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);           
+  </script>
 
 
 **Example**: My visualization above compares the cost of a night out in various cities for a date night for two people and a party night for one person. Each rose chart represents a breakdown of expenses for various activities. If you open it in Tableau, you can hover over each segment to see the city name, segment, and costs.
@@ -105,7 +208,33 @@ A circular bar plot is a variation of a bar chart. While the traditional bar cha
 
 **Limitations**: Circular bar plots can be challenging to read when there are many categories. The curvature of the bars can distort perception (just as with the pie chart), making it harder to judge the actual lengths compared to traditional bar charts.
 
-<div class='tableauPlaceholder' id='viz1728707037406' style='position: relative'><noscript><a href='#'><img alt='Amazon Prime Day Sales ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220718AmazonPrimeDaySales&#47;AmazonPrimeDaySales&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='20220718AmazonPrimeDaySales&#47;AmazonPrimeDaySales' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220718AmazonPrimeDaySales&#47;AmazonPrimeDaySales&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1728707037406');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1728707037406' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='Amazon Prime Day Sales ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220718AmazonPrimeDaySales&#47;AmazonPrimeDaySales&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='20220718AmazonPrimeDaySales&#47;AmazonPrimeDaySales' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20220718AmazonPrimeDaySales&#47;AmazonPrimeDaySales&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object></div>         
+  <script type='text/javascript'>   
+    var divElement = document.getElementById('viz1728707037406');  
+    var vizElement = divElement.getElementsByTagName('object')[0];         
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}           
+    var scriptElement = document.createElement('script');      
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';   
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);    
+  </script>
 
 **Example**: The visualization above shows Amazon Prime Day’s Gross Merchandise Sales from 2015 to 2022. In this chart, each circular bar represents the total sales on that year’s Prime Day. The circular layout also mimics the shape of Amazon’s logo. It might be hard to compare the actual sales without the labels, but it creates a visually appealing way to show the exponential sales growth.
 
@@ -124,7 +253,33 @@ A [ridgeline plot](https://en.wikipedia.org/wiki/Ridgeline_plot) is also known a
 
 **Limitations**: if the distribution of each “ridge” is not unimodal or when there are too many categories competing with each other, the ridgeline plots could be hard to digest.
 
-<div class='tableauPlaceholder' id='viz1728707057594' style='position: relative'><noscript><a href='#'><img alt='US Recorded Music Revenue ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240408USRecordedMusicRevenue&#47;USRecordedMusicRevenue&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='20240408USRecordedMusicRevenue&#47;USRecordedMusicRevenue' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240408USRecordedMusicRevenue&#47;USRecordedMusicRevenue&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1728707057594');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1728707057594' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='US Recorded Music Revenue ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240408USRecordedMusicRevenue&#47;USRecordedMusicRevenue&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='20240408USRecordedMusicRevenue&#47;USRecordedMusicRevenue' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;20240408USRecordedMusicRevenue&#47;USRecordedMusicRevenue&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object></div>      
+  <script type='text/javascript'>             
+    var divElement = document.getElementById('viz1728707057594');         
+    var vizElement = divElement.getElementsByTagName('object')[0];    
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}              
+    var scriptElement = document.createElement('script');                 
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';      
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);   
+  </script>
 
 **Example**: My visualization above shows the evolution of U.S. recorded music revenues by format from 1970 to 2025. Each ridgeline represents the revenue of a different music format over time. The plot shows how the popularity of different formats has shifted. For example, CD was the dominant music distribution format between 1990 to 2010, but it has been replaced by the paid music subscription.
 
@@ -143,7 +298,33 @@ A [Sankey diagram](https://en.wikipedia.org/wiki/Sankey_diagram) is a flow chart
 
 **Limitations**: Sankey diagrams can become overwhelming to interpret when there are too many categories or flows. They are best used when you want to highlight a few key flows or relationships.
 
-<div class='tableauPlaceholder' id='viz1728707081671' style='position: relative'><noscript><a href='#'><img alt='Australia Homeless Services Housing Outcomes ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020224AustraliaHomelessnessServiceHousingOutcomes&#47;AustraliaHomelessServicesHousingOutcomes&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MakeOverMonday2020224AustraliaHomelessnessServiceHousingOutcomes&#47;AustraliaHomelessServicesHousingOutcomes' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020224AustraliaHomelessnessServiceHousingOutcomes&#47;AustraliaHomelessServicesHousingOutcomes&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1728707081671');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1728707081671' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='Australia Homeless Services Housing Outcomes ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020224AustraliaHomelessnessServiceHousingOutcomes&#47;AustraliaHomelessServicesHousingOutcomes&#47;1_rss.png' style='border: none' />
+  </a></noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+    <param name='embed_code_version' value='3' /> 
+    <param name='site_root' value='' />
+    <param name='name' value='MakeOverMonday2020224AustraliaHomelessnessServiceHousingOutcomes&#47;AustraliaHomelessServicesHousingOutcomes' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeOverMonday2020224AustraliaHomelessnessServiceHousingOutcomes&#47;AustraliaHomelessServicesHousingOutcomes&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object></div>           
+  <script type='text/javascript'>       
+    var divElement = document.getElementById('viz1728707081671');   
+    var vizElement = divElement.getElementsByTagName('object')[0];      
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                
+    var scriptElement = document.createElement('script');            
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';  
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);       
+  </script>
 
 **Example**: The Sankey Diagram above visualizes the housing situation of participants in the Australia Homelessness Services from 2017 to 2018. It uses different colors to represent the different housing situations. The colors of the flows correspond to their start situations. It shows that fewer participants were couch surfers or in short-term temporary accommodation after the program ended. However, there was an 8% unknown status in the end situation, preventing us from drawing more reliable conclusions.
 
