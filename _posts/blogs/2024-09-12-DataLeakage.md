@@ -6,6 +6,7 @@ categories:
 tags:
   - data science
   - machine learning
+  - data engineering
 ---
 
 **Key Steps in Data Preprocessing, Feature Engineering, and Train-test Splitting to Prevent Data Leakage**

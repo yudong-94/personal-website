@@ -7,6 +7,7 @@ tags:
   - data science
   - analysis
   - coding
+  - data engineering
 ---
 
 #### Six Simple Yet Effective SQL Tips That Helped Me Reduce 50 Hours of Snowflake Query Time Every Day
