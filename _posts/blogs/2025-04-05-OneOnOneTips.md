@@ -8,6 +8,12 @@ tags:
   - career
 ---
 
+---
+
+This article was initially posted on [Towards Data Science](https://towardsdatascience.com/mastering-11s-as-a-data-scientist-from-status-updates-to-career-growth/).  
+
+---
+
 **Use your 1:1s to gain visibility, solve challenges, and advance your career**
 
 I have been a data team manager for six months, and my team has grown from three to five.  
