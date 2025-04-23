@@ -6,7 +6,7 @@ categories:
 tags:
   - data science
   - machine learning
-  - analysis
+  - llm
 ---
 
 <style>
