@@ -104,7 +104,3 @@ Seeing the ideal state, I am sure you already have some AI tool candidates in mi
 ### Conclusion  
 
 It is easy to get caught up chasing the latest AI tools. But at the end of the day, what matters most is using AI to eliminate what slows us down and accelerate what moves us forward. The key is to stay pragmatic: adopt what works today, stay curious about what's emerging, and never lose sight of the core purpose of data science - to drive better decisions through better understanding.
-
----
-
-This article was originally posted on [Towards Data Science](https://towardsdatascience.com/how-ai-is-rewriting-the-day-to-day-of-data-scientists/).
