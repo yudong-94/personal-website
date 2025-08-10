@@ -7,6 +7,9 @@ tags:
   - llm
   - data science
   - analysis
+header:
+  teaser: /assets/images/article_covers/gpt_desktop_cover.jpg
+excerpt: "How does ChatGPT Desktop App seamlessly integrate into your data analysis workflow and boost productivity."
 ---
 
 <style>

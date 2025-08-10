@@ -6,8 +6,9 @@ categories:
 tags:
   - data science
   - career
----
-
+header:
+  teaser: /assets/images/article_covers/ds_one_on_one_cover.jpg
+excerpt: "Use your 1:1s to gain visibility, solve challenges, and advance your career."
 ---
 
 This article was initially posted on [Towards Data Science](https://towardsdatascience.com/mastering-11s-as-a-data-scientist-from-status-updates-to-career-growth/).  

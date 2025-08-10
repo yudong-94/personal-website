@@ -6,6 +6,9 @@ categories:
 tags:
   - data science
   - career
+header:
+  teaser: /assets/images/article_covers/ds_manager_cover.jpg
+excerpt: "Reflections on moving from hands-on work to mentoring and leading."
 ---
 
 **Reflections on moving from hands-on work to mentoring and leading**

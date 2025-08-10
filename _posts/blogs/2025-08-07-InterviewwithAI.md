@@ -7,6 +7,9 @@ tags:
   - data science
   - llm
   - career
+header:
+  teaser: /assets/images/article_covers/ds_interview_with_ai_cover.jpg
+excerpt: "How AI is transforming data science interviews — and what hiring managers and candidates should do to adapt."
 ---
 
 This article was initially posted on [Towards Data Science](https://towardsdatascience.com/rethinking-data-science-interviews-in-the-age-of-ai/).  

@@ -9,6 +9,9 @@ tags:
   - website
   - coding
   - career
+header:
+  teaser: /assets/images/article_covers/ds_portfolio_cover.jpg
+excerpt: "Learn how to create an impactful data science portfolio that showcases your skills and attracts potential employers."
 ---
 
 ### Learn how to create an impactful data science portfolio that showcases your skills and attracts potential employers

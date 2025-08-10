@@ -7,6 +7,9 @@ tags:
   - data science
   - analysis
   - data engineering
+header:
+  teaser: /assets/images/article_covers/table_best_practices_cover.jpg
+excerpt: "Designing intuitive and reliable tables that your data team will love."
 ---
 
 **Designing intuitive and reliable tables that your data team will love**

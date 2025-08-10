@@ -7,6 +7,9 @@ tags:
   - llm
   - data science
   - analysis
+header:
+  teaser: /assets/images/article_covers/llm_comparison_eda_cover.jpg
+excerpt: "Five criteria to compare ChatGPT, Claude, and Gemini in tackling Exploratory Data Analysis."
 ---
 
 <style>

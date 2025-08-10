@@ -7,6 +7,9 @@ tags:
   - data science
   - analysis
   - data visualization summary
+header:
+  teaser: /assets/images/article_covers/week_viz_journey_cover.jpg
+excerpt: "How consistent practice in data visualization enhanced my data science skills."
 ---
 
 <style>

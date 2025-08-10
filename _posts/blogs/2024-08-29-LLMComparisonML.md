@@ -7,6 +7,9 @@ tags:
   - llm
   - data science
   - machine learning
+header:
+  teaser: /assets/images/article_covers/llm_comparison_ml_cover.jpg
+excerpt: "How AI can accelerate your ML projects from feature engineering to model training."
 ---
 
 <style>

@@ -7,6 +7,9 @@ tags:
   - data science
   - machine learning
   - llm
+header:
+  teaser: /assets/images/article_covers/deepseek_ds_evaluation_cover.jpg
+excerpt: "How DeepSeek’s budget-friendly AI model stacks up against ChatGPT, Claude, and Gemini in SQL, EDA, and machine learning."
 ---
 
 <style>

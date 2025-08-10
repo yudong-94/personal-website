@@ -7,6 +7,9 @@ tags:
   - data science
   - analysis
   - presentation
+header:
+  teaser: /assets/images/article_covers/data_presentation_cover.jpg
+excerpt: "How to structure, design, and deliver data presentations that win over stakeholders."
 ---
 
 <style>

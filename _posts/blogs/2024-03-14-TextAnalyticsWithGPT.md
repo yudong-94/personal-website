@@ -9,6 +9,9 @@ tags:
   - analysis
   - nlp
   - coding
+header:
+  teaser: /assets/images/article_covers/text_analytics_with_gpt_cover.jpg
+excerpt: "Use GPT-3.5 API for text analytics to categorize and summarize data science blog posts."
 ---
 
 <style>

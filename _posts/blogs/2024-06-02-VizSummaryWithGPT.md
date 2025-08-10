@@ -11,6 +11,9 @@ tags:
   - web scraping
   - data visualization summary
   - coding
+header:
+  teaser: /assets/images/article_covers/viz_summary_with_gpt_cover.jpg
+excerpt: "Use GPT to summarise content and extract structured data from web pages."
 ---
 
 <style>
@@ -25,6 +28,8 @@ tags:
         height: auto;
     }
 </style>
+
+#### Use GPT to summarise content and extract structured data from web pages
 
 In [a past article](https://yudong-94.github.io/personal-website/blog/TextAnalyticsWithGPT/), I explored how to summarize and categorize text using the OpenAI API. In this post, I will take it one step further and show you how to integrate web scraping into this workflow to extract structured data info from a series of web pages.
 

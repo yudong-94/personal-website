@@ -6,8 +6,9 @@ categories:
 tags:
   - data science
   - llm
----
-
+header:
+  teaser: /assets/images/article_covers/ai_for_ds_cover.jpg
+excerpt: "From eliminating low-value tasks to accelerating high-impact projects, here’s how AI is reshaping the data science workflow."
 ---
 
 This article was initially posted on [Towards Data Science](https://towardsdatascience.com/how-ai-is-rewriting-the-day-to-day-of-data-scientists/).  

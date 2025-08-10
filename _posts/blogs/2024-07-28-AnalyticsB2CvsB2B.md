@@ -7,6 +7,9 @@ tags:
   - data science
   - analysis
   - career
+header:
+  teaser: /assets/images/article_covers/b2c_b2b_analytics_cover.jpg
+excerpt: "How Customer Types Shape Data Science Roles and Methodologies."
 ---
 
 

@@ -7,6 +7,9 @@ tags:
   - data science
   - machine learning
   - data engineering
+header:
+  teaser: /assets/images/article_covers/data_leakage_cover.jpg
+excerpt: "Key Steps in Data Preprocessing, Feature Engineering, and Train-test Splitting to Prevent Data Leakage."
 ---
 
 **Key Steps in Data Preprocessing, Feature Engineering, and Train-test Splitting to Prevent Data Leakage**

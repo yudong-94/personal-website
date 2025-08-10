@@ -8,6 +8,9 @@ tags:
   - analysis
   - coding
   - data engineering
+header:
+  teaser: /assets/images/article_covers/sql_optimization_cover.jpg
+excerpt: "Six Simple Yet Effective SQL Tips That Helped Me Reduce 50 Hours of Snowflake Query Time Every Day."
 ---
 
 #### Six Simple Yet Effective SQL Tips That Helped Me Reduce 50 Hours of Snowflake Query Time Every Day

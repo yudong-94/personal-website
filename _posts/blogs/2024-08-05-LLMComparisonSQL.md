@@ -7,6 +7,9 @@ tags:
   - llm
   - data science
   - analysis
+header:
+  teaser: /assets/images/article_covers/llm_comparison_sql_cover.jpg
+excerpt: "Ten Questions to test which AI assistant writes the best SQL."
 ---
 
 <style>

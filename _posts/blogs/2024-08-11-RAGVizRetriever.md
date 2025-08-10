@@ -8,6 +8,9 @@ tags:
   - data science
   - data visualization summary
   - nlp
+header:
+  teaser: /assets/images/article_covers/rag_viz_retriever_cover.jpg
+excerpt: "A step-by-step guide to creating a visualization discovery chatbot with OpenAI API, FAISS, and Streamlit."
 ---
 
 <style>

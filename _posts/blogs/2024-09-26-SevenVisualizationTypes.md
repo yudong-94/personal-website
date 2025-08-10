@@ -7,6 +7,9 @@ tags:
   - data science
   - analysis
   - data visualization summary
+header:
+  teaser: /assets/images/article_covers/seven_visualization_types_cover.jpg
+excerpt: "Step up your data storytelling game with these creative and insightful visualizations."
 ---
 
 **Step up your data storytelling game with these creative and insightful visualizations**

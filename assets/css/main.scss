@@ -1,0 +1,40 @@
+
+
+// Increase number of cards per row for desktop
+.archive__item {
+    max-width: 300px; // controls card width
+  }
+  
+  .archive {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; // spacing between cards
+  }
+  
+  .archive__item {
+    flex: 1 1 300px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .archive__item {
+      flex: 1 1 280px;
+    }
+  }
+
+  /* Force all card images to the same height */
+.archive__item img {
+    width: 100%;
+    height: 180px;         /* Adjust this number to taste */
+    object-fit: cover;     /* Crop instead of stretch */
+    display: block;
+  }
+  
+  /* Optional: keep cards visually even by aligning text areas */
+  .archive__item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .archive__item-body {
+    flex: 1 1 auto;        /* Let text area fill space evenly */
+  }

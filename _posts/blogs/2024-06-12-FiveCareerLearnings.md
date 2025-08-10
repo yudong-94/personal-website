@@ -5,6 +5,9 @@ categories:
   - blog
 tags:
   - career
+header:
+  teaser: /assets/images/article_covers/five_career_learnings_cover.jpg
+excerpt: "Reflection on my six-year data science career."
 ---
 
 #### Reflection on my six-year data science career

@@ -6,6 +6,9 @@ categories:
 tags:
   - data science
   - career
+header:
+  teaser: /assets/images/article_covers/business_dashboard_cover.jpg
+excerpt: "A practical guide to designing clear, effective, and actionable dashboards for decision-making."
 ---
 
 **A practical guide to designing clear, effective, and actionable dashboards for decision-making**

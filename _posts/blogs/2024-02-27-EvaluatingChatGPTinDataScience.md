@@ -8,6 +8,9 @@ tags:
   - data science
   - analysis
   - machine learning
+header:
+  teaser: /assets/images/article_covers/chatgpt_in_ds_cover.jpg
+excerpt: "Can ChatGPT assist or even replace a data scientist?."
 ---
 
 <style>

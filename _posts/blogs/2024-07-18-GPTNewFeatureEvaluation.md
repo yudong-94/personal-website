@@ -7,6 +7,9 @@ tags:
   - llm
   - data science
   - analysis
+header:
+  teaser: /assets/images/article_covers/gpt_feature_evaluation_cover.jpg
+excerpt: "Is ChatGPT becoming a BI tool?"
 ---
 
 <style>

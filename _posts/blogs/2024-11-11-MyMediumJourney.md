@@ -7,6 +7,9 @@ tags:
   - data science
   - analysis
   - career
+header:
+  teaser: /assets/images/article_covers/my_medium_journey_cover.jpg
+excerpt: "Real numbers, earnings, and data-driven growth strategy for Medium writers."
 ---
 
 <style>

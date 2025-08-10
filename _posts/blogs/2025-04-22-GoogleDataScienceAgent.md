@@ -7,6 +7,9 @@ tags:
   - data science
   - machine learning
   - llm
+header:
+  teaser: /assets/images/article_covers/ds_agent_cover.jpg
+excerpt: "I tested Google’s Data Science Agent in Colab—here’s what it got right (and where it failed)."
 ---
 
 <style>

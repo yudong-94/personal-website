@@ -7,6 +7,9 @@ tags:
   - data science
   - machine learning
   - analysis
+header:
+  teaser: /assets/images/article_covers/machine_learning_in_analytics_cover.jpg
+excerpt: "Your essential machine learning checklist to excel as a data scientist in analytics."
 ---
 
 **Your essential machine learning checklist to excel as a data scientist in analytics**
