@@ -1,9 +1,12 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
+  - title: "Vizzes"
+    url: /categories/#weekly-viz
+  - title: "Articles"
+    url: /categories/#blog
+  - title: "Reading Notes"
+    url: /categories/#reading-notes
   - title: "Tags"
     url: /tags/
   - title: "About"
     url: /about/
+  
