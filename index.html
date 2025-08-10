@@ -1,7 +1,41 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: "Yu Dong"
+permalink: /
+header:
+  overlay_color: "#1f2937"     # dark slate overlay
+  overlay_filter: 0.45
+  overlay_image: /assets/images/site_ui/overlay_cover.png
+  actions:
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/yudong1994/"
+      class: "btn btn--primary"
+    - label: "Medium"
+      url: "https://medium.com/@ydong029"
+      class: "btn"
+    - label: "Tableau"
+      url: "https://public.tableau.com/app/profile/yu.dong#!/"
+      class: "btn"
+excerpt: "Data Science & Analytics · Data Storyteller"
+feature_row:
+  - image_path: /assets/images/site_ui/data_visualization_cta.jpg
+    title: "Data Visualizations"
+    excerpt: "Weekly Tableau pieces since 2018."
+    url: "/categories/#weekly-viz"
+    btn_label: "Explore"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/site_ui/articles_cta.jpg
+    title: "Articles"
+    excerpt: "DS, AI, career reflection, and more."
+    url: "/articles"
+    btn_label: "Read"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/site_ui/reading_notes_cta.jpg
+    title: "Reading Notes"
+    excerpt: "Bi-monthly summaries of what I’m learning."
+    url: "/categories/#reading-notes"
+    btn_label: "Browse"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row %}

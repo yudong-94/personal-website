@@ -15,12 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: DongDataDive
 email:
-description: Data Science & Analytics, Data Storyteller
-twitter_username: username
+description: "Yu Dong — Data Science & Analytics. Weekly visualizations, practical articles, and reading notes."
 github_username: yudong-94
 minimal_mistakes_skin: default
 search: true
+search_full_content: true
+show_excerpts: true
 excerpt_separator: "<!--more-->"
+teaser: /assets/images/site_ui/articles_cta.jpg
 
 # Build settings
 markdown: kramdown
@@ -29,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -65,7 +67,7 @@ analytics:
 
 author:
   name   : "Yu Dong"
-  avatar : "/assets/images/bio_picture_cat.png"
+  avatar : "/assets/images/site_ui/bio_picture_cat.png"
   bio    : "Data Science & Analytics, Data Storyteller"
   links:
     - label: "LinkedIn"
