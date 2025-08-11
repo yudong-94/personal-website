@@ -1,8 +1,8 @@
 main:
   - title: "Vizzes"
-    url: /categories/#weekly-viz
+    url: /data-viz
   - title: "Articles"
-    url: /categories/#blog
+    url: /articles
   - title: "Reading Notes"
     url: /categories/#reading-notes
   - title: "Tags"

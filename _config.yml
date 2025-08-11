@@ -81,11 +81,11 @@ author:
     - label: "Tableau Public"
       url: "https://public.tableau.com/app/profile/yu.dong#!/"
     - label: "✅ My Weekly Vizzes"
-      url: "https://yudong-94.github.io/personal-website/categories/#data-viz"
+      url: "https://yudong-94.github.io/personal-website/data-viz"
     - label: "✅ My Bi-Monthly Reading Notes"
       url: "https://yudong-94.github.io/personal-website/categories/#reading-notes"
     - label: "✅ My Blog Posts"
-      url: "https://yudong-94.github.io/personal-website/categories/#blog"
+      url: "https://yudong-94.github.io/personal-website/articles"
 
 footer:
   links:
