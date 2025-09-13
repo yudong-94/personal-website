@@ -1,43 +1,38 @@
+---
+---
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-// Increase number of cards per row for desktop
-.archive__item {
-    max-width: 300px; // controls card width
-  }
-  
-  .archive {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem; // spacing between cards
-  }
-  
-  .archive__item {
-    flex: 1 1 300px;
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .archive__item {
-      flex: 1 1 280px;
-    }
-  }
+/* Remove global archive layout overrides to avoid breaking list pages */
 
-  /* Force all card images to the same height */
-.archive__item img {
-    width: 100%;
-    height: 180px;         /* Adjust this number to taste */
-    object-fit: cover;     /* Crop instead of stretch */
-    display: block;
-  }
-  
-  /* Optional: keep cards visually even by aligning text areas */
-  .archive__item {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .archive__item-body {
-    flex: 1 1 auto;        /* Let text area fill space evenly */
-  }
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1000;
+  padding: .5rem .75rem;
+  border: 0;
+  border-radius: .375rem;
+  background: #6b7280; /* gray-500 */
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .2s ease, visibility .2s ease, transform .2s ease;
+  transform: translateY(8px);
+}
+
+.back-to-top:hover { background: #4b5563; }
+
+.back-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
 
 /* Inline image rows for posts */
 .img-row {
@@ -47,6 +42,88 @@
   align-items: center;
   gap: 10px;
   margin: 0.5rem 0 1rem;
+}
+
+/* Align buttons across "Latest" feature cards on homepage */
+.feature__wrapper .archive__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.feature__wrapper .archive__item-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.feature__wrapper .archive__item-body .btn {
+  margin-top: auto;   /* pushes button to the bottom for alignment */
+  align-self: flex-start;
+}
+
+/* Ensure equal card heights and aligned teasers in Latest section */
+.feature__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: stretch; /* make all children equal height */
+}
+
+.feature__wrapper .feature__item {
+  flex: 1 1 320px;
+  display: flex; /* allow child to stretch */
+}
+
+.feature__wrapper .archive__item-teaser img {
+  width: 100%;
+  height: 220px; /* normalize teaser height */
+  object-fit: cover;
+  display: block;
+}
+
+/* Normalize title and excerpt heights so buttons line up */
+.feature__wrapper h2.archive__item-title,
+.feature__wrapper .archive__item-title {
+  font-size: 1.25rem !important;  /* reduce size so most titles fit */
+  line-height: 1.3;
+  min-height: 3.9em;              /* 3 lines */
+  max-height: 3.9em;              /* clamp height */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0 0 .25rem;             /* normalize spacing */
+}
+
+.feature__wrapper .archive__item-title a {
+  font-size: inherit !important;
+}
+
+.feature__wrapper .archive__item-excerpt {
+  line-height: 1.5;
+  min-height: 4.5em; /* ~3 lines */
+  max-height: 4.5em; /* clamp height */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0 0 1rem; /* normalize spacing */
+}
+
+.feature__wrapper .archive__item-excerpt p {
+  margin: 0; /* collapse inner margins */
+}
+
+/* Relax constraints on small screens */
+@media screen and (max-width: 600px) {
+  .feature__wrapper .archive__item-teaser img {
+    height: auto;
+  }
+  .feature__wrapper .archive__item-title,
+  .feature__wrapper .archive__item-excerpt {
+    min-height: 0;
+  }
 }
 
 .img-row img {

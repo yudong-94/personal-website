@@ -38,4 +38,42 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+<h2 class="archive__subtitle">Explore</h2>
 {% include feature_row %}
+
+<h2 class="archive__subtitle">Latest</h2>
+
+<div class="feature__wrapper">
+  {% assign latest_blogs = site.categories.blog | sort: 'date' | reverse | slice: 0, 2 %}
+  {% for post in latest_blogs %}
+  <div class="feature__item">
+    <div class="archive__item">
+      {% if post.header.teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+      </div>
+      {% endif %}
+      <div class="archive__item-body">
+        <h2 class="archive__item-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.excerpt %}
+        <div class="archive__item-excerpt">{{ post.excerpt }}</div>
+        {% endif %}
+        <a href="{{ post.url | relative_url }}" class="btn btn--primary">Read</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img src="{{ '/assets/images/viz_journey/recent_viz_selection.png' | relative_url }}" alt="2025 Weekly Viz Collection">
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title"><a href="{{ '/data-viz' | relative_url }}">2025 Weekly Viz Collection</a></h2>
+        <div class="archive__item-excerpt">Eighth year of weekly vizzes; favorites inside.</div>
+        <a href="{{ '/data-viz' | relative_url }}" class="btn btn--primary">Explore</a>
+      </div>
+    </div>
+  </div>
+</div>
