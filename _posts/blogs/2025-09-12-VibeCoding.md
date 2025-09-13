@@ -40,7 +40,7 @@ It is essentially coding by chatting—with AI as your copilot, and you as the i
 To set the stage, let me first talk about how much I know about software development and AI:  
 1. I am a data scientist, so I know Python.
 2. I did quite a bit of data engineering tasks at my last job, so I am comfortable setting up a local development environment and using GitHub and the terminal.
-3. I have basic front-end knowledge — I learned HTML and CSS myself, and have a [personal website](http://i%20learned%20basic%20css%20and%20html/) that is deployed with GitHub Pages.
+3. I have basic front-end knowledge — I learned HTML and CSS myself, and have a [personal website](https://yudong-94.github.io/personal-website/) that is deployed with GitHub Pages.
 4. I have worked with software engineers on data tracking requirements and product analytics, so I have a very high-level idea of how a backend system works (though I’ve never coded one myself).
 5. I have used AI to write code, but only for data science and analytics tasks.
 If you are like me — comfortable with some coding but not a full-stack software engineer — this article will probably resonate with you the most.
