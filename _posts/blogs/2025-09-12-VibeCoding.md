@@ -50,7 +50,7 @@ If you are like me — comfortable with some coding but not a full-stack softwar
 The app I tried to build is a **spending tracker app**.
 
 <div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/article_covers/vibe_coding.jpg" alt="My SpendTracker App screenshot with mock data (Image by the author)" width="300" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/article_covers/vibe_coding.jpg" alt="My SpendTracker App screenshot with mock data (Image by the author)" width="600" height="800">
 </div>
 
 The idea came from a real-life pain point. The app I used to log my spending started showing more and more ads and became really annoying. I tried other options like Credit Karma. Overall, it is a great app to have your credit score, cards, and cash flow in one place. However, it requires connecting to all my bank accounts and constantly fixing connection issues. It also has limited reporting capabilities with transaction categorization mistakes. I even tried [Google AppSheet](https://about.appsheet.com/home/) to build a no-code Google Sheet-based app, but there isn’t much customization I could do to the visualizations.
@@ -62,7 +62,7 @@ Therefore, I’d rather build an app myself that is tailored to my primary needs
 Below is a quick demo of the app I built in ~20 hours. You can find the code [here](https://github.com/yudong-94/spend-tracking-app).
 
 <div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_demo.gif" alt="My SpendTracker App demo with mock data (recording by the author)" width="300" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_demo.gif" alt="My SpendTracker App demo with mock data (recording by the author)" width="600" height="800">
 </div>
 
 ---
@@ -96,7 +96,7 @@ Here is the tech stack it chose — except for the GoogleSheets API, I have used
 It even generated a detailed [Google Sheets API setup guide](https://github.com/yudong-94/spend-tracking-app/blob/main/GOOGLE_SHEETS_SETUP.md) for me. I followed the guide and resolved some environment setup issues (with its help, of course). In less than two hours, I already had the app running locally with most of the core features I asked for!  
 
 <div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_cursor.jpg" alt="Cursor UI — you can see the AI pane on the right (Image by the author)" width="300" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_cursor.jpg" alt="Cursor UI — you can see the AI pane on the right (Image by the author)" width="600" height="800">
 </div>
 
 ### Step 3: Migrate to Vercel for deployment  
@@ -108,7 +108,7 @@ So I asked both ChatGPT and Cursor for low-cost deployment options. After some d
 This migration process took me around three hours. The time was mostly spent on copying and pasting the files, making sure I updated the right piece of code, fixing minor TypeScript errors, and dealing with some AI hallucinations. Looking back, it should have been much faster if I had asked Cursor to make all the changes for me directly. But I was curious to test how much and how accurately ChatGPT could help by simply reading the GitHub repo.  
 
 <div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_chatgpt.jpg" alt="ChatGPT screenshot (Image by the author)" width="300" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_chatgpt.jpg" alt="ChatGPT screenshot (Image by the author)" width="600" height="800">
 </div>
 
 ### Step 4: Iterative app development with Cursor and Codex  
@@ -130,15 +130,15 @@ For example:
 This is an iterative process — I submit requests as a Product Manager, ask Cursor to implement, preview the changes, tweak the feature, and repeat. I hit my Cursor free plan limit in the middle of the process, so I switched to [Codex](https://openai.com/codex/). It is the AI coding agent developed by OpenAI, in other words, ChatGPT’s own version of Cursor. It is included in the ChatGPT subscription. You can set it up on your GitHub or use the CLI. For simplicity, I installed the Codex extension on the Cursor IDE. It works very similarly to Cursor’s AI agent — you write your prompt in a side pane, and it “thinks” with GPT models, reads the files, tests, and applies code changes automatically.  
 
 <div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_codex.jpg" alt="Codex UI as a Cursor IDE extension (Image by the author)" width="300" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_codex.jpg" alt="Codex UI as a Cursor IDE extension (Image by the author)" width="600" height="800">
 </div>
 
 Sometimes the asks are concrete, as the ones I listed above, but sometimes it’s more vague, like “the Budget table cuts off and does not show the full row on the mobile view, help me optimize it”. Surprisingly, AI is able to generate decent solutions every time, or at least a version that helps me to think through what exactly I want.  
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request.jpg" alt="A vague request to Codex (Image by the author)" width="300" height="400">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request_pre.jpg" alt="Budget page mobile UI pre-change (Image by the author)" width="300" height="400">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request_post.jpg" alt="Budget page mobile UI post-change (Image by the author)" width="300" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request_pre.jpg" alt="Budget page mobile UI pre-change (Image by the author)" width="200" height="300">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request_post.jpg" alt="Budget page mobile UI post-change (Image by the author)" width="200" height="300">
 </div>
 
 I also asked AI to suggest technical improvements. It had many great ideas on app performance enhancements, API behaviors, and security. I am not an expert there, so I just followed its suggestions and asked it to make the magic happen.  
