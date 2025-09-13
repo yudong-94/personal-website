@@ -27,10 +27,14 @@ entries_layout: list
   <hr />
   </nav>
 
+<div class="paginated-list" data-page-size="3">
 {% for group in groups_sorted %}
-  <h2 id="{{ group.name }}">{{ group.name }}</h2>
-  {% assign posts_sorted = group.items | sort: 'date' | reverse %}
-  {% for post in posts_sorted %}
-    {% include archive-single.html type=page.entries_layout %}
-  {% endfor %}
+  <section class="year-section">
+    <h2 id="{{ group.name }}">{{ group.name }}</h2>
+    {% assign posts_sorted = group.items | sort: 'date' | reverse %}
+    {% for post in posts_sorted %}
+      {% include archive-single.html type=page.entries_layout %}
+    {% endfor %}
+  </section>
 {% endfor %}
+</div>

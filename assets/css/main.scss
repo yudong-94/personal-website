@@ -44,6 +44,29 @@
   margin: 0.5rem 0 1rem;
 }
 
+/* Sticky year nav on Data Viz page */
+.year-nav {
+  position: sticky;
+  top: 64px; /* keeps below masthead */
+  background: #fff;
+  padding: .5rem 0;
+  z-index: 500;
+}
+
+.year-nav strong { margin-right: .5rem; }
+.year-nav a { margin: 0 .25rem; }
+.year-nav hr { margin-top: .5rem; }
+
+/* Load more button layout */
+.load-more {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0 2rem;
+  clear: both;           /* drop below floats in grid layouts */
+  grid-column: 1 / -1;   /* if inside CSS grid, span full width */
+}
+
 /* Align buttons across "Latest" feature cards on homepage */
 .feature__wrapper .archive__item {
   display: flex;
