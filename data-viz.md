@@ -8,9 +8,29 @@ entries_layout: list
 {% assign cat_posts = site.categories["data viz"] %}
 {% assign pinned = cat_posts | where: "pin", true %}
 {% assign others = cat_posts | where_exp: "p", "p.pin != true" %}
-{% assign sorted_others = others | sort: "date" | reverse %}
-{% assign posts_to_show = pinned | concat: sorted_others %}
 
-{% for post in posts_to_show %}
+{% if pinned and pinned.size > 0 %}
+### Featured
+{% for post in pinned %}
   {% include archive-single.html type=page.entries_layout %}
+{% endfor %}
+{% endif %}
+
+{% assign groups = others | group_by_exp: 'post', "post.date | date: '%Y'" %}
+{% assign groups_sorted = groups | sort: 'name' | reverse %}
+
+<nav class="year-nav">
+  <strong>Jump to year:</strong>
+  {% for group in groups_sorted %}
+    <a href="#{{ group.name }}">{{ group.name }}</a>{% unless forloop.last %} · {% endunless %}
+  {% endfor %}
+  <hr />
+  </nav>
+
+{% for group in groups_sorted %}
+  <h2 id="{{ group.name }}">{{ group.name }}</h2>
+  {% assign posts_sorted = group.items | sort: 'date' | reverse %}
+  {% for post in posts_sorted %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endfor %}
 {% endfor %}

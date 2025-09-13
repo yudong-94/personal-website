@@ -13,18 +13,6 @@ header:
 excerpt: "How I built a personal spending tracker in 20 hours using ChatGPT, Cursor, Codex — and a bit of curiosity"
 ---
 
-<style>
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    img {
-        margin: 10px;
-        max-width: 100%;
-        height: auto;
-    }
-</style>
 
 
 I got a short break before my next job begins. Already late to the party, but I decided to finally try something I’ve been curious about: **vibe code an app with AI**. As a non-software engineer, can I build a real full-stack app in a week using AI tools?  
@@ -49,9 +37,9 @@ If you are like me — comfortable with some coding but not a full-stack softwar
 
 The app I tried to build is a **spending tracker app**.
 
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/article_covers/vibe_coding.jpg" alt="My SpendTracker App screenshot with mock data (Image by the author)" width="600" height="800">
-</div>
+<div class="img-row">
+  <img src="{{ '/assets/images/article_covers/vibe_coding.jpg' | relative_url }}" alt="My SpendTracker App screenshot with mock data (Image by the author)" width="600" height="800" loading="lazy" decoding="async">
+  </div>
 
 The idea came from a real-life pain point. The app I used to log my spending started showing more and more ads and became really annoying. I tried other options like Credit Karma. Overall, it is a great app to have your credit score, cards, and cash flow in one place. However, it requires connecting to all my bank accounts and constantly fixing connection issues. It also has limited reporting capabilities with transaction categorization mistakes. I even tried [Google AppSheet](https://about.appsheet.com/home/) to build a no-code Google Sheet-based app, but there isn’t much customization I could do to the visualizations.
 
@@ -61,9 +49,9 @@ Therefore, I’d rather build an app myself that is tailored to my primary needs
 
 Below is a quick demo of the app I built in ~20 hours. You can find the code [here](https://github.com/yudong-94/spend-tracking-app).
 
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_demo.gif" alt="My SpendTracker App demo with mock data (recording by the author)" width="600" height="800">
-</div>
+<div class="img-row">
+  <img src="{{ '/assets/images/vibe_coding/vibe_coding_demo.gif' | relative_url }}" alt="My SpendTracker App demo with mock data (recording by the author)" width="600" height="800" loading="lazy" decoding="async">
+  </div>
 
 ---
 
@@ -75,10 +63,10 @@ Before writing any code, the first thing I did was to describe my need and ask C
 
 ChatGPT also recommended different AI-assisted development tools, such as Glide and Replit. However, their free versions came with lots of limitations — or sometimes the AI feature just did not work well for me somehow. So I decided to vibe code everything from scratch.
 
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_prd1.jpg" alt="My PRD Request to ChatGPT (Image by the author)" width="300" height="400">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_prd2.jpg" alt="My PRD Request to ChatGPT (Image by the author)" width="300" height="400">
-</div>
+<div class="img-row">
+  <img src="{{ '/assets/images/vibe_coding/vibe_coding_prd1.jpg' | relative_url }}" alt="My PRD Request to ChatGPT (Image by the author)" width="300" height="400" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/vibe_coding/vibe_coding_prd2.jpg' | relative_url }}" alt="My PRD Request to ChatGPT (Image by the author)" width="300" height="400" loading="lazy" decoding="async">
+  </div>
 
 ### Step 2: Use Cursor to build the MVP App  
 
@@ -129,17 +117,17 @@ For example:
 
 This is an iterative process — I submit requests as a Product Manager, ask Cursor to implement, preview the changes, tweak the feature, and repeat. I hit my Cursor free plan limit in the middle of the process, so I switched to [Codex](https://openai.com/codex/). It is the AI coding agent developed by OpenAI, in other words, ChatGPT’s own version of Cursor. It is included in the ChatGPT subscription. You can set it up on your GitHub or use the CLI. For simplicity, I installed the Codex extension on the Cursor IDE. It works very similarly to Cursor’s AI agent — you write your prompt in a side pane, and it “thinks” with GPT models, reads the files, tests, and applies code changes automatically.  
 
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_codex.jpg" alt="Codex UI as a Cursor IDE extension (Image by the author)" width="600" height="800">
-</div>
+<div class="img-row">
+  <img src="{{ '/assets/images/vibe_coding/vibe_coding_codex.jpg' | relative_url }}" alt="Codex UI as a Cursor IDE extension (Image by the author)" width="600" height="800" loading="lazy" decoding="async">
+  </div>
 
 Sometimes the asks are concrete, as the ones I listed above, but sometimes it’s more vague, like “the Budget table cuts off and does not show the full row on the mobile view, help me optimize it”. Surprisingly, AI is able to generate decent solutions every time, or at least a version that helps me to think through what exactly I want.  
 
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request.jpg" alt="A vague request to Codex (Image by the author)" width="300" height="400">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request_pre.jpg" alt="Budget page mobile UI pre-change (Image by the author)" width="200" height="300">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request_post.jpg" alt="Budget page mobile UI post-change (Image by the author)" width="200" height="300">
-</div>
+<div class="img-row">
+  <img src="{{ '/assets/images/vibe_coding/vibe_coding_request.jpg' | relative_url }}" alt="A vague request to Codex (Image by the author)" width="300" height="400" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/vibe_coding/vibe_coding_request_pre.jpg' | relative_url }}" alt="Budget page mobile UI pre-change (Image by the author)" width="200" height="300" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/vibe_coding/vibe_coding_request_post.jpg' | relative_url }}" alt="Budget page mobile UI post-change (Image by the author)" width="200" height="300" loading="lazy" decoding="async">
+  </div>
 
 I also asked AI to suggest technical improvements. It had many great ideas on app performance enhancements, API behaviors, and security. I am not an expert there, so I just followed its suggestions and asked it to make the magic happen.  
 
@@ -175,4 +163,3 @@ However, remember that AI is great at explaining things, and they don’t judge 
   
 
 If you haven’t tried vibe coding before and now want to give it a shot, I highly recommend you start with a small real-life problem, chat with AI, brainstorm some ideas, and see where it takes you. You might be surprised at what you can build. I hope you enjoy the journey as much as I did!  
-
