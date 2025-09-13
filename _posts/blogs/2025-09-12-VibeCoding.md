@@ -1,6 +1,6 @@
 ---
 title: "Can a Non-Software Engineer Vibe Code a Real App with AI? I Tried It."
-date: 2025-09-13
+date: 2025-09-12
 categories:
   - blog
 tags:
@@ -50,7 +50,7 @@ If you are like me — comfortable with some coding but not a full-stack softwar
 The app I tried to build is a **spending tracker app**.
 
 <div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/article_covers/vibe_coding.png" alt="My SpendTracker App screenshot with mock data (Image by the author)" width="300" height="400">
+  <img src="https://yudong-94.github.io/personal-website/assets/images/article_covers/vibe_coding.jpg" alt="My SpendTracker App screenshot with mock data (Image by the author)" width="300" height="400">
 </div>
 
 The idea came from a real-life pain point. The app I used to log my spending started showing more and more ads and became really annoying. I tried other options like Credit Karma. Overall, it is a great app to have your credit score, cards, and cash flow in one place. However, it requires connecting to all my bank accounts and constantly fixing connection issues. It also has limited reporting capabilities with transaction categorization mistakes. I even tried [Google AppSheet](https://about.appsheet.com/home/) to build a no-code Google Sheet-based app, but there isn’t much customization I could do to the visualizations.
@@ -64,6 +64,8 @@ Below is a quick demo of the app I built in ~20 hours. You can find the code [he
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_demo.gif" alt="My SpendTracker App demo with mock data (recording by the author)" width="300" height="400">
 </div>
+
+---
 
 ## My Vibe Coding Experience
 
@@ -139,33 +141,38 @@ Sometimes the asks are concrete, as the ones I listed above, but sometimes it’
   <img src="https://yudong-94.github.io/personal-website/assets/images/vibe_coding/vibe_coding_request_post.jpg" alt="Budget page mobile UI post-change (Image by the author)" width="300" height="400">
 </div>
 
-I also asked AI to suggest technical improvements. It had many great ideas on app performance enhancements, API behaviors, and security. I am not an expert there, so I just followed its suggestions and asked it to make the magic happen.
+I also asked AI to suggest technical improvements. It had many great ideas on app performance enhancements, API behaviors, and security. I am not an expert there, so I just followed its suggestions and asked it to make the magic happen.  
 
-Throughout this iterative process, I wrote zero code — everything was done by chatting.
+Throughout this iterative process, I wrote zero code — everything was done by chatting.  
 
-Step 5: Clean up the codebase and add documentation
-After one week’s iterative improvement, I reached a point where I was pretty happy with the app and ready to use it daily. Before wrapping it up (and writing this article), I took the last steps for my sanity:
+### Step 5: Clean up the codebase and add documentation  
 
-Remember all the mess I caused with copying and pasting code from ChatGPT? There were bad indentations everywhere — as a Python user, this hurts my eyes. Legacy files also sit there silently. Therefore, I asked Codex to clean up the repo and add linting.
-I also asked it to update the README file so that I and anyone who reads the repo actually know what is going on.
-My Key Learnings
-Of course, this is a toy project and is much more straightforward than real-world software development. However, it still has been a very eye-opening experience, and now I am officially a fan of vibe coding. It is a powerful way to turn product ideas into MVPs quickly, even if you are not a full-stack engineer. I am super excited to vibe code more to improve my productivity.
+After one week’s iterative improvement, I reached a point where I was pretty happy with the app and ready to use it daily. Before wrapping it up (and writing this article), I took the last steps for my sanity:  
+1. Remember all the mess I caused with copying and pasting code from ChatGPT? There were bad indentations everywhere — as a Python user, this hurts my eyes. Legacy files also sit there silently. Therefore, I asked Codex to clean up the repo and add linting.
+2. I also asked it to update the README file so that I and anyone who reads the repo actually know what is going on.
 
-What are my tips for vibe coding?
+---
 
-1. Start with a real problem.
+## My Key Learnings
+Of course, this is a toy project and is much more straightforward than real-world software development. However, it still has been a very eye-opening experience, and now I am officially a fan of vibe coding. It is a powerful way to turn product ideas into MVPs quickly, even if you are not a full-stack engineer. I am super excited to vibe code more to improve my productivity.  
 
-Vibe coding lowers the barriers to coding. As a result, product ideas are increasingly important. In my example above, I started from a real frustration and built around my own needs. I combined my finance and data science knowledge and brainstormed with AI to generate concrete product ideas. A spend tracking app is definitely not a billion-dollar startup idea, but it solved my problem and gave a great starting point for my vibe coding journey.
+What are my tips for vibe coding?  
 
-2. Ask AI to explain.
+**1. Start with a real problem.**  
 
-I don’t have much context on app development. This time, AI is in the driving seat, writing the code. Sometimes I feel like AI “thinks” while I am the robot that follows its instructions — “accept this change”, “paste your Google Sheets API key here”, “click this button to deploy on Vercel”, etc.
+Vibe coding lowers the barriers to coding. As a result, product ideas are increasingly important. In my example above, I started from a real frustration and built around my own needs. I combined my finance and data science knowledge and brainstormed with AI to generate concrete product ideas. A spend tracking app is definitely not a billion-dollar startup idea, but it solved my problem and gave a great starting point for my vibe coding journey.  
 
-However, remember that AI is great at explaining things, and they don’t judge you (hopefully). Therefore, I constantly asked it to explain to me “how all these files are connected”, “where is calculation defined”, “why we need to change this file”, etc. This ensures I also learn and grow my technical judgment throughout the vibe coding process.
+**2. Ask AI to explain.**  
 
-3. Be iterative and patient.
+I don’t have much context on app development. This time, AI is in the driving seat, writing the code. Sometimes I feel like AI “thinks” while I am the robot that follows its instructions — “accept this change”, “paste your Google Sheets API key here”, “click this button to deploy on Vercel”, etc.  
 
-In vibe coding, you are the PM, and AI is your engineering team. It’s just like the real-world product development process — AI does what you request, and they still make mistakes (or hallucinate). Then you try the product with customers (likely also yourself) and provide feedback or new requests to the AI. Therefore, it is never one-and-done. Be patient with AI and with yourself :)
+However, remember that AI is great at explaining things, and they don’t judge you (hopefully). Therefore, I constantly asked it to explain to me “how all these files are connected”, “where is calculation defined”, “why we need to change this file”, etc. This ensures I also learn and grow my technical judgment throughout the vibe coding process.  
 
-If you haven’t tried vibe coding before and now want to give it a shot, I highly recommend you start with a small real-life problem, chat with AI, brainstorm some ideas, and see where it takes you. You might be surprised at what you can build. I hope you enjoy the journey as much as I did!
+**3. Be iterative and patient.**  
+
+**In vibe coding, you are the PM, and AI is your engineering team**. It’s just like the real-world product development process — AI does what you request, and they still make mistakes (or hallucinate). Then you try the product with customers (likely also yourself) and provide feedback or new requests to the AI. Therefore, it is never one-and-done. Be patient with AI and with yourself :)  
+
+  
+
+If you haven’t tried vibe coding before and now want to give it a shot, I highly recommend you start with a small real-life problem, chat with AI, brainstorm some ideas, and see where it takes you. You might be surprised at what you can build. I hope you enjoy the journey as much as I did!  
 
