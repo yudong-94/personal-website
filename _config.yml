@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DongDataDive
+title: AM
 email:
-description: "Yu Dong — Data Science & Analytics. Weekly visualizations, practical articles, and reading notes."
-github_username: yudong-94
+description: "Anna Micros — Data Science & Analytics. Weekly visualizations, practical articles, and reading notes."
+github_username: anna-christina-mikr
 minimal_mistakes_skin: default
 search: true
 search_full_content: true
