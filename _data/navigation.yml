@@ -1,7 +1,7 @@
 main:
   - title: "Vizzes"
     url: /data-viz
-  - title: "Articles"
+  - title: "Projects"
     url: /articles
   - title: "Reading Notes"
     url: /reading-notes/
