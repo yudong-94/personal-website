@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DongDataDive
+title: AM
 email:
-description: "Yu Dong — Data Science & Analytics. Weekly visualizations, practical articles, and reading notes."
-github_username: yudong-94
+description: "Anna Micros — Data Science & Analytics. Weekly visualizations, practical articles, and reading notes."
+github_username: anna-christina-mikr
 minimal_mistakes_skin: default
 search: true
 search_full_content: true
@@ -71,13 +71,11 @@ author:
   bio    : "Data Science & Analytics, Data Storyteller"
   links:
     - label: "LinkedIn"
-      url: "https://www.linkedin.com/in/yudong1994/"
-    - label: "Towards Data Science"
-      url: "https://towardsdatascience.com/author/ydong029/"
+      url: "https://www.linkedin.com/in/anna-micros/"
     - label: "Medium"
       url: "https://medium.com/@ydong029"
     - label: "GitHub"
-      url: "https://github.com/yudong-94"
+      url: "https://github.com/anna-christina-mikr"
     - label: "Tableau Public"
       url: "https://public.tableau.com/app/profile/yu.dong#!/"
     - label: "✅ My Weekly Vizzes"
@@ -90,7 +88,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      url: "https://www.linkedin.com/in/yudong1994/"
+      url: "https://www.linkedin.com/in/anna-micros/"
     - label: "GitHub"
       url: "https://github.com/yudong-94"
 
