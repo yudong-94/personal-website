@@ -26,7 +26,9 @@ teaser: /assets/images/site_ui/articles_cta.jpg
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme:"mmistakes/minimal-mistakes@4.24.0"
+  - jekyll-include-cache
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
@@ -57,7 +59,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 
 # Analytics
