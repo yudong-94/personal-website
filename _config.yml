@@ -26,8 +26,7 @@ teaser: /assets/images/site_ui/articles_cta.jpg
 
 # Build settings
 markdown: kramdown
-remote_theme:"mmistakes/minimal-mistakes@4.24.0"
-  - jekyll-include-cache
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Outputting
 permalink: /:categories/:title/
@@ -59,7 +58,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
-
 
 # Analytics
 analytics:
