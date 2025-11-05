@@ -1,6 +1,6 @@
 ---
-title: "What Being a Data Scientist at a Startup Really Looks Like"
-date: 2025-10-04
+title: "FERC topic modelling"
+date: 2025-10-05
 categories:
   - blog
 tags:
