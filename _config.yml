@@ -66,7 +66,7 @@ analytics:
     anonymize_ip         : false
 
 author:
-  name   : "Yu Dong"
+  name   : "Anna Micros"
   avatar : "/assets/images/site_ui/bio_picture_cat.png"
   bio    : "Data Science & Analytics, Data Storyteller"
   links:
