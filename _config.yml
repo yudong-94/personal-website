@@ -1,4 +1,4 @@
-## Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: AM
+title: DongDataDive
 email:
-description: "Anna Micros — Data Science & Analytics. Weekly visualizations, practical articles, and reading notes."
-github_username: anna-christina-mikr
+description: "Yu Dong — Data Science & Analytics. Weekly visualizations, practical articles, and reading notes."
+github_username: yudong-94
 minimal_mistakes_skin: default
 search: true
 search_full_content: true
@@ -26,8 +26,7 @@ teaser: /assets/images/site_ui/articles_cta.jpg
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
@@ -67,7 +66,7 @@ analytics:
     anonymize_ip         : false
 
 author:
-  name   : "Anna Micros"
+  name   : "Yu Dong"
   avatar : "/assets/images/site_ui/bio_picture_cat.png"
   bio    : "Data Science & Analytics, Data Storyteller"
   links:
@@ -85,7 +84,7 @@ author:
       url: "https://yudong-94.github.io/personal-website/data-viz"
     - label: "✅ My Bi-Monthly Reading Notes"
       url: "https://yudong-94.github.io/personal-website/categories/#reading-notes"
-    - label: "My Projects"
+    - label: "✅ My Blog Posts"
       url: "https://yudong-94.github.io/personal-website/articles"
 
 footer:
