@@ -1,5 +1,5 @@
 ---
-title: "A Starter Code for Xgboost Regression"
+title: "FERC Modelling, how the energy media landscape evolved post trump presidency"
 date: 2020-02-23
 categories:
   - blog
@@ -8,8 +8,8 @@ tags:
   - machine learning
 ---
 
-These days I have been writing too much SQL... Therefore, last week, to refresh my knowledge on xgboost and general modeling project process in R and Python, I spent two days to write the simple starter code for the Kaggle beginner level completition ['House Prices: Advanced Regression Techniques'](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) with a R version and a Python version. The result turns out to be acceptable since the code does not include very comprehensive feature engineering (sorry I am lazy lol). The RMSE is 0.134. But please forgive me that I do not want to mention the ranking on leaderboard since there are >30 submission with RMSE 0, which obviously submited the result from this publicly available dataset :(   
-My code can be found in this [github repo](https://github.com/yudong-94/Kaggle-House-Prices-Prediction). Hope you will find it helpful in some way.    
+The conversation on energy has been evolving vastly over the past couple of years; from conversation over renewables to creating more data centers to feed power hungry AI, there is a lot on the table. 
+This project aims to look at how media shapes this conversation, through topic modelling. 
 <br>
 <br>
 
