@@ -351,3 +351,5 @@ Please notice that all the visualizations are designed for desktop view, so it i
 
 
 (index starts from my first #Makeoovermonday viz in 2018)
+
+Check out visualizations from the last year: [Weekly Viz 2018](https://yudong-94.github.io/personal-website/data%20viz/MakeOverMonday2018/)
