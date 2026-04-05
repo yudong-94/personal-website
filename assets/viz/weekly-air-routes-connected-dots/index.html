@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Air Routes Converge on a Few Destinations</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #666666;
+      --grid: #e6e0d8;
+      --origin: #cfc6bb;
+      --other: #bfb5aa;
+      --usa: #c65534;
+      --uk: #2b6f95;
+      --spain: #d28c2c;
+      --korea: #4f8b5f;
+      --uae: #7a57a8;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-header {
+      margin-bottom: 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #2f2f2f;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    #chart {
+      width: 100%;
+      height: 860px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: #2569a8;
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 28px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .source {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 980px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="chart-header">
+      <h1 class="chart-title">
+        Top Air Routes <span style="color: var(--usa);">Converge</span> on a Few Destinations
+      </h1>
+      <p class="chart-subtitle">
+        In this top-20 snapshot of international seat capacity, the busiest corridors do not spread evenly across the globe. The USA, United Kingdom, Spain, Korea Republic of, and the UAE appear repeatedly on the destination side.
+      </p>
+      <p class="chart-note">
+        Each line connects one origin country on the left to one destination country on the right. Line width encodes seat capacity, and color highlights recurring destination countries rather than geography on a map.
+      </p>
+    </div>
+    <div id="chart"></div>
+    <div class="source">
+      Source:
+      <a href="https://www.oag.com/airline-frequency-and-capacity-statistics" target="_blank" rel="noreferrer">OAG airline frequency and capacity statistics</a>.
+      Caveat: this file contains only the top 20 route-country pairs in the snapshot, not a full global route network.
+    </div>
+  </div>
+
+  <script>
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const rows = [
+      { rank: 1, from: "Mexico", to: "USA", seats: 4112126 },
+      { rank: 2, from: "Spain", to: "United Kingdom", seats: 3099508 },
+      { rank: 3, from: "Japan", to: "Korea Republic of", seats: 2860218 },
+      { rank: 4, from: "Canada", to: "USA", seats: 2576117 },
+      { rank: 5, from: "India", to: "United Arab Emirates", seats: 2084744 },
+      { rank: 6, from: "Germany", to: "Spain", seats: 1836316 },
+      { rank: 7, from: "China", to: "Thailand", seats: 1717336 },
+      { rank: 8, from: "Italy", to: "Spain", seats: 1689348 },
+      { rank: 9, from: "Chinese Taipei", to: "Japan", seats: 1651813 },
+      { rank: 10, from: "United Kingdom", to: "USA", seats: 1566553 },
+      { rank: 11, from: "China", to: "Korea Republic of", seats: 1560884 },
+      { rank: 12, from: "Egypt", to: "Saudi Arabia", seats: 1503595 },
+      { rank: 13, from: "China", to: "Hong Kong (SAR) China", seats: 1435143 },
+      { rank: 14, from: "Italy", to: "United Kingdom", seats: 1236691 },
+      { rank: 15, from: "Ireland Republic of", to: "United Kingdom", seats: 1231582 },
+      { rank: 16, from: "Saudi Arabia", to: "United Arab Emirates", seats: 1172680 },
+      { rank: 17, from: "France", to: "Spain", seats: 1155358 },
+      { rank: 18, from: "China", to: "Malaysia", seats: 1130485 },
+      { rank: 19, from: "Germany", to: "United Kingdom", seats: 1111280 },
+      { rank: 20, from: "Germany", to: "Turkiye", seats: 1109190 }
+    ];
+
+    const destinationColors = {
+      "USA": "#c65534",
+      "United Kingdom": "#2b6f95",
+      "Spain": "#d28c2c",
+      "Korea Republic of": "#4f8b5f",
+      "United Arab Emirates": "#7a57a8"
+    };
+
+    const lineTraces = [];
+    const originX = 0.14;
+    const destX = 0.86;
+    const yValues = rows.map((_, i) => rows.length - i);
+
+    function seatLabel(seats) {
+      return `${(seats / 1000000).toFixed(2)}M`;
+    }
+
+    rows.forEach((row, i) => {
+      const y = yValues[i];
+      const width = 2 + ((row.seats - 1100000) / (4112126 - 1100000)) * 10;
+      const color = destinationColors[row.to] || "#bfb5aa";
+      lineTraces.push({
+        type: "scatter",
+        mode: "lines",
+        x: [originX, destX],
+        y: [y, y],
+        line: { color, width },
+        opacity: row.rank === 1 ? 0.95 : 0.8,
+        hoverinfo: "skip",
+        showlegend: false
+      });
+    });
+
+    const originTrace = {
+      type: "scatter",
+      mode: "markers",
+      x: rows.map(() => originX),
+      y: yValues,
+      marker: {
+        color: "#cfc6bb",
+        size: 10,
+        line: { color: "#fcfbf7", width: 1.4 }
+      },
+      customdata: rows.map((r) => [r.rank, r.from, r.to, r.seats]),
+      hovertemplate:
+        "<b>#%{customdata[0]}</b><br>" +
+        "%{customdata[1]} → %{customdata[2]}<br>" +
+        "Seats: %{customdata[3]:,}<extra></extra>",
+      showlegend: false
+    };
+
+    const destTrace = {
+      type: "scatter",
+      mode: "markers",
+      x: rows.map(() => destX),
+      y: yValues,
+      marker: {
+        color: rows.map((r) => destinationColors[r.to] || "#bfb5aa"),
+        size: 12,
+        line: { color: "#fcfbf7", width: 1.6 }
+      },
+      customdata: rows.map((r) => [r.rank, r.from, r.to, r.seats]),
+      hovertemplate:
+        "<b>#%{customdata[0]}</b><br>" +
+        "%{customdata[1]} → %{customdata[2]}<br>" +
+        "Seats: %{customdata[3]:,}<extra></extra>",
+      showlegend: false
+    };
+
+    const annotations = [
+      {
+        x: destX,
+        y: yValues[0],
+        xref: "x",
+        yref: "y",
+        text: "Mexico → USA is the biggest corridor<br>in this top-20 snapshot",
+        showarrow: true,
+        arrowcolor: "#c65534",
+        ax: -132,
+        ay: -20,
+        bgcolor: "rgba(252,251,247,0.96)",
+        bordercolor: "rgba(198,85,52,0.2)",
+        borderwidth: 1,
+        font: { size: 12, color: "#7b3b28" },
+        align: "left"
+      },
+      {
+        x: destX,
+        y: yValues[9],
+        xref: "x",
+        yref: "y",
+        text: "The same few destinations<br>keep appearing on the right",
+        showarrow: true,
+        arrowcolor: "#6e655c",
+        ax: 115,
+        ay: 18,
+        bgcolor: "rgba(252,251,247,0.96)",
+        bordercolor: "rgba(110,101,92,0.22)",
+        borderwidth: 1,
+        font: { size: 12, color: "#5b554e" },
+        align: "left"
+      }
+    ];
+
+    rows.forEach((row, i) => {
+      const y = yValues[i];
+      annotations.push({
+        x: originX - 0.02,
+        y,
+        xref: "x",
+        yref: "y",
+        text: row.from,
+        showarrow: false,
+        xanchor: "right",
+        font: { size: 12, color: "#2e2e2e" },
+        align: "right"
+      });
+      annotations.push({
+        x: 0.5,
+        y,
+        xref: "x",
+        yref: "y",
+        text: seatLabel(row.seats),
+        showarrow: false,
+        font: { size: 11, color: "#776f67" },
+        align: "center"
+      });
+      annotations.push({
+        x: destX + 0.02,
+        y,
+        xref: "x",
+        yref: "y",
+        text: row.to,
+        showarrow: false,
+        xanchor: "left",
+        font: {
+          size: 12,
+          color: destinationColors[row.to] || "#5c5852"
+        },
+        align: "left"
+      });
+    });
+
+    const layout = {
+      paper_bgcolor: "#fcfbf7",
+      plot_bgcolor: "#fcfbf7",
+      font: {
+        family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+        color: "#222222",
+        size: 14
+      },
+      margin: { l: 120, r: 160, t: 48, b: 24 },
+      xaxis: {
+        range: [0, 1],
+        showgrid: false,
+        zeroline: false,
+        showticklabels: false,
+        fixedrange: true
+      },
+      yaxis: {
+        range: [0.4, rows.length + 1.4],
+        showgrid: false,
+        zeroline: false,
+        showticklabels: false,
+        fixedrange: true
+      },
+      showlegend: false,
+      annotations
+    };
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    Plotly.newPlot("chart", [...lineTraces, originTrace, destTrace], layout, config).then(() => {
+      reportHeight();
+      window.addEventListener("resize", reportHeight);
+      setTimeout(reportHeight, 120);
+    });
+  </script>
+</body>
+</html>
