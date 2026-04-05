@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Urban Order Is Tilting Toward Asia and Africa</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #666666;
+      --grid: #e6e0d8;
+      --line: #d1c8bd;
+      --accent: #c65a3a;
+      --link: #2569a8;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 36px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      max-width: 980px;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #2f2f2f;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #4b4b4b;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-line {
+      width: 18px;
+      height: 0;
+      border-top: 4px solid var(--line);
+      display: inline-block;
+    }
+
+    #chart {
+      width: 100%;
+      height: 880px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: var(--link);
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 29px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .legend-row,
+      .source {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 980px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="chart-title">
+      The Urban Order Is Tilting Toward <span style="color: var(--accent);">Asia and Africa</span>
+    </h1>
+    <p class="chart-subtitle">
+      Within the 20 cities projected to be largest in 2050, Dhaka and Jakarta rise to the top while older giants such as Tokyo, Mexico City, and São Paulo drift down the order. Several of the sharpest climbs come from South and Southeast Asia plus Africa.
+    </p>
+    <p class="chart-note">
+      The Voronoi table is keyed to 2050 population rank, so this chart takes the 20 cities projected to lead in 2050 and then re-ranks that same cohort at each year using the population values listed on the page. That keeps the bump chart readable while preserving the direction of change. On narrow screens, only the priority lines keep direct endpoint labels.
+    </p>
+    <div class="legend-row" aria-label="Bump chart legend">
+      <span class="legend-item"><span class="legend-line" style="border-top-color:#d1c8bd"></span>Top-20 context cities</span>
+      <span class="legend-item"><span class="legend-line" style="border-top-color:#c65a3a"></span>Dhaka, Jakarta, Tokyo, Guangzhou, Luanda, Mexico City, São Paulo</span>
+    </div>
+    <div id="chart"></div>
+    <div class="source">
+      Source:
+      <a href="https://www.voronoiapp.com/demographics/The-Worlds-Most-Populous-Cities-Over-Time-19752050-7639" target="_blank" rel="noreferrer">Voronoi / Visual Capitalist, "The World's Most Populous Cities Over Time (1975–2050)"</a>;
+      underlying source cited on the page:
+      <a href="https://population.un.org/wup/" target="_blank" rel="noreferrer">United Nations World Urbanization Prospects</a>.
+    </div>
+  </div>
+
+  <script>
+    const rows = [
+      { city: "Dhaka", country: "Bangladesh", highlight: true, color: "#c65a3a", populations: [5037174, 17434596, 36585479, 52123000] },
+      { city: "Jakarta", country: "Indonesia", highlight: true, color: "#d8863d", populations: [11696369, 25591966, 41913860, 51784000] },
+      { city: "Shanghai", country: "China", highlight: false, color: "#d1c8bd", populations: [4542787, 14034558, 29558908, 34912000] },
+      { city: "New Delhi", country: "India", highlight: false, color: "#d1c8bd", populations: [6091891, 17969092, 30222405, 33891000] },
+      { city: "Karachi", country: "Pakistan", highlight: false, color: "#d1c8bd", populations: [4626701, 10799503, 21422590, 32593000] },
+      { city: "Cairo", country: "Egypt", highlight: false, color: "#d1c8bd", populations: [7440914, 15676619, 25566102, 32366000] },
+      { city: "Tokyo", country: "Japan", highlight: true, color: "#5b7fa3", populations: [24281618, 30302560, 33412512, 30658000] },
+      { city: "Guangzhou", country: "China", highlight: true, color: "#3d9157", populations: [1644240, 18970258, 27563372, 29243000] },
+      { city: "Manila", country: "Philippines", highlight: false, color: "#d1c8bd", populations: [8329012, 17799064, 24735305, 27120000] },
+      { city: "Kolkata", country: "India", highlight: false, color: "#d1c8bd", populations: [10527605, 18355286, 22549738, 23768000] },
+      { city: "Mumbai", country: "India", highlight: false, color: "#d1c8bd", populations: [8338773, 15952862, 20203056, 23059000] },
+      { city: "Seoul", country: "Republic of Korea", highlight: false, color: "#d1c8bd", populations: [10079046, 18962544, 22490482, 21225000] },
+      { city: "Bangkok", country: "Thailand", highlight: false, color: "#d1c8bd", populations: [3650772, 8377066, 18180280, 20462000] },
+      { city: "Lahore", country: "Pakistan", highlight: false, color: "#d1c8bd", populations: [4402766, 7978805, 15156430, 20388000] },
+      { city: "Luanda", country: "Angola", highlight: true, color: "#8b61b4", populations: [306000, 714643, 11370127, 20286000] },
+      { city: "São Paulo", country: "Brazil", highlight: true, color: "#7d6a58", populations: [10536121, 16702008, 18949790, 18217000] },
+      { city: "Beijing", country: "China", highlight: false, color: "#d1c8bd", populations: [5154971, 9635380, 17013303, 18004000] },
+      { city: "Mexico City", country: "Mexico", highlight: true, color: "#9a6a3a", populations: [11119402, 17598162, 17734212, 17679000] },
+      { city: "Ho Chi Minh City", country: "Vietnam", highlight: false, color: "#d1c8bd", populations: [2384034, 6006090, 14052713, 17201000] },
+      { city: "Istanbul", country: "Türkiye", highlight: false, color: "#d1c8bd", populations: [5305193, 10633602, 15014763, 16303000] }
+    ];
+
+    const years = ["1975", "2000", "2025", "2050"];
+    const yearPositions = [0, 1, 2, 3];
+
+    rows.forEach((row) => {
+      row.ranks = years.map((_, yearIndex) => {
+        const ordered = rows
+          .slice()
+          .sort((a, b) => b.populations[yearIndex] - a.populations[yearIndex]);
+        return ordered.findIndex((d) => d.city === row.city) + 1;
+      });
+    });
+
+    function formatPopulation(value) {
+      return (value / 1000000).toFixed(1) + "M";
+    }
+
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    function buildTraces(mobile) {
+      return rows.map((row) => {
+        const labelText = mobile
+          ? ["", "", "", row.highlight ? row.city : ""]
+          : ["", "", "", row.city];
+
+        return {
+          type: "scatter",
+          mode: "lines+markers+text",
+          x: yearPositions,
+          y: row.ranks,
+          name: row.city,
+          text: labelText,
+          textposition: "middle right",
+          textfont: {
+            size: mobile ? 12 : 12.5,
+            color: row.highlight ? row.color : "#666666"
+          },
+          cliponaxis: false,
+          line: {
+            color: row.highlight ? row.color : "rgba(190,180,170,0.78)",
+            width: row.highlight ? 3.8 : 1.8,
+            shape: "linear"
+          },
+          marker: {
+            size: row.highlight ? 7.5 : 5.5,
+            color: row.highlight ? row.color : "rgba(205,196,186,0.92)",
+            line: {
+              color: "#fcfbf7",
+              width: row.highlight ? 1.6 : 1.1
+            }
+          },
+          customdata: years.map((year, i) => [
+            row.city,
+            row.country,
+            year,
+            row.ranks[i],
+            row.populations[i]
+          ]),
+          hovertemplate:
+            "<b>%{customdata[0]}</b>, %{customdata[1]}<br>" +
+            "Year: %{customdata[2]}<br>" +
+            "Rank within selected 2050 top-20 cohort: %{customdata[3]}<br>" +
+            "Population: %{customdata[4]:,.0f}<extra></extra>",
+          showlegend: false
+        };
+      });
+    }
+
+    function buildLayout() {
+      const mobile = window.innerWidth <= 760;
+
+      return {
+        paper_bgcolor: "#fcfbf7",
+        plot_bgcolor: "#fcfbf7",
+        font: {
+          family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          color: "#222222",
+          size: mobile ? 13 : 14
+        },
+        margin: {
+          l: mobile ? 56 : 70,
+          r: mobile ? 116 : 170,
+          t: 8,
+          b: 48
+        },
+        hovermode: "closest",
+        showlegend: false,
+        xaxis: {
+          type: "linear",
+          range: [-0.18, 3.18],
+          tickmode: "array",
+          tickvals: yearPositions,
+          ticktext: years,
+          tickfont: {
+            size: mobile ? 12 : 13,
+            color: "#4d4d4d"
+          },
+          showgrid: true,
+          gridcolor: "#e6e0d8",
+          gridwidth: 1,
+          zeroline: false,
+          fixedrange: true
+        },
+        yaxis: {
+          autorange: "reversed",
+          range: [20.5, 0.5],
+          tickmode: "array",
+          tickvals: Array.from({ length: 20 }, (_, i) => i + 1),
+          ticktext: Array.from({ length: 20 }, (_, i) => String(i + 1)),
+          title: {
+            text: "Rank",
+            standoff: 8
+          },
+          titlefont: {
+            size: mobile ? 12 : 13,
+            color: "#5a5a5a"
+          },
+          tickfont: {
+            size: mobile ? 11 : 12,
+            color: "#5a5a5a"
+          },
+          showgrid: true,
+          gridcolor: "rgba(230,224,216,0.48)",
+          zeroline: false,
+          fixedrange: true
+        },
+        annotations: mobile ? [] : [
+          {
+            x: 0,
+            y: 1,
+            xref: "x",
+            yref: "y",
+            text: "Tokyo starts as<br>No. 1 in this cohort",
+            showarrow: false,
+            xanchor: "right",
+            align: "right",
+            xshift: -12,
+            font: {
+              size: 12,
+              color: "#5b7fa3"
+            }
+          }
+        ]
+      };
+    }
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    function renderChart() {
+      const mobile = window.innerWidth <= 760;
+      Plotly.newPlot("chart", buildTraces(mobile), buildLayout(), config).then(reportHeight);
+    }
+
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(renderChart, 120);
+    });
+
+    renderChart();
+    window.addEventListener("load", reportHeight);
+  </script>
+</body>
+</html>

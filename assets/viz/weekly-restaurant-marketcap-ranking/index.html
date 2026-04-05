@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>McDonald Towers Over Public Restaurant Chains</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #666666;
+      --grid: #e6e0d8;
+      --accent: #bf4f2f;
+      --bar: #c8beb3;
+      --bar-soft: #ddd6cf;
+      --note: #7b4e3f;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-header {
+      margin-bottom: 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #2f2f2f;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    #chart {
+      width: 100%;
+      height: 760px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: #2569a8;
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 28px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .source {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 860px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="chart-header">
+      <h1 class="chart-title">
+        McDonald <span style="color: var(--accent);">Towers Over</span> Public Restaurant Chains
+      </h1>
+      <p class="chart-subtitle">
+        In this snapshot of 63 listed restaurant companies, McDonald alone accounts for roughly 45% of the combined market value. The top 10 chains make up about 85%.
+      </p>
+      <p class="chart-note">
+        This view shows the top 15 companies by market cap. Share price is not used as the main comparison because it is not a company-size metric; exact market cap, ticker, and country appear in hover.
+      </p>
+    </div>
+    <div id="chart"></div>
+    <div class="source">
+      Source:
+      <a href="https://companiesmarketcap.com/restaurant-chains/largest-restaurant-chain-companies-by-market-cap/#google_vignette" target="_blank" rel="noreferrer">CompaniesMarketCap, largest restaurant chains by market cap</a>.
+      Caveat: treat this as a market-cap snapshot rather than a stable long-run ranking.
+    </div>
+  </div>
+
+  <script>
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const rows = [
+      { rank: 1, name: "McDonald", symbol: "MCD", marketcap_b: 232.96, price_usd: 326.46, country: "United States" },
+      { rank: 2, name: "Yum! Brands", symbol: "YUM", marketcap_b: 44.54, price_usd: 160.4, country: "United States" },
+      { rank: 3, name: "Chipotle Mexican Grill", symbol: "CMG", marketcap_b: 43.0, price_usd: 32.52, country: "United States" },
+      { rank: 4, name: "Restaurant Brands International", symbol: "QSR", marketcap_b: 33.12, price_usd: 72.65, country: "Canada" },
+      { rank: 5, name: "Darden Restaurants", symbol: "DRI", marketcap_b: 23.54, price_usd: 202.37, country: "United States" },
+      { rank: 6, name: "Yum China", symbol: "YUMC", marketcap_b: 18.58, price_usd: 52.7, country: "China" },
+      { rank: 7, name: "Domino's Pizza", symbol: "DPZ", marketcap_b: 13.51, price_usd: 401.62, country: "United States" },
+      { rank: 8, name: "Texas Roadhouse", symbol: "TXRH", marketcap_b: 11.26, price_usd: 170.24, country: "United States" },
+      { rank: 9, name: "Hai Di Lao Hot Pot", symbol: "6862.HK", marketcap_b: 11.08, price_usd: 2.05, country: "China" },
+      { rank: 10, name: "CAVA Group", symbol: "CAVA", marketcap_b: 9.54, price_usd: 82.0, country: "United States" },
+      { rank: 11, name: "Zensho Holdings", symbol: "7550.T", marketcap_b: 9.37, price_usd: 59.89, country: "Japan" },
+      { rank: 12, name: "Food & Life Companies", symbol: "3563.T", marketcap_b: 6.84, price_usd: 60.4, country: "Japan" },
+      { rank: 13, name: "McDonald's Japan", symbol: "2702.T", marketcap_b: 6.51, price_usd: 48.99, country: "Japan" },
+      { rank: 14, name: "Brinker International", symbol: "EAT", marketcap_b: 6.4, price_usd: 144.02, country: "United States" },
+      { rank: 15, name: "Wingstop Restaurants", symbol: "WING", marketcap_b: 5.65, price_usd: 203.44, country: "United States" }
+    ];
+
+    const labels = rows.map((d) => `${d.rank}. ${d.name}`);
+    const values = rows.map((d) => d.marketcap_b);
+    const colors = rows.map((d) => (d.name === "McDonald" ? "#bf4f2f" : "#c8beb3"));
+    const textColors = rows.map((d) => (d.name === "McDonald" ? "#8d3922" : "#5f5b55"));
+
+    const trace = {
+      type: "bar",
+      orientation: "h",
+      x: values.slice().reverse(),
+      y: labels.slice().reverse(),
+      marker: {
+        color: colors.slice().reverse(),
+        line: {
+          color: "#f7f2ec",
+          width: 1
+        }
+      },
+      customdata: rows.map((d) => [d.symbol, d.country, d.price_usd]).reverse(),
+      text: values.map((d) => `$${d.toFixed(1)}B`).reverse(),
+      textposition: "outside",
+      cliponaxis: false,
+      hovertemplate:
+        "<b>%{y}</b><br>" +
+        "Market cap: %{x:.2f}B USD<br>" +
+        "Ticker: %{customdata[0]}<br>" +
+        "Country: %{customdata[1]}<br>" +
+        "Share price: $%{customdata[2]:,.2f}<extra></extra>"
+    };
+
+    const layout = {
+      paper_bgcolor: "#fcfbf7",
+      plot_bgcolor: "#fcfbf7",
+      font: {
+        family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+        color: "#222222",
+        size: 14
+      },
+      margin: { l: 250, r: 90, t: 54, b: 52 },
+      xaxis: {
+        title: { text: "Market cap (USD billions)", standoff: 14 },
+        showgrid: true,
+        gridcolor: "#e6e0d8",
+        zeroline: false,
+        tickprefix: "$",
+        ticksuffix: "B"
+      },
+      yaxis: {
+        automargin: true,
+        tickfont: { size: 12 },
+        showgrid: false
+      },
+      bargap: 0.22,
+      showlegend: false,
+      annotations: [
+        {
+          xref: "paper",
+          yref: "paper",
+          x: 0.56,
+          y: 1.08,
+          xanchor: "left",
+          text: "Top 15 hold 91% of the file's total market cap",
+          showarrow: false,
+          font: { size: 13, color: "#7b4e3f" },
+          bgcolor: "rgba(191,79,47,0.08)",
+          bordercolor: "rgba(191,79,47,0.2)",
+          borderwidth: 1,
+          borderpad: 6
+        },
+        {
+          x: 232.96,
+          y: "1. McDonald",
+          text: "McDonald alone is nearly<br>5x the size of No. 2",
+          showarrow: true,
+          arrowcolor: "#bf4f2f",
+          ax: -126,
+          ay: -8,
+          bgcolor: "rgba(252,251,247,0.96)",
+          bordercolor: "rgba(191,79,47,0.2)",
+          borderwidth: 1,
+          font: { size: 12, color: "#7b3b28" },
+          align: "left"
+        },
+        {
+          x: 18.58,
+          y: "6. Yum China",
+          text: "After the first five,<br>the tier drops sharply",
+          showarrow: true,
+          arrowcolor: "#96887d",
+          ax: 104,
+          ay: 22,
+          bgcolor: "rgba(252,251,247,0.96)",
+          bordercolor: "rgba(150,136,125,0.24)",
+          borderwidth: 1,
+          font: { size: 12, color: "#59514a" },
+          align: "left"
+        }
+      ]
+    };
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    Plotly.newPlot("chart", [trace], layout, config).then(() => {
+      reportHeight();
+      window.addEventListener("resize", reportHeight);
+      setTimeout(reportHeight, 120);
+    });
+  </script>
+</body>
+</html>

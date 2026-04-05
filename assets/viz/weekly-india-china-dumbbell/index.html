@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>China Usually Costs More, But Not Always</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #626262;
+      --grid: #e6e0d8;
+      --china: #c65a3a;
+      --india: #1f7a72;
+      --line: #b8aca0;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-header {
+      margin-bottom: 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #303030;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    #chart {
+      width: 100%;
+      height: 920px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 28px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .source {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 980px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="chart-header">
+      <h1 class="chart-title">
+        China Usually Costs <span style="color: var(--china);">More</span>, But Not Always
+      </h1>
+      <p class="chart-subtitle">
+        Across 20 cost items in the dataset, China is pricier on 17, especially rent, fitness memberships, and mobile plans. India runs higher on only three: cappuccino, draft beer, and cigarettes.
+      </p>
+      <p class="chart-note">
+        Each row shows the same item in both countries. Salary is excluded here because it is income, not a living cost. The chart is sorted by the China-to-India price ratio, and the x-axis uses a log scale so high-ticket items and small daily purchases can share one view.
+      </p>
+    </div>
+    <div id="chart"></div>
+    <div class="source">
+      Source: user-provided CSV comparing listed China and India costs in USD. Caveat: the file does not include a source citation or reference date, so values should be read as a snapshot rather than a current market benchmark.
+    </div>
+  </div>
+
+  <script>
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const rows = [
+      { item: "Monthly Fitness Club Membership", china: 41.25, india: 14.75, ratio: 2.8, delta: 26.5, direction: "China higher" },
+      { item: "Milk (1 gallon)", china: 6.86, india: 2.5, ratio: 2.74, delta: 4.36, direction: "China higher" },
+      { item: "Monthly Rent, 1-bedroom in city center", china: 405.0, india: 151.0, ratio: 2.68, delta: 254.0, direction: "China higher" },
+      { item: "Monthly Mobile Phone Plan", china: 8.74, india: 3.64, ratio: 2.4, delta: 5.1, direction: "China higher" },
+      { item: "Movie Ticket (International Release)", china: 6.55, india: 3.23, ratio: 2.03, delta: 3.32, direction: "China higher" },
+      { item: "Dozen Eggs", china: 1.59, india: 0.91, ratio: 1.75, delta: 0.68, direction: "China higher" },
+      { item: "Bottled Water (12 oz)", china: 0.28, india: 0.16, ratio: 1.75, delta: 0.12, direction: "China higher" },
+      { item: "Bottle of Wine (Mid-Range)", china: 11.64, india: 7.62, ratio: 1.53, delta: 4.02, direction: "China higher" },
+      { item: "Monthly Broadband Internet", china: 11.02, india: 7.26, ratio: 1.52, delta: 3.76, direction: "China higher" },
+      { item: "New Compact Car", china: 18903.0, india: 12933.0, ratio: 1.46, delta: 5970.0, direction: "China higher" },
+      { item: "White Rice (1 lb)", china: 0.43, india: 0.3, ratio: 1.43, delta: 0.13, direction: "China higher" },
+      { item: "Monthly Basic Utilities", china: 52.48, india: 38.73, ratio: 1.36, delta: 13.75, direction: "China higher" },
+      { item: "Meal at an Inexpensive Restaurant", china: 2.91, india: 2.16, ratio: 1.35, delta: 0.75, direction: "China higher" },
+      { item: "Combo Meal McDonald’s", china: 5.09, india: 3.77, ratio: 1.35, delta: 1.32, direction: "China higher" },
+      { item: "Soft Drink (Coca-Cola or Pepsi, 12 oz)", china: 0.48, india: 0.41, ratio: 1.17, delta: 0.07, direction: "China higher" },
+      { item: "Local Transport 1-Way Ticket", china: 0.29, india: 0.27, ratio: 1.07, delta: 0.02, direction: "China higher" },
+      { item: "Gasoline (1 gallon)", china: 4.32, india: 4.17, ratio: 1.04, delta: 0.15, direction: "China higher" },
+      { item: "Pack of Cigarettes", china: 3.64, india: 3.77, ratio: 0.97, delta: -0.13, direction: "India higher" },
+      { item: "Cappuccino (Regular size)", china: 1.74, india: 2.95, ratio: 0.59, delta: -1.21, direction: "India higher" },
+      { item: "Pint of Beer (Domestic Draft)", china: 1.02, india: 1.89, ratio: 0.54, delta: -0.87, direction: "India higher" }
+    ];
+
+    const categories = rows.map((d) => d.item);
+    const lineTraces = rows.map((d) => ({
+      type: "scatter",
+      mode: "lines",
+      x: [d.india, d.china],
+      y: [d.item, d.item],
+      hoverinfo: "skip",
+      line: {
+        color: d.direction === "India higher" ? "rgba(31,122,114,0.4)" : "rgba(184,172,160,0.95)",
+        width: 3
+      },
+      showlegend: false
+    }));
+
+    const chinaTrace = {
+      type: "scatter",
+      mode: "markers",
+      name: "China",
+      x: rows.map((d) => d.china),
+      y: categories,
+      customdata: rows.map((d) => [d.india, d.ratio, d.delta, d.direction]),
+      marker: {
+        color: "#c65a3a",
+        size: 13,
+        line: { color: "#fcfbf7", width: 1.6 }
+      },
+      hovertemplate:
+        "<b>%{y}</b><br>" +
+        "China: $%{x:,.2f}<br>" +
+        "India: $%{customdata[0]:,.2f}<br>" +
+        "China / India: %{customdata[1]:.2f}x<br>" +
+        "Gap: $%{customdata[2]:,.2f}<br>" +
+        "%{customdata[3]}<extra></extra>"
+    };
+
+    const indiaTrace = {
+      type: "scatter",
+      mode: "markers",
+      name: "India",
+      x: rows.map((d) => d.india),
+      y: categories,
+      customdata: rows.map((d) => [d.china, d.ratio, d.delta, d.direction]),
+      marker: {
+        color: "#1f7a72",
+        size: 13,
+        symbol: "diamond",
+        line: { color: "#fcfbf7", width: 1.6 }
+      },
+      hovertemplate:
+        "<b>%{y}</b><br>" +
+        "India: $%{x:,.2f}<br>" +
+        "China: $%{customdata[0]:,.2f}<br>" +
+        "China / India: %{customdata[1]:.2f}x<br>" +
+        "Gap: $%{customdata[2]:,.2f}<br>" +
+        "%{customdata[3]}<extra></extra>"
+    };
+
+    const layout = {
+      paper_bgcolor: "#fcfbf7",
+      plot_bgcolor: "#fcfbf7",
+      font: { family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif", color: "#222222", size: 14 },
+      margin: { l: 230, r: 60, t: 10, b: 70 },
+      hovermode: "closest",
+      showlegend: true,
+      legend: {
+        orientation: "h",
+        x: 0,
+        y: 1.08,
+        xanchor: "left",
+        yanchor: "bottom",
+        bgcolor: "rgba(252,251,247,0.9)",
+        font: { size: 13 }
+      },
+      xaxis: {
+        type: "log",
+        range: [-1.05, 4.45],
+        tickvals: [0.2, 0.5, 1, 2, 5, 10, 50, 500, 5000, 20000],
+        ticktext: ["$0.20", "$0.50", "$1", "$2", "$5", "$10", "$50", "$500", "$5k", "$20k"],
+        showgrid: true,
+        gridcolor: "#e6e0d8",
+        zeroline: false,
+        title: { text: "Cost in USD (log scale)", standoff: 16 }
+      },
+      yaxis: {
+        categoryorder: "array",
+        categoryarray: categories.slice().reverse(),
+        automargin: true,
+        tickfont: { size: 12 },
+        showgrid: false
+      },
+      annotations: [
+        {
+          xref: "paper",
+          yref: "paper",
+          x: 0.99,
+          y: 1.02,
+          text: "China higher on 17 of 20 cost items",
+          showarrow: false,
+          xanchor: "right",
+          font: { size: 13, color: "#6a4a3b" },
+          bgcolor: "rgba(198,90,58,0.08)",
+          bordercolor: "rgba(198,90,58,0.22)",
+          borderwidth: 1,
+          borderpad: 6
+        },
+        {
+          x: 405,
+          y: "Monthly Rent, 1-bedroom in city center",
+          text: "Rent is 2.7x higher in China",
+          showarrow: true,
+          arrowcolor: "#c65a3a",
+          ax: 120,
+          ay: -34,
+          bgcolor: "rgba(252,251,247,0.95)",
+          bordercolor: "rgba(198,90,58,0.2)",
+          borderwidth: 1,
+          font: { size: 12, color: "#6a3a29" },
+          align: "left"
+        },
+        {
+          x: 2.95,
+          y: "Cappuccino (Regular size)",
+          text: "India is higher on a few<br>small consumer items",
+          showarrow: true,
+          arrowcolor: "#1f7a72",
+          ax: 96,
+          ay: -38,
+          bgcolor: "rgba(252,251,247,0.95)",
+          bordercolor: "rgba(31,122,114,0.2)",
+          borderwidth: 1,
+          font: { size: 12, color: "#13564f" },
+          align: "left"
+        }
+      ]
+    };
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    Plotly.newPlot("chart", [...lineTraces, chinaTrace, indiaTrace], layout, config).then(() => {
+      reportHeight();
+      window.addEventListener("resize", reportHeight);
+      setTimeout(reportHeight, 120);
+    });
+  </script>
+</body>
+</html>

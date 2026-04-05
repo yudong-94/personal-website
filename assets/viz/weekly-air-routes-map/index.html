@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Busiest Air Corridors Pull Toward a Few Countries</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #666666;
+      --line: #c8beb3;
+      --origin: #d8d0c6;
+      --usa: #c65534;
+      --uk: #2b6f95;
+      --spain: #d28c2c;
+      --korea: #4f8b5f;
+      --uae: #7a57a8;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #2f2f2f;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin: 0 0 10px;
+      font-size: 14px;
+      color: #4a4a4a;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    #chart {
+      width: 100%;
+      height: 760px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: #2569a8;
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 28px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .source,
+      .legend-row {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 820px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="chart-title">
+      The Busiest Air Corridors Pull Toward a Few <span style="color: var(--usa);">Countries</span>
+    </h1>
+    <p class="chart-subtitle">
+      In this top-20 snapshot of international seat capacity, the heaviest country-to-country corridors repeatedly land in the USA, United Kingdom, Spain, Korea Republic of, and the UAE.
+    </p>
+    <p class="chart-note">
+      This map draws country-to-country connections between approximate country centroids, not airport-to-airport routes. It is meant to show directional concentration, not literal flight paths.
+    </p>
+    <div class="legend-row" aria-label="Highlighted destination countries">
+      <span class="legend-item"><span class="legend-dot" style="background:#c65534"></span>USA</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#2b6f95"></span>United Kingdom</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#d28c2c"></span>Spain</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#4f8b5f"></span>Korea Republic of</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#7a57a8"></span>United Arab Emirates</span>
+    </div>
+    <div id="chart"></div>
+    <div class="source">
+      Source:
+      <a href="https://www.oag.com/airline-frequency-and-capacity-statistics" target="_blank" rel="noreferrer">OAG airline frequency and capacity statistics</a>.
+      Caveat: this file contains only the top 20 country-pair routes in the snapshot, not a complete global route network.
+    </div>
+  </div>
+
+  <script>
+    function reportHeight() {
+      const height = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const coords = {
+      "Mexico": { lat: 23.63, lon: -102.55 },
+      "USA": { lat: 39.83, lon: -98.58 },
+      "Spain": { lat: 40.46, lon: -3.75 },
+      "United Kingdom": { lat: 55.38, lon: -3.44 },
+      "Japan": { lat: 36.2, lon: 138.25 },
+      "Korea Republic of": { lat: 35.91, lon: 127.77 },
+      "Canada": { lat: 56.13, lon: -106.35 },
+      "India": { lat: 20.59, lon: 78.96 },
+      "United Arab Emirates": { lat: 23.42, lon: 53.85 },
+      "Germany": { lat: 51.17, lon: 10.45 },
+      "China": { lat: 35.86, lon: 104.19 },
+      "Thailand": { lat: 15.87, lon: 100.99 },
+      "Italy": { lat: 41.87, lon: 12.57 },
+      "Chinese Taipei": { lat: 23.7, lon: 121.0 },
+      "Egypt": { lat: 26.82, lon: 30.8 },
+      "Saudi Arabia": { lat: 23.89, lon: 45.08 },
+      "Hong Kong (SAR) China": { lat: 22.32, lon: 114.17 },
+      "Ireland Republic of": { lat: 53.14, lon: -7.69 },
+      "France": { lat: 46.23, lon: 2.21 },
+      "Malaysia": { lat: 4.21, lon: 101.98 },
+      "Turkiye": { lat: 38.96, lon: 35.24 }
+    };
+
+    const rows = [
+      { rank: 1, from: "Mexico", to: "USA", seats: 4112126 },
+      { rank: 2, from: "Spain", to: "United Kingdom", seats: 3099508 },
+      { rank: 3, from: "Japan", to: "Korea Republic of", seats: 2860218 },
+      { rank: 4, from: "Canada", to: "USA", seats: 2576117 },
+      { rank: 5, from: "India", to: "United Arab Emirates", seats: 2084744 },
+      { rank: 6, from: "Germany", to: "Spain", seats: 1836316 },
+      { rank: 7, from: "China", to: "Thailand", seats: 1717336 },
+      { rank: 8, from: "Italy", to: "Spain", seats: 1689348 },
+      { rank: 9, from: "Chinese Taipei", to: "Japan", seats: 1651813 },
+      { rank: 10, from: "United Kingdom", to: "USA", seats: 1566553 },
+      { rank: 11, from: "China", to: "Korea Republic of", seats: 1560884 },
+      { rank: 12, from: "Egypt", to: "Saudi Arabia", seats: 1503595 },
+      { rank: 13, from: "China", to: "Hong Kong (SAR) China", seats: 1435143 },
+      { rank: 14, from: "Italy", to: "United Kingdom", seats: 1236691 },
+      { rank: 15, from: "Ireland Republic of", to: "United Kingdom", seats: 1231582 },
+      { rank: 16, from: "Saudi Arabia", to: "United Arab Emirates", seats: 1172680 },
+      { rank: 17, from: "France", to: "Spain", seats: 1155358 },
+      { rank: 18, from: "China", to: "Malaysia", seats: 1130485 },
+      { rank: 19, from: "Germany", to: "United Kingdom", seats: 1111280 },
+      { rank: 20, from: "Germany", to: "Turkiye", seats: 1109190 }
+    ];
+
+    const destinationColors = {
+      "USA": "#c65534",
+      "United Kingdom": "#2b6f95",
+      "Spain": "#d28c2c",
+      "Korea Republic of": "#4f8b5f",
+      "United Arab Emirates": "#7a57a8"
+    };
+
+    const traces = rows.map((row) => {
+      const from = coords[row.from];
+      const to = coords[row.to];
+      const width = 1.5 + ((row.seats - 1109190) / (4112126 - 1109190)) * 6.5;
+      const color = destinationColors[row.to] || "#bfb5aa";
+      return {
+        type: "scattergeo",
+        mode: "lines",
+        lon: [from.lon, to.lon],
+        lat: [from.lat, to.lat],
+        line: { width, color },
+        opacity: row.rank === 1 ? 0.92 : 0.72,
+        hovertemplate:
+          `<b>#${row.rank}</b><br>${row.from} → ${row.to}<br>Seats: ${row.seats.toLocaleString()}<extra></extra>`,
+        showlegend: false
+      };
+    });
+
+    const originCountries = Array.from(new Set(rows.map((r) => r.from)));
+    const destinationCountries = Array.from(new Set(rows.map((r) => r.to)));
+
+    const originTrace = {
+      type: "scattergeo",
+      mode: "markers",
+      lon: originCountries.map((c) => coords[c].lon),
+      lat: originCountries.map((c) => coords[c].lat),
+      text: originCountries,
+      marker: {
+        size: 7,
+        color: "#d8d0c6",
+        line: { color: "#fcfbf7", width: 1 }
+      },
+      hovertemplate: "<b>%{text}</b><br>Origin country<extra></extra>",
+      showlegend: false
+    };
+
+    const destinationTrace = {
+      type: "scattergeo",
+      mode: "markers+text",
+      lon: destinationCountries.map((c) => coords[c].lon),
+      lat: destinationCountries.map((c) => coords[c].lat),
+      text: destinationCountries.map((c) => {
+        const shortNames = {
+          "United Kingdom": "UK",
+          "Korea Republic of": "Korea Rep.",
+          "United Arab Emirates": "UAE",
+          "Hong Kong (SAR) China": "Hong Kong"
+        };
+        return shortNames[c] || c;
+      }),
+      textposition: "top center",
+      textfont: {
+        size: 11,
+        color: destinationCountries.map((c) => destinationColors[c] || "#59534d")
+      },
+      marker: {
+        size: destinationCountries.map((c) => (destinationColors[c] ? 10 : 8)),
+        color: destinationCountries.map((c) => destinationColors[c] || "#bfb5aa"),
+        line: { color: "#fcfbf7", width: 1.3 }
+      },
+      hovertemplate: "<b>%{text}</b><br>Destination country<extra></extra>",
+      showlegend: false
+    };
+
+    const layout = {
+      paper_bgcolor: "#fcfbf7",
+      margin: { l: 10, r: 10, t: 10, b: 10 },
+      geo: {
+        projection: { type: "natural earth" },
+        bgcolor: "#fcfbf7",
+        showland: true,
+        landcolor: "#f3eee8",
+        showocean: true,
+        oceancolor: "#ffffff",
+        showcountries: true,
+        countrycolor: "#ddd4c9",
+        coastlinecolor: "#ddd4c9",
+        lataxis: { range: [-45, 75] }
+      },
+      annotations: [
+        {
+          xref: "paper",
+          yref: "paper",
+          x: 0.27,
+          y: 0.58,
+          text: "Mexico → USA is the biggest<br>country-pair corridor here",
+          showarrow: true,
+          arrowcolor: "#c65534",
+          ax: -38,
+          ay: -42,
+          bgcolor: "rgba(252,251,247,0.96)",
+          bordercolor: "rgba(198,85,52,0.2)",
+          borderwidth: 1,
+          font: { size: 12, color: "#7b3b28" },
+          align: "left"
+        },
+        {
+          xref: "paper",
+          yref: "paper",
+          x: 0.72,
+          y: 0.62,
+          text: "A few destination countries<br>attract repeated top flows",
+          showarrow: true,
+          arrowcolor: "#6b645d",
+          ax: 84,
+          ay: -22,
+          bgcolor: "rgba(252,251,247,0.96)",
+          bordercolor: "rgba(107,100,93,0.22)",
+          borderwidth: 1,
+          font: { size: 12, color: "#5b554e" },
+          align: "left"
+        }
+      ]
+    };
+
+    Plotly.newPlot("chart", [...traces, originTrace, destinationTrace], layout, {
+      responsive: true,
+      displayModeBar: false
+    }).then(() => {
+      reportHeight();
+      window.addEventListener("resize", reportHeight);
+      setTimeout(reportHeight, 120);
+    });
+  </script>
+</body>
+</html>
