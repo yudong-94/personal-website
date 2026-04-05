@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Which Food Delivery App Is Cheapest in Each State?</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #f7f2e8;
+      --paper: #fffaf2;
+      --ink: #171513;
+      --muted: #5e564f;
+      --border: #d9cfc2;
+      --grubhub: #8e2c2e;
+      --doordash: #f45d2d;
+      --ubereats: #1f8e5a;
+      --tie: #c89b2a;
+      --link: #296fa8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(244, 93, 45, 0.12), transparent 30%),
+        radial-gradient(circle at top right, rgba(31, 142, 90, 0.10), transparent 24%),
+        linear-gradient(180deg, #fbf7ef 0%, var(--bg) 100%);
+      color: var(--ink);
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 18px 16px;
+    }
+
+    .header {
+      margin-bottom: 14px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(23, 21, 19, 0.06);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .title {
+      margin: 0 0 10px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 40px;
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+      font-weight: 700;
+      max-width: 900px;
+    }
+
+    .title .accent {
+      color: var(--doordash);
+    }
+
+    .subtitle,
+    .note,
+    .fallback,
+    .source {
+      max-width: 980px;
+    }
+
+    .subtitle {
+      margin: 0 0 10px;
+      color: #2d2925;
+      font-size: 18px;
+      line-height: 1.45;
+    }
+
+    .note {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .summary-card {
+      background: rgba(255, 250, 242, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 14px 12px;
+      box-shadow: 0 10px 30px rgba(63, 40, 18, 0.05);
+    }
+
+    .summary-card .service {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    .dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .summary-card .count {
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 34px;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin-bottom: 4px;
+    }
+
+    .summary-card .detail {
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .chart-shell {
+      padding: 10px 10px 6px;
+      background: rgba(255, 250, 242, 0.74);
+      border: 1px solid rgba(217, 207, 194, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 18px 40px rgba(55, 32, 17, 0.08);
+    }
+
+    #chart {
+      width: 100%;
+      height: 760px;
+    }
+
+    .fallback,
+    .source {
+      font-size: 15px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    .fallback {
+      margin: 12px 0 10px;
+    }
+
+    .source {
+      margin: 0 0 8px;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    @media (max-width: 900px) {
+      .summary-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .title {
+        font-size: 34px;
+      }
+
+      #chart {
+        height: 620px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 18px 12px 12px;
+      }
+
+      .title {
+        font-size: 30px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .chart-shell {
+        border-radius: 18px;
+        padding: 6px 6px 2px;
+      }
+
+      #chart {
+        height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="eyebrow">NetCredit study, September 2025 prices</div>
+      <h1 class="title">Which food delivery app looks <span class="accent">cheapest by state</span>?</h1>
+      <p class="subtitle">
+        Grubhub leads the embedded state table in 24 states, DoorDash in 18, Uber Eats in seven, and Rhode Island is listed as a tie between DoorDash and Grubhub.
+      </p>
+      <p class="note">
+        Comparison basis: NetCredit summed menu prices from seven fast-food chains across the five largest cities in each state. This is a state-level snapshot derived from major-city samples, not a full statewide price census.
+      </p>
+    </div>
+
+    <div class="summary-grid" id="summary-grid"></div>
+
+    <div class="chart-shell">
+      <div id="chart"></div>
+    </div>
+
+    <p class="fallback">
+      The pattern is not one-sided nationally: Grubhub has the broadest footprint, but DoorDash wins several large coastal states including California, Florida, New York, and Washington. Uber Eats is rarer overall and appears more scattered, with wins in places such as Arizona, Maryland, and Virginia.
+    </p>
+    <p class="source">
+      Source:
+      <a href="https://www.voronoiapp.com/food-beverage/The-Most-Affordable-Food-Delivery-Service-by-State-7547" target="_blank" rel="noreferrer">Voronoi summary</a>
+      and
+      <a href="https://www.netcredit.com/blog/is-doordash-or-ubereats-cheaper/" target="_blank" rel="noreferrer">NetCredit, “What’s Cheaper – DoorDash, Uber Eats or Grubhub?”</a>.
+      State winners here were extracted from the article’s embedded interactive table.
+    </p>
+  </div>
+
+  <script>
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const rows = [
+      { state: "Alabama", winner: "Grubhub" },
+      { state: "Alaska", winner: "Grubhub" },
+      { state: "Arizona", winner: "Uber Eats" },
+      { state: "Arkansas", winner: "Grubhub" },
+      { state: "California", winner: "Door Dash" },
+      { state: "Colorado", winner: "Grubhub" },
+      { state: "Connecticut", winner: "Door Dash" },
+      { state: "Delaware", winner: "Grubhub" },
+      { state: "Florida", winner: "Door Dash" },
+      { state: "Georgia", winner: "Grubhub" },
+      { state: "Hawaii", winner: "Uber Eats" },
+      { state: "Idaho", winner: "Grubhub" },
+      { state: "Illinois", winner: "Grubhub" },
+      { state: "Indiana", winner: "Door Dash" },
+      { state: "Iowa", winner: "Grubhub" },
+      { state: "Kansas", winner: "Door Dash" },
+      { state: "Kentucky", winner: "Grubhub" },
+      { state: "Louisiana", winner: "Grubhub" },
+      { state: "Maine", winner: "Door Dash" },
+      { state: "Maryland", winner: "Uber Eats" },
+      { state: "Massachusetts", winner: "Grubhub" },
+      { state: "Michigan", winner: "Grubhub" },
+      { state: "Minnesota", winner: "Grubhub" },
+      { state: "Mississippi", winner: "Door Dash" },
+      { state: "Missouri", winner: "Door Dash" },
+      { state: "Montana", winner: "Uber Eats" },
+      { state: "Nebraska", winner: "Uber Eats" },
+      { state: "Nevada", winner: "Grubhub" },
+      { state: "New Hampshire", winner: "Grubhub" },
+      { state: "New Jersey", winner: "Door Dash" },
+      { state: "New Mexico", winner: "Uber Eats" },
+      { state: "New York", winner: "Door Dash" },
+      { state: "North Carolina", winner: "Door Dash" },
+      { state: "North Dakota", winner: "Grubhub" },
+      { state: "Ohio", winner: "Grubhub" },
+      { state: "Oklahoma", winner: "Door Dash" },
+      { state: "Oregon", winner: "Grubhub" },
+      { state: "Pennsylvania", winner: "Grubhub" },
+      { state: "Rhode Island", winner: "Door Dash | Grubhub" },
+      { state: "South Carolina", winner: "Grubhub" },
+      { state: "South Dakota", winner: "Door Dash" },
+      { state: "Tennessee", winner: "Grubhub" },
+      { state: "Texas", winner: "Grubhub" },
+      { state: "Utah", winner: "Door Dash" },
+      { state: "Vermont", winner: "Door Dash" },
+      { state: "Virginia", winner: "Uber Eats" },
+      { state: "Washington", winner: "Door Dash" },
+      { state: "West Virginia", winner: "Door Dash" },
+      { state: "Wisconsin", winner: "Door Dash" },
+      { state: "Wyoming", winner: "Grubhub" }
+    ];
+
+    const stateCodes = {
+      Alabama: "AL", Alaska: "AK", Arizona: "AZ", Arkansas: "AR", California: "CA",
+      Colorado: "CO", Connecticut: "CT", Delaware: "DE", Florida: "FL", Georgia: "GA",
+      Hawaii: "HI", Idaho: "ID", Illinois: "IL", Indiana: "IN", Iowa: "IA",
+      Kansas: "KS", Kentucky: "KY", Louisiana: "LA", Maine: "ME", Maryland: "MD",
+      Massachusetts: "MA", Michigan: "MI", Minnesota: "MN", Mississippi: "MS", Missouri: "MO",
+      Montana: "MT", Nebraska: "NE", Nevada: "NV", "New Hampshire": "NH", "New Jersey": "NJ",
+      "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", "North Dakota": "ND",
+      Ohio: "OH", Oklahoma: "OK", Oregon: "OR", Pennsylvania: "PA", "Rhode Island": "RI",
+      "South Carolina": "SC", "South Dakota": "SD", Tennessee: "TN", Texas: "TX", Utah: "UT",
+      Vermont: "VT", Virginia: "VA", Washington: "WA", "West Virginia": "WV",
+      Wisconsin: "WI", Wyoming: "WY"
+    };
+
+    const serviceMeta = {
+      "Grubhub": { color: "#8e2c2e", order: 1, note: "largest overall footprint" },
+      "Door Dash": { color: "#f45d2d", order: 2, note: "strong in several large coastal states" },
+      "Uber Eats": { color: "#1f8e5a", order: 3, note: "more scattered set of wins" },
+      "Door Dash | Grubhub": { color: "#c89b2a", order: 4, note: "tie in Rhode Island" }
+    };
+
+    const counts = rows.reduce((acc, row) => {
+      acc[row.winner] = (acc[row.winner] || 0) + 1;
+      return acc;
+    }, {});
+
+    const summaryGrid = document.getElementById("summary-grid");
+    Object.entries(serviceMeta)
+      .sort((a, b) => a[1].order - b[1].order)
+      .forEach(([service, meta]) => {
+        const count = counts[service] || 0;
+        const card = document.createElement("div");
+        card.className = "summary-card";
+        card.innerHTML = `
+          <div class="service">
+            <span class="dot" style="background:${meta.color}"></span>
+            <span>${service}</span>
+          </div>
+          <div class="count">${count}</div>
+          <div class="detail">${meta.note}</div>
+        `;
+        summaryGrid.appendChild(card);
+      });
+
+    const serviceNames = Object.keys(serviceMeta);
+    const traces = serviceNames.map((service) => {
+      const filtered = rows.filter((row) => row.winner === service);
+      return {
+        type: "choropleth",
+        locationmode: "USA-states",
+        locations: filtered.map((row) => stateCodes[row.state]),
+        z: filtered.map(() => 1),
+        text: filtered.map((row) => row.state),
+        hovertemplate:
+          "<b>%{text}</b><br>" +
+          "Cheapest service: " + service + "<extra></extra>",
+        colorscale: [
+          [0, serviceMeta[service].color],
+          [1, serviceMeta[service].color]
+        ],
+        showscale: false,
+        marker: {
+          line: {
+            color: "#fdf9f3",
+            width: 1.2
+          }
+        },
+        name: service,
+        showlegend: false
+      };
+    });
+
+    const isNarrow = window.innerWidth <= 640;
+
+    const layout = {
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)",
+      margin: { t: 10, r: 10, b: 10, l: 10 },
+      dragmode: false,
+      geo: {
+        scope: "usa",
+        projection: { type: "albers usa" },
+        bgcolor: "rgba(0,0,0,0)",
+        showland: true,
+        landcolor: "#f4ece0",
+        subunitcolor: "#ffffff",
+        countrycolor: "#ffffff",
+        lakecolor: "#ffffff",
+        showlakes: false,
+        showcountries: false,
+        showframe: false
+      },
+      annotations: [
+        {
+          x: 0.14,
+          y: isNarrow ? 0.14 : 0.16,
+          xref: "paper",
+          yref: "paper",
+          text: "Rhode Island is the only state listed as a tie.",
+          showarrow: false,
+          align: "left",
+          bgcolor: "rgba(255,250,242,0.96)",
+          bordercolor: "rgba(200,155,42,0.35)",
+          borderwidth: 1,
+          borderpad: 8,
+          font: { size: isNarrow ? 11 : 12, color: "#5e564f" }
+        }
+      ]
+    };
+
+    Plotly.newPlot("chart", traces, layout, {
+      displayModeBar: false,
+      responsive: true
+    }).then(reportHeight);
+
+    window.addEventListener("resize", () => {
+      reportHeight();
+    });
+  </script>
+</body>
+</html>
