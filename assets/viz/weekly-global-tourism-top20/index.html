@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Tourism Is Still Concentrated at the Top</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #666666;
+      --grid: #e6e0d8;
+      --link: #2569a8;
+      --apac: #c65a3a;
+      --europe: #6d8da4;
+      --mea: #8b61b4;
+      --americas: #9a6a3a;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 35px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      max-width: 980px;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #2f2f2f;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #4b4b4b;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+
+    #chart {
+      width: 100%;
+      height: 900px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: var(--link);
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 29px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .legend-row,
+      .source {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 980px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="chart-title">
+      Global Tourism Is Still <span style="color: var(--apac);">Concentrated</span> at the Top
+    </h1>
+    <p class="chart-subtitle">
+      Tokyo leads the 2025 ranking, but the larger pattern is concentration: a small top tier of Asian, European, and Middle Eastern destinations absorbs an outsized share of international overnight arrivals.
+    </p>
+    <p class="chart-note">
+      This chart is built from the explicit top-20 ranking figures stated in the article’s “Highlights of the Global Top 100 Destinations” section. The article contains a few later spot-value inconsistencies for some destinations, so this view follows the ranked snapshot rather than the later growth callouts. The Turkey methodology note in the article also means Antalya and Istanbul should be read as 2025 overnight-stay destinations, not a directly unchanged historical series.
+    </p>
+    <div class="legend-row" aria-label="Region legend">
+      <span class="legend-item"><span class="legend-swatch" style="background:#c65a3a"></span>Asia Pacific</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:#6d8da4"></span>Europe</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:#8b61b4"></span>Middle East &amp; Africa</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:#9a6a3a"></span>Americas</span>
+    </div>
+    <div id="chart"></div>
+    <div class="source">
+      Source:
+      <a href="https://thequietanalyst.substack.com/p/global-tourism-in-2025" target="_blank" rel="noreferrer">The Quiet Analyst, “Global Tourism in 2025”</a>.
+      Data used here: the article’s stated top-20 global destination ranking by 2025 international overnight arrivals.
+    </div>
+  </div>
+
+  <script>
+    const rows = [
+      { rank: 1, destination: "Tokyo", country: "Japan", region: "Asia Pacific", arrivals: 26.0, type: "Gateway" },
+      { rank: 2, destination: "Bangkok", country: "Thailand", region: "Asia Pacific", arrivals: 24.8, type: "Gateway" },
+      { rank: 3, destination: "Antalya", country: "Türkiye", region: "Europe", arrivals: 23.5, type: "Leisure resort" },
+      { rank: 4, destination: "London", country: "United Kingdom", region: "Europe", arrivals: 21.2, type: "Gateway" },
+      { rank: 5, destination: "Dubai", country: "United Arab Emirates", region: "Middle East & Africa", arrivals: 19.6, type: "Hub" },
+      { rank: 6, destination: "Makkah", country: "Saudi Arabia", region: "Middle East & Africa", arrivals: 18.0, type: "Religious destination" },
+      { rank: 7, destination: "Paris", country: "France", region: "Europe", arrivals: 15.2, type: "Gateway" },
+      { rank: 8, destination: "Kuala Lumpur", country: "Malaysia", region: "Asia Pacific", arrivals: 17.2, type: "Gateway" },
+      { rank: 9, destination: "Osaka", country: "Japan", region: "Asia Pacific", arrivals: 14.3, type: "Gateway" },
+      { rank: 10, destination: "Seoul", country: "Republic of Korea", region: "Asia Pacific", arrivals: 12.6, type: "Gateway" },
+      { rank: 11, destination: "Singapore", country: "Singapore", region: "Asia Pacific", arrivals: 12.6, type: "Gateway" },
+      { rank: 12, destination: "Istanbul", country: "Türkiye", region: "Europe", arrivals: 11.7, type: "Gateway" },
+      { rank: 13, destination: "New York", country: "United States", region: "Americas", arrivals: 11.4, type: "Gateway" },
+      { rank: 14, destination: "Mallorca", country: "Spain", region: "Europe", arrivals: 11.0, type: "Leisure destination" },
+      { rank: 15, destination: "Barcelona", country: "Spain", region: "Europe", arrivals: 10.3, type: "Gateway" },
+      { rank: 16, destination: "Pattaya", country: "Thailand", region: "Asia Pacific", arrivals: 10.2, type: "Leisure destination" },
+      { rank: 17, destination: "Phuket", country: "Thailand", region: "Asia Pacific", arrivals: 10.0, type: "Leisure destination" },
+      { rank: 18, destination: "Rome", country: "Italy", region: "Europe", arrivals: 9.8, type: "Gateway" },
+      { rank: 19, destination: "Kyoto", country: "Japan", region: "Asia Pacific", arrivals: 8.9, type: "Gateway" },
+      { rank: 20, destination: "Venice", country: "Italy", region: "Europe", arrivals: 8.4, type: "Gateway" }
+    ];
+
+    const regionColors = {
+      "Asia Pacific": "#c65a3a",
+      "Europe": "#6d8da4",
+      "Middle East & Africa": "#8b61b4",
+      "Americas": "#9a6a3a"
+    };
+
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const sorted = rows.slice().sort((a, b) => b.arrivals - a.arrivals);
+    const labels = sorted.map((d) => `${d.rank}. ${d.destination}`);
+    const arrivals = sorted.map((d) => d.arrivals);
+    const colors = sorted.map((d) => regionColors[d.region]);
+    const texts = sorted.map((d) => `${d.arrivals.toFixed(1)}m`);
+
+    function buildLayout() {
+      const mobile = window.innerWidth <= 760;
+      return {
+        paper_bgcolor: "#fcfbf7",
+        plot_bgcolor: "#fcfbf7",
+        font: {
+          family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          color: "#222222",
+          size: mobile ? 13 : 14
+        },
+        margin: {
+          l: mobile ? 150 : 225,
+          r: mobile ? 70 : 78,
+          t: 8,
+          b: 48
+        },
+        xaxis: {
+          title: { text: "International overnight arrivals in 2025 (millions)", standoff: 12 },
+          showgrid: true,
+          gridcolor: "#e6e0d8",
+          zeroline: false,
+          range: [0, 27.5],
+          fixedrange: true
+        },
+        yaxis: {
+          automargin: true,
+          tickfont: { size: mobile ? 12 : 13 },
+          showgrid: false,
+          fixedrange: true
+        },
+        bargap: 0.24,
+        showlegend: false,
+        annotations: mobile ? [] : [
+          {
+            x: 26.0,
+            y: "1. Tokyo",
+            text: "Tokyo overtakes<br>Bangkok in 2025",
+            showarrow: true,
+            arrowcolor: "#c65a3a",
+            ax: -92,
+            ay: -18,
+            bgcolor: "rgba(252,251,247,0.96)",
+            bordercolor: "rgba(198,90,58,0.2)",
+            borderwidth: 1,
+            font: { size: 12, color: "#7b3b28" },
+            align: "left"
+          },
+          {
+            x: 23.5,
+            y: "3. Antalya",
+            text: "Largest leisure-resort<br>destination here",
+            showarrow: true,
+            arrowcolor: "#6d8da4",
+            ax: 100,
+            ay: 18,
+            bgcolor: "rgba(252,251,247,0.96)",
+            bordercolor: "rgba(109,141,164,0.2)",
+            borderwidth: 1,
+            font: { size: 12, color: "#425f72" },
+            align: "left"
+          }
+        ]
+      };
+    }
+
+    const trace = {
+      type: "bar",
+      orientation: "h",
+      x: arrivals.slice().reverse(),
+      y: labels.slice().reverse(),
+      marker: {
+        color: colors.slice().reverse(),
+        line: {
+          color: "#f7f2ec",
+          width: 1
+        }
+      },
+      customdata: sorted.map((d) => [d.country, d.region, d.type]).reverse(),
+      text: texts.slice().reverse(),
+      textposition: "outside",
+      cliponaxis: false,
+      hovertemplate:
+        "<b>%{y}</b><br>" +
+        "Arrivals: %{x:.1f} million<br>" +
+        "Country: %{customdata[0]}<br>" +
+        "Region: %{customdata[1]}<br>" +
+        "Destination type: %{customdata[2]}<extra></extra>"
+    };
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    function renderChart() {
+      Plotly.newPlot("chart", [trace], buildLayout(), config).then(reportHeight);
+    }
+
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(renderChart, 120);
+    });
+
+    renderChart();
+    window.addEventListener("load", reportHeight);
+  </script>
+</body>
+</html>

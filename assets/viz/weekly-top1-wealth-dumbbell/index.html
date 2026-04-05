@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Top 1% Live in a Different Wealth Universe</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #666666;
+      --grid: #e6e0d8;
+      --line: #cfc4b8;
+      --top: #c65a3a;
+      --bottom: #6d8da4;
+      --link: #2569a8;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 35px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #2f2f2f;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #4b4b4b;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    #chart {
+      width: 100%;
+      height: 760px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: var(--link);
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 29px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .legend-row,
+      .source {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 860px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="chart-title">
+      The Top 1% Live in a <span style="color: var(--top);">Different</span> Wealth Universe
+    </h1>
+    <p class="chart-subtitle">
+      Across 11 major economies, the average member of the top 1% holds millions in PPP-adjusted wealth, while the average person in the bottom half often holds only tens of thousands or less. The U.S. sits farthest right in absolute wealth, while Mexico has the highest top-1% share.
+    </p>
+    <p class="chart-note">
+      Each dumbbell compares two like-for-like per-capita wealth measures within a country: the bottom 50% and the top 1%. Country labels show the top 1% share of national wealth. The x-axis uses a log scale because the lower-half values are in thousands while the top-end values are in millions.
+    </p>
+    <div class="legend-row" aria-label="Dumbbell legend">
+      <span class="legend-item"><span class="legend-swatch" style="background:#6d8da4"></span>Bottom 50% average wealth</span>
+      <span class="legend-item"><span class="legend-swatch" style="background:#c65a3a"></span>Top 1% average wealth</span>
+    </div>
+    <div id="chart"></div>
+    <div class="source">
+      Source:
+      <a href="https://www.visualcapitalist.com/wealth-of-the-top-1-across-major-economies/" target="_blank" rel="noreferrer">Visual Capitalist, "How Wealthy the Top 1% Are in Each Major Economy"</a>,
+      using McKinsey data cited in the article.
+    </div>
+  </div>
+
+  <script>
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const rows = [
+      { country: "U.S.", top1: 16400000, bottom50: 9000, share: 35 },
+      { country: "Australia", top1: 10600000, bottom50: 36000, share: 24 },
+      { country: "Canada", top1: 9100000, bottom50: 30000, share: 24 },
+      { country: "Germany", top1: 9100000, bottom50: 23000, share: 28 },
+      { country: "France", top1: 8500000, bottom50: 31000, share: 27 },
+      { country: "Italy", top1: 7200000, bottom50: 17000, share: 22 },
+      { country: "South Korea", top1: 7200000, bottom50: 10000, share: 26 },
+      { country: "Japan", top1: 6900000, bottom50: 22000, share: 25 },
+      { country: "UK", top1: 5000000, bottom50: 22000, share: 21 },
+      { country: "China", top1: 3200000, bottom50: 13000, share: 30 },
+      { country: "Mexico", top1: 2700000, bottom50: 3000, share: 37 }
+    ];
+
+    function wealthLabel(value) {
+      if (value >= 1000000) return "$" + (value / 1000000).toFixed(1) + "M";
+      return "$" + Math.round(value / 1000) + "K";
+    }
+
+    const sorted = rows.slice().sort((a, b) => b.top1 - a.top1);
+    const categories = sorted.map((d, i) => `${i + 1}. ${d.country} (${d.share}%)`);
+
+    const lineTraces = sorted.map((d, i) => ({
+      type: "scatter",
+      mode: "lines",
+      x: [d.bottom50, d.top1],
+      y: [categories[i], categories[i]],
+      hoverinfo: "skip",
+      line: {
+        color: "rgba(207,196,184,0.95)",
+        width: 4
+      },
+      showlegend: false
+    }));
+
+    const bottomTrace = {
+      type: "scatter",
+      mode: "markers",
+      name: "Bottom 50%",
+      x: sorted.map((d) => d.bottom50),
+      y: categories,
+      customdata: sorted.map((d) => [d.country, d.top1, d.share, d.top1 / d.bottom50]),
+      marker: {
+        color: "#6d8da4",
+        size: 12,
+        line: { color: "#fcfbf7", width: 1.6 }
+      },
+      hovertemplate:
+        "<b>%{customdata[0]}</b><br>" +
+        "Bottom 50% average wealth: %{x:$,.0f}<br>" +
+        "Top 1% average wealth: %{customdata[1]:$,.0f}<br>" +
+        "Top 1% share of wealth: %{customdata[2]}%<br>" +
+        "Top / bottom ratio: %{customdata[3]:,.0f}x<extra></extra>"
+    };
+
+    const topTrace = {
+      type: "scatter",
+      mode: "markers+text",
+      name: "Top 1%",
+      x: sorted.map((d) => d.top1),
+      y: categories,
+      text: sorted.map((d) => wealthLabel(d.top1)),
+      textposition: "middle right",
+      textfont: {
+        size: 13,
+        color: "#7a4b37"
+      },
+      cliponaxis: false,
+      customdata: sorted.map((d) => [d.country, d.bottom50, d.share, d.top1 / d.bottom50]),
+      marker: {
+        color: "#c65a3a",
+        size: 14,
+        line: { color: "#fcfbf7", width: 1.8 }
+      },
+      hovertemplate:
+        "<b>%{customdata[0]}</b><br>" +
+        "Top 1% average wealth: %{x:$,.0f}<br>" +
+        "Bottom 50% average wealth: %{customdata[1]:$,.0f}<br>" +
+        "Top 1% share of wealth: %{customdata[2]}%<br>" +
+        "Top / bottom ratio: %{customdata[3]:,.0f}x<extra></extra>"
+    };
+
+    function buildLayout() {
+      const mobile = window.innerWidth <= 760;
+      return {
+        paper_bgcolor: "#fcfbf7",
+        plot_bgcolor: "#fcfbf7",
+        font: {
+          family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          color: "#222222",
+          size: mobile ? 13 : 14
+        },
+        margin: {
+          l: mobile ? 132 : 180,
+          r: mobile ? 92 : 132,
+          t: 8,
+          b: 52
+        },
+        hovermode: "closest",
+        showlegend: false,
+        xaxis: {
+          type: "log",
+          range: [3.35, 7.35],
+          tickvals: [3000, 10000, 30000, 100000, 1000000, 3000000, 10000000],
+          ticktext: ["$3K", "$10K", "$30K", "$100K", "$1M", "$3M", "$10M"],
+          showgrid: true,
+          gridcolor: "#e6e0d8",
+          zeroline: false,
+          title: {
+            text: "Average per-capita wealth (PPP-adjusted, log scale)",
+            standoff: 16
+          }
+        },
+        yaxis: {
+          categoryorder: "array",
+          categoryarray: categories.slice().reverse(),
+          automargin: true,
+          tickfont: { size: mobile ? 11 : 12 },
+          showgrid: false
+        },
+        annotations: [
+          {
+            xref: "paper",
+            yref: "paper",
+            x: 0,
+            y: -0.14,
+            xanchor: "left",
+            yanchor: "top",
+            align: "left",
+            showarrow: false,
+            font: { size: mobile ? 11 : 12, color: "#6b6b6b" },
+            text: "Note: label parentheses show the top 1%'s share of national wealth."
+          }
+        ]
+      };
+    }
+
+    function render() {
+      Plotly.newPlot(
+        "chart",
+        [...lineTraces, bottomTrace, topTrace],
+        buildLayout(),
+        { displayModeBar: false, responsive: true }
+      ).then(reportHeight);
+    }
+
+    render();
+    window.addEventListener("resize", () => {
+      Plotly.react("chart", [...lineTraces, bottomTrace, topTrace], buildLayout(), {
+        displayModeBar: false,
+        responsive: true
+      }).then(reportHeight);
+    });
+    window.addEventListener("load", reportHeight);
+  </script>
+</body>
+</html>
