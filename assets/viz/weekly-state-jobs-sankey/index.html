@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Job Owns the No. 1 Slot Across Almost Every State</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fcfbf7;
+      --text: #171717;
+      --muted: #666666;
+      --grid: #e6e0d8;
+      --link: #2569a8;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 22px 18px 10px;
+    }
+
+    .chart-title {
+      margin: 0 0 8px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .chart-subtitle,
+    .chart-note,
+    .source {
+      max-width: 980px;
+    }
+
+    .chart-subtitle {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: #2f2f2f;
+    }
+
+    .chart-note {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    #chart {
+      width: 100%;
+      height: 880px;
+    }
+
+    .source {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      color: var(--muted);
+    }
+
+    .source a {
+      color: var(--link);
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 16px 12px 8px;
+      }
+
+      .chart-title {
+        font-size: 28px;
+      }
+
+      .chart-subtitle {
+        font-size: 16px;
+      }
+
+      .chart-note,
+      .source {
+        font-size: 14px;
+      }
+
+      #chart {
+        height: 980px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="chart-title">
+      One Job Owns the No. 1 Slot Across <span style="color:#c65a3a;">Almost Every</span> State
+    </h1>
+    <p class="chart-subtitle">
+      Lightcast's state-by-state ranking is overwhelmingly led by one title: Registered Nurse is the most-posted job in 49 of 50 states. Lower down the ladder, Retail Sales Associate dominates the second slot, while Truck Driver and Physician titles recur most often at third.
+    </p>
+    <p class="chart-note">
+      This is a rank chart, not a posting-volume chart. Each link shows how many states share the same sequence from the 1st most-posted title to the 2nd and 3rd, based on the Lightcast article's state rankings from October 2024 to October 2025.
+    </p>
+    <div id="chart"></div>
+    <div class="source">
+      Source:
+      <a href="https://lightcast.io/resources/blog/most-posted-for-jobs-in-each-us-state" target="_blank" rel="noreferrer">Lightcast, "Job titles in highest-demand, state by state"</a>.
+      Data used here was extracted from the article's embedded state-by-state ranking visualization.
+    </div>
+  </div>
+
+  <script>
+    function reportHeight() {
+      const height = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    const rows = [
+      { state: "Alabama", abbr: "AL", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "Alaska", abbr: "AK", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "Arizona", abbr: "AZ", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "Arkansas", abbr: "AR", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "California", abbr: "CA", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Sales Representative" },
+      { state: "Colorado", abbr: "CO", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Connecticut", abbr: "CT", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "Delaware", abbr: "DE", rank1: "Registered Nurse", rank2: "Software Developer / Engineer", rank3: "Retail Sales Associate" },
+      { state: "Florida", abbr: "FL", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "Georgia", abbr: "GA", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Hawaii", abbr: "HI", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Customer Service Representative" },
+      { state: "Idaho", abbr: "ID", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Illinois", abbr: "IL", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Indiana", abbr: "IN", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "Iowa", abbr: "IA", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Physician" },
+      { state: "Kansas", abbr: "KS", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Kentucky", abbr: "KY", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "Louisiana", abbr: "LA", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Retail Store Manager / Supervisor" },
+      { state: "Maine", abbr: "ME", rank1: "Registered Nurse", rank2: "Physician", rank3: "Retail Sales Associate" },
+      { state: "Maryland", abbr: "MD", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Software Developer / Engineer" },
+      { state: "Massachusetts", abbr: "MA", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Software Developer / Engineer" },
+      { state: "Michigan", abbr: "MI", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Minnesota", abbr: "MN", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Mississippi", abbr: "MS", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "Missouri", abbr: "MO", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Montana", abbr: "MT", rank1: "Registered Nurse", rank2: "Physician", rank3: "Retail Sales Associate" },
+      { state: "Nebraska", abbr: "NE", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "Nevada", abbr: "NV", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Sales Representative" },
+      { state: "New Hampshire", abbr: "NH", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "New Jersey", abbr: "NJ", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Software Developer / Engineer" },
+      { state: "New Mexico", abbr: "NM", rank1: "Registered Nurse", rank2: "Physician", rank3: "Retail Sales Associate" },
+      { state: "New York", abbr: "NY", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "North Carolina", abbr: "NC", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "North Dakota", abbr: "ND", rank1: "Registered Nurse", rank2: "Physician", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Ohio", abbr: "OH", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "Oklahoma", abbr: "OK", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Oregon", abbr: "OR", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "Pennsylvania", abbr: "PA", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Rhode Island", abbr: "RI", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Software Developer / Engineer" },
+      { state: "South Carolina", abbr: "SC", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "South Dakota", abbr: "SD", rank1: "Registered Nurse", rank2: "Physician", rank3: "Licensed Practical / Vocational Nurse" },
+      { state: "Tennessee", abbr: "TN", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Texas", abbr: "TX", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Sales Representative" },
+      { state: "Utah", abbr: "UT", rank1: "Retail Sales Associate", rank2: "Registered Nurse", rank3: "Sales Representative" },
+      { state: "Vermont", abbr: "VT", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Virginia", abbr: "VA", rank1: "Registered Nurse", rank2: "Software Developer / Engineer", rank3: "Retail Sales Associate" },
+      { state: "Washington", abbr: "WA", rank1: "Registered Nurse", rank2: "Retail Sales Associate", rank3: "Physician" },
+      { state: "West Virginia", abbr: "WV", rank1: "Registered Nurse", rank2: "Physician", rank3: "Tractor-Trailer Truck Driver" },
+      { state: "Wisconsin", abbr: "WI", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Retail Sales Associate" },
+      { state: "Wyoming", abbr: "WY", rank1: "Registered Nurse", rank2: "Tractor-Trailer Truck Driver", rank3: "Physician" }
+    ];
+
+    const titleColors = {
+      "Registered Nurse": "#c65a3a",
+      "Retail Sales Associate": "#7a57a8",
+      "Tractor-Trailer Truck Driver": "#d28c2c",
+      "Physician": "#2f7f76",
+      "Software Developer / Engineer": "#3f74b5",
+      "Sales Representative": "#b76b4c",
+      "Customer Service Representative": "#7b7b7b",
+      "Retail Store Manager / Supervisor": "#9c6a4d",
+      "Licensed Practical / Vocational Nurse": "#6d8f5b"
+    };
+
+    const rankConfig = [
+      { key: "rank1", title: "#1 most posted", x: 0.02 },
+      { key: "rank2", title: "#2 most posted", x: 0.50 },
+      { key: "rank3", title: "#3 most posted", x: 0.98 }
+    ];
+
+    const countsByRank = {};
+    rankConfig.forEach((rank) => {
+      countsByRank[rank.key] = {};
+      rows.forEach((row) => {
+        countsByRank[rank.key][row[rank.key]] = (countsByRank[rank.key][row[rank.key]] || 0) + 1;
+      });
+    });
+
+    const displayLabel = (title) =>
+      title
+        .replace("Software Developer / Engineer", "Software Developer<br>/ Engineer")
+        .replace("Tractor-Trailer Truck Driver", "Truck Driver")
+        .replace("Customer Service Representative", "Customer Service<br>Representative")
+        .replace("Retail Store Manager / Supervisor", "Retail Store Manager<br>/ Supervisor")
+        .replace("Licensed Practical / Vocational Nurse", "Licensed Practical<br>/ Vocational Nurse");
+
+    const nodes = [];
+    const nodeLookup = new Map();
+    rankConfig.forEach((rank, rankIndex) => {
+      const entries = Object.entries(countsByRank[rank.key]).sort((a, b) => b[1] - a[1]);
+      entries.forEach(([title, count], idx) => {
+        const states = rows.filter((row) => row[rank.key] === title).map((row) => row.abbr).sort();
+        const label = `${displayLabel(title)}<br>${count} state${count === 1 ? "" : "s"}`;
+        const node = {
+          key: `${rank.key}:${title}`,
+          title,
+          label,
+          count,
+          x: rank.x,
+          y: entries.length === 1 ? 0.5 : 0.08 + (idx / (entries.length - 1)) * 0.84,
+          color: titleColors[title] || "#9a8f83",
+          hover: `${rank.title}<br>${title}<br>${count} state${count === 1 ? "" : "s"}<br>${states.join(", ")}`
+        };
+        nodeLookup.set(node.key, nodes.length);
+        nodes.push(node);
+      });
+    });
+
+    const flowMap = new Map();
+    function addFlow(sourceRank, targetRank) {
+      rows.forEach((row) => {
+        const sourceTitle = row[sourceRank];
+        const targetTitle = row[targetRank];
+        const key = `${sourceRank}:${sourceTitle}|||${targetRank}:${targetTitle}`;
+        if (!flowMap.has(key)) {
+          flowMap.set(key, { sourceRank, targetRank, sourceTitle, targetTitle, states: [] });
+        }
+        flowMap.get(key).states.push(row.abbr);
+      });
+    }
+    addFlow("rank1", "rank2");
+    addFlow("rank2", "rank3");
+
+    const links = Array.from(flowMap.values()).map((flow) => ({
+      source: nodeLookup.get(`${flow.sourceRank}:${flow.sourceTitle}`),
+      target: nodeLookup.get(`${flow.targetRank}:${flow.targetTitle}`),
+      value: flow.states.length,
+      color: titleColors[flow.sourceTitle] ? `${titleColors[flow.sourceTitle]}33` : "rgba(154,143,131,0.25)",
+      hover: `${flow.states.length} state${flow.states.length === 1 ? "" : "s"}<br>${flow.sourceTitle} → ${flow.targetTitle}<br>${flow.states.sort().join(", ")}`
+    }));
+
+    const trace = {
+      type: "sankey",
+      arrangement: "fixed",
+      node: {
+        pad: 18,
+        thickness: 18,
+        line: { color: "#fcfbf7", width: 1.4 },
+        label: nodes.map((d) => d.label),
+        color: nodes.map((d) => d.color),
+        x: nodes.map((d) => d.x),
+        y: nodes.map((d) => d.y),
+        customdata: nodes.map((d) => d.hover),
+        hovertemplate: "%{customdata}<extra></extra>"
+      },
+      link: {
+        source: links.map((d) => d.source),
+        target: links.map((d) => d.target),
+        value: links.map((d) => d.value),
+        color: links.map((d) => d.color),
+        customdata: links.map((d) => d.hover),
+        hovertemplate: "%{customdata}<extra></extra>"
+      }
+    };
+
+    function buildLayout() {
+      const mobile = window.innerWidth <= 760;
+      return {
+        paper_bgcolor: "#fcfbf7",
+        plot_bgcolor: "#fcfbf7",
+        font: {
+          family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          color: "#222222",
+          size: mobile ? 12 : 13
+        },
+        margin: { l: 20, r: 20, t: 70, b: 80 },
+        annotations: [
+          {
+            xref: "paper",
+            yref: "paper",
+            x: 0.02,
+            y: 1.06,
+            text: "#1 title",
+            showarrow: false,
+            xanchor: "left",
+            font: { size: mobile ? 11 : 12, color: "#6a6a6a" }
+          },
+          {
+            xref: "paper",
+            yref: "paper",
+            x: 0.50,
+            y: 1.06,
+            text: "#2 title",
+            showarrow: false,
+            xanchor: "center",
+            font: { size: mobile ? 11 : 12, color: "#6a6a6a" }
+          },
+          {
+            xref: "paper",
+            yref: "paper",
+            x: 0.98,
+            y: 1.06,
+            text: "#3 title",
+            showarrow: false,
+            xanchor: "right",
+            font: { size: mobile ? 11 : 12, color: "#6a6a6a" }
+          },
+          {
+            xref: "paper",
+            yref: "paper",
+            x: 0,
+            y: -0.09,
+            xanchor: "left",
+            yanchor: "top",
+            showarrow: false,
+            align: "left",
+            font: { size: mobile ? 11 : 12, color: "#6b6b6b" },
+            text: "Chart summary: one title dominates the top slot almost everywhere, then state rankings fan out into retail, trucking, physician, and software roles."
+          }
+        ]
+      };
+    }
+
+    function render() {
+      Plotly.newPlot("chart", [trace], buildLayout(), {
+        responsive: true,
+        displayModeBar: false
+      }).then(reportHeight);
+    }
+
+    render();
+    window.addEventListener("resize", () => {
+      Plotly.react("chart", [trace], buildLayout(), {
+        responsive: true,
+        displayModeBar: false
+      }).then(reportHeight);
+    });
+    window.addEventListener("load", reportHeight);
+  </script>
+</body>
+</html>
