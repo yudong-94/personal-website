@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where Traffic Hits Hardest in 2025</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #f7f2ea;
+      --panel: #fbf8f3;
+      --text: #171717;
+      --muted: #645f58;
+      --grid: #ddd4c8;
+      --accent: #b54d2e;
+      --accent-soft: rgba(181, 77, 46, 0.1);
+      --cool: #245b78;
+      --link: #2569a8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, rgba(181, 77, 46, 0.08), transparent 34%),
+        linear-gradient(180deg, #f5ede3 0%, var(--bg) 22%, #f9f5ef 100%);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 26px 18px 18px;
+    }
+
+    .title {
+      margin: 0 0 10px;
+      font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      font-size: 38px;
+      line-height: 1.02;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      max-width: 820px;
+    }
+
+    .title .accent {
+      color: var(--accent);
+    }
+
+    .subtitle {
+      margin: 0 0 14px;
+      max-width: 860px;
+      font-size: 17px;
+      line-height: 1.5;
+      color: #2c2a27;
+    }
+
+    .note {
+      margin: 0 0 10px;
+      max-width: 900px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    #chart {
+      width: 100%;
+      height: 1440px;
+      background: rgba(251, 248, 243, 0.76);
+      border: 1px solid rgba(0, 0, 0, 0.04);
+      border-radius: 18px;
+    }
+
+    .footer {
+      margin-top: 12px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 8px;
+    }
+
+    .source,
+    .fallback {
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    @media (max-width: 860px) {
+      .title {
+        font-size: 32px;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .wrap {
+        padding: 16px 12px 12px;
+      }
+
+      .title {
+        font-size: 29px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      .note,
+      .source,
+      .fallback {
+        font-size: 13px;
+      }
+
+      #chart {
+        height: 1580px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="title">Global traffic pain is <span class="accent">broadening beyond the headline leaders</span></h1>
+    <p class="subtitle">
+      Istanbul sits at the top of INRIX's impact ranking, but some of the sharpest deterioration is happening further down the list, especially in Turkish and U.S. metros that are climbing fast.
+    </p>
+
+    <p class="note">
+      Darker orange marks places where congestion worsened fastest from 2024 to 2025, while blue marks cities that eased.
+    </p>
+
+    <div id="chart"></div>
+
+    <section class="footer">
+      <div class="fallback">
+        Without hover, the main story is straightforward: Istanbul leads the published ranking, Chicago loses slightly more raw time than Mexico City, and some of the fastest worsening sits outside the top 10.
+      </div>
+      <div class="source">
+        Source: <a href="https://inrix.com/scorecard/#form-download-the-full-report" target="_blank" rel="noreferrer">INRIX Scorecard report download page</a>, supplied urban-area ranking table.
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const rows = [
+      { impact_rank: 1, urban_area: "Istanbul", country: "Turkey", hours_lost: 118, change_2024: 12, change_2023: 30, last_mile_speed: 13 },
+      { impact_rank: 2, urban_area: "Mexico City", country: "Mexico", hours_lost: 108, change_2024: 11, change_2023: 13, last_mile_speed: 11 },
+      { impact_rank: 3, urban_area: "Chicago IL", country: "United States", hours_lost: 112, change_2024: 10, change_2023: 17, last_mile_speed: 9 },
+      { impact_rank: 4, urban_area: "New York City NY", country: "United States", hours_lost: 102, change_2024: 0, change_2023: 1, last_mile_speed: 11 },
+      { impact_rank: 5, urban_area: "Philadelphia PA", country: "United States", hours_lost: 101, change_2024: 31, change_2023: 46, last_mile_speed: 10 },
+      { impact_rank: 6, urban_area: "Cape Town", country: "South Africa", hours_lost: 96, change_2024: 2, change_2023: 16, last_mile_speed: 11 },
+      { impact_rank: 7, urban_area: "London", country: "United Kingdom", hours_lost: 91, change_2024: -10, change_2023: -8, last_mile_speed: 11 },
+      { impact_rank: 8, urban_area: "Paris", country: "France", hours_lost: 90, change_2024: -7, change_2023: -7, last_mile_speed: 11 },
+      { impact_rank: 9, urban_area: "Jakarta", country: "Indonesia", hours_lost: 83, change_2024: -7, change_2023: 28, last_mile_speed: 11 },
+      { impact_rank: 10, urban_area: "Los Angeles CA", country: "United States", hours_lost: 87, change_2024: -1, change_2023: -2, last_mile_speed: 17 },
+      { impact_rank: 11, urban_area: "Dublin", country: "Ireland", hours_lost: 95, change_2024: 17, change_2023: 32, last_mile_speed: 11 },
+      { impact_rank: 12, urban_area: "Boston MA", country: "United States", hours_lost: 83, change_2024: 5, change_2023: -6, last_mile_speed: 10 },
+      { impact_rank: 13, urban_area: "Bangkok", country: "Thailand", hours_lost: 76, change_2024: 3, change_2023: 21, last_mile_speed: 12 },
+      { impact_rank: 14, urban_area: "Brisbane", country: "Australia", hours_lost: 81, change_2024: -4, change_2023: 9, last_mile_speed: 18 },
+      { impact_rank: 15, urban_area: "Miami FL", country: "United States", hours_lost: 75, change_2024: 1, change_2023: 7, last_mile_speed: 14 },
+      { impact_rank: 16, urban_area: "Atlanta GA", country: "United States", hours_lost: 75, change_2024: 15, change_2023: 23, last_mile_speed: 14 },
+      { impact_rank: 17, urban_area: "Rome", country: "Italy", hours_lost: 76, change_2024: 7, change_2023: 10, last_mile_speed: 13 },
+      { impact_rank: 18, urban_area: "Houston TX", country: "United States", hours_lost: 70, change_2024: 6, change_2023: 13, last_mile_speed: 14 },
+      { impact_rank: 19, urban_area: "Washington DC", country: "United States", hours_lost: 70, change_2024: 13, change_2023: 11, last_mile_speed: 11 },
+      { impact_rank: 20, urban_area: "Ankara", country: "Turkey", hours_lost: 71, change_2024: 18, change_2023: 27, last_mile_speed: 17 },
+      { impact_rank: 21, urban_area: "Izmir", country: "Turkey", hours_lost: 72, change_2024: 53, change_2023: 50, last_mile_speed: 16 },
+      { impact_rank: 22, urban_area: "Seattle WA", country: "United States", hours_lost: 68, change_2024: 8, change_2023: 17, last_mile_speed: 14 },
+      { impact_rank: 23, urban_area: "Melbourne", country: "Australia", hours_lost: 66, change_2024: 2, change_2023: 6, last_mile_speed: 13 },
+      { impact_rank: 24, urban_area: "Milan", country: "Italy", hours_lost: 67, change_2024: 5, change_2023: 12, last_mile_speed: 14 },
+      { impact_rank: 25, urban_area: "Brussels", country: "Belgium", hours_lost: 71, change_2024: -4, change_2023: 4, last_mile_speed: 10 },
+      { impact_rank: 26, urban_area: "San Juan", country: "United States", hours_lost: 68, change_2024: 17, change_2023: 19, last_mile_speed: 18 },
+      { impact_rank: 27, urban_area: "Auckland", country: "New Zealand", hours_lost: 68, change_2024: 8, change_2023: 13, last_mile_speed: 16 },
+      { impact_rank: 28, urban_area: "Montreal QC", country: "Canada", hours_lost: 63, change_2024: 9, change_2023: 11, last_mile_speed: 11 },
+      { impact_rank: 29, urban_area: "Johannesburg", country: "South Africa", hours_lost: 59, change_2024: 7, change_2023: 7, last_mile_speed: 12 },
+      { impact_rank: 30, urban_area: "Nashville TN", country: "United States", hours_lost: 65, change_2024: 3, change_2023: 16, last_mile_speed: 19 },
+      { impact_rank: 31, urban_area: "Baltimore MD", country: "United States", hours_lost: 63, change_2024: 31, change_2023: 43, last_mile_speed: 12 },
+      { impact_rank: 32, urban_area: "Cologne", country: "Germany", hours_lost: 67, change_2024: 20, change_2023: 34, last_mile_speed: 16 },
+      { impact_rank: 33, urban_area: "Guadalajara", country: "Mexico", hours_lost: 65, change_2024: 18, change_2023: 33, last_mile_speed: 16 },
+      { impact_rank: 34, urban_area: "Toronto ON", country: "Canada", hours_lost: 59, change_2024: -3, change_2023: -6, last_mile_speed: 10 },
+      { impact_rank: 35, urban_area: "Warsaw", country: "Poland", hours_lost: 64, change_2024: -9, change_2023: 5, last_mile_speed: 15 },
+      { impact_rank: 36, urban_area: "Berlin", country: "Germany", hours_lost: 60, change_2024: 3, change_2023: 9, last_mile_speed: 13 },
+      { impact_rank: 37, urban_area: "Bursa", country: "Turkey", hours_lost: 64, change_2024: 33, change_2023: 49, last_mile_speed: 16 },
+      { impact_rank: 38, urban_area: "Rotterdam", country: "Netherlands", hours_lost: 60, change_2024: -5, change_2023: -3, last_mile_speed: 15 },
+      { impact_rank: 39, urban_area: "Zurich", country: "Switzerland", hours_lost: 63, change_2024: 9, change_2023: 5, last_mile_speed: 16 },
+      { impact_rank: 40, urban_area: "Dusseldorf", country: "Germany", hours_lost: 63, change_2024: 5, change_2023: 29, last_mile_speed: 15 },
+      { impact_rank: 41, urban_area: "Amsterdam", country: "Netherlands", hours_lost: 57, change_2024: 4, change_2023: 4, last_mile_speed: 19 },
+      { impact_rank: 42, urban_area: "Bristol", country: "United Kingdom", hours_lost: 64, change_2024: -2, change_2023: 3, last_mile_speed: 13 },
+      { impact_rank: 43, urban_area: "Budapest", country: "Hungary", hours_lost: 58, change_2024: 5, change_2023: 23, last_mile_speed: 13 },
+      { impact_rank: 44, urban_area: "Manchester", country: "United Kingdom", hours_lost: 62, change_2024: 2, change_2023: 15, last_mile_speed: 13 },
+      { impact_rank: 45, urban_area: "Munchen", country: "Germany", hours_lost: 57, change_2024: 4, change_2023: 10, last_mile_speed: 11 },
+      { impact_rank: 46, urban_area: "Ljubljana", country: "Slovenia", hours_lost: 64, change_2024: -4, change_2023: 8, last_mile_speed: 18 },
+      { impact_rank: 47, urban_area: "Utrecht", country: "Netherlands", hours_lost: 60, change_2024: -5, change_2023: -8, last_mile_speed: 18 },
+      { impact_rank: 48, urban_area: "Prague", country: "Czech Republic", hours_lost: 57, change_2024: -11, change_2023: -11, last_mile_speed: 17 },
+      { impact_rank: 49, urban_area: "Stuttgart", country: "Germany", hours_lost: 60, change_2024: 3, change_2023: 13, last_mile_speed: 16 },
+      { impact_rank: 50, urban_area: "Leeds", country: "United Kingdom", hours_lost: 59, change_2024: -2, change_2023: 0, last_mile_speed: 16 }
+    ];
+
+    const reversed = rows.slice().reverse();
+    const labels = reversed.map((d) => `${d.impact_rank}. ${d.urban_area}`);
+    const hours = reversed.map((d) => d.hours_lost);
+    const customdata = reversed.map((d) => [
+      d.country,
+      d.change_2024,
+      d.change_2023,
+      d.last_mile_speed,
+      d.impact_rank
+    ]);
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function lerp(a, b, t) {
+      return a + (b - a) * t;
+    }
+
+    function rgb(color) {
+      return color.map((v) => clamp(Math.round(v), 0, 255));
+    }
+
+    function colorScale(value, min, mid, max, lowColor, midColor, highColor) {
+      if (value <= mid) {
+        const t = min === mid ? 0.5 : (value - min) / (mid - min);
+        return rgb(lowColor.map((c, i) => lerp(c, midColor[i], clamp(t, 0, 1))));
+      }
+      const t = max === mid ? 0.5 : (value - mid) / (max - mid);
+      return rgb(midColor.map((c, i) => lerp(c, highColor[i], clamp(t, 0, 1))));
+    }
+
+    function rgbString(values) {
+      return `rgb(${values[0]}, ${values[1]}, ${values[2]})`;
+    }
+
+    function colorsFor() {
+      const key = "change_2024";
+      const min = -11;
+      const max = 53;
+      return reversed.map((d) =>
+        rgbString(
+          colorScale(
+            d[key],
+            min,
+            0,
+            max,
+            [47, 108, 138],
+            [235, 227, 215],
+            [196, 90, 54]
+          )
+        )
+      );
+    }
+
+    function textFor() {
+      return reversed.map((d) => `${d.hours_lost}h  |  ${d.change_2024 > 0 ? "+" : ""}${d.change_2024}%`);
+    }
+
+    function annotationSet(isMobile) {
+      if (isMobile) {
+        return [
+          {
+            xref: "paper",
+            yref: "paper",
+            x: 0.02,
+            y: 1.03,
+            xanchor: "left",
+            text: "Color = change from 2024",
+            showarrow: false,
+            font: { size: 11, color: "#6b6157" },
+            bgcolor: "rgba(251,248,243,0.9)",
+            bordercolor: "rgba(0,0,0,0.08)",
+            borderwidth: 1,
+            borderpad: 5
+          }
+        ];
+      }
+
+      return [
+        {
+          x: 118,
+          y: "1. Istanbul",
+          text: "Top rank and longest bar",
+          showarrow: true,
+          arrowcolor: "#b54d2e",
+          ax: -84,
+          ay: 4,
+          bgcolor: "rgba(251,248,243,0.97)",
+          bordercolor: "rgba(181,77,46,0.2)",
+          borderwidth: 1,
+          font: { size: 12, color: "#8f3f25" }
+        },
+        {
+          x: 112,
+          y: "3. Chicago IL",
+          text: "Chicago loses more raw time than No. 2 Mexico City",
+          showarrow: true,
+          arrowcolor: "#245b78",
+          ax: -138,
+          ay: -12,
+          bgcolor: "rgba(251,248,243,0.97)",
+          bordercolor: "rgba(36,91,120,0.2)",
+          borderwidth: 1,
+          font: { size: 12, color: "#234d63" },
+          align: "left"
+        },
+        {
+          x: 72,
+          y: "21. Izmir",
+          text: "Fastest worsening in the table: +53%",
+          showarrow: true,
+          arrowcolor: "#b54d2e",
+          ax: 112,
+          ay: 20,
+          bgcolor: "rgba(251,248,243,0.97)",
+          bordercolor: "rgba(181,77,46,0.2)",
+          borderwidth: 1,
+          font: { size: 12, color: "#8f3f25" },
+          align: "left"
+        }
+      ];
+    }
+
+    function layoutForScreen() {
+      const isMobile = window.innerWidth < 680;
+      return {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        font: {
+          family: "\"IBM Plex Sans\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          color: "#1f1f1f",
+          size: isMobile ? 11 : 13
+        },
+        margin: {
+          l: isMobile ? 132 : 214,
+          r: isMobile ? 86 : 120,
+          t: isMobile ? 56 : 54,
+          b: 52
+        },
+        bargap: 0.22,
+        showlegend: false,
+        xaxis: {
+          title: { text: "Annual hours lost per driver", standoff: 14 },
+          range: [0, 128],
+          tick0: 0,
+          dtick: 20,
+          showgrid: true,
+          gridcolor: "#ddd4c8",
+          zeroline: false,
+          ticksuffix: "h"
+        },
+        yaxis: {
+          automargin: true,
+          tickfont: { size: isMobile ? 10 : 12 },
+          showgrid: false
+        },
+        annotations: annotationSet(isMobile)
+      };
+    }
+
+    const trace = {
+      type: "bar",
+      orientation: "h",
+      x: hours,
+      y: labels,
+      marker: {
+        color: colorsFor(),
+        line: {
+          color: "rgba(255,255,255,0.95)",
+          width: 1
+        }
+      },
+      text: textFor(),
+      textposition: "outside",
+      cliponaxis: false,
+      customdata,
+      hovertemplate:
+        "<b>%{y}</b><br>" +
+        "Country: %{customdata[0]}<br>" +
+        "Hours lost: %{x} per driver<br>" +
+        "Change from 2024: %{customdata[1]:+,.0f}%<br>" +
+        "Change from 2023: %{customdata[2]:+,.0f}%<br>" +
+        "Last-mile speed: %{customdata[3]:,.0f} mph<br>" +
+        "Published Impact Rank: %{customdata[4]}<extra></extra>"
+    };
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    function reportHeight() {
+      const height = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+      );
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    function build() {
+      Plotly.newPlot("chart", [trace], layoutForScreen(), config).then(reportHeight);
+    }
+
+    let resizeTimer = null;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        Plotly.react("chart", [trace], layoutForScreen(), config).then(reportHeight);
+      }, 120);
+    });
+
+    build();
+  </script>
+</body>
+</html>
