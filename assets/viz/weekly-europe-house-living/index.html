@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Living in Houses Fell Across Much of Europe</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #eef1ed;
+      --panel: rgba(250, 251, 248, 0.94);
+      --ink: #1f2c2c;
+      --muted: #5c6c69;
+      --decline: #b85b3f;
+      --increase: #2f7f6d;
+      --neutral: #73827d;
+      --rule: rgba(31, 44, 44, 0.10);
+      --grid: rgba(31, 44, 44, 0.12);
+      --shadow: 0 22px 56px rgba(44, 55, 52, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top right, rgba(184, 91, 63, 0.10), transparent 25%),
+        radial-gradient(circle at 12% 16%, rgba(47, 127, 109, 0.08), transparent 24%),
+        linear-gradient(180deg, #f7f8f4 0%, var(--bg) 100%);
+    }
+
+    .frame {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 28px 18px 20px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .header {
+      padding: 28px 28px 14px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font: 700 0.78rem/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--decline);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 0.98;
+      font-weight: 600;
+      letter-spacing: -0.035em;
+      max-width: 11ch;
+    }
+
+    .subtitle {
+      margin: 14px 0 0;
+      max-width: 74ch;
+      font: 400 1rem/1.58 Arial, Helvetica, sans-serif;
+      color: var(--muted);
+    }
+
+    .chart-wrap {
+      padding: 10px 10px 0;
+    }
+
+    #chart {
+      width: 100%;
+      height: 980px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      padding: 10px 24px 12px;
+    }
+
+    .summary-card {
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.62);
+      border: 1px solid rgba(31, 44, 44, 0.08);
+      min-height: 86px;
+    }
+
+    .summary-label {
+      margin: 0 0 6px;
+      font: 700 0.72rem/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .summary-value {
+      margin: 0;
+      font: 600 1.28rem/1.15 Georgia, "Times New Roman", serif;
+      color: var(--ink);
+    }
+
+    .summary-note {
+      margin: 6px 0 0;
+      font: 400 0.92rem/1.45 Arial, Helvetica, sans-serif;
+      color: var(--muted);
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 24px 24px;
+      border-top: 1px solid var(--rule);
+      font: 400 0.88rem/1.5 Arial, Helvetica, sans-serif;
+      color: var(--muted);
+    }
+
+    .footer a { color: var(--ink); }
+
+    @media (max-width: 900px) {
+      #chart { height: 1040px; }
+    }
+
+    @media (max-width: 760px) {
+      .frame { padding: 14px 8px 16px; }
+      .panel { border-radius: 18px; }
+      .header { padding: 20px 18px 12px; }
+      .chart-wrap { padding: 6px 0 0; }
+      #chart { height: 1180px; }
+      .summary { grid-template-columns: 1fr; padding: 8px 16px 10px; }
+      .footer { flex-direction: column; padding: 14px 16px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main id="viz-root" class="frame">
+    <section class="panel">
+      <header class="header">
+        <p class="eyebrow">Eurostat Housing Conditions</p>
+        <h1>Living in houses fell across much of Europe</h1>
+        <p class="subtitle">
+          The share of people living in a house rather than another dwelling type declined in most listed European countries between 2010 and 2024. Ireland still sits far above the rest, while Malta and Portugal posted the sharpest drops and Poland led the gains.
+        </p>
+      </header>
+      <div class="chart-wrap">
+        <div id="chart" aria-label="Dumbbell chart comparing the share of people living in a house in 2010 and 2024 across European countries"></div>
+      </div>
+      <section class="summary" aria-label="Key context">
+        <article class="summary-card">
+          <p class="summary-label">Broad direction</p>
+          <p class="summary-value">21 down · 9 up · 1 flat</p>
+          <p class="summary-note">Most listed geographies moved away from house living between 2010 and 2024.</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">EU27 benchmark</p>
+          <p class="summary-value">53.7% to 51.4%</p>
+          <p class="summary-note">The EU aggregate slipped by 2.3 percentage points and is shown as a reference row rather than a ranked country.</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Largest shifts</p>
+          <p class="summary-value">Malta -14.3 pts · Poland +5.4 pts</p>
+          <p class="summary-note">The strongest decline and increase are both easy to read without hover.</p>
+        </article>
+      </section>
+      <footer class="footer">
+        <div>
+          Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho01__custom_20630908/default/table" target="_blank" rel="noreferrer">Eurostat, share of population living in a house</a>.
+          Values shown from the provided extract for 2010 and 2024.
+        </div>
+        <div>Chart logic: countries are sorted by 2024 value; the EU27 aggregate is included as a benchmark row, not as part of the country ranking.</div>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    const countryRows = [
+      { region: "Switzerland", y2010: 37.4, y2024: 33.7, change: -3.7 },
+      { region: "Spain", y2010: 34.9, y2024: 34.6, change: -0.3 },
+      { region: "Latvia", y2010: 34.3, y2024: 34.7, change: 0.4 },
+      { region: "Malta", y2010: 50.9, y2024: 36.6, change: -14.3 },
+      { region: "Germany", y2010: 45.0, y2024: 38.5, change: -6.5 },
+      { region: "Estonia", y2010: 35.0, y2024: 38.7, change: 3.7 },
+      { region: "Lithuania", y2010: 42.9, y2024: 39.5, change: -3.4 },
+      { region: "Greece", y2010: 41.8, y2024: 40.6, change: -1.2 },
+      { region: "Italy", y2010: 45.2, y2024: 40.8, change: -4.4 },
+      { region: "Denmark", y2010: 44.3, y2024: 42.4, change: -1.9 },
+      { region: "Romania", y2010: 43.5, y2024: 43.0, change: -0.5 },
+      { region: "Czech Republic", y2010: 46.7, y2024: 48.7, change: 2.0 },
+      { region: "Austria", y2010: 56.8, y2024: 50.4, change: -6.4 },
+      { region: "Portugal", y2010: 62.5, y2024: 51.0, change: -11.5 },
+      { region: "Sweden", y2010: 56.6, y2024: 51.2, change: -5.4 },
+      { region: "France", y2010: 55.3, y2024: 51.3, change: -4.0 },
+      { region: "Slovakia", y2010: 50.3, y2024: 54.6, change: 4.3 },
+      { region: "Serbia", y2010: 56.5, y2024: 55.9, change: -0.6 },
+      { region: "Poland", y2010: 53.0, y2024: 58.4, change: 5.4 },
+      { region: "Luxembourg", y2010: 66.3, y2024: 57.8, change: -8.5 },
+      { region: "Bulgaria", y2010: 56.8, y2024: 52.9, change: -3.9 },
+      { region: "Finland", y2010: 66.5, y2024: 60.7, change: -5.8 },
+      { region: "Slovenia", y2010: 71.1, y2024: 72.1, change: 1.0 },
+      { region: "Norway", y2010: 82.0, y2024: 72.0, change: -10.0 },
+      { region: "Hungary", y2010: 69.6, y2024: 73.3, change: 3.7 },
+      { region: "Cyprus", y2010: 76.4, y2024: 74.1, change: -2.3 },
+      { region: "Croatia", y2010: 78.4, y2024: 75.8, change: -2.6 },
+      { region: "Belgium", y2010: 79.2, y2024: 76.8, change: -2.4 },
+      { region: "Netherlands", y2010: 77.1, y2024: 77.1, change: 0.0 },
+      { region: "North Macedonia*", y2010: 79.1, y2024: 82.1, change: 3.0 },
+      { region: "Ireland", y2010: 95.6, y2024: 90.2, change: -5.4 }
+    ];
+
+    const eu27 = { region: "EU27 benchmark", y2010: 53.7, y2024: 51.4, change: -2.3 };
+    const labels = [eu27.region, ...countryRows.map((row) => row.region)];
+    const connectorX = [];
+    const connectorY = [];
+
+    countryRows.forEach((row) => {
+      connectorX.push(row.y2010, row.y2024, null);
+      connectorY.push(row.region, row.region, null);
+    });
+
+    const directionColor = (value) => {
+      if (value > 0) return "#2f7f6d";
+      if (value < 0) return "#b85b3f";
+      return "#73827d";
+    };
+
+    const connectorTrace = {
+      type: "scatter",
+      mode: "lines",
+      x: connectorX,
+      y: connectorY,
+      hoverinfo: "skip",
+      line: {
+        color: "rgba(92, 108, 105, 0.32)",
+        width: 2.4
+      },
+      showlegend: false
+    };
+
+    const year2010Trace = {
+      type: "scatter",
+      mode: "markers",
+      name: "2010",
+      x: countryRows.map((row) => row.y2010),
+      y: countryRows.map((row) => row.region),
+      marker: {
+        size: 8,
+        color: "#fbf8f2",
+        line: { color: "#5f6b67", width: 1.5 },
+        symbol: "circle"
+      },
+      customdata: countryRows.map((row) => [row.y2024, row.change]),
+      hovertemplate: "<b>%{y}</b><br>2010: %{x:.1f}%<br>2024: %{customdata[0]:.1f}%<br>Change: %{customdata[1]:+.1f} pts<extra></extra>"
+    };
+
+    const increaseRows = countryRows.filter((row) => row.change > 0);
+    const flatRows = countryRows.filter((row) => row.change === 0);
+    const declineRows = countryRows.filter((row) => row.change < 0);
+
+    const decline2024Trace = {
+      type: "scatter",
+      mode: "markers",
+      name: "2024 decline",
+      x: declineRows.map((row) => row.y2024),
+      y: declineRows.map((row) => row.region),
+      marker: {
+        size: 10,
+        color: "#b85b3f",
+        line: { color: "#fcfbf8", width: 1.4 },
+        symbol: "circle"
+      },
+      customdata: declineRows.map((row) => [row.y2010, row.change]),
+      hovertemplate: "<b>%{y}</b><br>2024: %{x:.1f}%<br>2010: %{customdata[0]:.1f}%<br>Change: %{customdata[1]:+.1f} pts<extra></extra>"
+    };
+
+    const increase2024Trace = {
+      type: "scatter",
+      mode: "markers",
+      name: "2024 increase",
+      x: increaseRows.map((row) => row.y2024),
+      y: increaseRows.map((row) => row.region),
+      marker: {
+        size: 10,
+        color: "#2f7f6d",
+        line: { color: "#fcfbf8", width: 1.4 },
+        symbol: "circle"
+      },
+      customdata: increaseRows.map((row) => [row.y2010, row.change]),
+      hovertemplate: "<b>%{y}</b><br>2024: %{x:.1f}%<br>2010: %{customdata[0]:.1f}%<br>Change: %{customdata[1]:+.1f} pts<extra></extra>"
+    };
+
+    const flat2024Trace = {
+      type: "scatter",
+      mode: "markers",
+      name: "2024 flat",
+      x: flatRows.map((row) => row.y2024),
+      y: flatRows.map((row) => row.region),
+      marker: {
+        size: 10,
+        color: "#73827d",
+        line: { color: "#fcfbf8", width: 1.4 },
+        symbol: "circle"
+      },
+      customdata: flatRows.map((row) => [row.y2010, row.change]),
+      hovertemplate: "<b>%{y}</b><br>2024: %{x:.1f}%<br>2010: %{customdata[0]:.1f}%<br>Change: %{customdata[1]:+.1f} pts<extra></extra>"
+    };
+
+    const euTrace = {
+      type: "scatter",
+      mode: "markers",
+      name: "EU27 benchmark",
+      x: [eu27.y2010, eu27.y2024],
+      y: [eu27.region, eu27.region],
+      marker: {
+        size: [9, 11],
+        color: ["#f7f4ee", "#1f2c2c"],
+        line: { color: "#fcfbf8", width: 1.4 }
+      },
+      customdata: ["2010", "2024"],
+      hovertemplate: "EU27 benchmark<br>%{customdata}: %{x:.1f}%<extra></extra>"
+    };
+
+    const euLineTrace = {
+      type: "scatter",
+      mode: "lines",
+      x: [eu27.y2010, eu27.y2024],
+      y: [eu27.region, eu27.region],
+      hoverinfo: "skip",
+      line: {
+        color: "rgba(31, 44, 44, 0.55)",
+        width: 2,
+        dash: "dot"
+      },
+      showlegend: false
+    };
+
+    const annotations = [
+      {
+        x: 36.6,
+        y: "Malta",
+        xref: "x",
+        yref: "y",
+        text: "Malta<br>-14.3 pts",
+        showarrow: true,
+        arrowcolor: "#b85b3f",
+        arrowhead: 0,
+        ax: 64,
+        ay: -10,
+        bgcolor: "rgba(250, 251, 248, 0.95)",
+        bordercolor: "rgba(184, 91, 63, 0.28)",
+        borderpad: 5,
+        font: { family: "Arial, Helvetica, sans-serif", size: 11, color: "#1f2c2c" },
+        align: "left"
+      },
+      {
+        x: 51.0,
+        y: "Portugal",
+        xref: "x",
+        yref: "y",
+        text: "Portugal<br>-11.5 pts",
+        showarrow: true,
+        arrowcolor: "#b85b3f",
+        arrowhead: 0,
+        ax: 68,
+        ay: 18,
+        bgcolor: "rgba(250, 251, 248, 0.95)",
+        bordercolor: "rgba(184, 91, 63, 0.28)",
+        borderpad: 5,
+        font: { family: "Arial, Helvetica, sans-serif", size: 11, color: "#1f2c2c" },
+        align: "left"
+      },
+      {
+        x: 58.4,
+        y: "Poland",
+        xref: "x",
+        yref: "y",
+        text: "Poland<br>+5.4 pts",
+        showarrow: true,
+        arrowcolor: "#2f7f6d",
+        arrowhead: 0,
+        ax: 68,
+        ay: -22,
+        bgcolor: "rgba(250, 251, 248, 0.95)",
+        bordercolor: "rgba(47, 127, 109, 0.28)",
+        borderpad: 5,
+        font: { family: "Arial, Helvetica, sans-serif", size: 11, color: "#1f2c2c" },
+        align: "left"
+      }
+    ];
+
+    const shapes = [
+      {
+        type: "rect",
+        xref: "paper",
+        yref: "y",
+        x0: 0,
+        x1: 1,
+        y0: -0.5,
+        y1: 0.5,
+        fillcolor: "rgba(31, 44, 44, 0.05)",
+        line: { width: 0 },
+        layer: "below"
+      }
+    ];
+
+    const layout = {
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)",
+      margin: { l: 170, r: 90, t: 22, b: 64 },
+      hovermode: "closest",
+      showlegend: true,
+      legend: {
+        orientation: "h",
+        x: 0,
+        y: 1.05,
+        xanchor: "left",
+        yanchor: "bottom",
+        font: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#5c6c69" },
+        bgcolor: "rgba(250, 251, 248, 0.85)"
+      },
+      xaxis: {
+        range: [30, 100],
+        tickvals: [30, 40, 50, 60, 70, 80, 90, 100],
+        ticksuffix: "%",
+        gridcolor: "rgba(31, 44, 44, 0.10)",
+        zeroline: false,
+        tickfont: { family: "Arial, Helvetica, sans-serif", size: 11, color: "#5c6c69" },
+        title: {
+          text: "Share of people living in a house",
+          font: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#5c6c69" },
+          standoff: 14
+        }
+      },
+      yaxis: {
+        categoryorder: "array",
+        categoryarray: labels,
+        autorange: "reversed",
+        tickfont: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#1f2c2c" },
+        ticks: "",
+        automargin: true
+      },
+      annotations,
+      shapes
+    };
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    Plotly.newPlot(
+      "chart",
+      [connectorTrace, euLineTrace, year2010Trace, decline2024Trace, increase2024Trace, flat2024Trace, euTrace],
+      layout,
+      config
+    ).then(reportHeight);
+
+    function reportHeight() {
+      const root = document.getElementById("viz-root");
+      const height = Math.ceil(root.getBoundingClientRect().height);
+      window.parent.postMessage({ type: "viz-height", height }, "*");
+    }
+
+    window.addEventListener("resize", reportHeight);
+    if (window.ResizeObserver) {
+      const resizeObserver = new ResizeObserver(reportHeight);
+      resizeObserver.observe(document.getElementById("viz-root"));
+    }
+  </script>
+</body>
+</html>
