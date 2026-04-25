@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diesel Price Spikes Usually Outpaced Gasoline</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #efe7db;
+      --panel: rgba(255, 251, 245, 0.95);
+      --ink: #1f2623;
+      --muted: #5e655f;
+      --diesel: #b44f2e;
+      --gasoline: #23735d;
+      --neutral: #8b8f88;
+      --rule: rgba(31, 38, 35, 0.11);
+      --grid: rgba(31, 38, 35, 0.12);
+      --shadow: 0 22px 56px rgba(55, 44, 30, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top right, rgba(180, 79, 46, 0.12), transparent 28%),
+        radial-gradient(circle at 12% 18%, rgba(35, 115, 93, 0.08), transparent 22%),
+        linear-gradient(180deg, #faf5ee 0%, var(--bg) 100%);
+    }
+
+    .frame {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 28px 18px 20px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .header {
+      padding: 28px 28px 14px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font: 700 0.78rem/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--diesel);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.35rem);
+      line-height: 0.98;
+      font-weight: 600;
+      letter-spacing: -0.035em;
+      max-width: 12ch;
+    }
+
+    .subtitle {
+      margin: 14px 0 0;
+      max-width: 78ch;
+      font: 400 1rem/1.58 Arial, Helvetica, sans-serif;
+      color: var(--muted);
+    }
+
+    .chart-wrap {
+      padding: 10px 10px 0;
+    }
+
+    #chart {
+      width: 100%;
+      height: 860px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      padding: 10px 24px 12px;
+    }
+
+    .summary-card {
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.68);
+      border: 1px solid rgba(31, 38, 35, 0.08);
+      min-height: 86px;
+    }
+
+    .summary-label {
+      margin: 0 0 6px;
+      font: 700 0.72rem/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .summary-value {
+      margin: 0;
+      font: 600 1.28rem/1.15 Georgia, "Times New Roman", serif;
+      color: var(--ink);
+    }
+
+    .summary-note {
+      margin: 6px 0 0;
+      font: 400 0.92rem/1.45 Arial, Helvetica, sans-serif;
+      color: var(--muted);
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 24px 24px;
+      border-top: 1px solid var(--rule);
+      font: 400 0.88rem/1.5 Arial, Helvetica, sans-serif;
+      color: var(--muted);
+    }
+
+    .footer a {
+      color: var(--ink);
+    }
+
+    @media (max-width: 900px) {
+      #chart { height: 920px; }
+    }
+
+    @media (max-width: 760px) {
+      .frame { padding: 14px 8px 16px; }
+      .panel { border-radius: 18px; }
+      .header { padding: 20px 18px 12px; }
+      .chart-wrap { padding: 6px 0 0; }
+      #chart { height: 760px; }
+      .summary { grid-template-columns: 1fr; padding: 8px 16px 10px; }
+      .footer { flex-direction: column; padding: 14px 16px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main id="viz-root" class="frame">
+    <section class="panel">
+      <header class="header">
+        <p class="eyebrow">GlobalPetrolPrices Snapshot</p>
+        <h1>Diesel price spikes usually outpaced gasoline</h1>
+        <p class="subtitle">
+          Across 128 country observations since the last pre-war weekly data point on February 23, 2026, most dots sit above the parity line where diesel and gasoline would have risen by the same amount. Large outliers such as Laos, the Philippines, and Myanmar show how much faster diesel moved in some markets, while many regulated-price countries stayed pinned at zero.
+        </p>
+      </header>
+      <div class="chart-wrap">
+        <div id="chart" aria-label="Scatter plot comparing gasoline and diesel price changes by country since February 23, 2026"></div>
+      </div>
+      <section class="summary" aria-label="Key context">
+        <article class="summary-card">
+          <p class="summary-label">Main pattern</p>
+          <p class="summary-value">100 of 128 above parity</p>
+          <p class="summary-note">In most tracked markets, diesel prices rose more than gasoline prices over the same period.</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Typical move</p>
+          <p class="summary-value">Gasoline +15.6% · Diesel +23.6%</p>
+          <p class="summary-note">Those medians keep the story grounded away from the handful of triple-digit outliers.</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Price controls</p>
+          <p class="summary-value">15 markets at 0% / 0%</p>
+          <p class="summary-note">A cluster at the origin reflects countries where retail prices did not move in the reported window.</p>
+        </article>
+      </section>
+      <footer class="footer">
+        <div>
+          Source: <a href="https://www.globalpetrolprices.com/fuel_price_trend_Iran_war.php" target="_blank" rel="noreferrer">GlobalPetrolPrices, fuel price changes after the start of the Iran war</a>.
+          Values show percentage changes since February 23, 2026, using the provided CSV extract.
+        </div>
+        <div>Chart logic: each dot is one country; the diagonal marks equal percentage moves in gasoline and diesel. Countries at the origin are included in the full universe rather than filtered out.</div>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    const rows = [
+      { country: "Algeria", gasoline: 0.0, diesel: 0.0 },
+      { country: "Andorra", gasoline: 23.2, diesel: 41.3 },
+      { country: "Argentina", gasoline: 18.0, diesel: 24.1 },
+      { country: "Aruba", gasoline: 16.1, diesel: 27.8 },
+      { country: "Australia", gasoline: 20.4, diesel: 55.1 },
+      { country: "Austria", gasoline: 12.1, diesel: 26.0 },
+      { country: "Bahrain", gasoline: 7.7, diesel: 10.0 },
+      { country: "Bangladesh", gasoline: 16.7, diesel: 15.0 },
+      { country: "Barbados", gasoline: -1.1, diesel: -3.1 },
+      { country: "Belarus", gasoline: 2.7, diesel: 2.7 },
+      { country: "Belgium", gasoline: 17.7, diesel: 27.2 },
+      { country: "Benin", gasoline: 0.0, diesel: 0.0 },
+      { country: "Bolivia", gasoline: 0.0, diesel: 0.0 },
+      { country: "Bosnia and Herzegovina", gasoline: 23.4, diesel: 55.8 },
+      { country: "Brazil", gasoline: 7.5, diesel: 23.2 },
+      { country: "Bulgaria", gasoline: 20.6, diesel: 43.1 },
+      { country: "Burkina Faso", gasoline: 0.0, diesel: 0.0 },
+      { country: "Burma (Myanmar)", gasoline: 101.1, diesel: 161.4 },
+      { country: "Cambodia", gasoline: 33.7, diesel: 52.0 },
+      { country: "Cameroon", gasoline: 0.0, diesel: 0.0 },
+      { country: "Canada", gasoline: 23.5, diesel: 26.9 },
+      { country: "Cape Verde", gasoline: 15.2, diesel: 13.1 },
+      { country: "Cayman Islands", gasoline: 10.3, diesel: 23.2 },
+      { country: "Chile", gasoline: 26.6, diesel: 53.4 },
+      { country: "China", gasoline: 28.0, diesel: 30.6 },
+      { country: "Colombia", gasoline: -0.7, diesel: 0.9 },
+      { country: "Costa Rica", gasoline: 0.6, diesel: 10.1 },
+      { country: "Croatia", gasoline: 17.9, diesel: 33.1 },
+      { country: "Curacao", gasoline: 15.3, diesel: 39.4 },
+      { country: "Cyprus", gasoline: 17.1, diesel: 34.0 },
+      { country: "Czech Republic", gasoline: 24.5, diesel: 38.4 },
+      { country: "Denmark", gasoline: 13.7, diesel: 20.2 },
+      { country: "Dominican Republic", gasoline: 8.3, diesel: 9.8 },
+      { country: "Ecuador", gasoline: 9.6, diesel: 9.7 },
+      { country: "Egypt", gasoline: 14.3, diesel: 17.1 },
+      { country: "El Salvador", gasoline: 20.6, diesel: 23.6 },
+      { country: "Estonia", gasoline: 20.1, diesel: 36.0 },
+      { country: "Fiji", gasoline: 14.9, diesel: 32.6 },
+      { country: "Finland", gasoline: 9.3, diesel: 20.5 },
+      { country: "France", gasoline: 19.1, diesel: 36.0 },
+      { country: "Georgia", gasoline: 16.7, diesel: 31.9 },
+      { country: "Germany", gasoline: 15.9, diesel: 22.9 },
+      { country: "Ghana", gasoline: 16.8, diesel: 27.5 },
+      { country: "Greece", gasoline: 16.5, diesel: 25.7 },
+      { country: "Grenada", gasoline: 25.9, diesel: 37.5 },
+      { country: "Guatemala", gasoline: 32.7, diesel: 51.3 },
+      { country: "Guyana", gasoline: 22.4, diesel: 25.0 },
+      { country: "Honduras", gasoline: 30.7, diesel: 56.5 },
+      { country: "Hong Kong", gasoline: 9.1, diesel: 23.6 },
+      { country: "Hungary", gasoline: 6.4, diesel: 7.0 },
+      { country: "Iceland", gasoline: 17.3, diesel: 27.6 },
+      { country: "India", gasoline: 0.0, diesel: 0.0 },
+      { country: "Indonesia", gasoline: 2.8, diesel: 7.5 },
+      { country: "Ireland", gasoline: 10.3, diesel: 24.6 },
+      { country: "Israel", gasoline: 16.4, diesel: 16.5 },
+      { country: "Italy", gasoline: 5.7, diesel: 22.9 },
+      { country: "Ivory Coast", gasoline: 0.0, diesel: 0.0 },
+      { country: "Jamaica", gasoline: 18.0, diesel: 18.7 },
+      { country: "Japan", gasoline: 8.3, diesel: 9.6 },
+      { country: "Jordan", gasoline: 15.9, diesel: 11.6 },
+      { country: "Kenya", gasoline: 10.9, diesel: 18.2 },
+      { country: "Kuwait", gasoline: 0.0, diesel: 0.0 },
+      { country: "Laos", gasoline: 35.8, diesel: 149.7 },
+      { country: "Latvia", gasoline: 14.3, diesel: 26.1 },
+      { country: "Lebanon", gasoline: 32.4, diesel: 78.4 },
+      { country: "Lesotho", gasoline: 31.6, diesel: 61.8 },
+      { country: "Liechtenstein", gasoline: 14.6, diesel: 21.2 },
+      { country: "Lithuania", gasoline: 21.2, diesel: 34.6 },
+      { country: "Luxembourg", gasoline: 16.0, diesel: 19.7 },
+      { country: "Macedonia", gasoline: 9.5, diesel: 38.2 },
+      { country: "Madagascar", gasoline: -3.9, diesel: -4.1 },
+      { country: "Malawi", gasoline: 34.4, diesel: 35.2 },
+      { country: "Malaysia", gasoline: 58.3, diesel: 99.7 },
+      { country: "Malta", gasoline: 0.0, diesel: 0.0 },
+      { country: "Mauritius", gasoline: 9.9, diesel: 20.9 },
+      { country: "Mayotte", gasoline: 18.7, diesel: 35.7 },
+      { country: "Mexico", gasoline: 10.0, diesel: 7.8 },
+      { country: "Moldova", gasoline: 22.6, diesel: 45.6 },
+      { country: "Montenegro", gasoline: 10.1, diesel: 27.1 },
+      { country: "Morocco", gasoline: 27.7, diesel: 47.4 },
+      { country: "Mozambique", gasoline: 0.0, diesel: 0.0 },
+      { country: "Namibia", gasoline: 12.8, diesel: 20.4 },
+      { country: "Nepal", gasoline: 39.5, diesel: 66.9 },
+      { country: "Netherlands", gasoline: 13.3, diesel: 34.4 },
+      { country: "New Zealand", gasoline: 36.5, diesel: 105.0 },
+      { country: "Nicaragua", gasoline: 0.0, diesel: 0.0 },
+      { country: "Norway", gasoline: -0.2, diesel: 19.7 },
+      { country: "Oman", gasoline: 0.0, diesel: 0.0 },
+      { country: "Pakistan", gasoline: 42.0, diesel: 28.2 },
+      { country: "Panama", gasoline: 35.9, diesel: 64.4 },
+      { country: "Paraguay", gasoline: 21.1, diesel: 19.2 },
+      { country: "Peru", gasoline: 42.8, diesel: 64.5 },
+      { country: "Philippines", gasoline: 57.6, diesel: 118.4 },
+      { country: "Poland", gasoline: 6.3, diesel: 26.7 },
+      { country: "Portugal", gasoline: 12.5, diesel: 23.1 },
+      { country: "Puerto Rico", gasoline: 31.3, diesel: 48.4 },
+      { country: "Qatar", gasoline: 10.8, diesel: 7.9 },
+      { country: "Romania", gasoline: 2.7, diesel: 4.2 },
+      { country: "Russia", gasoline: -8.3, diesel: -8.2 },
+      { country: "Rwanda", gasoline: 47.7, diesel: 16.1 },
+      { country: "Saint Lucia", gasoline: 0.0, diesel: 0.0 },
+      { country: "Saudi Arabia", gasoline: 0.0, diesel: 0.0 },
+      { country: "Serbia", gasoline: 6.7, diesel: 9.6 },
+      { country: "Sierra Leone", gasoline: 22.8, diesel: 40.4 },
+      { country: "Singapore", gasoline: 12.7, diesel: 64.7 },
+      { country: "Slovakia", gasoline: 13.2, diesel: 19.3 },
+      { country: "Slovenia", gasoline: 11.8, diesel: 18.5 },
+      { country: "South Africa", gasoline: 16.5, diesel: 38.1 },
+      { country: "South Korea", gasoline: 18.2, diesel: 25.4 },
+      { country: "Spain", gasoline: 2.1, diesel: 22.1 },
+      { country: "Sri Lanka", gasoline: 33.8, diesel: 37.2 },
+      { country: "Suriname", gasoline: 13.4, diesel: 18.0 },
+      { country: "Sweden", gasoline: 18.2, diesel: 20.2 },
+      { country: "Switzerland", gasoline: 12.8, diesel: 20.2 },
+      { country: "Taiwan", gasoline: 18.1, diesel: 16.5 },
+      { country: "Tanzania", gasoline: 37.0, diesel: 40.9 },
+      { country: "Thailand", gasoline: 28.1, diesel: 35.1 },
+      { country: "Tunisia", gasoline: 0.0, diesel: 0.0 },
+      { country: "Turkey", gasoline: 9.7, diesel: 18.7 },
+      { country: "Ukraine", gasoline: 16.0, diesel: 38.7 },
+      { country: "United Arab Emirates", gasoline: 40.8, diesel: 86.1 },
+      { country: "United Kingdom", gasoline: 19.7, diesel: 35.2 },
+      { country: "Uruguay", gasoline: 5.8, diesel: 3.5 },
+      { country: "USA", gasoline: 33.2, diesel: 41.8 },
+      { country: "Vietnam", gasoline: 20.3, diesel: 50.4 },
+      { country: "Wallis and Futuna Islands", gasoline: 0.7, diesel: 1.1 },
+      { country: "Zambia", gasoline: -2.6, diesel: 21.6 },
+      { country: "Zimbabwe", gasoline: 33.3, diesel: 37.5 }
+    ];
+
+    const dieselHigher = rows.filter((row) => row.diesel - row.gasoline > 1);
+    const gasolineHigher = rows.filter((row) => row.gasoline - row.diesel > 1);
+    const nearParity = rows.filter((row) => Math.abs(row.diesel - row.gasoline) <= 1);
+
+    const labelSetDesktop = new Set([
+      "Laos",
+      "Burma (Myanmar)",
+      "Philippines",
+      "Malaysia",
+      "United Arab Emirates",
+      "New Zealand",
+      "Singapore",
+      "USA",
+      "United Kingdom",
+      "France",
+      "Israel",
+      "Russia",
+      "India",
+      "Saudi Arabia",
+      "Rwanda",
+      "Pakistan"
+    ]);
+
+    const labelSetMobile = new Set([
+      "Laos",
+      "Burma (Myanmar)",
+      "Philippines",
+      "United Arab Emirates",
+      "USA",
+      "Russia",
+      "India",
+      "Rwanda"
+    ]);
+
+    const positionMap = {
+      "Laos": "top right",
+      "Burma (Myanmar)": "top left",
+      "Philippines": "top left",
+      "Malaysia": "top center",
+      "United Arab Emirates": "top right",
+      "New Zealand": "top right",
+      "Singapore": "middle left",
+      "USA": "bottom right",
+      "United Kingdom": "top right",
+      "France": "top right",
+      "Israel": "bottom left",
+      "Russia": "top right",
+      "India": "top right",
+      "Saudi Arabia": "bottom right",
+      "Rwanda": "bottom left",
+      "Pakistan": "top right"
+    };
+
+    const width = () => window.innerWidth || document.documentElement.clientWidth || 1200;
+    const isMobile = () => width() < 760;
+
+    function labelRows(mobile) {
+      const allowed = mobile ? labelSetMobile : labelSetDesktop;
+      return rows.filter((row) => allowed.has(row.country));
+    }
+
+    function pointTrace(name, subset, color) {
+      return {
+        type: "scatter",
+        mode: "markers",
+        name,
+        x: subset.map((row) => row.gasoline),
+        y: subset.map((row) => row.diesel),
+        text: subset.map((row) => row.country),
+        customdata: subset.map((row) => [row.country, row.diesel - row.gasoline]),
+        hovertemplate:
+          "<b>%{customdata[0]}</b><br>" +
+          "Gasoline: %{x:.1f}%<br>" +
+          "Diesel: %{y:.1f}%<br>" +
+          "Diesel minus gasoline: %{customdata[1]:+.1f} pts<extra></extra>",
+        marker: {
+          size: 10,
+          color,
+          opacity: 0.8,
+          line: { color: "rgba(255,255,255,0.78)", width: 1 }
+        }
+      };
+    }
+
+    function labeledTrace(mobile) {
+      const labeled = labelRows(mobile);
+      return {
+        type: "scatter",
+        mode: "markers+text",
+        showlegend: false,
+        x: labeled.map((row) => row.gasoline),
+        y: labeled.map((row) => row.diesel),
+        text: labeled.map((row) => row.country),
+        textposition: labeled.map((row) => positionMap[row.country] || "top right"),
+        textfont: {
+          family: "Arial, Helvetica, sans-serif",
+          size: mobile ? 11 : 12,
+          color: "#1f2623"
+        },
+        hovertemplate:
+          "<b>%{text}</b><br>" +
+          "Gasoline: %{x:.1f}%<br>" +
+          "Diesel: %{y:.1f}%<extra></extra>",
+        marker: {
+          size: mobile ? 12 : 13,
+          color: "#1f2623",
+          symbol: "circle-open",
+          line: { width: 2.5, color: "#1f2623" }
+        }
+      };
+    }
+
+    function layoutConfig(mobile) {
+      return {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(255,255,255,0.45)",
+        margin: mobile
+          ? { t: 84, r: 18, b: 62, l: 56 }
+          : { t: 96, r: 34, b: 74, l: 78 },
+        title: {
+          text: mobile
+            ? "Gasoline vs. diesel by country<br><span style='font-size:0.72em;color:#5e655f;'>Most countries sit above the parity line, meaning diesel rose faster.</span>"
+            : "Gasoline change vs. diesel change by country<br><span style='font-size:0.68em;color:#5e655f;'>Diagonal = equal movement in both fuels. Most countries sit above the line, meaning diesel rose faster.</span>",
+          x: 0,
+          xanchor: "left",
+          y: 0.98,
+          yanchor: "top",
+          font: {
+            family: "Georgia, Times New Roman, serif",
+            size: mobile ? 17 : 24,
+            color: "#1f2623"
+          }
+        },
+        xaxis: {
+          title: {
+            text: "Gasoline price change since Feb. 23, 2026",
+            standoff: 10,
+            font: { family: "Arial, Helvetica, sans-serif", size: 13, color: "#5e655f" }
+          },
+          range: [-12, 110],
+          tickvals: [0, 25, 50, 75, 100],
+          ticksuffix: "%",
+          gridcolor: "rgba(31, 38, 35, 0.10)",
+          zeroline: false,
+          linecolor: "rgba(31, 38, 35, 0.22)",
+          tickfont: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#5e655f" }
+        },
+        yaxis: {
+          title: {
+            text: "Diesel price change since Feb. 23, 2026",
+            standoff: 12,
+            font: { family: "Arial, Helvetica, sans-serif", size: 13, color: "#5e655f" }
+          },
+          range: [-12, 170],
+          tickvals: [0, 40, 80, 120, 160],
+          ticksuffix: "%",
+          gridcolor: "rgba(31, 38, 35, 0.10)",
+          zeroline: false,
+          linecolor: "rgba(31, 38, 35, 0.22)",
+          tickfont: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#5e655f" }
+        },
+        legend: {
+          orientation: "h",
+          x: 0,
+          y: 1.03,
+          xanchor: "left",
+          yanchor: "bottom",
+          font: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#5e655f" },
+          bgcolor: "rgba(255,255,255,0.0)"
+        },
+        annotations: mobile
+          ? [
+              {
+                x: 5,
+                y: 2,
+                xanchor: "left",
+                yanchor: "bottom",
+                showarrow: false,
+                align: "left",
+                text: "Regulated or unchanged markets cluster here",
+                font: { family: "Arial, Helvetica, sans-serif", size: 11, color: "#5e655f" },
+                bgcolor: "rgba(255, 251, 245, 0.9)",
+                bordercolor: "rgba(31, 38, 35, 0.08)",
+                borderpad: 4
+              }
+            ]
+          : [
+              {
+                x: 3,
+                y: 1.5,
+                xanchor: "left",
+                yanchor: "bottom",
+                showarrow: false,
+                align: "left",
+                text: "Regulated or unchanged markets cluster here",
+                font: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#5e655f" },
+                bgcolor: "rgba(255, 251, 245, 0.9)",
+                bordercolor: "rgba(31, 38, 35, 0.08)",
+                borderpad: 5
+              },
+              {
+                x: 83,
+                y: 136,
+                xanchor: "left",
+                yanchor: "middle",
+                showarrow: false,
+                align: "left",
+                text: "Extreme diesel outliers",
+                font: { family: "Arial, Helvetica, sans-serif", size: 12, color: "#5e655f" }
+              }
+            ],
+        shapes: [
+          {
+            type: "line",
+            x0: -12,
+            y0: -12,
+            x1: 110,
+            y1: 110,
+            line: {
+              color: "rgba(31, 38, 35, 0.35)",
+              width: 2,
+              dash: "dash"
+            }
+          }
+        ]
+      };
+    }
+
+    function render() {
+      const mobile = isMobile();
+      const traces = [
+        pointTrace("Diesel rose more", dieselHigher, "#b44f2e"),
+        pointTrace("Near parity", nearParity, "#8b8f88"),
+        pointTrace("Gasoline rose more", gasolineHigher, "#23735d"),
+        labeledTrace(mobile)
+      ];
+
+      Plotly.newPlot("chart", traces, layoutConfig(mobile), {
+        displayModeBar: false,
+        responsive: true
+      }).then(reportHeight);
+    }
+
+    function reportHeight() {
+      requestAnimationFrame(() => {
+        const root = document.getElementById("viz-root");
+        if (!root || !window.parent) return;
+        window.parent.postMessage(
+          { type: "weekly-viz-height", height: Math.ceil(root.getBoundingClientRect().height) + 8 },
+          "*"
+        );
+      });
+    }
+
+    let resizeTimer = null;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(render, 120);
+    });
+
+    render();
+  </script>
+</body>
+</html>
