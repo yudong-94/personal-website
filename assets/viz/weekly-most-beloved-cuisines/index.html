@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Three Preferred Cuisines by Country</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #fffaf3;
+      --panel: #fffefe;
+      --ink: #1f2523;
+      --muted: #66706b;
+      --soft: #e6ded2;
+      --grid: #ece5da;
+      --local: #c95f38;
+      --chinese: #cf2f42;
+      --italian: #2d8c67;
+      --other: #667594;
+      --source: #59625e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .viz-shell {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .chart-card {
+      background:
+        linear-gradient(90deg, rgba(201, 95, 56, 0.08), rgba(45, 140, 103, 0.05)),
+        var(--panel);
+      border: 1px solid rgba(31, 37, 35, 0.08);
+      border-radius: 8px;
+      box-shadow: 0 18px 44px rgba(63, 47, 28, 0.10);
+      padding: 22px 22px 18px;
+    }
+
+    .chart-title {
+      margin: 0 0 6px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      line-height: 1.12;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .chart-subtitle {
+      max-width: 920px;
+      margin: 0;
+      color: #3f4944;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-note {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      margin: 14px 0 4px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.3;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    #chart {
+      width: 100%;
+      height: 760px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 8px;
+      color: #36413c;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .summary p {
+      margin: 0;
+      padding-top: 10px;
+      border-top: 1px solid rgba(31, 37, 35, 0.10);
+    }
+
+    .source {
+      margin-top: 14px;
+      color: var(--source);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .source a {
+      color: #1e6a93;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    @media (max-width: 760px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .chart-card {
+        padding: 16px 12px 14px;
+        border-radius: 6px;
+      }
+
+      .chart-title {
+        font-size: 24px;
+      }
+
+      .chart-subtitle {
+        font-size: 14px;
+      }
+
+      .legend-note {
+        font-size: 12px;
+      }
+
+      #chart {
+        height: 900px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell">
+    <section class="chart-card">
+      <h1 class="chart-title">Top three preferred cuisines by country</h1>
+      <p class="chart-subtitle">
+        National cuisines take the top slot in every surveyed market, but Chinese and Italian are the repeat cross-border favorites.
+      </p>
+      <div class="legend-note" aria-hidden="true">
+        <span class="legend-item"><span class="swatch" style="background: var(--local);"></span>National cuisine</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--chinese);"></span>Chinese</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--italian);"></span>Italian</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--other);"></span>Other non-local</span>
+      </div>
+      <div id="chart" role="img" aria-label="Dot plot of the top three cuisines preferred by respondents in seven countries."></div>
+      <div class="summary">
+        <p><strong>Without hover:</strong> the first-ranked cuisine in each country is local, ranging from 94% in China to 50% in the United Kingdom.</p>
+        <p><strong>Repeat travelers:</strong> Chinese appears in the top three in every country shown; Italian appears in five of the seven.</p>
+      </div>
+      <div class="source">
+        Source:
+        <a href="https://www.statista.com/chart/33568/top-three-cuisines-preferred-by-respondents/" target="_blank" rel="noreferrer">Statista, "The Most Beloved Cuisines"</a>,
+        based on Statista Consumer Insights, published November 25, 2024. Values are respondent shares in percent; the three rows per country are source-provided ranks and do not sum to 100%.
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const rawRows = [
+      { country: "China", rankText: "1st preferred cuisine", rank: 1, cuisine: "Chinese", value: 94 },
+      { country: "Mexico", rankText: "1st preferred cuisine", rank: 1, cuisine: "Mexican", value: 90 },
+      { country: "India", rankText: "1st preferred cuisine", rank: 1, cuisine: "Indian", value: 85 },
+      { country: "France", rankText: "1st preferred cuisine", rank: 1, cuisine: "French", value: 80 },
+      { country: "USA", rankText: "1st preferred cuisine", rank: 1, cuisine: "USA", value: 70 },
+      { country: "Germany", rankText: "1st preferred cuisine", rank: 1, cuisine: "German", value: 66 },
+      { country: "UK", rankText: "1st preferred cuisine", rank: 1, cuisine: "UK", value: 50 },
+      { country: "China", rankText: "2nd preferred cuisine", rank: 2, cuisine: "Japanese", value: 34 },
+      { country: "Mexico", rankText: "2nd preferred cuisine", rank: 2, cuisine: "Chinese", value: 35 },
+      { country: "India", rankText: "2nd preferred cuisine", rank: 2, cuisine: "Chinese", value: 34 },
+      { country: "France", rankText: "2nd preferred cuisine", rank: 2, cuisine: "Italian", value: 40 },
+      { country: "USA", rankText: "2nd preferred cuisine", rank: 2, cuisine: "Mexican", value: 39 },
+      { country: "Germany", rankText: "2nd preferred cuisine", rank: 2, cuisine: "Italian", value: 47 },
+      { country: "UK", rankText: "2nd preferred cuisine", rank: 2, cuisine: "Chinese", value: 42 },
+      { country: "China", rankText: "3rd preferred cuisine", rank: 3, cuisine: "Korean", value: 23 },
+      { country: "Mexico", rankText: "3rd preferred cuisine", rank: 3, cuisine: "Italian", value: 32 },
+      { country: "India", rankText: "3rd preferred cuisine", rank: 3, cuisine: "Italian", value: 25 },
+      { country: "France", rankText: "3rd preferred cuisine", rank: 3, cuisine: "Chinese", value: 23 },
+      { country: "USA", rankText: "3rd preferred cuisine", rank: 3, cuisine: "Chinese", value: 35 },
+      { country: "Germany", rankText: "3rd preferred cuisine", rank: 3, cuisine: "Chinese", value: 25 },
+      { country: "UK", rankText: "3rd preferred cuisine", rank: 3, cuisine: "Italian", value: 38 }
+    ];
+
+    const localCuisineByCountry = {
+      China: "Chinese",
+      Mexico: "Mexican",
+      India: "Indian",
+      France: "French",
+      USA: "American",
+      Germany: "German",
+      UK: "British"
+    };
+
+    const displayCountry = {
+      USA: "United States",
+      UK: "United Kingdom"
+    };
+
+    const displayCuisine = {
+      USA: "American",
+      UK: "British"
+    };
+
+    const cuisineColor = {
+      local: "#c95f38",
+      Chinese: "#cf2f42",
+      Italian: "#2d8c67",
+      other: "#667594"
+    };
+
+    const countryOrder = [...new Set(rawRows.map((d) => d.country))]
+      .sort((a, b) => {
+        const av = rawRows.find((d) => d.country === a && d.rank === 1).value;
+        const bv = rawRows.find((d) => d.country === b && d.rank === 1).value;
+        return bv - av;
+      });
+
+    const rows = [];
+    countryOrder.forEach((country, groupIndex) => {
+      [1, 2, 3].forEach((rank) => {
+        const source = rawRows.find((d) => d.country === country && d.rank === rank);
+        rows.push({
+          ...source,
+          y: groupIndex * 4 + (rank - 1),
+          countryLabel: displayCountry[source.country] || source.country,
+          cuisineLabel: displayCuisine[source.cuisine] || source.cuisine
+        });
+      });
+    });
+
+    function colorFor(row) {
+      if (row.cuisineLabel === localCuisineByCountry[row.country]) return cuisineColor.local;
+      if (row.cuisineLabel === "Chinese") return cuisineColor.Chinese;
+      if (row.cuisineLabel === "Italian") return cuisineColor.Italian;
+      return cuisineColor.other;
+    }
+
+    function rankShort(rank) {
+      return rank === 1 ? "1st" : rank === 2 ? "2nd" : "3rd";
+    }
+
+    const yTickText = rows.map((d) => `${d.countryLabel} · ${rankShort(d.rank)}`);
+    const markerColors = rows.map(colorFor);
+    const textLabels = rows.map((d) => `${d.cuisineLabel} ${d.value}%`);
+    const hoverData = rows.map((d) => [d.countryLabel, d.rankText, d.cuisineLabel]);
+
+    const stems = {
+      type: "scatter",
+      mode: "lines",
+      x: rows.flatMap((d) => [0, d.value, null]),
+      y: rows.flatMap((d) => [d.y, d.y, null]),
+      line: {
+        color: "#d8d0c4",
+        width: 5
+      },
+      hoverinfo: "skip",
+      showlegend: false
+    };
+
+    const dots = {
+      type: "scatter",
+      mode: "markers+text",
+      x: rows.map((d) => d.value),
+      y: rows.map((d) => d.y),
+      text: textLabels,
+      textposition: "middle right",
+      textfont: {
+        size: 12,
+        color: "#27302b",
+        family: "Inter, Avenir Next, Segoe UI, sans-serif"
+      },
+      marker: {
+        color: markerColors,
+        size: rows.map((d) => d.rank === 1 ? 13 : 11),
+        line: {
+          color: "#fffaf3",
+          width: 2
+        }
+      },
+      customdata: hoverData,
+      hovertemplate:
+        "<b>%{customdata[0]}</b><br>" +
+        "%{customdata[1]}: %{customdata[2]}<br>" +
+        "Respondent share: %{x}%<extra></extra>",
+      cliponaxis: false,
+      showlegend: false
+    };
+
+    const separators = countryOrder.slice(1).map((country, i) => ({
+      type: "line",
+      xref: "paper",
+      x0: 0,
+      x1: 1,
+      yref: "y",
+      y0: (i + 1) * 4 - 0.9,
+      y1: (i + 1) * 4 - 0.9,
+      line: {
+        color: "rgba(31, 37, 35, 0.09)",
+        width: 1
+      }
+    }));
+
+    const groupBands = countryOrder.map((country, i) => ({
+      type: "rect",
+      xref: "paper",
+      x0: 0,
+      x1: 1,
+      yref: "y",
+      y0: i * 4 - 0.55,
+      y1: i * 4 + 2.55,
+      fillcolor: i % 2 === 0 ? "rgba(255, 255, 255, 0.42)" : "rgba(255, 250, 243, 0.18)",
+      line: {
+        width: 0
+      },
+      layer: "below"
+    }));
+
+    function buildLayout() {
+      const isSmall = window.innerWidth < 760;
+      return {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        margin: {
+          l: isSmall ? 116 : 156,
+          r: isSmall ? 78 : 126,
+          t: 20,
+          b: 52
+        },
+        xaxis: {
+          range: [0, isSmall ? 108 : 105],
+          ticksuffix: "%",
+          tickvals: [0, 25, 50, 75, 100],
+          tickfont: {
+            size: isSmall ? 11 : 12,
+            color: "#66706b"
+          },
+          title: {
+            text: "Share of respondents",
+            standoff: 12,
+            font: {
+              size: isSmall ? 11 : 12,
+              color: "#66706b"
+            }
+          },
+          gridcolor: "#ece5da",
+          zeroline: false,
+          fixedrange: true
+        },
+        yaxis: {
+          tickmode: "array",
+          tickvals: rows.map((d) => d.y),
+          ticktext: yTickText,
+          autorange: "reversed",
+          tickfont: {
+            size: isSmall ? 10 : 12,
+            color: "#3f4944"
+          },
+          showgrid: false,
+          zeroline: false,
+          fixedrange: true
+        },
+        shapes: [...groupBands, ...separators],
+        annotations: isSmall ? [] : [
+          {
+            x: 53,
+            y: rows.find((d) => d.country === "UK" && d.rank === 1).y - 0.25,
+            text: "Lowest local lead",
+            showarrow: false,
+            xanchor: "left",
+            yanchor: "bottom",
+            font: {
+              size: 12,
+              color: "#7a4a31"
+            },
+            bgcolor: "rgba(255, 250, 243, 0.72)",
+            bordercolor: "rgba(201, 95, 56, 0.28)",
+            borderpad: 4
+          }
+        ],
+        hoverlabel: {
+          bgcolor: "#fffefe",
+          bordercolor: "#d8d0c4",
+          font: {
+            color: "#1f2523",
+            size: 13
+          }
+        },
+        showlegend: false
+      };
+    }
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    function reportHeight() {
+      const shell = document.querySelector(".viz-shell");
+      const height = Math.ceil(shell.getBoundingClientRect().height + 8);
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+      }
+    }
+
+    function draw() {
+      Plotly.react("chart", [stems, dots], buildLayout(), config).then(reportHeight);
+    }
+
+    draw();
+    window.addEventListener("resize", draw);
+
+    if ("ResizeObserver" in window) {
+      new ResizeObserver(reportHeight).observe(document.querySelector(".viz-shell"));
+    }
+  </script>
+</body>
+</html>
