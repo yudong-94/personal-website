@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tobacco Use by Gender</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #66706b;
+      --rule: #d9ded8;
+      --page: #f7f6f1;
+      --panel: #ffffff;
+      --male: #b4473a;
+      --female: #2f6f8f;
+      --parity: #9da49e;
+      --accent: #d6a33a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: var(--female);
+    }
+
+    .viz-shell {
+      width: min(1080px, 100%);
+      margin: 0 auto;
+      padding: 28px 22px 24px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid #deded6;
+      border-radius: 8px;
+      box-shadow: 0 18px 42px rgba(32, 33, 36, 0.08);
+      padding: 28px 30px 22px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 900px;
+      font-size: clamp(27px, 4.2vw, 46px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 860px;
+      margin: 12px 0 14px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 14px;
+      align-items: center;
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+      border: 1px solid rgba(32, 33, 36, 0.12);
+    }
+
+    #chart {
+      width: 100%;
+      min-height: 560px;
+      margin-top: 2px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 4px 0 18px;
+    }
+
+    .summary-item {
+      border-top: 3px solid var(--rule);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .summary-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .summary-item.highlight {
+      border-color: var(--accent);
+    }
+
+    .note {
+      border-top: 1px solid var(--rule);
+      padding-top: 12px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    @media (max-width: 720px) {
+      .viz-shell {
+        padding: 14px;
+      }
+
+      .panel {
+        padding: 20px 16px 18px;
+      }
+
+      .subtitle {
+        font-size: 15px;
+      }
+
+      .legend-row {
+        gap: 8px 12px;
+      }
+
+      #chart {
+        min-height: 520px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="panel" aria-labelledby="chart-title">
+      <p class="eyebrow">164 countries, latest WHO data via Voronoi</p>
+      <h1 id="chart-title">Male vs. female tobacco-use prevalence</h1>
+      <p class="subtitle">Each dot compares a country's male and female tobacco-use prevalence. Dots above the diagonal mean male rates are higher; only Andorra and Montenegro sit below it, while Iceland is exactly on parity.</p>
+
+      <div class="legend-row" aria-hidden="true" id="legend"></div>
+      <div id="chart" role="img" aria-label="Scatterplot comparing male and female tobacco use prevalence by country. Most countries are above the parity line, showing higher male rates."></div>
+
+      <div class="summary" aria-label="Key values">
+        <div class="summary-item highlight">
+          <strong>161 of 164</strong>
+          Countries have higher male tobacco-use prevalence than female prevalence.
+        </div>
+        <div class="summary-item">
+          <strong>70.2 pts</strong>
+          Indonesia has the widest gender gap: 73.6% male versus 3.4% female.
+        </div>
+        <div class="summary-item">
+          <strong>2 countries</strong>
+          Andorra and Montenegro are the only countries where female rates exceed male rates.
+        </div>
+      </div>
+
+      <p class="note">Note: Country-level prevalence rates are shown as percentages and are not population-weighted global totals. Region categories follow the source table. Source: <a href="https://www.voronoiapp.com/other/Global-Tobacco-Use-Almost-Everywhere-Men-are-Most-Likely-to-Light-Up-535">Voronoi, using World Health Organization data</a>.</p>
+    </section>
+  </main>
+
+  <script id="embedded-source-data" type="text/plain">Region,Country,Both Sexes,Male,Female
+AFRICAN REGION,Algeria,21.6,41.9,0.7
+AFRICAN REGION,Benin,5.5,9.5,1.7
+AFRICAN REGION,Botswana,18.1,30.2,6.5
+AFRICAN REGION,Burkina Faso,13.5,21.7,5.5
+AFRICAN REGION,Burundi,10,15.2,5
+AFRICAN REGION,Cabo Verde,10.5,16.2,5
+AFRICAN REGION,Cameroon,5.6,10.2,1.1
+AFRICAN REGION,Chad,6.8,12.3,1.4
+AFRICAN REGION,Comoros,16.2,26.2,6.2
+AFRICAN REGION,Congo,15,28.2,2
+AFRICAN REGION,Cöte d'Ivoire,8.6,16.4,0.7
+AFRICAN REGION,Democratic Republic of the Congo,11.1,19.9,2.6
+AFRICAN REGION,Eswatini,8.6,16.2,1.4
+AFRICAN REGION,Ethiopia,4.6,7.8,1.4
+AFRICAN REGION,Gambia,9.6,18.7,0.6
+AFRICAN REGION,Ghana,3.1,5.9,0.3
+AFRICAN REGION,Guinea-Bissau,7.5,14.8,0.6
+AFRICAN REGION,Kenya,9.2,16.6,2.1
+AFRICAN REGION,Lesotho,22.9,42,4.8
+AFRICAN REGION,Liberia,7.1,12.5,1.7
+AFRICAN REGION,Madagascar,25.7,41.7,9.9
+AFRICAN REGION,Malawi,7.1,13,1.7
+AFRICAN REGION,Mali,7.6,14.4,0.7
+AFRICAN REGION,Mauritania,9.4,17.2,2
+AFRICAN REGION,Mauritius,20,38.1,2.8
+AFRICAN REGION,Namibia,12.5,21.3,4.7
+AFRICAN REGION,Niger,7.7,14,1.3
+AFRICAN REGION,Nigeria,2.9,5.4,0.4
+AFRICAN REGION,Rwanda,12,17.7,6.7
+AFRICAN REGION,Sao Tome and Principe,7.1,12.6,1.8
+AFRICAN REGION,Senegal,6,11.7,0.6
+AFRICAN REGION,Seychelles,20.8,34.6,5.7
+AFRICAN REGION,Sierra Leone,11.4,17.3,5.5
+AFRICAN REGION,South Africa,20.3,35.1,6.5
+AFRICAN REGION,Togo,5.6,10.2,0.9
+AFRICAN REGION,Uganda,5.3,9,1.8
+AFRICAN REGION,United Republic of Tanzania,7.5,13.1,2.2
+AFRICAN REGION,Zambia,12,21.8,2.7
+AFRICAN REGION,Zimbabwe,9.2,19,0.8
+REGION OF THE AMERICAS,Argentina,23.1,28.2,18.1
+REGION OF THE AMERICAS,Bahamas,10.7,20.6,2.1
+REGION OF THE AMERICAS,Barbados,6.5,11.7,1.7
+REGION OF THE AMERICAS,Belize,8.7,15.5,1.9
+REGION OF THE AMERICAS,Bolivia,12.2,20.4,4.1
+REGION OF THE AMERICAS,Brazil,12.3,15.7,9.1
+REGION OF THE AMERICAS,Canada,11.4,13.7,9.2
+REGION OF THE AMERICAS,Chile,28.2,30.6,25.8
+REGION OF THE AMERICAS,Colombia,8.2,12.1,4.5
+REGION OF THE AMERICAS,Costa Rica,8.8,13.2,4.5
+REGION OF THE AMERICAS,Cuba,18.5,26.9,10.4
+REGION OF THE AMERICAS,Dominican Republic,10.2,14,6.5
+REGION OF THE AMERICAS,Ecuador,10.1,17.6,2.6
+REGION OF THE AMERICAS,El Salvador,8.3,15.6,1.9
+REGION OF THE AMERICAS,Guatemala,12,22.7,1.7
+REGION OF THE AMERICAS,Guyana,10.5,19.3,2.2
+REGION OF THE AMERICAS,Haiti,7.3,12.6,2.3
+REGION OF THE AMERICAS,Honduras,12.2,22.7,1.7
+REGION OF THE AMERICAS,Jamaica,9.5,15.8,3.5
+REGION OF THE AMERICAS,Mexico,14.6,23.1,6.9
+REGION OF THE AMERICAS,Panama,5.1,8.4,1.9
+REGION OF THE AMERICAS,Paraguay,10.6,17.4,3.8
+REGION OF THE AMERICAS,Peru,7,11.6,2.6
+REGION OF THE AMERICAS,Saint Lucia,13.6,24.8,3
+REGION OF THE AMERICAS,United States of America,23,28.6,17.5
+REGION OF THE AMERICAS,Uruguay,19.3,23,16
+SOUTH-EAST ASIA REGION,Bangladesh,31.1,48.9,14.2
+SOUTH-EAST ASIA REGION,Bhutan,19.6,27.2,11
+SOUTH-EAST ASIA REGION,India,23.9,36.8,10.4
+SOUTH-EAST ASIA REGION,Indonesia,38.5,73.6,3.4
+SOUTH-EAST ASIA REGION,Maldives,29.3,43.6,10.1
+SOUTH-EAST ASIA REGION,Myanmar,43.9,69.4,19.2
+SOUTH-EAST ASIA REGION,Nepal,24.9,42.7,9.4
+SOUTH-EAST ASIA REGION,Sri Lanka,19.1,37.8,2.4
+SOUTH-EAST ASIA REGION,Thailand,18.9,37.7,1.8
+SOUTH-EAST ASIA REGION,Timor-Leste,37.6,64.5,9.8
+EUROPEAN REGION,Albania,22.4,38.7,6.6
+EUROPEAN REGION,Andorra,33.6,33.3,33.8
+EUROPEAN REGION,Armenia,22.5,49.3,1.7
+EUROPEAN REGION,Austria,22,23.7,20.5
+EUROPEAN REGION,Azerbaijan,19.3,39.6,0.1
+EUROPEAN REGION,Belarus,27.9,47.2,12
+EUROPEAN REGION,Belgium,24.7,27.4,22.1
+EUROPEAN REGION,Bosnia and Herzegovina,35.1,41,29.5
+EUROPEAN REGION,Bulgaria,34,38.1,30.2
+EUROPEAN REGION,Croatia,32.6,34.2,31.1
+EUROPEAN REGION,Cyprus,34,46,22.1
+EUROPEAN REGION,Czechia,27.5,31.7,23.3
+EUROPEAN REGION,Denmark,16.2,16.4,16
+EUROPEAN REGION,Estonia,25.6,32.9,19.1
+EUROPEAN REGION,Finland,19.6,23.9,15.4
+EUROPEAN REGION,France,29.2,31.3,27.3
+EUROPEAN REGION,Georgia,29,54.7,7.1
+EUROPEAN REGION,Germany,18.8,21.3,16.4
+EUROPEAN REGION,Greece,29.6,33.1,26.3
+EUROPEAN REGION,Hungary,29.4,34.7,24.5
+EUROPEAN REGION,Iceland,9.4,9.4,9.4
+EUROPEAN REGION,Ireland,18.2,20.5,16.1
+EUROPEAN REGION,Israel,19.8,26.4,13.3
+EUROPEAN REGION,Italy,20.4,24.1,16.8
+EUROPEAN REGION,Kazakhstan,21.7,38.2,6.9
+EUROPEAN REGION,Kyrgyzstan,26.4,51.3,3.3
+EUROPEAN REGION,Latvia,30.3,45.6,17.2
+EUROPEAN REGION,Lithuania,27.9,40.1,17.3
+EUROPEAN REGION,Luxembourg,21.8,23.3,20.3
+EUROPEAN REGION,Malta,23.2,25.5,20.6
+EUROPEAN REGION,Montenegro,32.1,30.9,33.2
+EUROPEAN REGION,Netherlands (Kingdom of the),20.1,22.5,17.7
+EUROPEAN REGION,Norway,14,14.8,13.2
+EUROPEAN REGION,Poland,23.2,27.6,19.1
+EUROPEAN REGION,Portugal,20.9,27.1,15.5
+EUROPEAN REGION,Republic of Moldova,27.8,52.7,6.3
+EUROPEAN REGION,Romania,27.5,37.4,18.5
+EUROPEAN REGION,Russian Federation,27.2,42,14.8
+EUROPEAN REGION,Serbia,36.6,38.8,34.6
+EUROPEAN REGION,Slovakia,30.2,35.4,25.4
+EUROPEAN REGION,Slovenia,18.1,20.2,15.9
+EUROPEAN REGION,Spain,24.9,27.5,22.5
+EUROPEAN REGION,Sweden,22.1,28.3,15.9
+EUROPEAN REGION,Switzerland,23.3,26.3,20.4
+EUROPEAN REGION,Türkiye,30.7,41.9,19.6
+EUROPEAN REGION,Turkmenistan,5.4,10.6,0.5
+EUROPEAN REGION,Ukraine,22,38.3,8.5
+EUROPEAN REGION,United Kingdom,13.1,15,11.4
+EUROPEAN REGION,Uzbekistan,16.2,31.8,1
+EASTERN MEDITERRANEAN REGION,Afghanistan,22.1,38.3,5.9
+EASTERN MEDITERRANEAN REGION,Bahrain,18.1,25.7,4.9
+EASTERN MEDITERRANEAN REGION,Egypt,24.7,48.9,0.3
+EASTERN MEDITERRANEAN REGION,Iran (Islamic Republic of),13.9,24.8,3.1
+EASTERN MEDITERRANEAN REGION,Iraq,18.7,36,1.6
+EASTERN MEDITERRANEAN REGION,Jordan,36.3,57.8,13.4
+EASTERN MEDITERRANEAN REGION,Kuwait,22.7,35.6,2.1
+EASTERN MEDITERRANEAN REGION,Lebanon,34,43.1,25.7
+EASTERN MEDITERRANEAN REGION,Morocco,13.1,25.3,1
+EASTERN MEDITERRANEAN REGION,Oman,11,17.4,0.4
+EASTERN MEDITERRANEAN REGION,Pakistan,16.9,27.7,6.2
+EASTERN MEDITERRANEAN REGION,Qatar,18.8,24.6,2.3
+EASTERN MEDITERRANEAN REGION,Saudi Arabia,17.4,28.4,2.1
+EASTERN MEDITERRANEAN REGION,Tunisia,20.1,39.7,1.6
+EASTERN MEDITERRANEAN REGION,United Arab Emirates,11.7,15.5,2.5
+EASTERN MEDITERRANEAN REGION,Yemen,20.8,33.7,7.9
+WESTERN PACIFIC REGION,Australia,12.5,14.8,10.3
+WESTERN PACIFIC REGION,Brunei Darussalam,17.1,31.3,2.2
+WESTERN PACIFIC REGION,Cambodia,16.1,27.3,5.5
+WESTERN PACIFIC REGION,China,24.9,47.3,2
+WESTERN PACIFIC REGION,Cook Islands,25.5,30.3,21.4
+WESTERN PACIFIC REGION,Fiji,27.3,41.7,13.1
+WESTERN PACIFIC REGION,Japan,16.8,26.5,7.7
+WESTERN PACIFIC REGION,Kiribati,38.2,51.6,25.7
+WESTERN PACIFIC REGION,Lao People's Democratic Republic,25.8,43.2,8.4
+WESTERN PACIFIC REGION,Malaysia,22.6,43.8,0.7
+WESTERN PACIFIC REGION,Marshall Islands,30.4,51.8,8.6
+WESTERN PACIFIC REGION,Mongolia,29.3,52.6,7.3
+WESTERN PACIFIC REGION,Nauru,49.5,50.3,48.7
+WESTERN PACIFIC REGION,New Zealand,11.4,12.7,10.2
+WESTERN PACIFIC REGION,Palau,17,26.3,7.3
+WESTERN PACIFIC REGION,Papua New Guinea,40.4,55.4,24.9
+WESTERN PACIFIC REGION,Philippines,20.4,36.2,4.3
+WESTERN PACIFIC REGION,Republic of Korea,18.9,32.7,5.4
+WESTERN PACIFIC REGION,Samoa,22.2,31,13.2
+WESTERN PACIFIC REGION,Singapore,16.4,27.9,4
+WESTERN PACIFIC REGION,Solomon Islands,37.6,55.3,19.6
+WESTERN PACIFIC REGION,Tonga,30.7,46.8,15.5
+WESTERN PACIFIC REGION,Tuvalu,33.8,48.3,19
+WESTERN PACIFIC REGION,Viet Nam,22.8,44.3,2.2</script>
+
+  <script>
+    const regionColors = {
+      "AFRICAN REGION": "#5f8d4e",
+      "REGION OF THE AMERICAS": "#2f6f8f",
+      "SOUTH-EAST ASIA REGION": "#b4473a",
+      "EUROPEAN REGION": "#8060a8",
+      "EASTERN MEDITERRANEAN REGION": "#d6a33a",
+      "WESTERN PACIFIC REGION": "#3b8f88"
+    };
+
+    const regionLabels = {
+      "AFRICAN REGION": "Africa",
+      "REGION OF THE AMERICAS": "Americas",
+      "SOUTH-EAST ASIA REGION": "South-East Asia",
+      "EUROPEAN REGION": "Europe",
+      "EASTERN MEDITERRANEAN REGION": "Eastern Mediterranean",
+      "WESTERN PACIFIC REGION": "Western Pacific"
+    };
+
+    const labelCountriesDesktop = new Set([
+      "Indonesia",
+      "Myanmar",
+      "Timor-Leste",
+      "Egypt",
+      "Nauru",
+      "Andorra",
+      "Montenegro",
+      "Iceland"
+    ]);
+
+    const labelCountriesMobile = new Set([
+      "Indonesia",
+      "Nauru",
+      "Montenegro",
+      "Iceland"
+    ]);
+
+    function parseCsv(text) {
+      const lines = text.trim().replace(/^\uFEFF/, "").split(/\r?\n/);
+      const headers = lines.shift().split(",");
+      return lines.map((line) => {
+        const values = line.split(",");
+        return headers.reduce((row, header, index) => {
+          row[header] = values[index];
+          return row;
+        }, {});
+      });
+    }
+
+    function cleanRows(rows) {
+      return rows.map((row) => ({
+        region: row.Region,
+        country: row.Country,
+        both: Number(row["Both Sexes"]),
+        male: Number(row.Male),
+        female: Number(row.Female),
+        gap: Number(row.Male) - Number(row.Female)
+      }));
+    }
+
+    function formatPct(value) {
+      return `${value.toFixed(1)}%`;
+    }
+
+    function buildLegend() {
+      const legend = document.getElementById("legend");
+      legend.innerHTML = Object.keys(regionColors).map((region) => (
+        `<span class="legend-item"><span class="dot" style="background:${regionColors[region]}"></span>${regionLabels[region]}</span>`
+      )).join("");
+    }
+
+    async function loadRows() {
+      const embedded = document.getElementById("embedded-source-data").textContent;
+      return cleanRows(parseCsv(embedded));
+    }
+
+    function buildChart(rows) {
+      const isMobile = window.matchMedia("(max-width: 680px)").matches;
+      const labelSet = isMobile ? labelCountriesMobile : labelCountriesDesktop;
+      const highlighted = rows.filter((row) => labelSet.has(row.country));
+      const regions = Object.keys(regionColors);
+
+      const traces = regions.map((region) => {
+        const regionRows = rows.filter((row) => row.region === region);
+        return {
+          type: "scatter",
+          mode: "markers",
+          name: regionLabels[region],
+          x: regionRows.map((row) => row.female),
+          y: regionRows.map((row) => row.male),
+          customdata: regionRows.map((row) => [
+            row.country,
+            regionLabels[row.region],
+            row.both,
+            row.gap
+          ]),
+          marker: {
+            color: regionColors[region],
+            size: regionRows.map((row) => Math.max(8, Math.min(18, 7 + row.both / 4))),
+            opacity: 0.76,
+            line: {
+              color: "#ffffff",
+              width: 1
+            }
+          },
+          hovertemplate: "<b>%{customdata[0]}</b><br>%{customdata[1]}<br>Male: %{y:.1f}%<br>Female: %{x:.1f}%<br>Both sexes: %{customdata[2]:.1f}%<br>Male-female gap: %{customdata[3]:+.1f} pts<extra></extra>",
+          showlegend: false
+        };
+      });
+
+      traces.push({
+        type: "scatter",
+        mode: "lines",
+        name: "Parity",
+        x: [0, 76],
+        y: [0, 76],
+        line: {
+          color: "#9da49e",
+          width: 2,
+          dash: "dot"
+        },
+        hoverinfo: "skip",
+        showlegend: false
+      });
+
+      traces.push({
+        type: "scatter",
+        mode: "markers+text",
+        name: "Labeled countries",
+        x: highlighted.map((row) => row.female),
+        y: highlighted.map((row) => row.male),
+        text: highlighted.map((row) => row.country),
+        customdata: highlighted.map((row) => [
+          row.country,
+          regionLabels[row.region],
+          row.both,
+          row.gap
+        ]),
+        marker: {
+          color: highlighted.map((row) => row.gap < 0 ? "#2f6f8f" : row.gap === 0 ? "#202124" : "#b4473a"),
+          size: highlighted.map((row) => row.country === "Indonesia" ? 18 : 13),
+          line: {
+            color: "#ffffff",
+            width: 1.5
+          }
+        },
+        textfont: {
+          color: "#202124",
+          size: isMobile ? 11 : 12,
+          family: "Inter, Arial, sans-serif"
+        },
+        textposition: highlighted.map((row) => {
+          if (row.country === "Indonesia") return "middle right";
+          if (row.country === "Nauru") return "top center";
+          if (row.country === "Iceland") return "bottom right";
+          if (row.country === "Montenegro") return "bottom right";
+          if (row.country === "Andorra") return "top right";
+          if (row.country === "Egypt") return "middle left";
+          return "top right";
+        }),
+        hovertemplate: "<b>%{customdata[0]}</b><br>%{customdata[1]}<br>Male: %{y:.1f}%<br>Female: %{x:.1f}%<br>Both sexes: %{customdata[2]:.1f}%<br>Male-female gap: %{customdata[3]:+.1f} pts<extra></extra>",
+        showlegend: false
+      });
+
+      const layout = {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        margin: isMobile ? { l: 46, r: 16, t: 34, b: 52 } : { l: 62, r: 30, t: 42, b: 58 },
+        hovermode: "closest",
+        height: isMobile ? 500 : 560,
+        xaxis: {
+          title: {
+            text: "Female tobacco-use prevalence",
+            standoff: 12
+          },
+          range: [0, 52],
+          ticksuffix: "%",
+          dtick: 10,
+          gridcolor: "#e4e6df",
+          zeroline: false,
+          fixedrange: true
+        },
+        yaxis: {
+          title: {
+            text: "Male tobacco-use prevalence",
+            standoff: 10
+          },
+          range: [0, 78],
+          ticksuffix: "%",
+          dtick: 10,
+          gridcolor: "#e4e6df",
+          zeroline: false,
+          fixedrange: true
+        },
+        annotations: [
+          {
+            x: isMobile ? 23 : 26,
+            y: isMobile ? 50 : 55,
+            xref: "x",
+            yref: "y",
+            text: "Above line:<br>men higher",
+            showarrow: false,
+            align: "left",
+            font: {
+              size: isMobile ? 11 : 12,
+              color: "#66706b"
+            },
+            bgcolor: "rgba(255,255,255,0.72)",
+            borderpad: 4
+          },
+          {
+            x: isMobile ? 35 : 42,
+            y: isMobile ? 32 : 39,
+            xref: "x",
+            yref: "y",
+            text: "Parity line",
+            showarrow: false,
+            font: {
+              size: isMobile ? 11 : 12,
+              color: "#66706b"
+            },
+            textangle: -35,
+            bgcolor: "rgba(255,255,255,0.7)"
+          }
+        ],
+        font: {
+          family: "Inter, Arial, sans-serif",
+          color: "#202124"
+        }
+      };
+
+      const config = {
+        displayModeBar: false,
+        responsive: true
+      };
+
+      Plotly.react("chart", traces, layout, config).then(reportHeight);
+    }
+
+    function reportHeight() {
+      const shell = document.getElementById("viz-shell");
+      const height = Math.ceil(shell.getBoundingClientRect().height);
+      window.parent.postMessage({ type: "weekly-viz-height", height }, "*");
+    }
+
+    buildLegend();
+    loadRows().then((rows) => {
+      buildChart(rows);
+      const resizeObserver = new ResizeObserver(reportHeight);
+      resizeObserver.observe(document.getElementById("viz-shell"));
+      window.addEventListener("resize", () => buildChart(rows));
+    });
+  </script>
+</body>
+</html>
