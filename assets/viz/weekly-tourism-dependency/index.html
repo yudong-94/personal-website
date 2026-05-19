@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourism Receipts and Dependency</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #f6f8f5;
+      --panel: #ffffff;
+      --ink: #1d2524;
+      --muted: #5d6b69;
+      --rule: rgba(29, 37, 36, 0.12);
+      --grid: rgba(76, 96, 91, 0.16);
+      --low: #6f8791;
+      --mid: #d59b45;
+      --high: #c85132;
+      --accent: #0f6f78;
+      --source: #63716f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .viz-shell {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .chart-card {
+      background:
+        linear-gradient(135deg, rgba(15, 111, 120, 0.075), rgba(200, 81, 50, 0.045) 48%, rgba(255, 255, 255, 0) 82%),
+        var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 42px rgba(37, 48, 46, 0.10);
+      padding: 22px 22px 18px;
+    }
+
+    .chart-title {
+      max-width: 920px;
+      margin: 0 0 7px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 31px;
+      line-height: 1.12;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .chart-subtitle {
+      max-width: 930px;
+      margin: 0;
+      color: #3e4b49;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-note {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 15px;
+      margin: 15px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.3;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    #chart {
+      width: 100%;
+      height: 700px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 8px;
+      color: #34413f;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .summary p {
+      margin: 0;
+      padding-top: 10px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .source {
+      margin-top: 14px;
+      color: var(--source);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .source a {
+      color: #0f6f78;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    @media (max-width: 760px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .chart-card {
+        padding: 16px 12px 14px;
+        border-radius: 6px;
+      }
+
+      .chart-title {
+        font-size: 24px;
+      }
+
+      .chart-subtitle {
+        font-size: 14px;
+      }
+
+      .legend-note {
+        font-size: 12px;
+      }
+
+      #chart {
+        height: 760px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell">
+    <section class="chart-card">
+      <h1 class="chart-title">Receipts vs. tourism dependence</h1>
+      <p class="chart-subtitle">
+        The biggest earners sit far to the right, but the highest tourism shares of GDP cluster among small destination economies.
+      </p>
+      <div class="legend-note" aria-hidden="true">
+        <span class="legend-item"><span class="swatch" style="background: var(--high);"></span>20%+ of GDP</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--mid);"></span>10-20% of GDP</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--low);"></span>Under 10% of GDP</span>
+      </div>
+      <div id="chart" role="img" aria-label="Scatter plot comparing international tourism receipts in US dollars with tourism receipts as a share of GDP for 155 countries."></div>
+      <div class="summary">
+        <p><strong>Scale is not dependence:</strong> the United States records the largest receipts at $213B, but receipts equal less than 1% of GDP.</p>
+        <p><strong>The highest shares are concentrated:</strong> Andorra, Aruba, Macao SAR, Maldives, and Seychelles all exceed 55% of GDP.</p>
+      </div>
+      <div class="source">
+        Source:
+        <a href="https://www.untourism.int/tourism-data/un-tourism-tourism-dashboard" target="_blank" rel="noreferrer">UN Tourism Data Dashboard</a>,
+        downloaded CSV. Dataset year is not included in the provided file. Rows with receipts reported as zero are plotted at $0.01B to fit the log scale.
+      </div>
+    </section>
+  </main>
+
+  <script type="text/plain" id="csv-data">Country,"Receipts (USD, Billions)",Receipts as share of GDP,Rank
+Andorra,2.9,71.78%,1
+Aruba,3,70.33%,2
+"Macao SAR, China",34.6,69.95%,3
+Maldives,4.8,67.97%,4
+Seychelles,1.2,55.37%,5
+Saint Lucia,1.3,51.00%,6
+Antigua and Barbuda,0.88,39.86%,7
+"Bahamas, The",5.4,34.11%,8
+Cabo Verde,0.76,27.89%,9
+Grenada,0.36,26.24%,10
+Belize,0.83,25.91%,11
+Samoa,0.24,20.41%,12
+Albania,5.4,19.97%,13
+St. Vincent and the Grenadines,0.23,19.88%,14
+Jamaica,4.3,19.53%,15
+Montenegro,1.6,19.35%,16
+Barbados,1.4,18.67%,17
+Fiji,1.1,18.43%,18
+Gambia,0.44,18.33%,19
+Croatia,16.2,17.42%,20
+St. Kitts and Nevis,0.19,16.93%,21
+Lebanon,4.6,16.27%,22
+Mauritius,2.2,14.73%,23
+Jordan,7.8,14.62%,24
+Georgia,4.7,13.75%,25
+Dominica,0.09,13.06%,26
+Bahrain,5.4,11.46%,27
+Malta,2.8,11.21%,28
+Iceland,3.6,10.83%,29
+Cyprus,4,10.63%,30
+El Salvador,3.7,10.46%,31
+Armenia,2.7,10.40%,32
+UAE,57,10.32%,33
+Tonga,0.06,10.15%,34
+Portugal,30,9.58%,35
+Morocco,14.8,9.21%,36
+Greece,23.4,9.13%,37
+Dominican Republic,11.3,9.09%,38
+Sao Tome and Principe,0.07,8.51%,39
+Thailand,44.8,8.51%,40
+Luxembourg,7.5,8.04%,41
+Lao PDR,1.3,7.88%,42
+Cambodia,3.6,7.77%,43
+Panama,6.6,7.63%,44
+Bosnia and Herzegovina,2,6.75%,45
+Bhutan,0.2,6.66%,46
+Spain,106.5,6.17%,47
+Malaysia,25.8,6.11%,48
+"Hong Kong SAR, China",24.7,6.07%,49
+Timor-Leste,0.11,5.90%,50
+Costa Rica,5.6,5.87%,51
+Tunisia,2.9,5.65%,52
+Tanzania,4.4,5.58%,53
+Kyrgyz Republic,0.96,5.49%,54
+Moldova,0.96,5.27%,55
+Singapore,27.5,5.02%,56
+Slovenia,3.6,4.93%,57
+Austria,26.3,4.92%,58
+"Egypt, Arab Rep.",18,4.63%,59
+Turkiye,60,4.41%,60
+Zambia,1.1,4.35%,61
+Bulgaria,4.8,4.23%,62
+Namibia,0.56,4.19%,63
+Hungary,9.2,4.13%,64
+Uzbekistan,4.7,4.09%,65
+Rwanda,0.58,4.07%,66
+North Macedonia,0.68,4.01%,67
+New Zealand,10,3.84%,68
+Qatar,8.4,3.83%,69
+Estonia,1.6,3.71%,70
+Serbia,3.3,3.66%,71
+Zambia,0.9,3.56%,72
+Uganda,1.9,3.52%,73
+Saudi Arabia,42.6,3.44%,74
+Sri Lanka,3.2,3.23%,75
+Latvia,1.4,3.20%,76
+Australia,55.4,3.15%,77
+Uruguay,2.5,3.09%,78
+Mongolia,0.73,3.07%,79
+Botswana,0.59,3.04%,80
+Denmark,12.4,2.92%,81
+Czechia,10.1,2.91%,82
+Paraguay,1.2,2.70%,83
+Azerbaijan,2,2.69%,84
+Iraq,7.4,2.65%,85
+Nicaragua,0.51,2.59%,86
+Viet Nam,12.2,2.56%,87
+Switzerland,23.4,2.50%,88
+Italy,58.7,2.47%,89
+France,77,2.44%,90
+Oman,2.6,2.43%,91
+United Kingdom,89.6,2.43%,92
+Lithuania,2,2.36%,93
+Canada,51.3,2.29%,94
+Colombia,9.4,2.24%,95
+Honduras,0.79,2.13%,96
+Sweden,12.4,2.05%,97
+Norway,9.5,1.96%,98
+Mexico,35,1.89%,99
+Solomon Islands,0.03,1.89%,100
+Philippines,8.7,1.88%,101
+Netherlands,22.6,1.86%,102
+Trinidad and Tobago,0.44,1.72%,103
+South Africa,6.8,1.70%,104
+Poland,15.5,1.69%,105
+Japan,64,1.59%,106
+Guatemala,1.7,1.50%,107
+Nepal,0.64,1.49%,108
+Romania,5.7,1.49%,109
+Ghana,1.2,1.46%,110
+Bolivia,0.79,1.44%,111
+Ecuador,1.8,1.44%,112
+Kuwait,2.3,1.44%,113
+Finland,4.2,1.41%,114
+Belgium,9.4,1.40%,115
+Peru,4,1.38%,116
+Indonesia,18.3,1.31%,117
+Ireland,7.9,1.30%,118
+Slovakia,1.7,1.21%,119
+Djibouti,0.05,1.20%,120
+Taiwan,11,1.20%,121
+Mozambique,0.27,1.19%,122
+"Korea, Rep.",22.2,1.18%,123
+Chile,3.8,1.15%,124
+Kazakhstan,2.9,0.99%,125
+Palestine,0.13,0.95%,126
+Germany,41.1,0.88%,127
+Brunei Darussalam,0.13,0.85%,128
+Ethiopia,1.2,0.80%,129
+India,31.4,0.80%,130
+Argentina,4.9,0.77%,131
+United States,213,0.74%,132
+Suriname,0.03,0.68%,133
+Ukraine,1.2,0.63%,134
+Israel,3.2,0.59%,135
+Cuba,1.3,0.50%,136
+Zimbabwe,0.2,0.48%,137
+Lesotho,0.01,0.44%,138
+Eswatini,0.02,0.41%,139
+Russian Federation,9,0.41%,140
+Niger,0.08,0.40%,141
+Brazil,7.9,0.36%,142
+China,55.2,0.29%,143
+Pakistan,0.8,0.22%,144
+Haiti,0.04,0.16%,145
+Tajikistan,0.02,0.14%,146
+Nigeria,0.3,0.12%,147
+Bangladesh,0.5,0.11%,148
+Algeria,0.13,0.05%,149
+Angola,0.02,0.02%,150
+Burundi,0,0.00%,151
+Guinea,0,0.00%,152
+Kiribati,0,0.00%,153
+Mauritania,0,0.00%,154
+Papua New Guinea,0,0.00%,155</script>
+
+  <script>
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let field = "";
+      let inQuotes = false;
+
+      for (let i = 0; i < text.length; i += 1) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === '"' && inQuotes && next === '"') {
+          field += '"';
+          i += 1;
+        } else if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === "," && !inQuotes) {
+          row.push(field);
+          field = "";
+        } else if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && next === "\n") i += 1;
+          row.push(field);
+          if (row.some((value) => value.trim() !== "")) rows.push(row);
+          row = [];
+          field = "";
+        } else {
+          field += char;
+        }
+      }
+
+      if (field || row.length) {
+        row.push(field);
+        rows.push(row);
+      }
+
+      const headers = rows.shift().map((header) => header.replace(/^\uFEFF/, ""));
+      return rows.map((values) => Object.fromEntries(headers.map((header, index) => [header, values[index]])));
+    }
+
+    const sourceText = document.getElementById("csv-data").textContent.trim();
+    const rows = parseCsv(sourceText).map((row) => {
+      const receipts = Number(row["Receipts (USD, Billions)"]);
+      const share = Number(row["Receipts as share of GDP"].replace("%", ""));
+      return {
+        country: row.Country,
+        receipts,
+        xPlot: Math.max(receipts, 0.01),
+        share,
+        rank: Number(row.Rank),
+        tier: share >= 20 ? "20%+ of GDP" : share >= 10 ? "10-20% of GDP" : "Under 10% of GDP"
+      };
+    });
+
+    const colors = {
+      "20%+ of GDP": "#c85132",
+      "10-20% of GDP": "#d59b45",
+      "Under 10% of GDP": "#6f8791"
+    };
+
+    const tiers = ["Under 10% of GDP", "10-20% of GDP", "20%+ of GDP"];
+    const traces = tiers.map((tier) => {
+      const tierRows = rows.filter((row) => row.tier === tier);
+      return {
+        type: "scatter",
+        mode: "markers",
+        name: tier,
+        x: tierRows.map((row) => row.xPlot),
+        y: tierRows.map((row) => row.share),
+        customdata: tierRows.map((row) => [
+          row.country,
+          row.receipts,
+          row.rank,
+          row.receipts === 0 ? "reported as $0.00B" : `$${row.receipts.toFixed(row.receipts < 1 ? 2 : 1)}B`
+        ]),
+        marker: {
+          size: tier === "20%+ of GDP" ? 10 : 8,
+          color: colors[tier],
+          opacity: tier === "Under 10% of GDP" ? 0.58 : 0.86,
+          line: {
+            color: "#ffffff",
+            width: 1
+          }
+        },
+        hovertemplate:
+          "<b>%{customdata[0]}</b><br>" +
+          "Receipts: %{customdata[3]}<br>" +
+          "Receipts as GDP share: %{y:.2f}%<br>" +
+          "Dependency rank: #%{customdata[2]}<extra></extra>"
+      };
+    });
+
+    const labelNames = new Set([
+      "Andorra",
+      "Macao SAR, China",
+      "Maldives",
+      "Seychelles",
+      "UAE",
+      "Spain",
+      "United States",
+      "Thailand"
+    ]);
+
+    const labelRows = rows.filter((row) => labelNames.has(row.country));
+    const labelPositions = {
+      "Andorra": "middle left",
+      "Macao SAR, China": "top center",
+      "Maldives": "middle right",
+      "Seychelles": "middle left",
+      "UAE": "top center",
+      "Spain": "top center",
+      "United States": "middle left",
+      "Thailand": "top center"
+    };
+
+    traces.push({
+      type: "scatter",
+      mode: "text",
+      showlegend: false,
+      hoverinfo: "skip",
+      x: labelRows.map((row) => row.xPlot),
+      y: labelRows.map((row) => row.share),
+      text: labelRows.map((row) => row.country),
+      textposition: labelRows.map((row) => labelPositions[row.country] || "top center"),
+      textfont: {
+        family: "Inter, Avenir Next, Segoe UI, sans-serif",
+        size: 12,
+        color: "#263230"
+      }
+    });
+
+    function buildLayout() {
+      const isMobile = window.innerWidth < 760;
+      return {
+        margin: {
+          l: isMobile ? 54 : 72,
+          r: isMobile ? 20 : 34,
+          t: isMobile ? 34 : 48,
+          b: isMobile ? 78 : 72
+        },
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(255,255,255,0.62)",
+        font: {
+          family: "Inter, Avenir Next, Segoe UI, sans-serif",
+          color: "#1d2524"
+        },
+        hoverlabel: {
+          bgcolor: "#ffffff",
+          bordercolor: "rgba(29,37,36,0.15)",
+          font: { color: "#1d2524" }
+        },
+        xaxis: {
+          type: "log",
+          title: {
+            text: isMobile ? "Receipts, USD billions (log)" : "International tourism receipts, USD billions (log scale)",
+            standoff: 14,
+            font: { size: 13, color: "#52615f" }
+          },
+          range: [-2.08, 2.58],
+          tickvals: [0.01, 0.1, 1, 10, 100],
+          ticktext: ["$0.01B", "$0.1B", "$1B", "$10B", "$100B"],
+          gridcolor: "rgba(76,96,91,0.16)",
+          zeroline: false,
+          linecolor: "rgba(29,37,36,0.26)",
+          tickfont: { size: 12, color: "#52615f" }
+        },
+        yaxis: {
+          title: {
+            text: "Receipts as share of GDP",
+            standoff: 12,
+            font: { size: 13, color: "#52615f" }
+          },
+          range: [-2.5, 76],
+          ticksuffix: "%",
+          dtick: 10,
+          gridcolor: "rgba(76,96,91,0.16)",
+          zeroline: false,
+          linecolor: "rgba(29,37,36,0.26)",
+          tickfont: { size: 12, color: "#52615f" }
+        },
+        showlegend: false,
+        shapes: [
+          {
+            type: "line",
+            xref: "paper",
+            x0: 0,
+            x1: 1,
+            y0: 20,
+            y1: 20,
+            line: { color: "rgba(200,81,50,0.25)", width: 1.5, dash: "dot" }
+          },
+          {
+            type: "rect",
+            xref: "x",
+            yref: "y",
+            x0: 0.01,
+            x1: 10,
+            y0: 20,
+            y1: 76,
+            fillcolor: "rgba(200,81,50,0.045)",
+            line: { width: 0 },
+            layer: "below"
+          }
+        ],
+        annotations: isMobile ? [
+          {
+            x: 0.02,
+            y: 72,
+            xref: "paper",
+            yref: "y",
+            text: "High dependency",
+            showarrow: false,
+            xanchor: "left",
+            yanchor: "top",
+            font: { size: 12, color: "#a4422b" },
+            bgcolor: "rgba(255,255,255,0.72)",
+            borderpad: 4
+          }
+        ] : [
+          {
+            x: 0.045,
+            y: 71,
+            xref: "paper",
+            yref: "y",
+            text: "Small, highly tourism-dependent economies",
+            showarrow: false,
+            xanchor: "left",
+            yanchor: "top",
+            font: { size: 13, color: "#a4422b" },
+            bgcolor: "rgba(255,255,255,0.78)",
+            borderpad: 5
+          },
+          {
+            x: 205,
+            y: 7.5,
+            xref: "x",
+            yref: "y",
+            text: "Large receipt totals<br>can still be small<br>relative to GDP",
+            showarrow: true,
+            ax: -70,
+            ay: -50,
+            arrowcolor: "rgba(15,111,120,0.55)",
+            arrowwidth: 1.2,
+            font: { size: 13, color: "#0f5f66" },
+            align: "left",
+            bgcolor: "rgba(255,255,255,0.78)",
+            borderpad: 5
+          }
+        ]
+      };
+    }
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    function reportHeight() {
+      const card = document.querySelector(".chart-card");
+      if (!card) return;
+      window.parent.postMessage({
+        type: "storytelling-viz-height",
+        height: Math.ceil(card.getBoundingClientRect().height + 52)
+      }, "*");
+    }
+
+    Plotly.newPlot("chart", traces, buildLayout(), config).then(() => {
+      reportHeight();
+      if ("ResizeObserver" in window) {
+        const observer = new ResizeObserver(reportHeight);
+        observer.observe(document.querySelector(".chart-card"));
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      Plotly.react("chart", traces, buildLayout(), config).then(reportHeight);
+    });
+  </script>
+</body>
+</html>
