@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Proficiency by Region</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #f6f2ea;
+      --panel: #fffdf8;
+      --ink: #202526;
+      --muted: #687171;
+      --rule: rgba(32, 37, 38, 0.13);
+      --grid: rgba(32, 37, 38, 0.10);
+      --accent: #c44536;
+      --link: #246b87;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .viz-shell {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .chart-card {
+      background: var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 44px rgba(45, 38, 28, 0.09);
+      padding: 22px 22px 18px;
+    }
+
+    .chart-title {
+      margin: 0 0 7px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      line-height: 1.12;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .chart-subtitle {
+      max-width: 940px;
+      margin: 0;
+      color: #465152;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-note {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 15px;
+      margin: 15px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.3;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      white-space: nowrap;
+    }
+
+    .swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+      box-shadow: inset 0 0 0 1px rgba(32, 37, 38, 0.12);
+    }
+
+    #chart {
+      width: 100%;
+      height: 680px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 8px;
+      color: #384344;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .summary p {
+      margin: 0;
+      padding-top: 10px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .source {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .source a {
+      color: var(--link);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    @media (max-width: 760px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .chart-card {
+        padding: 16px 12px 14px;
+        border-radius: 6px;
+      }
+
+      .chart-title {
+        font-size: 24px;
+      }
+
+      .chart-subtitle {
+        font-size: 14px;
+      }
+
+      .legend-note {
+        font-size: 12px;
+        gap: 7px 11px;
+      }
+
+      #chart {
+        height: 760px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="chart-card">
+      <h1 class="chart-title">English proficiency scores by region</h1>
+      <p class="chart-subtitle">
+        Europe occupies most of the high end of the EF index, while Singapore and South Africa stand out as the strongest non-European performers.
+      </p>
+      <div class="legend-note" aria-hidden="true">
+        <span class="legend-item"><span class="swatch" style="background: #2f7d68;"></span>Europe</span>
+        <span class="legend-item"><span class="swatch" style="background: #d18a2f;"></span>Asia</span>
+        <span class="legend-item"><span class="swatch" style="background: #4c6fa8;"></span>Africa</span>
+        <span class="legend-item"><span class="swatch" style="background: #b64b63;"></span>Latin America & Caribbean</span>
+        <span class="legend-item"><span class="swatch" style="background: #7b5aa6;"></span>Middle East & North Africa</span>
+        <span class="legend-item"><span class="swatch" style="background: #202526;"></span>Highlighted country</span>
+      </div>
+      <div id="chart" role="img" aria-label="Strip plot of English proficiency index scores for 116 countries grouped by region."></div>
+      <div class="summary">
+        <p><strong>Without hover:</strong> the Netherlands leads at 636, 26 points ahead of Norway and 27 ahead of Singapore.</p>
+        <p><strong>Regional pattern:</strong> Europe is the only region with a median score above 550; the Middle East & North Africa has the lowest regional median in this table.</p>
+      </div>
+      <div class="source">
+        Source:
+        <a href="https://www.voronoiapp.com/other/The-Netherlands-Has-the-Highest-Levels-of-English-Proficiency-Worldwide--5764" target="_blank" rel="noreferrer">Voronoi, "The Netherlands Has the Highest Levels of English Proficiency Worldwide"</a>,
+        based on the EF Standard English Test. Workbook contains 116 countries whose native language is not English; scores are treated as source-provided index values.
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const csvText = `proficiency_band,rank,country,region,score
+Very High Proficiency,1,Netherlands,Europe,636
+Very High Proficiency,2,Norway,Europe,610
+Very High Proficiency,3,Singapore,Asia,609
+Very High Proficiency,4,Sweden,Europe,608
+Very High Proficiency,5,Croatia,Europe,607
+Very High Proficiency,6,Portugal,Europe,605
+Very High Proficiency,7,Denmark,Europe,603
+Very High Proficiency,8,Greece,Europe,602
+Very High Proficiency,9,Austria,Europe,600
+Very High Proficiency,10,Germany,Europe,598
+High Proficiency,11,South Africa,Africa,594
+High Proficiency,12,Romania,Europe,593
+High Proficiency,13,Belgium,Europe,592
+High Proficiency,14,Finland,Europe,590
+High Proficiency,15,Poland,Europe,588
+High Proficiency,16,Bulgaria,Europe,586
+High Proficiency,17,Hungary,Europe,585
+High Proficiency,18,Slovakia,Europe,584
+High Proficiency,19,Kenya,Africa,581
+High Proficiency,20,Estonia,Europe,578
+High Proficiency,21,Luxembourg,Europe,576
+High Proficiency,22,Philippines,Asia,570
+High Proficiency,23,Lithuania,Europe,569
+High Proficiency,24,Serbia,Europe,568
+High Proficiency,25,Czechia,Europe,567
+High Proficiency,26,Malaysia,Asia,566
+High Proficiency,27,Suriname,Latin America & Caribbean,563
+High Proficiency,28,Argentina,Latin America & Caribbean,562
+High Proficiency,29,Cyprus,Europe,558
+High Proficiency,30,Nigeria,Africa,557
+Moderate Proficiency,31,Switzerland,Europe,550
+Moderate Proficiency,32,Hong Kong (China),Asia,549
+Moderate Proficiency,33,Honduras,Latin America & Caribbean,545
+Moderate Proficiency,34,Georgia,Europe,543
+Moderate Proficiency,35,Belarus,Europe,539
+Moderate Proficiency,36,Spain,Europe,538
+Moderate Proficiency,36,Uruguay,Latin America & Caribbean,538
+Moderate Proficiency,38,Armenia,Europe,537
+Moderate Proficiency,39,Moldova,Europe,536
+Moderate Proficiency,40,Ukraine,Europe,535
+Moderate Proficiency,41,Costa Rica,Latin America & Caribbean,534
+Moderate Proficiency,41,Ghana,Africa,534
+Moderate Proficiency,43,Albania,Europe,533
+Moderate Proficiency,44,Russia,Europe,532
+Moderate Proficiency,45,Paraguay,Latin America & Caribbean,531
+Moderate Proficiency,46,Italy,Europe,528
+Moderate Proficiency,47,Bolivia,Latin America & Caribbean,525
+Moderate Proficiency,47,Chile,Latin America & Caribbean,525
+Moderate Proficiency,49,France,Europe,524
+Moderate Proficiency,50,South Korea,Asia,523
+Moderate Proficiency,51,Israel,Middle East & North Africa,522
+Moderate Proficiency,52,Cuba,Latin America & Caribbean,520
+Moderate Proficiency,53,Peru,Latin America & Caribbean,519
+Moderate Proficiency,54,Uganda,Africa,518
+Moderate Proficiency,55,El Salvador,Latin America & Caribbean,513
+Moderate Proficiency,56,Nepal,Asia,512
+Moderate Proficiency,57,Venezuela,Latin America & Caribbean,510
+Moderate Proficiency,58,Guatemala,Latin America & Caribbean,507
+Moderate Proficiency,59,Nicaragua,Latin America & Caribbean,505
+Moderate Proficiency,60,Dominican Republic,Latin America & Caribbean,503
+Moderate Proficiency,61,Bangladesh,Asia,500
+Low Proficiency,62,Iran,Middle East & North Africa,499
+Low Proficiency,63,Ethiopia,Africa,498
+Low Proficiency,63,Vietnam,Asia,498
+Low Proficiency,65,Turkey,Europe,497
+Low Proficiency,66,Tunisia,Middle East & North Africa,496
+Low Proficiency,67,Pakistan,Asia,493
+Low Proficiency,68,Lebanon,Middle East & North Africa,492
+Low Proficiency,69,India,Asia,490
+Low Proficiency,70,United Arab Emirates,Middle East & North Africa,489
+Low Proficiency,71,Panama,Latin America & Caribbean,488
+Low Proficiency,72,Tanzania,Africa,487
+Low Proficiency,73,Sri Lanka,Asia,486
+Low Proficiency,74,Colombia,Latin America & Caribbean,485
+Low Proficiency,75,Qatar,Middle East & North Africa,480
+Low Proficiency,76,Morocco,Middle East & North Africa,479
+Low Proficiency,77,Syria,Middle East & North Africa,473
+Low Proficiency,78,Algeria,Middle East & North Africa,471
+Low Proficiency,79,Mozambique,Africa,469
+Low Proficiency,80,Indonesia,Asia,468
+Low Proficiency,81,Brazil,Latin America & Caribbean,466
+Low Proficiency,82,Ecuador,Latin America & Caribbean,465
+Low Proficiency,82,Egypt,Middle East & North Africa,465
+Low Proficiency,84,Mongolia,Asia,464
+Low Proficiency,85,Madagascar,Africa,463
+Low Proficiency,86,Azerbaijan,Europe,462
+Low Proficiency,87,Mexico,Latin America & Caribbean,459
+Low Proficiency,88,Kyrgyzstan,Asia,457
+Low Proficiency,89,Cape Verde,Africa,456
+Low Proficiency,89,Kuwait,Middle East & North Africa,456
+Low Proficiency,91,China,Asia,455
+Low Proficiency,92,Japan,Asia,454
+Low Proficiency,93,Myanmar,Asia,449
+Low Proficiency,94,Palestine,Middle East & North Africa,448
+Low Proficiency,95,Afghanistan,Asia,447
+Low Proficiency,95,Malawi,Africa,447
+Low Proficiency,97,Cameroon,Africa,445
+Very Low Proficiency,98,Uzbekistan,Asia,439
+Very Low Proficiency,99,Haiti,Latin America & Caribbean,432
+Very Low Proficiency,99,Sudan,Africa,432
+Very Low Proficiency,101,Jordan,Middle East & North Africa,431
+Very Low Proficiency,102,Senegal,Africa,429
+Very Low Proficiency,103,Kazakhstan,Asia,427
+Very Low Proficiency,104,Oman,Middle East & North Africa,421
+Very Low Proficiency,105,Saudi Arabia,Middle East & North Africa,417
+Very Low Proficiency,106,Thailand,Asia,415
+Very Low Proficiency,107,Iraq,Middle East & North Africa,414
+Very Low Proficiency,108,Benin,Africa,413
+Very Low Proficiency,109,Tajikistan,Asia,412
+Very Low Proficiency,110,Angola,Africa,409
+Very Low Proficiency,111,Cambodia,Asia,408
+Very Low Proficiency,112,Libya,Middle East & North Africa,405
+Very Low Proficiency,113,Rwanda,Africa,401
+Very Low Proficiency,114,Côte d'Ivoire,Africa,399
+Very Low Proficiency,114,Somalia,Africa,399
+Very Low Proficiency,116,Yemen,Middle East & North Africa,394`;
+
+    const regionOrder = [
+      "Europe",
+      "Asia",
+      "Africa",
+      "Latin America & Caribbean",
+      "Middle East & North Africa"
+    ];
+
+    const regionColors = {
+      "Europe": "#2f7d68",
+      "Asia": "#d18a2f",
+      "Africa": "#4c6fa8",
+      "Latin America & Caribbean": "#b64b63",
+      "Middle East & North Africa": "#7b5aa6"
+    };
+
+    const bandRanges = [
+      { label: "Very low", x0: 390, x1: 449, color: "rgba(123, 90, 166, 0.08)" },
+      { label: "Low", x0: 450, x1: 499, color: "rgba(76, 111, 168, 0.08)" },
+      { label: "Moderate", x0: 500, x1: 550, color: "rgba(47, 125, 104, 0.075)" },
+      { label: "High", x0: 551, x1: 599, color: "rgba(209, 138, 47, 0.08)" },
+      { label: "Very high", x0: 600, x1: 642, color: "rgba(196, 69, 54, 0.08)" }
+    ];
+
+    const highlightedCountries = new Set(["Netherlands", "Singapore", "South Africa", "Yemen"]);
+
+    function parseCsv(text) {
+      const [headerLine, ...lines] = text.trim().split(/\n/);
+      const headers = headerLine.split(",");
+      return lines.map((line) => {
+        const cells = [];
+        let cell = "";
+        let quoted = false;
+        for (let i = 0; i < line.length; i += 1) {
+          const char = line[i];
+          if (char === '"') {
+            quoted = !quoted;
+          } else if (char === "," && !quoted) {
+            cells.push(cell);
+            cell = "";
+          } else {
+            cell += char;
+          }
+        }
+        cells.push(cell);
+        const row = {};
+        headers.forEach((header, index) => {
+          row[header] = cells[index];
+        });
+        row.rank = Number(row.rank);
+        row.score = Number(row.score);
+        return row;
+      });
+    }
+
+    function median(values) {
+      const sorted = [...values].sort((a, b) => a - b);
+      const mid = Math.floor(sorted.length / 2);
+      return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+    }
+
+    function jitter(row, index) {
+      const seed = (row.rank * 37 + index * 17 + row.country.length * 11) % 100;
+      return ((seed / 100) - 0.5) * 0.46;
+    }
+
+    function renderChart() {
+      const rows = parseCsv(csvText);
+      const isMobile = window.innerWidth < 720;
+      const yBase = Object.fromEntries(regionOrder.map((region, index) => [region, regionOrder.length - index]));
+      const rowsWithY = rows.map((row, index) => ({
+        ...row,
+        y: yBase[row.region] + jitter(row, index)
+      }));
+
+      const traces = regionOrder.map((region) => {
+        const regionRows = rowsWithY.filter((row) => row.region === region);
+        return {
+          type: "scatter",
+          mode: "markers",
+          name: region,
+          x: regionRows.map((row) => row.score),
+          y: regionRows.map((row) => row.y),
+          customdata: regionRows.map((row) => [row.country, row.rank, row.proficiency_band, row.region]),
+          marker: {
+            color: regionColors[region],
+            size: isMobile ? 8 : 9,
+            opacity: 0.72,
+            line: { color: "rgba(32, 37, 38, 0.20)", width: 0.7 }
+          },
+          hovertemplate:
+            "<b>%{customdata[0]}</b><br>" +
+            "Score: %{x}<br>" +
+            "Rank: #%{customdata[1]}<br>" +
+            "Region: %{customdata[3]}<br>" +
+            "%{customdata[2]}<extra></extra>"
+        };
+      });
+
+      const highlightRows = rowsWithY.filter((row) => highlightedCountries.has(row.country));
+      const labelPosition = isMobile ? {
+        "Netherlands": "top left",
+        "Singapore": "top left",
+        "South Africa": "top left",
+        "Yemen": "middle right"
+      } : {
+        "Netherlands": "middle left",
+        "Singapore": "bottom right",
+        "South Africa": "top right",
+        "Yemen": "middle left"
+      };
+
+      traces.push({
+        type: "scatter",
+        mode: "markers+text",
+        name: "Highlighted countries",
+        showlegend: false,
+        cliponaxis: false,
+        x: highlightRows.map((row) => row.score),
+        y: highlightRows.map((row) => row.y),
+        text: highlightRows.map((row) => isMobile ? row.country : `${row.country} ${row.score}`),
+        textposition: highlightRows.map((row) => labelPosition[row.country]),
+        textfont: { size: isMobile ? 11 : 12, color: "#202526", family: "Inter, Avenir Next, Segoe UI, sans-serif" },
+        customdata: highlightRows.map((row) => [row.country, row.rank, row.proficiency_band, row.region]),
+        marker: {
+          color: "#202526",
+          size: isMobile ? 11 : 12,
+          opacity: 1,
+          line: { color: "#fffdf8", width: 1.5 }
+        },
+        hovertemplate:
+          "<b>%{customdata[0]}</b><br>" +
+          "Score: %{x}<br>" +
+          "Rank: #%{customdata[1]}<br>" +
+          "Region: %{customdata[3]}<br>" +
+          "%{customdata[2]}<extra></extra>"
+      });
+
+      const medians = regionOrder.map((region) => {
+        const values = rows.filter((row) => row.region === region).map((row) => row.score);
+        return { region, score: median(values), y: yBase[region] };
+      });
+
+      traces.push({
+        type: "scatter",
+        mode: "markers",
+        name: "Regional median",
+        x: medians.map((row) => row.score),
+        y: medians.map((row) => row.y),
+        customdata: medians.map((row) => [row.region, row.score]),
+        marker: {
+          symbol: "line-ns",
+          color: "#202526",
+          size: isMobile ? 16 : 20,
+          line: { color: "#202526", width: 2 }
+        },
+        hovertemplate: "<b>%{customdata[0]} median</b><br>Score: %{customdata[1]}<extra></extra>"
+      });
+
+      const shapes = [
+        ...bandRanges.map((band) => ({
+          type: "rect",
+          xref: "x",
+          yref: "paper",
+          x0: band.x0,
+          x1: band.x1,
+          y0: 0,
+          y1: 1,
+          line: { width: 0 },
+          fillcolor: band.color,
+          layer: "below"
+        })),
+        ...regionOrder.map((region) => ({
+          type: "line",
+          xref: "x",
+          yref: "y",
+          x0: 390,
+          x1: 642,
+          y0: yBase[region],
+          y1: yBase[region],
+          line: { color: "rgba(32, 37, 38, 0.10)", width: 1 },
+          layer: "below"
+        }))
+      ];
+
+      const bandAnnotations = bandRanges.map((band) => ({
+        x: (band.x0 + band.x1) / 2,
+        y: 1.04,
+        xref: "x",
+        yref: "paper",
+        text: band.label,
+        showarrow: false,
+        font: { size: isMobile ? 10 : 11, color: "#687171" },
+        yanchor: "bottom"
+      }));
+
+      const layout = {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        margin: { l: isMobile ? 116 : 178, r: isMobile ? 20 : 62, t: isMobile ? 42 : 46, b: 56 },
+        height: isMobile ? 760 : 680,
+        showlegend: false,
+        font: {
+          family: "Inter, Avenir Next, Segoe UI, sans-serif",
+          color: "#202526"
+        },
+        xaxis: {
+          title: { text: "EF English proficiency index score", standoff: 14, font: { size: 12, color: "#687171" } },
+          range: [388, isMobile ? 662 : 654],
+          dtick: 50,
+          ticks: "outside",
+          tickfont: { size: 12, color: "#687171" },
+          showgrid: true,
+          gridcolor: "rgba(32, 37, 38, 0.10)",
+          zeroline: false,
+          linecolor: "rgba(32, 37, 38, 0.24)"
+        },
+        yaxis: {
+          range: [0.35, 5.65],
+          tickmode: "array",
+          tickvals: regionOrder.map((region) => yBase[region]),
+          ticktext: isMobile
+            ? ["Europe", "Asia", "Africa", "Latin Am.<br>& Caribbean", "MENA"]
+            : regionOrder,
+          tickfont: { size: isMobile ? 11 : 13, color: "#384344" },
+          showgrid: false,
+          zeroline: false,
+          fixedrange: true
+        },
+        shapes,
+        annotations: [
+          ...bandAnnotations,
+          {
+            x: 576,
+            y: yBase["Europe"] + 0.47,
+            xref: "x",
+            yref: "y",
+            text: isMobile ? "Europe median: 576" : "Europe median: 576, well above the global median of 506",
+            showarrow: false,
+            align: "left",
+            font: { size: isMobile ? 10 : 12, color: "#2f7d68" },
+            bgcolor: "rgba(255,253,248,0.82)",
+            borderpad: 3
+          },
+          {
+            x: 506,
+            y: 0.54,
+            xref: "x",
+            yref: "y",
+            text: "Global median: 506",
+            showarrow: false,
+            yanchor: "bottom",
+            font: { size: 11, color: "#687171" }
+          }
+        ],
+        hoverlabel: {
+          bgcolor: "#202526",
+          bordercolor: "#202526",
+          font: { color: "#fffdf8", size: 12 }
+        }
+      };
+
+      shapes.push({
+        type: "line",
+        xref: "x",
+        yref: "paper",
+        x0: 506,
+        x1: 506,
+        y0: 0,
+        y1: 1,
+        line: { color: "rgba(32, 37, 38, 0.34)", width: 1.4, dash: "dot" },
+        layer: "below"
+      });
+
+      Plotly.react("chart", traces, layout, {
+        displayModeBar: false,
+        responsive: true
+      }).then(reportHeight);
+    }
+
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(renderChart, 160);
+    });
+
+    function reportHeight() {
+      const shell = document.getElementById("viz-shell");
+      if (!window.parent || !shell) return;
+      window.parent.postMessage({
+        type: "storytelling-viz-height",
+        height: Math.ceil(shell.getBoundingClientRect().height)
+      }, "*");
+    }
+
+    renderChart();
+
+    if ("ResizeObserver" in window) {
+      new ResizeObserver(reportHeight).observe(document.getElementById("viz-shell"));
+    }
+  </script>
+</body>
+</html>
