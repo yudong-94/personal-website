@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top U.S. Worries by Survey Wave</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --page: #f5f3ee;
+      --panel: #fffaf2;
+      --ink: #23211e;
+      --muted: #68605a;
+      --rule: rgba(35, 33, 30, 0.16);
+      --grid: rgba(35, 33, 30, 0.10);
+      --accent: #bd4b3f;
+      --steady: #366f87;
+      --entrant: #2f7f63;
+      --drop: #8a857e;
+      --source: #746d65;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: #2f6e87;
+      text-underline-offset: 2px;
+      text-decoration-thickness: 1px;
+    }
+
+    .viz-shell {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .panel {
+      background:
+        linear-gradient(135deg, rgba(189, 75, 63, 0.075), rgba(47, 127, 99, 0.045) 50%, rgba(255, 250, 242, 0) 82%),
+        var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 42px rgba(41, 35, 29, 0.10);
+      padding: 24px 26px 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 880px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 910px;
+      margin: 10px 0 0;
+      color: #514a44;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 15px;
+      align-items: center;
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+      border: 1px solid rgba(35, 33, 30, 0.16);
+    }
+
+    #chart {
+      width: 100%;
+      height: 610px;
+      margin-top: 4px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 4px 0 16px;
+    }
+
+    .summary-item {
+      border-top: 3px solid var(--rule);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.36;
+    }
+
+    .summary-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .summary-item.highlight {
+      border-color: var(--accent);
+    }
+
+    .note {
+      border-top: 1px solid var(--rule);
+      padding-top: 12px;
+      color: var(--source);
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    @media (max-width: 740px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .panel {
+        padding: 18px 12px 16px;
+        border-radius: 6px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      .legend-row {
+        gap: 8px 12px;
+      }
+
+      #chart {
+        height: 680px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 9px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="panel" aria-labelledby="chart-title">
+      <p class="eyebrow">Statista Consumer Insights, provided extract</p>
+      <h1 id="chart-title">Top U.S. worries by survey wave</h1>
+      <p class="subtitle">Inflation/cost of living rises from third to first in the provided extract, while housing and other pocketbook concerns enter the latest top list.</p>
+
+      <div class="legend-row" aria-hidden="true">
+        <span class="legend-item"><span class="dot" style="background: var(--accent);"></span>Inflation/cost of living</span>
+        <span class="legend-item"><span class="dot" style="background: var(--steady);"></span>Appears in both waves</span>
+        <span class="legend-item"><span class="dot" style="background: var(--entrant);"></span>New in latest top list</span>
+        <span class="legend-item"><span class="dot" style="background: var(--drop);"></span>Dropped from latest top list</span>
+      </div>
+
+      <div id="chart" role="img" aria-label="Ranked ladder chart comparing the top U.S. worries in 2019/20 and 2025/26 from the provided CSV. Inflation and cost of living moves from third to first."></div>
+
+      <div class="summary" aria-label="Key values">
+        <div class="summary-item highlight">
+          <strong>+9 pts</strong>
+          Inflation/cost of living rises from 39% to 48%, becoming the top issue in the provided extract.
+        </div>
+        <div class="summary-item">
+          <strong>37%</strong>
+          Housing appears in the latest top list, just behind health and social security.
+        </div>
+        <div class="summary-item">
+          <strong>-10 pts</strong>
+          Immigration falls from 40% to 30%, moving from second to the bottom of the latest displayed list.
+        </div>
+      </div>
+
+      <p class="note">Blank cells are treated as outside the displayed top list, not as zero. Ranks are recomputed from the provided percentages, with ties kept in a stable display order. Source: <a href="https://www.statista.com/chart/32304/key-issues-in-the-us-according-to-respondents/" target="_blank" rel="noreferrer">Statista, "What the U.S. Is Most Worried About"</a>; accessible dataset text cross-check via <a href="https://www.voronoiapp.com/public-opinion/What-the-US-Is-Most-Worried-About-7110" target="_blank" rel="noreferrer">Voronoi</a>. Note: the public article crawl describes a 2024/25 wave with different values than the provided CSV's 2025/26 column.</p>
+    </section>
+  </main>
+
+  <script>
+    const rawRows = [
+      { issue: "Health & social security", v2019: 46, v2025: 38 },
+      { issue: "Immigration", v2019: 40, v2025: 30 },
+      { issue: "Inflation/cost of living", v2019: 39, v2025: 48 },
+      { issue: "Climate change", v2019: 36, v2025: null },
+      { issue: "Crime", v2019: 34, v2025: 36 },
+      { issue: "Government debt", v2019: 34, v2025: null },
+      { issue: "Unifying the country", v2019: 34, v2025: null },
+      { issue: "Education", v2019: 32, v2025: null },
+      { issue: "Housing", v2019: null, v2025: 37 },
+      { issue: "Economic situation", v2019: null, v2025: 36 },
+      { issue: "Poverty", v2019: null, v2025: 33 },
+      { issue: "Unemployment", v2019: null, v2025: 32 }
+    ];
+
+    const colors = {
+      accent: "#bd4b3f",
+      steady: "#366f87",
+      entrant: "#2f7f63",
+      drop: "#8a857e",
+      mutedLine: "rgba(138, 133, 126, 0.46)",
+      grid: "rgba(35, 33, 30, 0.10)",
+      ink: "#23211e",
+      muted: "#68605a"
+    };
+
+    function rankedRows(key, preferredOrder) {
+      return rawRows
+        .filter((row) => row[key] !== null)
+        .sort((a, b) => {
+          const valueDiff = b[key] - a[key];
+          if (valueDiff !== 0) return valueDiff;
+          return preferredOrder.indexOf(a.issue) - preferredOrder.indexOf(b.issue);
+        })
+        .map((row, index) => ({ ...row, rank: index + 1 }));
+    }
+
+    const order2019 = rawRows.filter((row) => row.v2019 !== null).map((row) => row.issue);
+    const order2025 = [
+      "Inflation/cost of living",
+      "Health & social security",
+      "Housing",
+      "Crime",
+      "Economic situation",
+      "Poverty",
+      "Unemployment",
+      "Immigration"
+    ];
+    const ranks2019 = new Map(rankedRows("v2019", order2019).map((row) => [row.issue, row.rank]));
+    const ranks2025 = new Map(rankedRows("v2025", order2025).map((row) => [row.issue, row.rank]));
+
+    function status(row) {
+      if (row.issue === "Inflation/cost of living") return "inflation";
+      if (row.v2019 !== null && row.v2025 !== null) return "both";
+      if (row.v2019 === null) return "entered";
+      return "dropped";
+    }
+
+    function issueColor(row) {
+      const state = status(row);
+      if (state === "inflation") return colors.accent;
+      if (state === "both") return colors.steady;
+      if (state === "entered") return colors.entrant;
+      return colors.drop;
+    }
+
+    const lineTraces = rawRows
+      .filter((row) => row.v2019 !== null && row.v2025 !== null)
+      .map((row) => ({
+        type: "scatter",
+        mode: "lines+markers",
+        x: [0, 1],
+        y: [ranks2019.get(row.issue), ranks2025.get(row.issue)],
+        line: { color: issueColor(row), width: row.issue === "Inflation/cost of living" ? 4 : 2.4 },
+        marker: { color: issueColor(row), size: row.issue === "Inflation/cost of living" ? 13 : 10, line: { color: "#fffaf2", width: 1.5 } },
+        hovertemplate: `<b>${row.issue}</b><br>2019/20: ${row.v2019}%<br>2025/26: ${row.v2025}%<br>Change: ${row.v2025 - row.v2019 > 0 ? "+" : ""}${row.v2025 - row.v2019} pts<extra></extra>`,
+        showlegend: false
+      }));
+
+    const droppedTrace = {
+      type: "scatter",
+      mode: "markers",
+      x: rawRows.filter((row) => row.v2025 === null).map(() => 0),
+      y: rawRows.filter((row) => row.v2025 === null).map((row) => ranks2019.get(row.issue)),
+      marker: { color: colors.drop, size: 9, line: { color: "#fffaf2", width: 1.2 } },
+      customdata: rawRows.filter((row) => row.v2025 === null).map((row) => [row.issue, row.v2019]),
+      hovertemplate: "<b>%{customdata[0]}</b><br>2019/20: %{customdata[1]}%<br>Not in latest displayed top list<extra></extra>",
+      showlegend: false
+    };
+
+    const enteredTrace = {
+      type: "scatter",
+      mode: "markers",
+      x: rawRows.filter((row) => row.v2019 === null).map(() => 1),
+      y: rawRows.filter((row) => row.v2019 === null).map((row) => ranks2025.get(row.issue)),
+      marker: { color: colors.entrant, size: 10, line: { color: "#fffaf2", width: 1.2 } },
+      customdata: rawRows.filter((row) => row.v2019 === null).map((row) => [row.issue, row.v2025]),
+      hovertemplate: "<b>%{customdata[0]}</b><br>2025/26: %{customdata[1]}%<br>Not in 2019/20 displayed top list<extra></extra>",
+      showlegend: false
+    };
+
+    function chartAnnotations(isMobile) {
+      const annotations = [];
+      const labelFontSize = isMobile ? 11 : 13;
+      const leftX = isMobile ? -0.10 : -0.08;
+      const rightX = isMobile ? 1.10 : 1.08;
+
+      rankedRows("v2019", order2019).forEach((row) => {
+        annotations.push({
+          x: leftX,
+          y: ranks2019.get(row.issue),
+          xref: "x",
+          yref: "y",
+          text: `<b>${row.issue}</b> <span style="color:${colors.muted}">${row.v2019}%</span>`,
+          showarrow: false,
+          xanchor: "right",
+          align: "right",
+          font: { size: labelFontSize, color: issueColor(row) }
+        });
+      });
+
+      rankedRows("v2025", order2025).forEach((row) => {
+        annotations.push({
+          x: rightX,
+          y: ranks2025.get(row.issue),
+          xref: "x",
+          yref: "y",
+          text: `<b>${row.issue}</b> <span style="color:${colors.muted}">${row.v2025}%</span>`,
+          showarrow: false,
+          xanchor: "left",
+          align: "left",
+          font: { size: labelFontSize, color: issueColor(row) }
+        });
+      });
+
+      annotations.push(
+        {
+          x: 0,
+          y: 0.28,
+          xref: "x",
+          yref: "y",
+          text: "<b>2019/20</b>",
+          showarrow: false,
+          yanchor: "bottom",
+          font: { size: isMobile ? 15 : 17, color: colors.ink }
+        },
+        {
+          x: 1,
+          y: 0.28,
+          xref: "x",
+          yref: "y",
+          text: "<b>2025/26</b>",
+          showarrow: false,
+          yanchor: "bottom",
+          font: { size: isMobile ? 15 : 17, color: colors.ink }
+        }
+      );
+
+      return annotations;
+    }
+
+    function chartShapes() {
+      const rankLines = Array.from({ length: 8 }, (_, index) => {
+        const rank = index + 1;
+        return {
+          type: "line",
+          xref: "x",
+          yref: "y",
+          x0: -0.02,
+          x1: 1.02,
+          y0: rank,
+          y1: rank,
+          line: { color: colors.grid, width: 1 }
+        };
+      });
+
+      return [
+        ...rankLines,
+        {
+          type: "line",
+          xref: "x",
+          yref: "paper",
+          x0: 0,
+          x1: 0,
+          y0: 0,
+          y1: 1,
+          line: { color: "rgba(35, 33, 30, 0.18)", width: 1.4 }
+        },
+        {
+          type: "line",
+          xref: "x",
+          yref: "paper",
+          x0: 1,
+          x1: 1,
+          y0: 0,
+          y1: 1,
+          line: { color: "rgba(35, 33, 30, 0.18)", width: 1.4 }
+        }
+      ];
+    }
+
+    function mobileChart(rows2019, rows2025) {
+      const y2019 = rows2019.map((row) => row.issue).reverse();
+      const x2019 = rows2019.map((row) => row.v2019).reverse();
+      const y2025 = rows2025.map((row) => row.issue).reverse();
+      const x2025 = rows2025.map((row) => row.v2025).reverse();
+
+      return {
+        data: [
+          {
+            type: "bar",
+            orientation: "h",
+            x: x2019,
+            y: y2019,
+            marker: { color: rows2019.map(issueColor).reverse() },
+            text: x2019.map((value) => `${value}%`),
+            textposition: "outside",
+            textfont: { size: 11, color: colors.ink },
+            cliponaxis: false,
+            hovertemplate: "<b>%{y}</b><br>2019/20: %{x}%<extra></extra>",
+            showlegend: false,
+            xaxis: "x",
+            yaxis: "y"
+          },
+          {
+            type: "bar",
+            orientation: "h",
+            x: x2025,
+            y: y2025,
+            marker: { color: rows2025.map(issueColor).reverse() },
+            text: x2025.map((value) => `${value}%`),
+            textposition: "outside",
+            textfont: { size: 11, color: colors.ink },
+            cliponaxis: false,
+            hovertemplate: "<b>%{y}</b><br>2025/26: %{x}%<extra></extra>",
+            showlegend: false,
+            xaxis: "x2",
+            yaxis: "y2"
+          }
+        ],
+        layout: {
+          paper_bgcolor: "rgba(0,0,0,0)",
+          plot_bgcolor: "rgba(0,0,0,0)",
+          margin: { t: 38, r: 34, b: 30, l: 136 },
+          bargap: 0.34,
+          xaxis: {
+            domain: [0, 1],
+            range: [0, 56],
+            fixedrange: true,
+            showgrid: true,
+            gridcolor: colors.grid,
+            zeroline: false,
+            ticksuffix: "%",
+            tickfont: { size: 10, color: colors.muted }
+          },
+          yaxis: {
+            domain: [0.56, 1],
+            fixedrange: true,
+            tickfont: { size: 10.5, color: colors.ink }
+          },
+          xaxis2: {
+            domain: [0, 1],
+            range: [0, 56],
+            anchor: "y2",
+            fixedrange: true,
+            showgrid: true,
+            gridcolor: colors.grid,
+            zeroline: false,
+            ticksuffix: "%",
+            tickfont: { size: 10, color: colors.muted }
+          },
+          yaxis2: {
+            domain: [0, 0.44],
+            anchor: "x2",
+            fixedrange: true,
+            tickfont: { size: 10.5, color: colors.ink }
+          },
+          annotations: [
+            {
+              x: 0,
+              y: 1.06,
+              xref: "paper",
+              yref: "paper",
+              text: "<b>2019/20</b>",
+              showarrow: false,
+              xanchor: "left",
+              font: { size: 14, color: colors.ink }
+            },
+            {
+              x: 0,
+              y: 0.49,
+              xref: "paper",
+              yref: "paper",
+              text: "<b>2025/26</b>",
+              showarrow: false,
+              xanchor: "left",
+              font: { size: 14, color: colors.ink }
+            }
+          ],
+          hoverlabel: {
+            bgcolor: "#23211e",
+            bordercolor: "#23211e",
+            font: { color: "#fffaf2", size: 13 }
+          },
+          showlegend: false
+        }
+      };
+    }
+
+    function render() {
+      const width = document.getElementById("chart").clientWidth;
+      const isMobile = width < 700;
+      const rows2019 = rankedRows("v2019", order2019);
+      const rows2025 = rankedRows("v2025", order2025);
+      const mobile = isMobile ? mobileChart(rows2019, rows2025) : null;
+      const data = mobile ? mobile.data : [...lineTraces, droppedTrace, enteredTrace];
+      const layout = {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        margin: isMobile
+          ? { t: 36, r: 112, b: 22, l: 112 }
+          : { t: 40, r: 250, b: 24, l: 250 },
+        xaxis: {
+          range: [-0.12, 1.12],
+          fixedrange: true,
+          showgrid: false,
+          zeroline: false,
+          showticklabels: false
+        },
+        yaxis: {
+          range: [8.6, 0.15],
+          fixedrange: true,
+          showgrid: false,
+          zeroline: false,
+          showticklabels: false
+        },
+        shapes: chartShapes(),
+        annotations: chartAnnotations(isMobile),
+        hoverlabel: {
+          bgcolor: "#23211e",
+          bordercolor: "#23211e",
+          font: { color: "#fffaf2", size: 13 }
+        },
+        showlegend: false
+      };
+
+      Plotly.react("chart", data, mobile ? mobile.layout : layout, {
+        responsive: true,
+        displayModeBar: false
+      }).then(reportHeight);
+    }
+
+    function reportHeight() {
+      const shell = document.getElementById("viz-shell");
+      const height = Math.ceil(shell.getBoundingClientRect().height);
+      window.parent.postMessage({ type: "storytelling-viz-height", height }, "*");
+    }
+
+    render();
+    const observer = new ResizeObserver(() => {
+      render();
+      reportHeight();
+    });
+    observer.observe(document.getElementById("viz-shell"));
+    window.addEventListener("load", reportHeight);
+  </script>
+</body>
+</html>
