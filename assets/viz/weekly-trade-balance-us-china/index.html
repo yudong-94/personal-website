@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Balance With the US vs. China</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --panel: #fffdf8;
+      --ink: #222623;
+      --muted: #68706b;
+      --rule: rgba(34, 38, 35, 0.13);
+      --grid: rgba(34, 38, 35, 0.11);
+      --us: #1f8a70;
+      --china: #c7553d;
+      --line: rgba(73, 78, 73, 0.28);
+      --source: #666d68;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", "Avenir Next", "Segoe UI", sans-serif;
+    }
+
+    .viz-shell {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .chart-card {
+      background:
+        linear-gradient(135deg, rgba(31, 138, 112, 0.08), rgba(199, 85, 61, 0.055) 56%, rgba(255, 253, 248, 0) 86%),
+        var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 46px rgba(51, 45, 37, 0.11);
+      padding: 22px 22px 18px;
+    }
+
+    .chart-title {
+      max-width: 920px;
+      margin: 0 0 8px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 32px;
+      line-height: 1.12;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .chart-subtitle {
+      max-width: 940px;
+      margin: 0;
+      color: #404843;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-note {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      margin: 15px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.3;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      white-space: nowrap;
+    }
+
+    .swatch {
+      width: 11px;
+      height: 11px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    .rule-swatch {
+      width: 18px;
+      height: 2px;
+      display: inline-block;
+      background: var(--line);
+    }
+
+    #chart {
+      width: 100%;
+      height: 940px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 6px;
+    }
+
+    .summary-card {
+      min-height: 102px;
+      padding: 13px 14px 12px;
+      border-top: 1px solid var(--rule);
+      color: #36403a;
+      font-size: 14px;
+      line-height: 1.42;
+    }
+
+    .summary-label {
+      margin: 0 0 5px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .summary-card p {
+      margin: 0;
+    }
+
+    .source {
+      margin-top: 12px;
+      color: var(--source);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .source a {
+      color: #176f5e;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    @media (max-width: 760px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .chart-card {
+        padding: 16px 10px 14px;
+        border-radius: 6px;
+      }
+
+      .chart-title {
+        font-size: 24px;
+      }
+
+      .chart-subtitle {
+        font-size: 14px;
+      }
+
+      .legend-note {
+        font-size: 12px;
+      }
+
+      #chart {
+        height: 1050px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+
+      .summary-card {
+        min-height: auto;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main id="viz-root" class="viz-shell">
+    <section class="chart-card">
+      <h1 class="chart-title">Trade balance with the US vs. China, as share of GDP</h1>
+      <p class="chart-subtitle">
+        Each row is one of the 40 largest economies. Values above zero are trade surpluses with that partner; values below zero are deficits.
+      </p>
+      <div class="legend-note" aria-hidden="true">
+        <span class="legend-item"><span class="swatch" style="background: var(--us);"></span>With the US</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--china);"></span>With China</span>
+        <span class="legend-item"><span class="rule-swatch"></span>Same country</span>
+      </div>
+      <div id="chart" role="img" aria-label="Connected dot plot comparing each listed economy's trade balance with the United States and China as a share of GDP."></div>
+      <section class="summary" aria-label="Key insights">
+        <article class="summary-card">
+          <p class="summary-label">Common pattern</p>
+          <p><strong>25 of 40</strong> economies pair a surplus with the US with a deficit with China.</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Largest split</p>
+          <p><strong>Vietnam</strong> sits at +22.76% of GDP with the US and -18.09% with China.</p>
+        </article>
+        <article class="summary-card">
+          <p class="summary-label">Exceptions</p>
+          <p><strong>Australia, Singapore, Switzerland, Taiwan, Russia, Ireland, and Brazil</strong> show a surplus with China.</p>
+        </article>
+      </section>
+      <div class="source">
+        Source:
+        <a href="https://www.voronoiapp.com/trade/Trade-Balances-With-the-US-and-China-Among-40-Largest-Economies-8288" target="_blank" rel="noreferrer">Voronoi, Trade Balances With the US and China Among 40 Largest Economies</a>,
+        published May 25, 2026. Values are a source-table snapshot; plotted metric is trade balance as a share of GDP.
+      </div>
+    </section>
+  </main>
+
+  <script type="text/plain" id="csv-data">Country,Nominal GDP (in billions USD),Trade Balance with US (in billions USD),Trade Balance with US as % of GDP,Trade Balance with China (in billions USD),Trade Balance with China as % of GDP
+Argentina,637.2,0.2,0.04%,-5.7,-0.89%
+Australia,1800.0,-18.1,-1.01%,32.0,1.78%
+Austria,534.6,12.4,2.31%,-0.9,-0.18%
+Bangladesh,450.5,6.1,1.35%,-21.7,-4.82%
+Belgium,671.7,2.5,0.37%,-26.6,-3.96%
+Brazil,2190.0,-0.8,-0.03%,30.7,1.40%
+Canada,2270.0,160.8,7.08%,-42.2,-1.86%
+Colombia,420.5,-1.7,-0.40%,-13.6,-3.22%
+Czech Republic,347.1,0.5,0.13%,-35.9,-10.35%
+Denmark,424.5,0.3,0.08%,-5.9,-1.38%
+France,3160.0,-5.8,-0.18%,-50.4,-1.59%
+Germany,4680.0,77.9,1.67%,-72.3,-1.55%
+India,3760.0,35.5,0.94%,-94.3,-2.51%
+Indonesia,1400.0,14.4,1.03%,-10.3,-0.74%
+Ireland,609.0,55.4,9.10%,0.1,0.01%
+Israel,542.3,7.9,1.46%,-10.7,-1.97%
+Italy,2380.0,40.8,1.71%,-38.5,-1.62%
+Japan,4190.0,56.6,1.35%,-42.6,-1.02%
+Malaysia,422.2,15.9,3.76%,-23.8,-5.64%
+Mexico,1830.0,240.7,13.15%,-120.4,-6.58%
+Netherlands,1210.0,-23.8,-1.97%,-31.1,-2.57%
+Norway,500.9,-1.9,-0.38%,-8.0,-1.60%
+Pakistan,372.2,4.0,1.08%,-13.6,-3.66%
+Philippines,461.6,3.3,0.71%,-25.1,-5.43%
+Poland,917.6,0.6,0.06%,-33.6,-3.66%
+Romania,382.7,1.1,0.28%,-7.7,-2.02%
+Russia,2190.0,2.5,0.11%,13.8,0.63%
+Saudi Arabia,1250.0,-6.8,-0.54%,-8.9,-0.71%
+Singapore,572.9,-11.7,-2.05%,14.0,2.44%
+South Africa,401.1,1.3,0.31%,-9.4,-2.33%
+South Korea,1880.0,56.0,2.98%,-6.8,-0.36%
+Spain,1730.0,-10.9,-0.63%,-38.9,-2.25%
+Sweden,604.8,10.0,1.66%,-4.1,-0.67%
+Switzerland,970.2,44.4,4.57%,22.1,2.28%
+Taiwan,801.5,64.8,8.08%,17.6,2.20%
+Thailand,529.4,34.9,6.59%,-46.0,-8.70%
+Turkey,1360.0,0.1,0.01%,-41.5,-3.05%
+United Arab Emirates,552.3,-14.7,-2.66%,-62.2,-11.27%
+United Kingdom,3700.0,-22.1,-0.60%,-51.8,-1.40%
+Vietnam,459.5,104.6,22.76%,-83.1,-18.09%</script>
+
+  <script>
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let value = "";
+      let quoted = false;
+      for (let i = 0; i < text.length; i += 1) {
+        const char = text[i];
+        const next = text[i + 1];
+        if (char === '"' && quoted && next === '"') {
+          value += '"';
+          i += 1;
+        } else if (char === '"') {
+          quoted = !quoted;
+        } else if (char === "," && !quoted) {
+          row.push(value);
+          value = "";
+        } else if ((char === "\n" || char === "\r") && !quoted) {
+          if (char === "\r" && next === "\n") i += 1;
+          row.push(value);
+          if (row.some((cell) => cell !== "")) rows.push(row);
+          row = [];
+          value = "";
+        } else {
+          value += char;
+        }
+      }
+      row.push(value);
+      if (row.some((cell) => cell !== "")) rows.push(row);
+      const headers = rows.shift();
+      return rows.map((cells) => Object.fromEntries(headers.map((header, index) => [header, cells[index]])));
+    }
+
+    function pct(value) {
+      return Number(String(value).replace("%", ""));
+    }
+
+    function fmtPct(value) {
+      return `${value > 0 ? "+" : ""}${value.toFixed(2)}%`;
+    }
+
+    function fmtUsd(value) {
+      const abs = Math.abs(value);
+      return `${value < 0 ? "-" : ""}$${abs.toFixed(abs >= 100 ? 0 : 1)}B`;
+    }
+
+    const raw = document.getElementById("csv-data").textContent.trim();
+    const data = parseCsv(raw).map((row) => {
+      const usPct = pct(row["Trade Balance with US as % of GDP"]);
+      const chinaPct = pct(row["Trade Balance with China as % of GDP"]);
+      return {
+        country: row.Country,
+        gdp: Number(row["Nominal GDP (in billions USD)"]),
+        usBalance: Number(row["Trade Balance with US (in billions USD)"]),
+        chinaBalance: Number(row["Trade Balance with China (in billions USD)"]),
+        usPct,
+        chinaPct,
+        gap: usPct - chinaPct
+      };
+    }).sort((a, b) => b.gap - a.gap);
+
+    const countries = data.map((d) => d.country);
+    const customData = data.map((d) => [
+      fmtUsd(d.usBalance),
+      fmtUsd(d.chinaBalance),
+      `$${d.gdp.toLocaleString(undefined, { maximumFractionDigits: 1 })}B`,
+      fmtPct(d.gap)
+    ]);
+
+    const connectorX = [];
+    const connectorY = [];
+    data.forEach((d) => {
+      connectorX.push(d.chinaPct, d.usPct, null);
+      connectorY.push(d.country, d.country, null);
+    });
+
+    const traces = [
+      {
+        type: "scatter",
+        mode: "lines",
+        x: connectorX,
+        y: connectorY,
+        line: { color: "rgba(73, 78, 73, 0.28)", width: 1.6 },
+        hoverinfo: "skip",
+        showlegend: false
+      },
+      {
+        type: "scatter",
+        mode: "markers",
+        name: "With China",
+        x: data.map((d) => d.chinaPct),
+        y: countries,
+        customdata: customData,
+        marker: {
+          color: "#c7553d",
+          size: 9,
+          line: { color: "#fffdf8", width: 1.2 }
+        },
+        hovertemplate:
+          "<b>%{y}</b><br>" +
+          "China balance: %{x:+.2f}% of GDP<br>" +
+          "China balance: %{customdata[1]}<br>" +
+          "Nominal GDP: %{customdata[2]}<extra></extra>"
+      },
+      {
+        type: "scatter",
+        mode: "markers",
+        name: "With the US",
+        x: data.map((d) => d.usPct),
+        y: countries,
+        customdata: customData,
+        marker: {
+          color: "#1f8a70",
+          size: 9,
+          line: { color: "#fffdf8", width: 1.2 }
+        },
+        hovertemplate:
+          "<b>%{y}</b><br>" +
+          "US balance: %{x:+.2f}% of GDP<br>" +
+          "US balance: %{customdata[0]}<br>" +
+          "US-China spread: %{customdata[3]} pts<extra></extra>"
+      }
+    ];
+
+    const annotations = [
+      {
+        x: 22.76,
+        y: "Vietnam",
+        text: "+22.76%",
+        showarrow: false,
+        xanchor: "left",
+        xshift: 8,
+        font: { color: "#1f8a70", size: 12, family: "Inter, Avenir Next, Segoe UI, sans-serif" }
+      },
+      {
+        x: 13.15,
+        y: "Mexico",
+        text: "+13.15%",
+        showarrow: false,
+        xanchor: "left",
+        xshift: 8,
+        font: { color: "#1f8a70", size: 12, family: "Inter, Avenir Next, Segoe UI, sans-serif" }
+      },
+      {
+        x: -11.27,
+        y: "United Arab Emirates",
+        text: "-11.27%",
+        showarrow: false,
+        xanchor: "right",
+        xshift: -8,
+        font: { color: "#c7553d", size: 12, family: "Inter, Avenir Next, Segoe UI, sans-serif" }
+      }
+    ];
+
+    function makeLayout() {
+      const isNarrow = window.matchMedia("(max-width: 760px)").matches;
+      return {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        margin: {
+          l: isNarrow ? 112 : 170,
+          r: isNarrow ? 18 : 56,
+          t: 24,
+          b: 52
+        },
+        xaxis: {
+          range: [-20.5, 26],
+          tickmode: "array",
+          tickvals: [-20, -10, 0, 10, 20],
+          ticktext: ["-20%", "-10%", "0", "+10%", "+20%"],
+          zeroline: true,
+          zerolinecolor: "rgba(34, 38, 35, 0.42)",
+          zerolinewidth: 1.5,
+          gridcolor: "rgba(34, 38, 35, 0.11)",
+          linecolor: "rgba(34, 38, 35, 0.24)",
+          tickfont: { color: "#68706b", size: isNarrow ? 11 : 12 },
+          title: {
+            text: "Trade balance as share of GDP",
+            standoff: 12,
+            font: { color: "#4d554f", size: isNarrow ? 12 : 13 }
+          }
+        },
+        yaxis: {
+          categoryorder: "array",
+          categoryarray: countries.slice().reverse(),
+          tickfont: { color: "#303832", size: isNarrow ? 10.5 : 12 },
+          automargin: false,
+          showgrid: false,
+          ticks: ""
+        },
+        legend: {
+          orientation: "h",
+          x: 0,
+          y: 1.035,
+          xanchor: "left",
+          yanchor: "bottom",
+          bgcolor: "rgba(0,0,0,0)",
+          font: { size: 12, color: "#4d554f" },
+          itemclick: false,
+          itemdoubleclick: false
+        },
+        annotations: isNarrow ? [] : annotations,
+        hoverlabel: {
+          bgcolor: "#222623",
+          bordercolor: "#222623",
+          font: { color: "#ffffff", size: 12 }
+        },
+        showlegend: false
+      };
+    }
+
+    const config = {
+      responsive: true,
+      displayModeBar: false
+    };
+
+    function render() {
+      Plotly.react("chart", traces, makeLayout(), config).then(reportHeight);
+    }
+
+    let heightFrame = 0;
+    function reportHeight() {
+      if (!window.parent || window.parent === window) return;
+      window.requestAnimationFrame(() => {
+        const root = document.getElementById("viz-root");
+        const rect = root.getBoundingClientRect();
+        const next = Math.ceil(rect.height + 2);
+        if (Math.abs(next - heightFrame) < 2) return;
+        heightFrame = next;
+        window.parent.postMessage({ type: "storytelling-viz-height", height: next }, "*");
+      });
+    }
+
+    render();
+    window.addEventListener("resize", render);
+    if ("ResizeObserver" in window) {
+      new ResizeObserver(reportHeight).observe(document.getElementById("viz-root"));
+    }
+  </script>
+</body>
+</html>
