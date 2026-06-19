@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gender Representation in AI-Generated Job Videos</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --page: #f1eee8;
+      --panel: #fffdf8;
+      --ink: #24242a;
+      --muted: #67666d;
+      --rule: rgba(36, 36, 42, 0.15);
+      --male: #275d78;
+      --female: #b64b62;
+      --neutral: #eee9df;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 88% 6%, rgba(182, 75, 98, 0.10), transparent 27%),
+        radial-gradient(circle at 8% 92%, rgba(39, 93, 120, 0.10), transparent 28%),
+        var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: var(--male);
+      text-underline-offset: 2px;
+    }
+
+    .viz-shell {
+      width: min(1100px, 100%);
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .panel {
+      background: rgba(255, 253, 248, 0.97);
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      box-shadow: 0 20px 50px rgba(38, 35, 32, 0.10);
+      padding: 25px 28px 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(29px, 4.5vw, 45px);
+      line-height: 1.04;
+    }
+
+    .subtitle {
+      max-width: 910px;
+      margin: 11px 0 0;
+      color: #56545b;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .scale {
+      display: grid;
+      grid-template-columns: auto minmax(160px, 330px) auto;
+      gap: 9px;
+      align-items: center;
+      width: min(500px, 100%);
+      margin: 17px 0 1px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 680;
+    }
+
+    .scale-gradient {
+      height: 9px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--male), #82a7b6 36%, var(--neutral) 50%, #d99aa5 68%, var(--female));
+      border: 1px solid rgba(36, 36, 42, 0.14);
+    }
+
+    #chart {
+      width: 100%;
+      height: 720px;
+      margin-top: 3px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 13px;
+      margin: 5px 0 17px;
+    }
+
+    .summary-item {
+      border-top: 3px solid var(--rule);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.38;
+    }
+
+    .summary-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 17px;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .summary-item.male { border-color: var(--male); }
+    .summary-item.female { border-color: var(--female); }
+
+    .note {
+      border-top: 1px solid var(--rule);
+      padding-top: 12px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.48;
+    }
+
+    @media (max-width: 720px) {
+      .viz-shell { padding: 10px 7px; }
+      .panel {
+        padding: 18px 10px 15px;
+        border-radius: 7px;
+      }
+      h1 { font-size: 27px; }
+      .subtitle { font-size: 14px; }
+      .scale { grid-template-columns: auto minmax(100px, 1fr) auto; }
+      #chart { height: 700px; }
+      .summary { grid-template-columns: 1fr; gap: 9px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="panel" aria-labelledby="chart-title">
+      <p class="eyebrow">Four leading video generators · data through October 2025</p>
+      <h1 id="chart-title">Who does AI picture doing each job?</h1>
+      <p class="subtitle">CEOs, engineers, politicians, and other high-status roles skew male across every model. Female-skewed service roles are prominent too—but models disagree sharply on teachers and dishwashers.</p>
+
+      <div class="scale" aria-hidden="true">
+        <span>More men</span>
+        <span class="scale-gradient"></span>
+        <span>More women</span>
+      </div>
+
+      <div id="chart" role="img" aria-label="Heatmap showing the percentage of AI-generated people perceived as women for 15 professions across Veo 3, Sora 2, Kling, and Hailuo Minimax. CEO and engineer depictions are strongly male across all models, while housekeeper and cashier depictions skew female."></div>
+
+      <div class="summary" aria-label="Key findings">
+        <div class="summary-item male">
+          <strong>9 of 15 jobs</strong>
+          Skew male in every model, including CEO, engineer, politician, doctor, lawyer, and architect.
+        </div>
+        <div class="summary-item female">
+          <strong>About 78% women</strong>
+          Cashiers and housekeepers have the highest unweighted average women’s share across the four tools.
+        </div>
+        <div class="summary-item">
+          <strong>63-point spread</strong>
+          Teacher depictions range from 15.8% women in Hailuo Minimax to 79.0% in Veo 3.
+        </div>
+      </div>
+
+      <p class="note">Values show researchers’ perceived gender presentation among discernible people generated from prompts requesting up to 25 people in each profession. Percentages are descriptive outputs, not population estimates; sample counts vary because models did not always render 25 discernible people. Gender was coded in binary terms. Source: <a href="https://www.kapwing.com/resources/ai-diversity-report-race-and-gender-bias-in-ai-generated-videos/" target="_blank" rel="noreferrer">Kapwing AI Diversity Report</a>, republished by <a href="https://www.visualcapitalist.com/cp/male-doctors-female-cashiers-ais-job-bias/" target="_blank" rel="noreferrer">Visual Capitalist</a>. Local snapshot: <a href="source-data.csv">source-data.csv</a>.</p>
+    </section>
+  </main>
+
+  <script>
+    const tools = ["VEO3", "Sora 2", "Kling", "Hailuo Minimax"];
+    const professions = [
+      "CEO", "Engineer", "Politician", "Judge", "Lawyer",
+      "Janitor", "Architect", "Entrepreneur", "Doctor", "Teacher",
+      "Dishwasher", "Fast food worker", "Social worker", "Housekeeper", "Cashier"
+    ];
+
+    const values = {
+      "Doctor": {"VEO3": 26.92, "Sora 2": 45.45, "Kling": 30.00, "Hailuo Minimax": 38.46},
+      "Politician": {"VEO3": 28.57, "Sora 2": 40.74, "Kling": 0.00, "Hailuo Minimax": 0.00},
+      "Judge": {"VEO3": 35.29, "Sora 2": 30.77, "Kling": 0.00, "Hailuo Minimax": 22.73},
+      "Architect": {"VEO3": 35.71, "Sora 2": 40.63, "Kling": 30.77, "Hailuo Minimax": 14.29},
+      "Lawyer": {"VEO3": 21.74, "Sora 2": 33.33, "Kling": 40.00, "Hailuo Minimax": 0.00},
+      "CEO": {"VEO3": 21.74, "Sora 2": 10.00, "Kling": 10.00, "Hailuo Minimax": 0.00},
+      "Engineer": {"VEO3": 25.00, "Sora 2": 12.50, "Kling": 25.00, "Hailuo Minimax": 0.00},
+      "Entrepreneur": {"VEO3": 25.00, "Sora 2": 35.29, "Kling": 30.77, "Hailuo Minimax": 47.37},
+      "Janitor": {"VEO3": 29.41, "Sora 2": 38.24, "Kling": 7.14, "Hailuo Minimax": 30.77},
+      "Dishwasher": {"VEO3": 75.00, "Sora 2": 80.00, "Kling": 24.00, "Hailuo Minimax": 33.33},
+      "Cashier": {"VEO3": 100.00, "Sora 2": 50.00, "Kling": 100.00, "Hailuo Minimax": 63.64},
+      "Fast food worker": {"VEO3": 57.89, "Sora 2": 52.63, "Kling": 46.15, "Hailuo Minimax": 64.29},
+      "Teacher": {"VEO3": 78.95, "Sora 2": 58.82, "Kling": 54.55, "Hailuo Minimax": 15.79},
+      "Housekeeper": {"VEO3": 57.14, "Sora 2": 100.00, "Kling": 55.00, "Hailuo Minimax": 100.00},
+      "Social worker": {"VEO3": 47.37, "Sora 2": 64.00, "Kling": 50.00, "Hailuo Minimax": 64.71}
+    };
+
+    function textColor(value) {
+      return value <= 28 || value >= 75 ? "#ffffff" : "#24242a";
+    }
+
+    function renderChart() {
+      const narrow = window.innerWidth <= 620;
+      const z = professions.map((profession) => tools.map((tool) => values[profession][tool]));
+      const text = z.map((row) => row.map((value) => `${Math.round(value)}%`));
+      const annotations = [];
+
+      professions.forEach((profession, rowIndex) => {
+        tools.forEach((tool, columnIndex) => {
+          const value = z[rowIndex][columnIndex];
+          annotations.push({
+            x: tool,
+            y: profession,
+            text: text[rowIndex][columnIndex],
+            showarrow: false,
+            font: {
+              family: "Inter, ui-sans-serif, system-ui, sans-serif",
+              size: narrow ? 11 : 13,
+              color: textColor(value)
+            }
+          });
+        });
+      });
+
+      const trace = {
+        type: "heatmap",
+        x: tools,
+        y: professions,
+        z,
+        zmin: 0,
+        zmax: 100,
+        zmid: 50,
+        colorscale: [
+          [0.00, "#275d78"],
+          [0.28, "#7fa5b5"],
+          [0.49, "#e9e5dc"],
+          [0.50, "#f4f0e8"],
+          [0.51, "#eee3e3"],
+          [0.72, "#d18a98"],
+          [1.00, "#b64b62"]
+        ],
+        showscale: false,
+        xgap: narrow ? 3 : 5,
+        ygap: narrow ? 3 : 4,
+        customdata: z.map((row) => row.map((value) => 100 - value)),
+        hovertemplate: "<b>%{y}</b><br>%{x}<br>%{z:.2f}% women<br>%{customdata:.2f}% men<extra></extra>"
+      };
+
+      const layout = {
+        height: narrow ? 700 : 720,
+        margin: {
+          l: narrow ? 104 : 142,
+          r: narrow ? 4 : 12,
+          t: narrow ? 70 : 66,
+          b: 14
+        },
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        font: {
+          family: "Inter, ui-sans-serif, system-ui, sans-serif",
+          color: "#24242a"
+        },
+        xaxis: {
+          side: "top",
+          fixedrange: true,
+          tickvals: tools,
+          ticktext: narrow
+            ? ["Veo 3", "Sora 2", "Kling", "Hailuo"]
+            : ["Veo 3", "Sora 2", "Kling", "Hailuo Minimax"],
+          tickfont: {size: narrow ? 10 : 13, color: "#3f3e44"},
+          tickangle: narrow ? -20 : 0,
+          showgrid: false,
+          zeroline: false,
+          ticks: ""
+        },
+        yaxis: {
+          autorange: "reversed",
+          fixedrange: true,
+          tickfont: {size: narrow ? 11 : 13, color: "#3f3e44"},
+          showgrid: false,
+          zeroline: false,
+          ticks: ""
+        },
+        annotations,
+        hoverlabel: {
+          bgcolor: "#24242a",
+          bordercolor: "#24242a",
+          font: {color: "#ffffff", size: 13}
+        }
+      };
+
+      Plotly.react("chart", [trace], layout, {
+        responsive: true,
+        displayModeBar: false,
+        scrollZoom: false
+      }).then(reportHeight);
+    }
+
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(renderChart, 120);
+    });
+
+    function reportHeight() {
+      const shell = document.getElementById("viz-shell");
+      window.parent.postMessage({
+        type: "storytelling-viz-height",
+        height: Math.ceil(shell.getBoundingClientRect().height)
+      }, "*");
+    }
+
+    renderChart();
+
+    if ("ResizeObserver" in window) {
+      new ResizeObserver(reportHeight).observe(document.getElementById("viz-shell"));
+    }
+  </script>
+</body>
+</html>
