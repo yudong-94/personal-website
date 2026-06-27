@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coffee Production in Brazil, Vietnam, and Colombia</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --page: #f6f8f4;
+      --panel: #ffffff;
+      --ink: #202831;
+      --muted: #64707a;
+      --rule: rgba(32, 40, 49, 0.15);
+      --grid: rgba(32, 40, 49, 0.10);
+      --brazil: #168f7a;
+      --vietnam: #c84c4c;
+      --colombia: #6978b8;
+      --source: #6d7780;
+      --soft: #eef3ee;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: #236b88;
+      text-underline-offset: 2px;
+      text-decoration-thickness: 1px;
+    }
+
+    .viz-shell {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      padding: 22px 18px 18px;
+    }
+
+    .panel {
+      background:
+        linear-gradient(135deg, rgba(22, 143, 122, 0.08), rgba(200, 76, 76, 0.05) 48%, rgba(105, 120, 184, 0.04) 78%),
+        var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 44px rgba(45, 54, 62, 0.10);
+      padding: 24px 26px 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--vietnam);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 940px;
+      margin: 10px 0 0;
+      color: #4d5862;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 16px;
+      align-items: center;
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+      border: 1px solid rgba(32, 40, 49, 0.18);
+    }
+
+    #chart {
+      width: 100%;
+      height: 610px;
+      margin-top: 2px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 2px 0 16px;
+    }
+
+    .summary-item {
+      border-top: 3px solid var(--rule);
+      background: rgba(255, 255, 255, 0.56);
+      padding: 10px 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.36;
+    }
+
+    .summary-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .summary-item.vietnam {
+      border-color: var(--vietnam);
+    }
+
+    .summary-item.brazil {
+      border-color: var(--brazil);
+    }
+
+    .summary-item.colombia {
+      border-color: var(--colombia);
+    }
+
+    .note {
+      border-top: 1px solid var(--rule);
+      padding-top: 12px;
+      color: var(--source);
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    .fallback {
+      position: absolute;
+      left: -10000px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    @media (max-width: 740px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .panel {
+        padding: 18px 12px 16px;
+        border-radius: 6px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      .legend-row {
+        gap: 8px 12px;
+      }
+
+      #chart {
+        height: 650px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 9px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="panel" aria-labelledby="chart-title">
+      <p class="eyebrow">Green coffee production</p>
+      <h1 id="chart-title">Brazil still leads, but Vietnam changed the race.</h1>
+      <p class="subtitle">Among the three countries selected in the Our World in Data view, Vietnam rose from 4,100 tonnes in 1961 to 2.0 million tonnes in 2024, passing Colombia in 1999 and becoming the clear second producer.</p>
+
+      <div class="legend-row" aria-hidden="true">
+        <span class="legend-item"><span class="dot" style="background: var(--brazil);"></span>Brazil</span>
+        <span class="legend-item"><span class="dot" style="background: var(--vietnam);"></span>Vietnam</span>
+        <span class="legend-item"><span class="dot" style="background: var(--colombia);"></span>Colombia</span>
+      </div>
+
+      <div id="chart" role="img" aria-label="Line chart of green coffee production in Brazil, Vietnam, and Colombia from 1961 to 2024. Brazil remains highest in 2024, Vietnam overtakes Colombia in 1999, and Colombia ends third among the selected countries."></div>
+
+      <p class="fallback">In 2024, Brazil produced 3.4 million tonnes of green coffee, Vietnam produced 2.0 million tonnes, and Colombia produced 0.8 million tonnes. Vietnam first exceeded Colombia in 1999.</p>
+
+      <div class="summary" aria-label="Key values">
+        <div class="summary-item vietnam">
+          <strong>492x</strong>
+          Vietnam's green coffee production grew from 4,100 tonnes in 1961 to 2.0 million tonnes in 2024.
+        </div>
+        <div class="summary-item brazil">
+          <strong>3.4M tonnes</strong>
+          Brazil remained the largest producer in the selected trio in 2024.
+        </div>
+        <div class="summary-item colombia">
+          <strong>1999</strong>
+          Vietnam first moved ahead of Colombia, 553,200 tonnes to 546,720 tonnes.
+        </div>
+      </div>
+
+      <p class="note">Metric is annual production of green coffee beans, in tonnes. Source: <a href="https://ourworldindata.org/grapher/coffee-bean-production?country=VNM~COL~BRA" target="_blank" rel="noreferrer">Our World in Data, Coffee bean production</a>, based on Food and Agriculture Organization of the United Nations (2025), with major processing by OWID. Local snapshot: <a href="source-data.csv">source-data.csv</a>.</p>
+    </section>
+  </main>
+
+  <script>
+    const countries = ["Brazil", "Vietnam", "Colombia"];
+    const colors = {
+      Brazil: "#168f7a",
+      Vietnam: "#c84c4c",
+      Colombia: "#6978b8"
+    };
+    const embeddedSeries = {"Brazil":[[1961,2228704.0],[1962,2190303.0],[1963,1650527.0],[1964,1042013.0],[1965,2294047.0],[1966,1202868.0],[1967,1507500.0],[1968,1057700.0],[1969,1283500.0],[1970,754800.0],[1971,1551462.0],[1972,1495705.0],[1973,872897.0],[1974,1615309.0],[1975,1272298.0],[1976,375985.0],[1977,975385.0],[1978,1267661.0],[1979,1332772.0],[1980,1061195.0],[1981,2032210.0],[1982,957931.0],[1983,1671588.0],[1984,1420281.0],[1985,1910646.0],[1986,1041406.0],[1987,2202708.0],[1988,1348014.0],[1989,1532335.0],[1990,1464856.0],[1991,1520382.0],[1992,1294373.0],[1993,1278759.0],[1994,1307289.0],[1995,930135.0],[1996,1369196.0],[1997,1228513.0],[1998,1689366.0],[1999,1631852.0],[2000,1903562.0],[2001,1819569.0],[2002,2610524.0],[2003,1987074.0],[2004,2465710.0],[2005,2140169.0],[2006,2573368.0],[2007,2249011.0],[2008,2796927.0],[2009,2440056.0],[2010,2907265.0],[2011,2700540.0],[2012,3037534.0],[2013,2964538.0],[2014,2804070.0],[2015,2647504.0],[2016,3024466.0],[2017,2684508.0],[2018,3552729.0],[2019,3011745.0],[2020,3705719.0],[2021,2985581.0],[2022,3179341.0],[2023,3348510.0],[2024,3387724.0]],"Vietnam":[[1961,4100.0],[1962,4020.0],[1963,4500.0],[1964,5500.0],[1965,7500.0],[1966,6300.0],[1967,7000.0],[1968,6000.0],[1969,6500.0],[1970,7300.0],[1971,6500.0],[1972,7000.0],[1973,6600.0],[1974,6000.0],[1975,6800.0],[1976,9700.0],[1977,5600.0],[1978,5400.0],[1979,5100.0],[1980,8400.0],[1981,5300.0],[1982,5300.0],[1983,5700.0],[1984,4800.0],[1985,12300.0],[1986,25000.0],[1987,27500.0],[1988,42000.0],[1989,40900.0],[1990,92000.0],[1991,100000.0],[1992,119200.0],[1993,136100.0],[1994,180000.0],[1995,218000.0],[1996,320100.0],[1997,420500.0],[1998,409300.0],[1999,553200.0],[2000,802500.0],[2001,840600.0],[2002,699500.0],[2003,793700.0],[2004,913800.0],[2005,831000.0],[2006,985300.0],[2007,1251000.0],[2008,1055811.0],[2009,1057539.6],[2010,1105700.0],[2011,1276506.0],[2012,1260463.0],[2013,1326688.0],[2014,1406469.0],[2015,1452999.2],[2016,1460800.0],[2017,1542397.9],[2018,1616307.2],[2019,1686765.1],[2020,1763476.0],[2021,1845033.0],[2022,1953990.1],[2023,1956782.5],[2024,2015289.0]],"Colombia":[[1961,450000.0],[1962,482100.0],[1963,450000.0],[1964,468000.0],[1965,492000.0],[1966,492000.0],[1967,456000.0],[1968,480000.0],[1969,474000.0],[1970,507000.0],[1971,468000.0],[1972,432000.0],[1973,528000.0],[1974,470000.0],[1975,513200.0],[1976,483000.0],[1977,639420.0],[1978,683220.0],[1979,713340.0],[1980,724380.0],[1981,782200.0],[1982,773600.0],[1983,768600.0],[1984,807800.0],[1985,643100.0],[1986,713500.0],[1987,651600.0],[1988,708700.0],[1989,664000.0],[1990,845000.0],[1991,970740.0],[1992,1100000.0],[1993,818220.0],[1994,721860.0],[1995,821820.0],[1996,671401.0],[1997,642239.0],[1998,766980.0],[1999,546720.0],[2000,637140.0],[2001,656160.0],[2002,696840.0],[2003,694080.0],[2004,674400.0],[2005,667140.0],[2006,724740.0],[2007,757080.0],[2008,688680.0],[2009,468720.0],[2010,535380.0],[2011,468540.0],[2012,462000.0],[2013,653160.0],[2014,728400.0],[2015,827750.0],[2016,818243.0],[2017,851640.0],[2018,813420.0],[2019,885120.0],[2020,833400.0],[2021,560340.0],[2022,665015.94],[2023,680857.7],[2024,839846.7]]};
+
+    function fmtTonnes(value) {
+      if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M tonnes`;
+      return `${Math.round(value / 1000)}k tonnes`;
+    }
+
+    function fmtShortTonnes(value) {
+      if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M t`;
+      return `${Math.round(value / 1000)}k t`;
+    }
+
+    function buildChart() {
+      if (!window.Plotly) {
+        throw new Error("Plotly.js was not available");
+      }
+
+      const series = countries.map((country) => embeddedSeries[country]
+        .map(([year, value]) => ({
+          country,
+          year,
+          value
+        }))
+        .sort((a, b) => a.year - b.year));
+
+      const isMobile = window.matchMedia("(max-width: 740px)").matches;
+      const lineTraces = series.map((items) => {
+        const country = items[0].country;
+        return {
+          type: "scatter",
+          mode: "lines",
+          name: country,
+          x: items.map((item) => item.year),
+          y: items.map((item) => item.value),
+          line: {
+            color: colors[country],
+            width: country === "Vietnam" ? 4 : 3,
+            shape: "spline",
+            smoothing: 0.45
+          },
+          hovertemplate: `<b>${country}</b><br>%{x}: %{customdata}<extra></extra>`,
+          customdata: items.map((item) => fmtTonnes(item.value))
+        };
+      });
+
+      const endpointTraces = series.map((items) => {
+        const last = items[items.length - 1];
+        return {
+          type: "scatter",
+          mode: "markers",
+          showlegend: false,
+          x: [last.year],
+          y: [last.value],
+          marker: {
+            size: 8,
+            color: colors[last.country],
+            line: { color: "#ffffff", width: 1.5 }
+          },
+          hovertemplate: `<b>${last.country}</b><br>${last.year}: ${fmtTonnes(last.value)}<extra></extra>`
+        };
+      });
+
+      const endpointAnnotations = series.map((items) => {
+        const last = items[items.length - 1];
+        return {
+          x: isMobile ? 2025.2 : 2024.8,
+          y: last.value,
+          xref: "x",
+          yref: "y",
+          text: `${last.country}<br>${isMobile ? fmtShortTonnes(last.value) : fmtTonnes(last.value)}`,
+          showarrow: false,
+          xanchor: "left",
+          yanchor: "middle",
+          align: "left",
+          font: {
+            size: isMobile ? 11 : 12,
+            color: colors[last.country],
+            family: "Inter, ui-sans-serif, system-ui, sans-serif"
+          }
+        };
+      });
+
+      const crossoverAnnotation = isMobile ? [] : [
+        {
+          x: 1999,
+          y: 553200,
+          xref: "x",
+          yref: "y",
+          text: "Vietnam passes Colombia",
+          showarrow: true,
+          arrowhead: 2,
+          ax: -86,
+          ay: -54,
+          font: { size: 12, color: "#394550" },
+          arrowcolor: "rgba(57, 69, 80, 0.55)",
+          bgcolor: "rgba(255, 255, 255, 0.82)",
+          bordercolor: "rgba(32, 40, 49, 0.15)",
+          borderpad: 5
+        }
+      ];
+
+      const layout = {
+        autosize: true,
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        margin: {
+          l: isMobile ? 48 : 72,
+          r: isMobile ? 38 : 76,
+          t: 24,
+          b: isMobile ? 56 : 62
+        },
+        showlegend: false,
+        hovermode: "x unified",
+        xaxis: {
+          range: isMobile ? [1961, 2029] : [1961, 2027],
+          tickmode: "array",
+          tickvals: isMobile ? [1961, 1980, 2000, 2024] : [1961, 1970, 1980, 1990, 2000, 2010, 2020, 2024],
+          tickfont: { size: isMobile ? 11 : 12, color: "#64707a" },
+          showgrid: false,
+          zeroline: false,
+          linecolor: "rgba(32, 40, 49, 0.18)",
+          fixedrange: true
+        },
+        yaxis: {
+          range: [0, 4300000],
+          tickmode: "array",
+          tickvals: [0, 1000000, 2000000, 3000000, 4000000],
+          ticktext: ["0", "1M", "2M", "3M", "4M"],
+          ticksuffix: " t",
+          tickfont: { size: isMobile ? 11 : 12, color: "#64707a" },
+          gridcolor: "rgba(32, 40, 49, 0.10)",
+          zeroline: false,
+          fixedrange: true
+        },
+        annotations: [...endpointAnnotations, ...crossoverAnnotation],
+        font: {
+          family: "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+          color: "#202831"
+        },
+        hoverlabel: {
+          bgcolor: "#ffffff",
+          bordercolor: "rgba(32, 40, 49, 0.14)",
+          font: { color: "#202831", size: 12 }
+        }
+      };
+
+      const config = {
+        displayModeBar: false,
+        responsive: true
+      };
+
+      Plotly.react("chart", [...lineTraces, ...endpointTraces], layout, config);
+    }
+
+    function init() {
+      buildChart();
+      window.addEventListener("resize", buildChart);
+      reportHeight();
+    }
+
+    function reportHeight() {
+      const shell = document.getElementById("viz-shell");
+      const send = () => {
+        const height = Math.ceil(shell.getBoundingClientRect().height + 8);
+        window.parent.postMessage({ type: "storytelling-viz-height", height }, "*");
+      };
+      if ("ResizeObserver" in window) {
+        new ResizeObserver(send).observe(shell);
+      }
+      requestAnimationFrame(send);
+      setTimeout(send, 350);
+    }
+
+    try {
+      init();
+    } catch (error) {
+      document.getElementById("chart").innerHTML = `<p style="color:#64707a;font-size:14px;line-height:1.45;margin:24px 0;">The interactive chart library could not be loaded. The key takeaway is still available below: Vietnam rose from 4,100 tonnes in 1961 to 2.0 million tonnes in 2024, passing Colombia in 1999.</p>`;
+      reportHeight();
+      console.error(error);
+    }
+  </script>
+</body>
+</html>
