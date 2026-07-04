@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payback Years for a Degree Abroad</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --page: #eef2f3;
+      --panel: #fffdf8;
+      --ink: #202528;
+      --muted: #5f696c;
+      --rule: rgba(32, 37, 40, 0.14);
+      --grid: rgba(32, 37, 40, 0.10);
+      --slow: #b5533f;
+      --fast: #2f7b63;
+      --steady: #7a8588;
+      --link: #245e75;
+      --source: #697276;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: var(--link);
+      text-underline-offset: 2px;
+      text-decoration-thickness: 1px;
+    }
+
+    .viz-shell {
+      width: min(1140px, 100%);
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .panel {
+      background:
+        linear-gradient(135deg, rgba(181, 83, 63, 0.07), rgba(47, 123, 99, 0.05) 50%, rgba(255, 253, 248, 0) 80%),
+        var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 42px rgba(31, 41, 45, 0.10);
+      padding: 24px 26px 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 920px;
+      margin: 10px 0 0;
+      color: #4f585b;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 16px;
+      align-items: center;
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      display: inline-block;
+      border: 1px solid rgba(32, 37, 40, 0.18);
+    }
+
+    #chart {
+      width: 100%;
+      height: 700px;
+      margin-top: 4px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 4px 0 16px;
+    }
+
+    .summary-item {
+      border-top: 3px solid var(--rule);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.36;
+    }
+
+    .summary-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .summary-item.slow {
+      border-color: var(--slow);
+    }
+
+    .summary-item.fast {
+      border-color: var(--fast);
+    }
+
+    .note {
+      border-top: 1px solid var(--rule);
+      padding-top: 12px;
+      color: var(--source);
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    @media (max-width: 740px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .panel {
+        padding: 18px 12px 16px;
+        border-radius: 6px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      .legend-row {
+        gap: 8px 12px;
+      }
+
+      .legend-item {
+        white-space: normal;
+      }
+
+      #chart {
+        height: 780px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 9px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="panel" aria-labelledby="chart-title">
+      <p class="eyebrow">Degree abroad cost recovery</p>
+      <h1 id="chart-title">Payback years by country</h1>
+      <p class="subtitle">The ranking compares a four-year international degree cost with estimated local graduate earnings. The slowest-payback destinations are mostly Anglosphere systems with high international tuition.</p>
+
+      <div class="legend-row" aria-hidden="true">
+        <span class="legend-item"><span class="dot" style="background: var(--slow);"></span>Anglosphere slow-payback group</span>
+        <span class="legend-item"><span class="dot" style="background: var(--fast);"></span>Fastest two</span>
+        <span class="legend-item"><span class="dot" style="background: var(--steady);"></span>Other destinations</span>
+      </div>
+
+      <div id="chart" role="img" aria-label="Horizontal bar chart ranking 20 study destinations by the years needed to pay back a four-year degree abroad. The United Kingdom is highest at 6.8 years, followed by Canada at 6.7, while Germany and Austria are lowest at 2.4 and 2.3 years."></div>
+
+      <div class="summary" aria-label="Key values">
+        <div class="summary-item slow">
+          <strong>6 of top 6</strong>
+          The slowest-payback destinations are the U.K., Canada, New Zealand, Ireland, the U.S., and Australia.
+        </div>
+        <div class="summary-item">
+          <strong>4.5 years</strong>
+          The gap between the slowest and fastest listed destinations runs from the U.K.'s 6.8 years to Austria's 2.3.
+        </div>
+        <div class="summary-item fast">
+          <strong>&lt;2.5 years</strong>
+          Germany and Austria sit at the fast-payback end because low tuition keeps the four-year cost down.
+        </div>
+      </div>
+
+      <p class="note">Methodology: four-year cost equals annual international tuition plus annual living cost, multiplied by four; payback years divide that cost by estimated graduate salary. Source: <a href="https://www.voronoiapp.com/education/Ranked-The-Real-Cost-of-a-Degree-Abroad-8492" target="_blank" rel="noreferrer">Voronoi, "Ranked: The Real Cost of a Degree Abroad"</a>. Local data snapshot: <a href="source-data.csv">source-data.csv</a>. Caveat: the CSV combines national tuition, living-cost, wage, price-level, and international-student sources; Austria's detailed source fields are blank in the provided file.</p>
+    </section>
+  </main>
+
+  <script>
+    const rows = [
+      { rank: 1, country: "United Kingdom", iso: "GB", payback: 6.8, tuition: 25000, living: 18194, total: 172776, salary: 25476, students: 732285 },
+      { rank: 2, country: "Canada", iso: "CA", payback: 6.7, tuition: 29500, living: 17004, total: 186016, salary: 27767, students: 789790 },
+      { rank: 3, country: "New Zealand", iso: "NZ", payback: 6.3, tuition: 22000, living: 17429, total: 157716, salary: 24975, students: 48800 },
+      { rank: 4, country: "Ireland", iso: "IE", payback: 6.0, tuition: 17000, living: 19385, total: 145540, salary: 24172, students: 35000 },
+      { rank: 5, country: "United States", iso: "US", payback: 5.8, tuition: 28000, living: 20306, total: 193224, salary: 33173, students: 1177766 },
+      { rank: 6, country: "Australia", iso: "AU", payback: 5.7, tuition: 22000, living: 18138, total: 160552, salary: 28294, students: 565601 },
+      { rank: 7, country: "Finland", iso: "FI", payback: 4.9, tuition: 12000, living: 17330, total: 117320, salary: 23839, students: 24000 },
+      { rank: 8, country: "Sweden", iso: "SE", payback: 4.7, tuition: 12000, living: 16494, total: 113976, salary: 24166, students: 41700 },
+      { rank: 9, country: "Denmark", iso: "DK", payback: 4.4, tuition: 12500, living: 19937, total: 129748, salary: 29609, students: 33000 },
+      { rank: 10, country: "Korea", iso: "KR", payback: 3.9, tuition: 7000, living: 13036, total: 80144, salary: 20379, students: 253400 },
+      { rank: 11, country: "Japan", iso: "JP", payback: 3.9, tuition: 6000, living: 13334, total: 77336, salary: 19778, students: 336708 },
+      { rank: 12, country: "Netherlands", iso: "NL", payback: 3.8, tuition: 12500, living: 16310, total: 115240, salary: 30148, students: 131000 },
+      { rank: 13, country: "Italy", iso: "IT", payback: 3.2, tuition: 2800, living: 13745, total: 66180, salary: 20408, students: 110000 },
+      { rank: 14, country: "Switzerland", iso: "CH", payback: 3.1, tuition: 2500, living: 24514, total: 108056, salary: 34987, students: 76000 },
+      { rank: 15, country: "France", iso: "FR", payback: 3.1, tuition: 3000, living: 15757, total: 75028, salary: 24243, students: 443000 },
+      { rank: 16, country: "Poland", iso: "PL", payback: 3.0, tuition: 2800, living: 10245, total: 52180, salary: 17684, students: 105400 },
+      { rank: 17, country: "Spain", iso: "ES", payback: 2.9, tuition: 3000, living: 12937, total: 63748, salary: 21826, students: 149280 },
+      { rank: 18, country: "Belgium", iso: "BE", payback: 2.8, tuition: 5000, living: 16536, total: 86144, salary: 30444, students: 51000 },
+      { rank: 19, country: "Germany", iso: "DE", payback: 2.4, tuition: 1000, living: 15417, total: 65668, salary: 27773, students: 420000 },
+      { rank: 20, country: "Austria", iso: "AT", payback: 2.3, tuition: 1600, living: 15828, total: 69712, salary: 30307, students: 100400 }
+    ];
+
+    const colors = {
+      slow: "#b5533f",
+      fast: "#2f7b63",
+      steady: "#7a8588",
+      grid: "rgba(32, 37, 40, 0.10)",
+      ink: "#202528",
+      muted: "#5f696c"
+    };
+
+    const slowGroup = new Set(["United Kingdom", "Canada", "New Zealand", "Ireland", "United States", "Australia"]);
+    const fastGroup = new Set(["Germany", "Austria"]);
+
+    function formatMoney(value) {
+      return `$${Math.round(value).toLocaleString("en-US")}`;
+    }
+
+    function compactStudents(value) {
+      if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M`;
+      return `${Math.round(value / 1000).toLocaleString("en-US")}k`;
+    }
+
+    function rowColor(row) {
+      if (slowGroup.has(row.country)) return colors.slow;
+      if (fastGroup.has(row.country)) return colors.fast;
+      return colors.steady;
+    }
+
+    function buildChart() {
+      const mobile = window.matchMedia("(max-width: 740px)").matches;
+      const labelCountries = mobile
+        ? new Set(["United Kingdom", "Canada", "New Zealand", "Ireland", "United States", "Australia", "Germany", "Austria"])
+        : new Set(rows.map((row) => row.country));
+
+      const trace = {
+        type: "bar",
+        orientation: "h",
+        x: rows.map((row) => row.payback),
+        y: rows.map((row) => row.country),
+        marker: {
+          color: rows.map(rowColor),
+          line: { color: "rgba(32, 37, 40, 0.14)", width: 1 }
+        },
+        text: rows.map((row) => labelCountries.has(row.country) ? `${row.payback.toFixed(1)} yrs` : ""),
+        textposition: "outside",
+        textfont: {
+          color: colors.ink,
+          size: mobile ? 11 : 12,
+          family: "Inter, Arial, sans-serif"
+        },
+        customdata: rows.map((row) => [
+          row.rank,
+          formatMoney(row.total),
+          formatMoney(row.salary),
+          formatMoney(row.tuition),
+          formatMoney(row.living),
+          compactStudents(row.students)
+        ]),
+        hovertemplate:
+          "<b>%{y}</b><br>" +
+          "Rank by payback: #%{customdata[0]}<br>" +
+          "Payback: %{x:.1f} years<br>" +
+          "Four-year cost: %{customdata[1]}<br>" +
+          "Estimated graduate salary: %{customdata[2]}<br>" +
+          "Annual tuition: %{customdata[3]}<br>" +
+          "Annual living cost: %{customdata[4]}<br>" +
+          "Inbound international students: %{customdata[5]}<extra></extra>",
+        cliponaxis: false
+      };
+
+      const layout = {
+        autosize: true,
+        margin: mobile
+          ? { l: 112, r: 44, t: 22, b: 42 }
+          : { l: 150, r: 78, t: 28, b: 48 },
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        bargap: 0.28,
+        showlegend: false,
+        xaxis: {
+          title: {
+            text: mobile ? "Payback years" : "Years of estimated graduate salary needed to recover cost",
+            font: { size: mobile ? 11 : 12, color: colors.muted }
+          },
+          range: [0, mobile ? 7.7 : 7.45],
+          tickvals: [0, 2, 4, 6],
+          ticksuffix: " yrs",
+          tickfont: { size: mobile ? 11 : 12, color: colors.muted },
+          gridcolor: colors.grid,
+          zeroline: false,
+          fixedrange: true
+        },
+        yaxis: {
+          autorange: "reversed",
+          tickfont: { size: mobile ? 11 : 13, color: colors.ink },
+          automargin: true,
+          fixedrange: true
+        },
+        shapes: [],
+        annotations: [],
+        hoverlabel: {
+          bgcolor: "#fffdf8",
+          bordercolor: "rgba(32, 37, 40, 0.18)",
+          font: { color: colors.ink, size: 12 }
+        }
+      };
+
+      Plotly.react("chart", [trace], layout, {
+        responsive: true,
+        displayModeBar: false
+      }).then(reportHeight);
+    }
+
+    function reportHeight() {
+      const root = document.getElementById("viz-shell");
+      if (!root || !window.parent) return;
+      requestAnimationFrame(() => {
+        const height = Math.ceil(root.getBoundingClientRect().height);
+        window.parent.postMessage({ type: "storytelling-viz-height", height }, "*");
+      });
+    }
+
+    window.addEventListener("resize", () => {
+      window.clearTimeout(window.__resizeTimer);
+      window.__resizeTimer = window.setTimeout(buildChart, 120);
+    });
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(buildChart);
+    } else {
+      buildChart();
+    }
+
+    const observer = new ResizeObserver(reportHeight);
+    observer.observe(document.getElementById("viz-shell"));
+  </script>
+</body>
+</html>
