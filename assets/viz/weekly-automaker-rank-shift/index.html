@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global Automaker Rank Shifts, 2020-2025</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --page: #f6f7f4;
+      --panel: #ffffff;
+      --ink: #1f2528;
+      --muted: #606b72;
+      --rule: rgba(31, 37, 40, 0.14);
+      --grid: rgba(31, 37, 40, 0.12);
+      --toyota: #167463;
+      --vw: #3f5666;
+      --byd: #c5463f;
+      --geely: #b46b18;
+      --changan: #4f6fb6;
+      --other: rgba(92, 101, 107, 0.34);
+      --source: #697279;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a {
+      color: #286f85;
+      text-underline-offset: 2px;
+      text-decoration-thickness: 1px;
+    }
+
+    .viz-shell {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .panel {
+      background:
+        linear-gradient(135deg, rgba(22, 116, 99, 0.08), rgba(197, 70, 63, 0.052) 44%, rgba(79, 111, 182, 0.048) 74%, rgba(255, 255, 255, 0) 100%),
+        var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 42px rgba(31, 37, 40, 0.10);
+      padding: 24px 26px 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 860px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 900px;
+      margin: 10px 0 0;
+      color: #485259;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 15px;
+      align-items: center;
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .line-key {
+      width: 19px;
+      height: 3px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    #chart {
+      width: 100%;
+      height: 720px;
+      margin-top: 6px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 6px 0 16px;
+    }
+
+    .summary-item {
+      border-top: 3px solid var(--rule);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.36;
+    }
+
+    .summary-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .summary-item.highlight {
+      border-color: var(--byd);
+    }
+
+    .note {
+      border-top: 1px solid var(--rule);
+      padding-top: 12px;
+      color: var(--source);
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    @media (max-width: 760px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .panel {
+        padding: 18px 12px 16px;
+        border-radius: 6px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      .legend-row {
+        gap: 8px 12px;
+      }
+
+      #chart {
+        height: 790px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 9px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="panel" aria-labelledby="chart-title">
+      <p class="eyebrow">F&amp;I Tools annual top-15 reports</p>
+      <h1 id="chart-title">Global automaker rank shifts, 2020-2025</h1>
+      <p class="subtitle">Source-provided world ranks are connected across annual top-15 lists. Labels show the 2025 endpoint and vehicle sales volume.</p>
+
+      <div class="legend-row" aria-hidden="true">
+        <span class="legend-item"><span class="line-key" style="background: var(--toyota);"></span>Toyota</span>
+        <span class="legend-item"><span class="line-key" style="background: var(--vw);"></span>VW</span>
+        <span class="legend-item"><span class="line-key" style="background: var(--byd);"></span>BYD</span>
+        <span class="legend-item"><span class="line-key" style="background: var(--geely);"></span>Geely</span>
+        <span class="legend-item"><span class="line-key" style="background: var(--changan);"></span>Changan</span>
+        <span class="legend-item"><span class="line-key" style="background: var(--other);"></span>Other top-15 automakers</span>
+      </div>
+
+      <div id="chart" role="img" aria-label="Bump chart showing source-provided global automaker ranks from 2020 through 2025. Toyota remains first, VW remains second, BYD enters the top fifteen and reaches seventh, and Geely rises to eleventh."></div>
+
+      <div class="summary" aria-label="Key insights">
+        <div class="summary-item">
+          <strong>Toyota stayed #1</strong>
+          Toyota led every year shown and was the only listed automaker above 10 million vehicles in 2025.
+        </div>
+        <div class="summary-item highlight">
+          <strong>BYD reached #7</strong>
+          BYD appears in the top-15 table by 2024 and nearly matches Ford's 2025 volume.
+        </div>
+        <div class="summary-item">
+          <strong>Geely more than doubled</strong>
+          Among automakers present in both 2020 and 2025, Geely posts the largest percentage gain.
+        </div>
+      </div>
+
+      <p class="note">Ranks are source-provided within each annual top-15 report, not recomputed from a broader universe. Lines appear only for years when an automaker is in the listed top 15. Source: <a href="https://www.factorywarrantylist.com/car-sales-by-manufacturer.html" target="_blank" rel="noreferrer">F&amp;I Tools, Worldwide Car Sales by Manufacturer</a>; local snapshot: <a href="source-data.csv">source-data.csv</a>.</p>
+    </section>
+  </main>
+
+  <script type="text/plain" id="csv-data">automaker,year,sold_autos,world_rank
+Toyota,2025,11322575,1
+VW,2025,8983978,2
+Hyundai Kia,2025,7272453,3
+GM,2025,6183928,4
+Stellantis,2025,5600000,5
+Ford,2025,4650000,6
+BYD,2025,4602436,7
+Honda,2025,3521905,8
+Suzuki,2025,3295013,9
+Nissan,2025,3202137,10
+Geely,2025,3024567,11
+Changan,2025,2913177,12
+BMW,2025,2463715,13
+Renault,2025,2336807,14
+Mercedes,2025,2160354,15
+Toyota,2024,11011375,1
+VW,2024,9037425,2
+Hyundai Kia,2024,7231248,3
+GM,2024,6001247,4
+Stellantis,2024,5525875,5
+Ford,2024,4470165,6
+BYD,2024,4272145,7
+Honda,2024,3716295,8
+Nissan,2024,3346248,9
+Suzuki,2024,3240385,10
+Changan,2024,2683798,11
+BMW,2024,2450854,12
+Mercedes,2024,2389365,13
+Renault,2024,2264815,14
+Geely,2024,2176567,15
+Toyota,2023,10307395,1
+VW,2023,9239575,2
+Hyundai Kia,2023,7302451,3
+Stellantis,2023,6392600,4
+GM,2023,6188476,5
+Ford,2023,4413545,6
+Honda,2023,4188039,7
+Nissan,2023,3374271,8
+BMW,2023,2555341,9
+Changan,2023,2553052,10
+Mercedes,2023,2493177,11
+Renault,2023,2235345,12
+Maruti Suzuki,2023,2066219,13
+Tesla,2023,1808581,14
+Geely,2023,1686516,15
+Toyota,2022,9566961,1
+VW,2022,8263104,2
+Hyundai Kia,2022,6848198,3
+Stellantis,2022,6002900,4
+GM,2022,5941737,5
+Ford,2022,4235737,6
+Honda,2022,4074372,7
+Nissan,2022,3225478,8
+BMW,2022,2399636,9
+Changan,2022,2347163,10
+Renault,2022,2051174,11
+Mercedes,2022,2043900,12
+Maruti Suzuki,2022,1940067,13
+Geely,2022,1432988,14
+Tesla,2022,1369611,15
+Toyota,2021,9562483,1
+VW,2021,8882346,2
+Hyundai Kia,2021,6668037,3
+GM,2021,6294385,4
+Stellantis,2021,6142200,5
+Honda,2021,4456728,6
+Nissan,2021,4064999,7
+Ford,2021,3942755,8
+Renault,2021,2689454,9
+BMW,2021,2521596,10
+Changan,2021,2314547,11
+Mercedes,2021,2093476,12
+Maruti Suzuki,2021,1652653,13
+Geely,2021,1328029,14
+Mazda,2021,1074987,15
+Toyota,2020,9528753,1
+VW,2020,9305427,2
+GM,2020,6833592,3
+Hyundai Kia,2020,6353514,4
+Honda,2020,4790438,5
+Ford,2020,4231549,6
+Nissan,2020,4029174,7
+Fiat Chrysler,2020,3693597,8
+Renault,2020,2949871,9
+PSA,2020,2512399,10
+Maruti Suzuki,2020,1457861,11
+BMW,2020,2324778,12
+Mercedes,2020,2164275,13
+Geely,2020,1320471,14
+Mazda,2020,1243039,15</script>
+
+  <script>
+    const chartEl = document.getElementById("chart");
+    const rootEl = document.getElementById("viz-shell");
+
+    const colors = {
+      "Toyota": "#167463",
+      "VW": "#3f5666",
+      "BYD": "#c5463f",
+      "Geely": "#b46b18",
+      "Changan": "#4f6fb6"
+    };
+
+    const csvText = document.getElementById("csv-data").textContent.trim();
+    const [headerLine, ...dataLines] = csvText.split(/\r?\n/);
+    const headers = headerLine.split(",");
+    const rows = dataLines.map((line) => {
+      const values = line.split(",");
+      const row = Object.fromEntries(headers.map((header, index) => [header, values[index]]));
+      return {
+        automaker: row.automaker,
+        year: Number(row.year),
+        sold_autos: Number(row.sold_autos),
+        world_rank: Number(row.world_rank)
+      };
+    });
+
+    const years = [...new Set(rows.map((row) => row.year))].sort((a, b) => a - b);
+    const automakers = [...new Set(rows.map((row) => row.automaker))].sort((a, b) => {
+      const latestA = rows.filter((row) => row.automaker === a).sort((x, y) => y.year - x.year)[0];
+      const latestB = rows.filter((row) => row.automaker === b).sort((x, y) => y.year - x.year)[0];
+      return latestA.world_rank - latestB.world_rank;
+    });
+
+    function formatSales(value) {
+      if (value >= 10000000) return `${(value / 1000000).toFixed(1)}M`;
+      if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M`;
+      return value.toLocaleString("en-US");
+    }
+
+    function makeTrace(automaker) {
+      const points = rows
+        .filter((row) => row.automaker === automaker)
+        .sort((a, b) => a.year - b.year);
+      const isHighlight = Object.hasOwn(colors, automaker);
+      return {
+        type: "scatter",
+        mode: "lines+markers",
+        name: automaker,
+        x: points.map((point) => point.year),
+        y: points.map((point) => point.world_rank),
+        customdata: points.map((point) => [point.sold_autos.toLocaleString("en-US")]),
+        line: {
+          color: isHighlight ? colors[automaker] : "rgba(92, 101, 107, 0.34)",
+          width: isHighlight ? 4.2 : 2.1,
+          shape: "spline",
+          smoothing: 0.55
+        },
+        marker: {
+          color: isHighlight ? colors[automaker] : "rgba(92, 101, 107, 0.42)",
+          size: isHighlight ? 8 : 5.5,
+          line: {
+            color: "#ffffff",
+            width: isHighlight ? 1.4 : 0.8
+          }
+        },
+        opacity: isHighlight ? 1 : 0.72,
+        hovertemplate: `<b>${automaker}</b><br>%{x}: rank #%{y}<br>%{customdata[0]} vehicles<extra></extra>`
+      };
+    }
+
+    function makeLayout() {
+      const isSmall = window.innerWidth < 720;
+      const latest = rows
+        .filter((row) => row.year === 2025)
+        .sort((a, b) => a.world_rank - b.world_rank);
+
+      const labelAnnotations = latest.map((row) => ({
+        x: isSmall ? 2025.10 : 2025.18,
+        y: row.world_rank,
+        xref: "x",
+        yref: "y",
+        text: isSmall ? `<b>${row.automaker}</b>` : `<b>${row.automaker}</b> ${formatSales(row.sold_autos)}`,
+        showarrow: false,
+        xanchor: "left",
+        yanchor: "middle",
+        align: "left",
+        font: {
+          family: "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+          size: isSmall ? 10.5 : 12,
+          color: colors[row.automaker] || "#4c565d"
+        }
+      }));
+
+      return {
+        autosize: true,
+        margin: {
+          l: isSmall ? 42 : 54,
+          r: isSmall ? 78 : 168,
+          t: 26,
+          b: 48
+        },
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        showlegend: false,
+        xaxis: {
+          range: isSmall ? [2019.84, 2025.78] : [2019.78, 2026.10],
+          tickmode: "array",
+          tickvals: years,
+          tickfont: { size: isSmall ? 11 : 12, color: "#5f6970" },
+          showgrid: true,
+          gridcolor: "rgba(31, 37, 40, 0.10)",
+          zeroline: false,
+          fixedrange: true
+        },
+        yaxis: {
+          title: {
+            text: "World rank",
+            standoff: 10,
+            font: { size: 12, color: "#5f6970" }
+          },
+          range: [15.6, 0.45],
+          tickmode: "array",
+          tickvals: Array.from({ length: 15 }, (_, index) => index + 1),
+          ticktext: Array.from({ length: 15 }, (_, index) => `#${index + 1}`),
+          tickfont: { size: isSmall ? 10 : 11, color: "#5f6970" },
+          showgrid: true,
+          gridcolor: "rgba(31, 37, 40, 0.12)",
+          zeroline: false,
+          fixedrange: true
+        },
+        annotations: [
+          {
+            x: 2025,
+            y: 0.82,
+            xref: "x",
+            yref: "y",
+            text: "<b>2025</b>",
+            showarrow: false,
+            xanchor: "center",
+            yanchor: "bottom",
+            font: { size: 12, color: "#485259" }
+          },
+          ...labelAnnotations
+        ],
+        hoverlabel: {
+          bgcolor: "#ffffff",
+          bordercolor: "rgba(31, 37, 40, 0.16)",
+          font: { color: "#1f2528", size: 12 }
+        }
+      };
+    }
+
+    const config = {
+      displayModeBar: false,
+      responsive: true
+    };
+
+    function render() {
+      const traces = automakers.map(makeTrace);
+      Plotly.react(chartEl, traces, makeLayout(), config).then(reportHeight);
+    }
+
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(render, 160);
+    });
+
+    function reportHeight() {
+      requestAnimationFrame(() => {
+        const rect = rootEl.getBoundingClientRect();
+        window.parent.postMessage({
+          type: "storytelling-viz-height",
+          height: Math.ceil(rect.height + 8)
+        }, "*");
+      });
+    }
+
+    if (window.ResizeObserver) {
+      const observer = new ResizeObserver(reportHeight);
+      observer.observe(rootEl);
+    }
+
+    render();
+  </script>
+</body>
+</html>
