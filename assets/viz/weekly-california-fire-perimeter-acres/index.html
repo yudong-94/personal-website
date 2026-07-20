@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>California Fire Perimeter Acres by Decade</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --page: #f5f6f2;
+      --panel: #ffffff;
+      --ink: #242522;
+      --muted: #666d67;
+      --rule: rgba(36, 37, 34, 0.16);
+      --grid: rgba(36, 37, 34, 0.11);
+      --accent: #c94c35;
+      --accent-dark: #9e392c;
+      --bar: #53615d;
+      --bar-soft: #697570;
+      --link: #2f6f65;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .viz-shell {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      padding: 24px 18px 18px;
+    }
+
+    .panel {
+      background:
+        linear-gradient(135deg, rgba(201, 76, 53, 0.08), rgba(47, 111, 101, 0.045) 48%, rgba(255, 255, 255, 0) 82%),
+        var(--panel);
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      box-shadow: 0 18px 42px rgba(40, 37, 31, 0.10);
+      padding: 24px 26px 20px;
+    }
+
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 850px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 920px;
+      margin: 10px 0 0;
+      color: #4f5652;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .legend-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 15px;
+      align-items: center;
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .swatch {
+      width: 18px;
+      height: 10px;
+      border-radius: 2px;
+      display: inline-block;
+      border: 1px solid rgba(36, 37, 34, 0.12);
+    }
+
+    #chart {
+      width: 100%;
+      height: 620px;
+      margin-top: 4px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 4px 0 16px;
+    }
+
+    .summary-item {
+      border-top: 3px solid var(--rule);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.36;
+    }
+
+    .summary-item strong {
+      display: block;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.2;
+      margin-bottom: 3px;
+    }
+
+    .summary-item.highlight {
+      border-color: var(--accent);
+    }
+
+    .note {
+      border-top: 1px solid var(--rule);
+      padding-top: 12px;
+      color: #706d66;
+      font-size: 12px;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    @media (max-width: 740px) {
+      .viz-shell {
+        padding: 12px 8px 10px;
+      }
+
+      .panel {
+        padding: 18px 12px 16px;
+        border-radius: 6px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      .legend-row {
+        gap: 8px 12px;
+      }
+
+      #chart {
+        height: 720px;
+      }
+
+      .summary {
+        grid-template-columns: 1fr;
+        gap: 9px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="viz-shell" id="viz-shell">
+    <section class="panel" aria-labelledby="chart-title">
+      <p class="eyebrow">CAL FIRE FRAP historical fire perimeters</p>
+      <h1 id="chart-title">California mapped fire perimeter acres by decade</h1>
+      <p class="subtitle">
+        California records are grouped by start year and ranked by GIS-calculated perimeter acres. The 2020s bar covers 2020-2025 only, yet it already stands above every full prior decade since 1950.
+      </p>
+
+      <div class="legend-row" aria-hidden="true">
+        <span class="legend-item"><span class="swatch" style="background: var(--accent);"></span>Partial 2020s</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--bar);"></span>Recent full decades</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--bar-soft);"></span>Earlier full decades</span>
+      </div>
+
+      <div id="chart" role="img" aria-label="Ranked horizontal bar chart of California mapped fire perimeter acres by decade since 1950. The 2020 to 2025 period ranks first at 8.81 million acres, ahead of the 2010s and 2000s."></div>
+
+      <div class="summary" aria-label="Key values">
+        <div class="summary-item highlight">
+          <strong>8.81M acres</strong>
+          Mapped for 2020-2025, the highest decade-group total even though it is a partial decade.
+        </div>
+        <div class="summary-item">
+          <strong>6.77M acres</strong>
+          Mapped in the full 2010s, the next-highest decade in the ranked view.
+        </div>
+        <div class="summary-item">
+          <strong>18,047 records</strong>
+          California fire perimeters from 1950-2025 are included; rows without a usable year are excluded.
+        </div>
+      </div>
+
+      <p class="note">
+        Source:
+        <a href="https://lab.data.ca.gov/dataset/california-fire-perimeters-all" target="_blank" rel="noreferrer">CA Open Data, California Fire Perimeters (all)</a>,
+        CAL FIRE Fire and Resource Assessment Program, accessed July 19, 2026. Chart filters to California records from 1950 onward. Values are GIS-calculated perimeter acres, not damage or burn severity. CAL FIRE notes that historical fire perimeter records are incomplete and should be used carefully for statistical reporting.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    const decadeData = [
+      { decade: "2020-2025", startYear: 2020, fires: 2554, acres: 8810596.50, millionAcres: 8.810596, className: "partial" },
+      { decade: "2010s", startYear: 2010, fires: 3426, acres: 6765004.77, millionAcres: 6.765005, className: "recent" },
+      { decade: "2000s", startYear: 2000, fires: 2898, acres: 6016974.44, millionAcres: 6.016974, className: "recent" },
+      { decade: "1990s", startYear: 1990, fires: 1991, acres: 3345041.74, millionAcres: 3.345042, className: "modern" },
+      { decade: "1980s", startYear: 1980, fires: 2206, acres: 3078896.99, millionAcres: 3.078897, className: "modern" },
+      { decade: "1950s", startYear: 1950, fires: 1818, acres: 2844935.24, millionAcres: 2.844935, className: "modern" },
+      { decade: "1970s", startYear: 1970, fires: 1879, acres: 2606294.37, millionAcres: 2.606294, className: "modern" },
+      { decade: "1960s", startYear: 1960, fires: 1275, acres: 2074738.69, millionAcres: 2.074739, className: "modern" }
+    ];
+
+    const colors = {
+      partial: "#c94c35",
+      recent: "#53615d",
+      modern: "#67746f",
+      historical: "#78847f"
+    };
+
+    const chart = document.getElementById("chart");
+    const compactQuery = window.matchMedia("(max-width: 740px)");
+    const formatAcres = (value) => `${value.toLocaleString(undefined, { maximumFractionDigits: 0 })} acres`;
+    const formatMillions = (value) => `${value.toFixed(2)}M`;
+
+    function draw() {
+      const compact = compactQuery.matches;
+      const labels = decadeData.map((d) => d.decade);
+      const values = decadeData.map((d) => d.millionAcres);
+      const valueLabels = decadeData.map((d) => d.decade === "2020-2025" ? `${formatMillions(d.millionAcres)}*` : formatMillions(d.millionAcres));
+      const customdata = decadeData.map((d) => [d.fires, d.acres, d.startYear]);
+
+      const trace = {
+        type: "bar",
+        orientation: "h",
+        y: labels,
+        x: values,
+        customdata,
+        marker: {
+          color: decadeData.map((d) => colors[d.className]),
+          line: { color: "rgba(36, 37, 34, 0.18)", width: 1 }
+        },
+        text: valueLabels,
+        textposition: "outside",
+        textfont: {
+          color: "#30342f",
+          size: compact ? 11 : 13,
+          family: "Inter, Avenir Next, Segoe UI, sans-serif"
+        },
+        cliponaxis: false,
+        hovertemplate:
+          "<b>%{y}</b><br>" +
+          "%{customdata[1]:,.0f} mapped acres<br>" +
+          "%{customdata[0]:,} fire records<br>" +
+          "<extra></extra>"
+      };
+
+      const layout = {
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        showlegend: false,
+        margin: {
+          l: compact ? 68 : 86,
+          r: compact ? 52 : 86,
+          t: 24,
+          b: compact ? 58 : 50
+        },
+        xaxis: {
+          title: {
+            text: "Million GIS-calculated perimeter acres",
+            standoff: 14,
+            font: { size: compact ? 11 : 12, color: "#666d67" }
+          },
+          range: [0, compact ? 10.45 : 10.1],
+          tickformat: ".0f",
+          ticksuffix: "M",
+          zeroline: false,
+          gridcolor: "rgba(36, 37, 34, 0.11)",
+          linecolor: "rgba(36, 37, 34, 0.18)",
+          tickfont: { size: compact ? 11 : 12, color: "#666d67" },
+          fixedrange: true
+        },
+        yaxis: {
+          autorange: "reversed",
+          ticks: "",
+          tickfont: {
+            size: compact ? 11 : 13,
+            color: "#30342f",
+            family: "Inter, Avenir Next, Segoe UI, sans-serif"
+          },
+          fixedrange: true
+        },
+        bargap: compact ? 0.28 : 0.32,
+        annotations: compact ? [] : [
+          {
+            x: 8.81,
+            y: "2020-2025",
+            text: "Partial decade",
+            xanchor: "right",
+            yanchor: "middle",
+            showarrow: false,
+            xshift: -12,
+            font: { size: 12, color: "#ffffff", family: "Inter, Avenir Next, Segoe UI, sans-serif" }
+          }
+        ]
+      };
+
+      Plotly.react(chart, [trace], layout, {
+        displayModeBar: false,
+        responsive: true
+      }).then(reportHeight);
+    }
+
+    function reportHeight() {
+      const shell = document.getElementById("viz-shell");
+      const height = Math.ceil(shell.getBoundingClientRect().height);
+      window.parent.postMessage({ type: "storytelling-viz-height", height }, "*");
+    }
+
+    compactQuery.addEventListener("change", draw);
+    window.addEventListener("load", draw);
+
+    if ("ResizeObserver" in window) {
+      new ResizeObserver(reportHeight).observe(document.getElementById("viz-shell"));
+    }
+  </script>
+</body>
+</html>
