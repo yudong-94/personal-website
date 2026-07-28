@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tourist arrivals per resident</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root {
+      --ink: #17323a;
+      --muted: #60747a;
+      --paper: #fffdf8;
+      --sand: #f2eadb;
+      --coral: #e85d3f;
+      --teal: #168b8c;
+      --line: #d7dedb;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: transparent; color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .panel {
+      width: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 30px 34px 22px;
+      background: var(--paper);
+      border: 1px solid #e9e3d8;
+      border-radius: 22px;
+      box-shadow: 0 14px 42px rgba(23, 50, 58, .08);
+    }
+    .eyebrow {
+      margin: 0 0 7px;
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(27px, 4vw, 43px); line-height: 1.04; letter-spacing: -.025em; }
+    .subtitle { max-width: 790px; margin: 11px 0 20px; color: var(--muted); font-size: 15px; line-height: 1.5; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 22px;
+      border-radius: 16px;
+      background: linear-gradient(110deg, #f9e5d8 0%, #f5ecdf 68%, #e3f0ec 100%);
+    }
+    .hero-label { font-weight: 750; font-size: 15px; }
+    .hero-value { margin-top: 2px; color: var(--coral); font-family: Georgia, "Times New Roman", serif; font-size: clamp(45px, 8vw, 72px); line-height: .95; }
+    .hero-value span { color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 15px; font-weight: 650; }
+    .hero-note { max-width: 250px; color: var(--ink); font-size: 14px; line-height: 1.45; }
+    .hero-note strong { color: var(--coral); font-size: 23px; }
+    .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin: 23px 3px 4px; }
+    .section-head h2 { margin: 0; font-size: 16px; }
+    .section-head span { color: var(--muted); font-size: 12px; }
+    #chart { width: 100%; height: 870px; }
+    .note { margin: 8px 2px 0; padding-top: 13px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; line-height: 1.5; }
+    .note a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+    .fallback { margin: 8px 2px 0; color: var(--ink); font-size: 12px; line-height: 1.45; }
+    @media (max-width: 640px) {
+      .panel { padding: 24px 15px 18px; border-radius: 0; border-left: 0; border-right: 0; }
+      .hero { grid-template-columns: 1fr; gap: 10px; padding: 17px; }
+      .hero-note { max-width: none; }
+      .section-head { align-items: flex-start; flex-direction: column; gap: 3px; }
+      #chart { height: 920px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="panel" id="viz-panel">
+    <p class="eyebrow">International tourism intensity</p>
+    <h1>Tourist arrivals per resident</h1>
+    <p class="subtitle">Small nations dominate this ranking—but even among them, Andorra sits far outside the pack.</p>
+
+    <section class="hero" aria-label="Andorra comparison">
+      <div>
+        <div class="hero-label">🇦🇩 Andorra · rank 1</div>
+        <div class="hero-value">50.86 <span>arrivals per resident</span></div>
+      </div>
+      <div class="hero-note"><strong>5.6×</strong><br>second-place Monaco’s ratio</div>
+    </section>
+
+    <div class="section-head">
+      <h2>The rest of the top 25</h2>
+      <span>Separate 0–10 scale · exact values labeled</span>
+    </div>
+    <div id="chart" role="img" aria-label="Ranked dot plot showing Monaco through Singapore by international tourist arrivals per resident"></div>
+
+    <p class="note">Annual international overnight arrivals; repeat visits count separately, so this is not a count of unique people or simultaneous visitors. Territories excluded. Source: <a href="https://www.voronoiapp.com/people/Ranked-Countries-With-More-Tourists-Than-Locals-8654" target="_blank" rel="noopener">Voronoi / Visual Capitalist</a>, using UN Tourism via Our World in Data and World Bank population data.</p>
+    <p class="fallback">Text summary: Andorra leads at 50.86 arrivals per resident. Monaco is a distant second at 9.01, followed by Malta at 6.26 and Iceland at 5.58.</p>
+  </main>
+
+  <script>
+    const rows = [
+      [2, "Monaco", 9.01], [3, "Malta", 6.26], [4, "Iceland", 5.58],
+      [5, "Palau", 5.28], [6, "Albania", 4.83], [7, "Bahamas", 4.66],
+      [8, "Bahrain", 4.17], [9, "Croatia", 3.97], [10, "Antigua and Barbuda", 3.52],
+      [11, "Montenegro", 3.26], [12, "San Marino", 3.20], [13, "Maldives", 3.20],
+      [14, "Cyprus", 2.97], [15, "Liechtenstein", 2.91], [16, "Austria", 2.90],
+      [17, "Seychelles", 2.77], [18, "Portugal", 2.71], [19, "Greece", 2.67],
+      [20, "Barbados", 2.49], [21, "Denmark", 2.40], [22, "Slovenia", 2.38],
+      [23, "United Arab Emirates", 2.28], [24, "Ireland", 2.20], [25, "Singapore", 2.16]
+    ];
+
+    const countries = rows.map(d => d[1]).reverse();
+    const values = rows.map(d => d[2]).reverse();
+    const ranks = rows.map(d => d[0]).reverse();
+    const isNarrow = () => window.innerWidth <= 640;
+
+    function render() {
+      const narrow = isNarrow();
+      const labels = rows.map(d => `<b>${d[1]}</b><br><span style="font-size:10px;color:#718489">#${d[0]}</span>`).reverse();
+      const colors = rows.map((d, i) => i < 4 ? "#168b8c" : "#7fa8a2").reverse();
+      const trace = {
+        type: "scatter",
+        mode: "markers+text",
+        x: values,
+        y: countries,
+        text: values.map(v => v.toFixed(2)),
+        textposition: "middle right",
+        textfont: {size: narrow ? 11 : 12, color: "#17323a", family: "Inter, sans-serif"},
+        marker: {
+          size: rows.map((d, i) => i === 0 ? 14 : (i < 4 ? 11 : 8)).reverse(),
+          color: colors,
+          line: {width: 2, color: "#fffdf8"}
+        },
+        customdata: ranks,
+        hovertemplate: "<b>%{y}</b><br>Rank %{customdata}<br>%{x:.2f} arrivals per resident<extra></extra>",
+        cliponaxis: false
+      };
+
+      const stems = [];
+      rows.slice().reverse().forEach(d => stems.push(0, d[2], null));
+      const stemY = [];
+      rows.slice().reverse().forEach(d => stemY.push(d[1], d[1], null));
+      const stemTrace = {
+        type: "scatter",
+        mode: "lines",
+        x: stems,
+        y: stemY,
+        line: {color: "#d7dedb", width: 2},
+        hoverinfo: "skip"
+      };
+
+      const layout = {
+        margin: {l: narrow ? 142 : 188, r: narrow ? 43 : 62, t: 10, b: 42},
+        paper_bgcolor: "rgba(0,0,0,0)",
+        plot_bgcolor: "rgba(0,0,0,0)",
+        showlegend: false,
+        hoverlabel: {bgcolor: "#17323a", bordercolor: "#17323a", font: {color: "#ffffff", size: 12}},
+        xaxis: {
+          range: [0, 10.25],
+          tickvals: [0, 2, 4, 6, 8, 10],
+          ticksuffix: "×",
+          tickfont: {size: 11, color: "#718489"},
+          gridcolor: "#e5e9e6",
+          zeroline: false,
+          fixedrange: true,
+          title: {text: "international tourist arrivals per resident", font: {size: 11, color: "#718489"}, standoff: 12}
+        },
+        yaxis: {
+          tickmode: "array",
+          tickvals: countries,
+          ticktext: labels,
+          tickfont: {size: narrow ? 11 : 12, color: "#17323a"},
+          showgrid: false,
+          fixedrange: true,
+          automargin: false
+        }
+      };
+
+      Plotly.react("chart", [stemTrace, trace], layout, {displayModeBar: false, responsive: true});
+    }
+
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(render, 120);
+    });
+    render();
+
+    function reportHeight() {
+      const panel = document.getElementById("viz-panel");
+      window.parent.postMessage({type: "storytelling-viz-height", height: Math.ceil(panel.getBoundingClientRect().height)}, "*");
+    }
+    new ResizeObserver(reportHeight).observe(document.getElementById("viz-panel"));
+    window.addEventListener("load", reportHeight);
+  </script>
+</body>
+</html>
