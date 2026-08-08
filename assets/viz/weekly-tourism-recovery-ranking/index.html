@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>International tourist arrivals, 2019–2025</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root { --page:#edf3ef; --panel:#fffdf8; --ink:#17352e; --muted:#60716c; --gain:#d06b3c; --loss:#397a73; --grid:rgba(23,53,46,.11); --rule:rgba(23,53,46,.16); --link:#1d665d; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--page); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:var(--link); text-underline-offset:2px; }
+    .shell { width:min(1120px,100%); margin:0 auto; padding:20px 16px 14px; }
+    .panel { overflow:hidden; background:linear-gradient(135deg,rgba(208,107,60,.08),transparent 36%),var(--panel); border:1px solid var(--rule); border-radius:10px; box-shadow:0 18px 45px rgba(23,53,46,.10); padding:24px 26px 18px; }
+    .eyebrow { margin:0 0 7px; color:var(--gain); font-size:12px; font-weight:800; letter-spacing:.11em; text-transform:uppercase; }
+    h1 { margin:0; font-family:Georgia,"Times New Roman",serif; font-size:34px; line-height:1.08; }
+    .subtitle { max-width:890px; margin:9px 0 0; color:var(--muted); font-size:15px; line-height:1.45; }
+    .legend { display:flex; flex-wrap:wrap; gap:10px 18px; margin:15px 0 4px; color:var(--muted); font-size:12px; }
+    .legend span { display:inline-flex; align-items:center; gap:7px; }
+    .swatch { width:11px; height:11px; border-radius:2px; }
+    #chart { width:100%; height:1320px; }
+    .takeaway { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:5px 0 16px; }
+    .takeaway div { border-top:3px solid var(--rule); padding-top:9px; color:var(--muted); font-size:13px; line-height:1.4; }
+    .takeaway strong { display:block; margin-bottom:2px; color:var(--ink); font-size:18px; }
+    .takeaway .up { border-color:var(--gain); } .takeaway .down { border-color:var(--loss); }
+    .note { border-top:1px solid var(--rule); margin:0; padding-top:12px; color:var(--muted); font-size:11.5px; line-height:1.5; }
+    @media(max-width:700px){ .shell{padding:8px 5px}.panel{padding:17px 8px 14px;border-radius:7px} h1{font-size:26px}.subtitle{font-size:13.5px}.legend{padding-left:3px}#chart{height:1230px}.takeaway{grid-template-columns:1fr;gap:8px;padding:0 5px}.note{margin:0 5px} }
+  </style>
+</head>
+<body>
+  <main class="shell" id="viz-shell">
+    <section class="panel" aria-labelledby="title">
+      <p class="eyebrow">International tourism · 2019–2025</p>
+      <h1 id="title">Which destinations moved beyond 2019?</h1>
+      <p class="subtitle">Tourism’s recovery was sharply uneven: Saudi Arabia led a cluster of fast-growing destinations, while 20 of the 50 countries shown remained below their pre-pandemic arrival levels.</p>
+      <div class="legend" aria-hidden="true"><span><i class="swatch" style="background:var(--gain)"></i>Above 2019</span><span><i class="swatch" style="background:var(--loss)"></i>Below 2019</span></div>
+      <div id="chart" role="img" aria-label="Diverging horizontal bar chart of the percentage change in international tourist arrivals from 2019 to 2025 for 50 countries. Saudi Arabia had the largest gain at 67 percent; Israel had the largest decline at 71 percent."></div>
+      <div class="takeaway" aria-label="Key insights">
+        <div class="up"><strong>+67%</strong>Saudi Arabia recorded the largest increase, followed by Morocco at 53% and Egypt at 47%.</div>
+        <div><strong>31 of 50</strong>Most countries exceeded 2019 arrivals, but the median increase was only 3%.</div>
+        <div class="down"><strong>−71%</strong>Israel recorded the steepest decline; Ireland was next at −32%.</div>
+      </div>
+      <p class="note">Benchmarks: World +4% · OECD +5% · EU‑27 +6%. Values are percentage changes, not visitor totals. Cross-country sources may measure arrivals at borders or accommodation establishments; 2025 values may be provisional. Source: <a href="https://www.voronoiapp.com/travel/Ranked-The-Countries-Gaining-and-Losing-the-Most-Tourists-8656" target="_blank" rel="noreferrer">Voronoi</a>, based on <a href="https://doi.org/10.1787/3fd3cd75-en" target="_blank" rel="noreferrer">OECD Tourism Trends and Policies 2026</a>. <a href="source-data.csv">Download data</a>.</p>
+    </section>
+  </main>
+  <script>
+    const rows = [
+      ["Saudi Arabia",67],["Morocco",53],["Egypt",47],["Brazil",46],["Colombia",45],["Japan",34],["Chile",33],["Norway",28],["Serbia",27],["Denmark",22],["Türkiye",21],["Portugal",20],["Luxembourg",19],["Slovenia",16],["Spain",16],["Iceland",14],["France",12],["Greece",11],["Netherlands",11],["Sweden",11],["South Korea",8],["Mexico",6],["Austria",5],["South Africa",3],["Finland",3],["Bulgaria",2],["Croatia",2],["Poland",1],["Belgium",0],["Czechia",0],["Switzerland",-1],["Slovak Republic",-2],["Indonesia",-4],["Romania",-4],["Italy",-5],["Australia",-6],["Costa Rica",-6],["Germany",-6],["New Zealand",-9],["Canada",-11],["United States",-14],["Latvia",-14],["Lithuania",-15],["Hungary",-15],["Estonia",-16],["Thailand",-17],["Peru",-22],["Argentina",-23],["Ireland",-32],["Israel",-71]
+    ];
+    const gains="#d06b3c", losses="#397a73", ink="#17352e", muted="#60716c";
+    function draw(){
+      const narrow=window.innerWidth<700;
+      const names=rows.map(d=>d[0]).reverse(), values=rows.map(d=>d[1]).reverse();
+      const text=values.map(v=>v===0?"0%":`${v>0?"+":""}${v}%`);
+      const trace={type:"bar",orientation:"h",y:names,x:values,marker:{color:values.map(v=>v>0?gains:v<0?losses:"#9aa7a2"),line:{width:0}},text,textposition:values.map(v=>v<=-60?"inside":"outside"),insidetextanchor:"start",cliponaxis:false,textfont:{size:narrow?10:11,color:values.map(v=>v<=-60?"#ffffff":ink)},customdata:rows.map((d,i)=>50-i).reverse(),hovertemplate:"<b>%{y}</b><br>%{text} vs. 2019<br>Country rank: %{customdata}<extra></extra>"};
+      const shapes=[
+        {type:"line",xref:"x",yref:"paper",x0:0,x1:0,y0:0,y1:1,line:{color:"rgba(23,53,46,.45)",width:1.5}},
+        {type:"rect",xref:"x",yref:"paper",x0:4,x1:6,y0:0,y1:1,fillcolor:"rgba(23,53,46,.065)",line:{width:0},layer:"below"},
+        {type:"line",xref:"x",yref:"paper",x0:5,x1:5,y0:0,y1:1,line:{color:"rgba(23,53,46,.28)",width:1,dash:"dot"}}
+      ];
+      const anns=[{x:5,xref:"x",y:1.018,yref:"paper",text:"World · OECD · EU‑27  +4% to +6%",showarrow:false,font:{size:10,color:muted},xanchor:"center"}];
+      const layout={height:narrow?1230:1320,margin:{l:narrow?112:155,r:narrow?42:60,t:38,b:48},paper_bgcolor:"rgba(0,0,0,0)",plot_bgcolor:"rgba(0,0,0,0)",showlegend:false,bargap:.24,font:{family:'Inter, system-ui, sans-serif',color:ink},xaxis:{range:narrow?[-90,76]:[-78,74],tickvals:narrow?[-60,-30,0,30,60]:[-60,-40,-20,0,20,40,60],ticktext:narrow?["−60%","−30%","0","+30%","+60%"]:["−60%","−40%","−20%","0","+20%","+40%","+60%"],tickangle:0,gridcolor:"rgba(23,53,46,.10)",zeroline:false,fixedrange:true,ticks:"outside",ticklen:4,tickfont:{size:narrow?9:11,color:muted},title:{text:"Change in international tourist arrivals",font:{size:11,color:muted},standoff:12}},yaxis:{fixedrange:true,tickfont:{size:narrow?10:11,color:ink},automargin:false},shapes,annotations:anns,hoverlabel:{bgcolor:"#17352e",bordercolor:"#17352e",font:{color:"white",size:12}},dragmode:false};
+      Plotly.react("chart",[trace],layout,{displayModeBar:false,responsive:true,scrollZoom:false});
+    }
+    draw(); let timer; window.addEventListener("resize",()=>{clearTimeout(timer);timer=setTimeout(draw,120)});
+    function report(){const el=document.getElementById("viz-shell");window.parent.postMessage({type:"storytelling-viz-height",height:Math.ceil(el.getBoundingClientRect().height)},"*")}
+    new ResizeObserver(report).observe(document.getElementById("viz-shell")); window.addEventListener("load",report);
+  </script>
+</body>
+</html>
