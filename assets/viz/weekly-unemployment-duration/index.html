@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unemployment by duration, 2016–2026</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root { --ink:#17243a; --muted:#687487; --paper:#fffdf8; --grid:#dfe4e7; --accent:#cb4b36; --accent-dark:#8f2f23; }
+    * { box-sizing:border-box; }
+    html, body { margin:0; background:transparent; color:var(--ink); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .panel { width:100%; max-width:1120px; margin:0 auto; background:var(--paper); border:1px solid #e5e2d9; border-radius:20px; box-shadow:0 18px 55px rgba(31,42,55,.10); overflow:hidden; }
+    .top { padding:24px 28px 0; }
+    .eyebrow { color:var(--accent-dark); font-size:12px; font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:7px 0 5px; font-family:Georgia, "Times New Roman", serif; font-size:clamp(26px,3vw,40px); font-weight:600; line-height:1.08; letter-spacing:-.025em; }
+    .subtitle { max-width:840px; margin:0; color:var(--muted); font-size:15px; line-height:1.55; }
+    .subtitle strong { color:var(--accent-dark); }
+    #chart { width:100%; height:580px; }
+    .note-strip { margin:0 28px 18px; padding:13px 16px; border-left:3px solid var(--accent); background:#f7efe9; color:#4f5968; font-size:13px; line-height:1.45; }
+    .source { padding:0 28px 22px; color:#77808d; font-size:11px; line-height:1.5; }
+    .source a { color:#586a82; text-underline-offset:2px; }
+    .fallback { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+    @media (max-width:620px) {
+      .panel { border-radius:14px; }
+      .top { padding:20px 18px 0; }
+      h1 { font-size:28px; }
+      .subtitle { font-size:14px; }
+      #chart { height:510px; }
+      .note-strip { margin:0 18px 15px; }
+      .source { padding:0 18px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="panel" id="viz-panel">
+    <header class="top">
+      <div class="eyebrow">U.S. labor market · seasonally adjusted</div>
+      <h1>Unemployment by duration</h1>
+      <p class="subtitle">The long-term unemployed numbered <strong>1.8 million in July 2026</strong>—far below the pandemic peak, yet about 60% above February 2020.</p>
+    </header>
+    <div id="chart" role="img" aria-label="Line chart of unemployed people by duration from July 2016 to July 2026. Long-term unemployment peaked at 4.2 million in March 2021 and was 1.8 million in July 2026."></div>
+    <div class="note-strip"><strong>The pandemic’s delayed shadow:</strong> short-duration unemployment surged first in spring 2020; the 27-weeks-or-more group peaked nearly a year later.</div>
+    <footer class="source">October 2025 is unavailable and shown as a gap. Source: <a href="https://www.bls.gov/opub/ted/2026/1-8-million-people-had-been-unemployed-27-weeks-or-longer-in-july-2026.htm" target="_blank" rel="noopener">U.S. Bureau of Labor Statistics, The Economics Daily</a>. Data are from the Current Population Survey.</footer>
+    <p class="fallback">In July 2026, 1.771 million people had been unemployed for at least 27 weeks, compared with 1.110 million in February 2020 and a pandemic-era peak of 4.176 million in March 2021.</p>
+  </main>
+  <script>
+    // Embed the source data so the artifact works when opened directly via file://.
+    // The readable CSV remains alongside this file for reuse and auditing.
+    const embeddedCsv = atob('TW9udGgsTW9udGggRGF0ZSxMZXNzIHRoYW4gNSB3ZWVrcyw1LTE0IHdlZWtzLDE1LTI2IHdlZWtzLDI3IHdlZWtzIGFuZCBvdmVyDQpKdWwgMjAxNiwyMDE2LTA3LTAxLCIyLDIwMywwMDAiLCIyLDI4MiwwMDAiLCIxLDIyMiwwMDAiLCIxLDk0MywwMDAiDQpBdWcgMjAxNiwyMDE2LTA4LTAxLCIyLDI4NSwwMDAiLCIyLDM1MiwwMDAiLCIxLDA5NCwwMDAiLCIxLDk3MCwwMDAiDQpTZXAgMjAxNiwyMDE2LTA5LTAxLCIyLDYwMCwwMDAiLCIyLDI4OCwwMDAiLCIxLDE4NCwwMDAiLCIxLDkzMywwMDAiDQpPY3QgMjAxNiwyMDE2LTEwLTAxLCIyLDQzNCwwMDAiLCIyLDI3MywwMDAiLCIxLDE5MCwwMDAiLCIxLDk0NiwwMDAiDQpOb3YgMjAxNiwyMDE2LTExLTAxLCIyLDQwNCwwMDAiLCIyLDE2MywwMDAiLCIxLDEwOCwwMDAiLCIxLDg2NSwwMDAiDQpEZWMgMjAxNiwyMDE2LTEyLTAxLCIyLDM1NCwwMDAiLCIyLDExNywwMDAiLCIxLDI0MSwwMDAiLCIxLDg2MCwwMDAiDQpKYW4gMjAxNywyMDE3LTAxLTAxLCIyLDQyNCwwMDAiLCIyLDAzNCwwMDAiLCIxLDE5NywwMDAiLCIxLDg2NiwwMDAiDQpGZWIgMjAxNywyMDE3LTAyLTAxLCIyLDUxMSwwMDAiLCIyLDEyOSwwMDAiLCIxLDAzMiwwMDAiLCIxLDgwMywwMDAiDQpNYXIgMjAxNywyMDE3LTAzLTAxLCIyLDMyNywwMDAiLCIyLDA3MSwwMDAiLCIxLDAyNCwwMDAiLCIxLDY3NywwMDAiDQpBcHIgMjAxNywyMDE3LTA0LTAxLCIyLDMyNCwwMDAiLCIyLDA3MCwwMDAiLCI5NzksMDAwIiwiMSw3MDksMDAwIg0KTWF5IDIwMTcsMjAxNy0wNS0wMSwiMiwxMTYsMDAwIiwiMSw5NzAsMDAwIiwiMSwwNzUsMDAwIiwiMSw3MjEsMDAwIg0KSnVuIDIwMTcsMjAxNy0wNi0wMSwiMiwzMjEsMDAwIiwiMSw5MjQsMDAwIiwiOTE2LDAwMCIsIjEsNjU0LDAwMCINCkp1bCAyMDE3LDIwMTctMDctMDEsIjIsMDc1LDAwMCIsIjIsMDI2LDAwMCIsIjEsMDE4LDAwMCIsIjEsNzIwLDAwMCINCkF1ZyAyMDE3LDIwMTctMDgtMDEsIjIsMjU4LDAwMCIsIjIsMDY1LDAwMCIsIjEsMTA3LDAwMCIsIjEsNjg3LDAwMCINClNlcCAyMDE3LDIwMTctMDktMDEsIjIsMjQ1LDAwMCIsIjEsOTA1LDAwMCIsIjEsMDI0LDAwMCIsIjEsNjgzLDAwMCINCk9jdCAyMDE3LDIwMTctMTAtMDEsIjIsMTI2LDAwMCIsIjEsOTYxLDAwMCIsIjkyNSwwMDAiLCIxLDYwOSwwMDAiDQpOb3YgMjAxNywyMDE3LTExLTAxLCIyLDI3OCwwMDAiLCIxLDg4NiwwMDAiLCI5ODcsMDAwIiwiMSw1ODksMDAwIg0KRGVjIDIwMTcsMjAxNy0xMi0wMSwiMiwyMzcsMDAwIiwiMSw5NjYsMDAwIiwiOTMyLDAwMCIsIjEsNTE2LDAwMCINCkphbiAyMDE4LDIwMTgtMDEtMDEsIjIsMjE0LDAwMCIsIjEsODk1LDAwMCIsIjk1MiwwMDAiLCIxLDQ2NywwMDAiDQpGZWIgMjAxOCwyMDE4LTAyLTAxLCIyLDQ2OSwwMDAiLCIxLDg5MywwMDAiLCI4NzMsMDAwIiwiMSw0MzIsMDAwIg0KTWFyIDIwMTgsMjAxOC0wMy0wMSwiMiwzMDMsMDAwIiwiMiwwMDIsMDAwIiwiNzk1LDAwMCIsIjEsMzQ1LDAwMCINCkFwciAyMDE4LDIwMTgtMDQtMDEsIjIsMTQyLDAwMCIsIjEsOTk0LDAwMCIsIjg4OCwwMDAiLCIxLDM3NSwwMDAiDQpNYXkgMjAxOCwyMDE4LTA1LTAxLCIxLDk5NywwMDAiLCIxLDk0MiwwMDAiLCI5MzUsMDAwIiwiMSwyMzMsMDAwIg0KSnVuIDIwMTgsMjAxOC0wNi0wMSwiMiwyNjksMDAwIiwiMSw4NjUsMDAwIiwiODgxLDAwMCIsIjEsNDA0LDAwMCINCkp1bCAyMDE4LDIwMTgtMDctMDEsIjEsOTY4LDAwMCIsIjEsODA0LDAwMCIsIjEsMDA2LDAwMCIsIjEsNDE2LDAwMCINCkF1ZyAyMDE4LDIwMTgtMDgtMDEsIjIsMjQxLDAwMCIsIjEsNzMwLDAwMCIsIjk5NSwwMDAiLCIxLDI4NywwMDAiDQpTZXAgMjAxOCwyMDE4LTA5LTAxLCIyLDA3NCwwMDAiLCIxLDczMSwwMDAiLCI5MzYsMDAwIiwiMSwzNTEsMDAwIg0KT2N0IDIwMTgsMjAxOC0xMC0wMSwiMiwwNTUsMDAwIiwiMSw4NDAsMDAwIiwiOTIwLDAwMCIsIjEsMzQ4LDAwMCINCk5vdiAyMDE4LDIwMTgtMTEtMDEsIjIsMTY4LDAwMCIsIjEsODA3LDAwMCIsIjkwNCwwMDAiLCIxLDIyOCwwMDAiDQpEZWMgMjAxOCwyMDE4LTEyLTAxLCIyLDE0OSwwMDAiLCIyLDAzMywwMDAiLCI5MzQsMDAwIiwiMSwzMDYsMDAwIg0KSmFuIDIwMTksMjAxOS0wMS0wMSwiMiwzMzYsMDAwIiwiMSw5ODAsMDAwIiwiODgxLDAwMCIsIjEsMjg3LDAwMCINCkZlYiAyMDE5LDIwMTktMDItMDEsIjIsMjUyLDAwMCIsIjEsNzcyLDAwMCIsIjg5NCwwMDAiLCIxLDI4MywwMDAiDQpNYXIgMjAxOSwyMDE5LTAzLTAxLCIyLDE3NCwwMDAiLCIxLDg2MiwwMDAiLCI5MDYsMDAwIiwiMSwyNjQsMDAwIg0KQXByIDIwMTksMjAxOS0wNC0wMSwiMSw5NjYsMDAwIiwiMSw4NzUsMDAwIiwiNzgzLDAwMCIsIjEsMjMwLDAwMCINCk1heSAyMDE5LDIwMTktMDUtMDEsIjIsMTE0LDAwMCIsIjEsNTUwLDAwMCIsIjc4NCwwMDAiLCIxLDI5OSwwMDAiDQpKdW4gMjAxOSwyMDE5LTA2LTAxLCIxLDg4OSwwMDAiLCIxLDgwNSwwMDAiLCI4MzUsMDAwIiwiMSwzMzMsMDAwIg0KSnVsIDIwMTksMjAxOS0wNy0wMSwiMiwxMTAsMDAwIiwiMSw4MzEsMDAwIiwiODk4LDAwMCIsIjEsMjI3LDAwMCINCkF1ZyAyMDE5LDIwMTktMDgtMDEsIjIsMjY4LDAwMCIsIjEsNzEwLDAwMCIsIjg0NywwMDAiLCIxLDI1NywwMDAiDQpTZXAgMjAxOSwyMDE5LTA5LTAxLCIxLDg0OSwwMDAiLCIxLDc0MywwMDAiLCI4NDYsMDAwIiwiMSwzMzgsMDAwIg0KT2N0IDIwMTksMjAxOS0xMC0wMSwiMSw5MjIsMDAwIiwiMSw3NjAsMDAwIiwiOTE1LDAwMCIsIjEsMjkxLDAwMCINCk5vdiAyMDE5LDIwMTktMTEtMDEsIjIsMDY3LDAwMCIsIjEsNzIxLDAwMCIsIjg4NywwMDAiLCIxLDIwOCwwMDAiDQpEZWMgMjAxOSwyMDE5LTEyLTAxLCIyLDA5MCwwMDAiLCIxLDc4NCwwMDAiLCI4MjksMDAwIiwiMSwxODgsMDAwIg0KSmFuIDIwMjAsMjAyMC0wMS0wMSwiMiwwNTAsMDAwIiwiMSw3NTIsMDAwIiwiODg3LDAwMCIsIjEsMTc2LDAwMCINCkZlYiAyMDIwLDIwMjAtMDItMDEsIjIsMDg4LDAwMCIsIjEsNzgwLDAwMCIsIjc4OSwwMDAiLCIxLDExMCwwMDAiDQpNYXIgMjAyMCwyMDIwLTAzLTAxLCIzLDQyMiwwMDAiLCIxLDg0NSwwMDAiLCI3ODQsMDAwIiwiMSwxNDAsMDAwIg0KQXByIDIwMjAsMjAyMC0wNC0wMSwiMTQsMjYzLDAwMCIsIjcsMDY2LDAwMCIsIjc4MiwwMDAiLCI5MTAsMDAwIg0KTWF5IDIwMjAsMjAyMC0wNS0wMSwiMyw4NjcsMDAwIiwiMTQsODA2LDAwMCIsIjEsMDYxLDAwMCIsIjEsMTQ3LDAwMCINCkp1biAyMDIwLDIwMjAtMDYtMDEsIjIsOTA5LDAwMCIsIjExLDUyMiwwMDAiLCIxLDkxNywwMDAiLCIxLDM1NSwwMDAiDQpKdWwgMjAyMCwyMDIwLTA3LTAxLCIzLDE0MCwwMDAiLCI1LDE0NSwwMDAiLCI2LDQ2OCwwMDAiLCIxLDU0NCwwMDAiDQpBdWcgMjAyMCwyMDIwLTA4LTAxLCIyLDMxNiwwMDAiLCIzLDEwNSwwMDAiLCI2LDUwNiwwMDAiLCIxLDYzMiwwMDAiDQpTZXAgMjAyMCwyMDIwLTA5LTAxLCIyLDU1NywwMDAiLCIyLDczNSwwMDAiLCI0LDkxOCwwMDAiLCIyLDQ0NSwwMDAiDQpPY3QgMjAyMCwyMDIwLTEwLTAxLCIyLDQ4MCwwMDAiLCIyLDM0MiwwMDAiLCIyLDYyNSwwMDAiLCIzLDU5MSwwMDAiDQpOb3YgMjAyMCwyMDIwLTExLTAxLCIyLDQ5MSwwMDAiLCIyLDQ0MCwwMDAiLCIxLDg4NiwwMDAiLCIzLDkyNCwwMDAiDQpEZWMgMjAyMCwyMDIwLTEyLTAxLCIyLDkxMywwMDAiLCIyLDM0NCwwMDAiLCIxLDU3NCwwMDAiLCIzLDk2NywwMDAiDQpKYW4gMjAyMSwyMDIxLTAxLTAxLCIyLDI3NywwMDAiLCIyLDQ5MiwwMDAiLCIxLDM0NiwwMDAiLCI0LDAzOSwwMDAiDQpGZWIgMjAyMSwyMDIxLTAyLTAxLCIyLDE4MSwwMDAiLCIyLDIwNSwwMDAiLCIxLDM4NCwwMDAiLCI0LDE0OSwwMDAiDQpNYXIgMjAyMSwyMDIxLTAzLTAxLCIyLDE2MiwwMDAiLCIxLDk3MCwwMDAiLCIxLDQwMCwwMDAiLCI0LDE3NiwwMDAiDQpBcHIgMjAyMSwyMDIxLTA0LTAxLCIyLDQxOCwwMDAiLCIxLDk3MiwwMDAiLCIxLDI0NywwMDAiLCI0LDA3OSwwMDAiDQpNYXkgMjAyMSwyMDIxLTA1LTAxLCIxLDk5NiwwMDAiLCIyLDE3MywwMDAiLCIxLDMwMCwwMDAiLCIzLDcxNiwwMDAiDQpKdW4gMjAyMSwyMDIxLTA2LTAxLCIyLDAyMSwwMDAiLCIyLDE3OCwwMDAiLCIxLDMzMCwwMDAiLCIzLDk4OSwwMDAiDQpKdWwgMjAyMSwyMDIxLTA3LTAxLCIyLDI0NywwMDAiLCIxLDg1OSwwMDAiLCIxLDE1OCwwMDAiLCIzLDQ3MSwwMDAiDQpBdWcgMjAyMSwyMDIxLTA4LTAxLCIyLDA3MCwwMDAiLCIxLDk0MSwwMDAiLCIxLDE3MCwwMDAiLCIzLDE4MSwwMDAiDQpTZXAgMjAyMSwyMDIxLTA5LTAxLCIyLDI2NSwwMDAiLCIxLDcxMywwMDAiLCI5OTMsMDAwIiwiMiw3MTIsMDAwIg0KT2N0IDIwMjEsMjAyMS0xMC0wMSwiMiwwNzIsMDAwIiwiMSw4NzUsMDAwIiwiOTcwLDAwMCIsIjIsMzY3LDAwMCINCk5vdiAyMDIxLDIwMjEtMTEtMDEsIjEsOTgxLDAwMCIsIjEsNjc4LDAwMCIsIjg3OSwwMDAiLCIyLDE3OCwwMDAiDQpEZWMgMjAyMSwyMDIxLTEyLTAxLCIxLDk5OSwwMDAiLCIxLDYwNCwwMDAiLCI3ODksMDAwIiwiMSw5OTMsMDAwIg0KSmFuIDIwMjIsMjAyMi0wMS0wMSwiMiw0NTksMDAwIiwiMSw2MjYsMDAwIiwiODQ3LDAwMCIsIjEsNjYzLDAwMCINCkZlYiAyMDIyLDIwMjItMDItMDEsIjIsMTA3LDAwMCIsIjEsNzYzLDAwMCIsIjc0MCwwMDAiLCIxLDY5NSwwMDAiDQpNYXIgMjAyMiwyMDIyLTAzLTAxLCIyLDI4NCwwMDAiLCIxLDcwMywwMDAiLCI2MjAsMDAwIiwiMSwzODYsMDAwIg0KQXByIDIwMjIsMjAyMi0wNC0wMSwiMiwyODgsMDAwIiwiMSw1OTEsMDAwIiwiNjM1LDAwMCIsIjEsMzgzLDAwMCINCk1heSAyMDIyLDIwMjItMDUtMDEsIjIsMDI3LDAwMCIsIjEsNzUzLDAwMCIsIjc0NiwwMDAiLCIxLDMwMiwwMDAiDQpKdW4gMjAyMiwyMDIyLTA2LTAxLCIyLDI3OCwwMDAiLCIxLDUyNiwwMDAiLCI3NTMsMDAwIiwiMSwzNTYsMDAwIg0KSnVsIDIwMjIsMjAyMi0wNy0wMSwiMiwwODgsMDAwIiwiMSw4NjksMDAwIiwiNjk2LDAwMCIsIjEsMTE0LDAwMCINCkF1ZyAyMDIyLDIwMjItMDgtMDEsIjIsMTc1LDAwMCIsIjEsODU1LDAwMCIsIjgxMSwwMDAiLCIxLDIyMiwwMDAiDQpTZXAgMjAyMiwyMDIyLTA5LTAxLCIyLDE4NywwMDAiLCIxLDYxMCwwMDAiLCI4NTQsMDAwIiwiMSwxMTYsMDAwIg0KT2N0IDIwMjIsMjAyMi0xMC0wMSwiMiwyMTIsMDAwIiwiMSw4MDMsMDAwIiwiNzY1LDAwMCIsIjEsMjEwLDAwMCINCk5vdiAyMDIyLDIwMjItMTEtMDEsIjIsMjQwLDAwMCIsIjEsNjYyLDAwMCIsIjc5MCwwMDAiLCIxLDI0MSwwMDAiDQpEZWMgMjAyMiwyMDIyLTEyLTAxLCIyLDI0NSwwMDAiLCIxLDY1NSwwMDAiLCI4MTcsMDAwIiwiMSwwNzIsMDAwIg0KSmFuIDIwMjMsMjAyMy0wMS0wMSwiMSw5MzIsMDAwIiwiMSw4MTcsMDAwIiwiOTE4LDAwMCIsIjEsMDk0LDAwMCINCkZlYiAyMDIzLDIwMjMtMDItMDEsIjIsMjUxLDAwMCIsIjEsODMzLDAwMCIsIjgxOCwwMDAiLCIxLDA2MiwwMDAiDQpNYXIgMjAyMywyMDIzLTAzLTAxLCIyLDI1NiwwMDAiLCIxLDc0MywwMDAiLCI3OTcsMDAwIiwiMSwwNjcsMDAwIg0KQXByIDIwMjMsMjAyMy0wNC0wMSwiMSw4ODEsMDAwIiwiMSw4OTcsMDAwIiwiNzc5LDAwMCIsIjEsMDc2LDAwMCINCk1heSAyMDIzLDIwMjMtMDUtMDEsIjIsMDc0LDAwMCIsIjEsODU5LDAwMCIsIjkxMiwwMDAiLCIxLDE1MSwwMDAiDQpKdW4gMjAyMywyMDIzLTA2LTAxLCIyLDEwNSwwMDAiLCIxLDgzNSwwMDAiLCI4OTgsMDAwIiwiMSwxMjIsMDAwIg0KSnVsIDIwMjMsMjAyMy0wNy0wMSwiMSw5OTksMDAwIiwiMSw3NTcsMDAwIiwiOTU4LDAwMCIsIjEsMTkwLDAwMCINCkF1ZyAyMDIzLDIwMjMtMDgtMDEsIjIsMTc5LDAwMCIsIjEsOTQzLDAwMCIsIjkyNSwwMDAiLCIxLDM2MCwwMDAiDQpTZXAgMjAyMywyMDIzLTA5LTAxLCIyLDA4OSwwMDAiLCIyLDAzMSwwMDAiLCIxLDAzMSwwMDAiLCIxLDI0MSwwMDAiDQpPY3QgMjAyMywyMDIzLTEwLTAxLCIyLDI5MywwMDAiLCIxLDgzNSwwMDAiLCIxLDAyNiwwMDAiLCIxLDMyNywwMDAiDQpOb3YgMjAyMywyMDIzLTExLTAxLCIyLDA2MSwwMDAiLCIyLDA1OCwwMDAiLCI5NzEsMDAwIiwiMSwxNjYsMDAwIg0KRGVjIDIwMjMsMjAyMy0xMi0wMSwiMiwyMjEsMDAwIiwiMSw4MDcsMDAwIiwiMSwwNjcsMDAwIiwiMSwyNzMsMDAwIg0KSmFuIDIwMjQsMjAyNC0wMS0wMSwiMiwxMzUsMDAwIiwiMSw4NzgsMDAwIiwiODc0LDAwMCIsIjEsMjc5LDAwMCINCkZlYiAyMDI0LDIwMjQtMDItMDEsIjIsMzE3LDAwMCIsIjEsOTMyLDAwMCIsIjk3NCwwMDAiLCIxLDIxOSwwMDAiDQpNYXIgMjAyNCwyMDI0LTAzLTAxLCIyLDE4NiwwMDAiLCIxLDk3MywwMDAiLCI5ODUsMDAwIiwiMSwyNTksMDAwIg0KQXByIDIwMjQsMjAyNC0wNC0wMSwiMiwyODcsMDAwIiwiMSw5NjgsMDAwIiwiODg2LDAwMCIsIjEsMjQ5LDAwMCINCk1heSAyMDI0LDIwMjQtMDUtMDEsIjIsMzAyLDAwMCIsIjEsOTEwLDAwMCIsIjk2OSwwMDAiLCIxLDM1NiwwMDAiDQpKdW4gMjAyNCwyMDI0LTA2LTAxLCIyLDE1NSwwMDAiLCIyLDExMSwwMDAiLCIxLDA2OSwwMDAiLCIxLDUzNCwwMDAiDQpKdWwgMjAyNCwyMDI0LTA3LTAxLCIyLDM1MywwMDAiLCIyLDE4MCwwMDAiLCIxLDA3NiwwMDAiLCIxLDUzNywwMDAiDQpBdWcgMjAyNCwyMDI0LTA4LTAxLCIyLDQ0MywwMDAiLCIyLDA0NCwwMDAiLCIxLDE1NiwwMDAiLCIxLDUzNiwwMDAiDQpTZXAgMjAyNCwyMDI0LTA5LTAxLCIyLDE2NSwwMDAiLCIxLDk1OCwwMDAiLCIxLDEyNSwwMDAiLCIxLDYxMiwwMDAiDQpPY3QgMjAyNCwyMDI0LTEwLTAxLCIyLDExOCwwMDAiLCIyLDA4MSwwMDAiLCIxLDIyNiwwMDAiLCIxLDYwNCwwMDAiDQpOb3YgMjAyNCwyMDI0LTExLTAxLCIyLDE5MiwwMDAiLCIyLDA2MCwwMDAiLCIxLDIzMSwwMDAiLCIxLDY1MSwwMDAiDQpEZWMgMjAyNCwyMDI0LTEyLTAxLCIyLDE3NSwwMDAiLCIyLDAxNCwwMDAiLCIxLDIwMiwwMDAiLCIxLDU1MSwwMDAiDQpKYW4gMjAyNSwyMDI1LTAxLTAxLCIyLDI5MiwwMDAiLCIxLDk1NiwwMDAiLCIxLDE1OCwwMDAiLCIxLDQ0OSwwMDAiDQpGZWIgMjAyNSwyMDI1LTAyLTAxLCIyLDMzNCwwMDAiLCIyLDE2MSwwMDAiLCIxLDAzMywwMDAiLCIxLDQ2MSwwMDAiDQpNYXIgMjAyNSwyMDI1LTAzLTAxLCIyLDM2MiwwMDAiLCIyLDE1NCwwMDAiLCIxLDAxMCwwMDAiLCIxLDQ5OSwwMDAiDQpBcHIgMjAyNSwyMDI1LTA0LTAxLCIyLDE5NCwwMDAiLCIyLDI2MiwwMDAiLCI5OTMsMDAwIiwiMSw2NzIsMDAwIg0KTWF5IDIwMjUsMjAyNS0wNS0wMSwiMiw0NTYsMDAwIiwiMiwyMDMsMDAwIiwiMSwwNDIsMDAwIiwiMSw0NjQsMDAwIg0KSnVuIDIwMjUsMjAyNS0wNi0wMSwiMiwyNTQsMDAwIiwiMiwxMjksMDAwIiwiMSwwNjQsMDAwIiwiMSw2NTEsMDAwIg0KSnVsIDIwMjUsMjAyNS0wNy0wMSwiMiwzMDQsMDAwIiwiMiwwNDEsMDAwIiwiMSwxNjYsMDAwIiwiMSw4MjIsMDAwIg0KQXVnIDIwMjUsMjAyNS0wOC0wMSwiMiw0NzUsMDAwIiwiMiwwNTgsMDAwIiwiMSwwNTEsMDAwIiwiMSw5MjQsMDAwIg0KU2VwIDIwMjUsMjAyNS0wOS0wMSwiMiwyMzIsMDAwIiwiMiwzNTYsMDAwIiwiMSwyODYsMDAwIiwiMSw4MTUsMDAwIg0KT2N0IDIwMjUsMjAyNS0xMC0wMSwgLSAsIC0gLCAtICwgLSANCk5vdiAyMDI1LDIwMjUtMTEtMDEsIjIsNTQwLDAwMCIsIjIsMTkwLDAwMCIsIjEsMTkwLDAwMCIsIjEsOTEwLDAwMCINCkRlYyAyMDI1LDIwMjUtMTItMDEsIjIsMjg5LDAwMCIsIjIsMDY5LDAwMCIsIjEsMTk1LDAwMCIsIjEsOTQ4LDAwMCINCkphbiAyMDI2LDIwMjYtMDEtMDEsIjIsMTY2LDAwMCIsIjIsMTUxLDAwMCIsIjEsMjAyLDAwMCIsIjEsODEzLDAwMCINCkZlYiAyMDI2LDIwMjYtMDItMDEsIjIsMzE5LDAwMCIsIjIsMDc4LDAwMCIsIjEsMjA2LDAwMCIsIjEsODk5LDAwMCINCk1hciAyMDI2LDIwMjYtMDMtMDEsIjIsMTM4LDAwMCIsIjEsOTk4LDAwMCIsIjEsMjEyLDAwMCIsIjEsODIxLDAwMCINCkFwciAyMDI2LDIwMjYtMDQtMDEsIjIsNDk2LDAwMCIsIjEsODU5LDAwMCIsIjEsMDU3LDAwMCIsIjEsODMzLDAwMCINCk1heSAyMDI2LDIwMjYtMDUtMDEsIjIsMjEwLDAwMCIsIjEsOTQ2LDAwMCIsIjEsMDc3LDAwMCIsIjEsOTg4LDAwMCINCkp1biAyMDI2LDIwMjYtMDYtMDEsIjIsMTgyLDAwMCIsIjEsOTM2LDAwMCIsIjEsMDUyLDAwMCIsIjEsOTM3LDAwMCINCkp1bCAyMDI2LDIwMjYtMDctMDEsIjEsOTYwLDAwMCIsIjIsMDQ5LDAwMCIsIjEsMTU3LDAwMCIsIjEsNzcxLDAwMCI=');
+    const series = [
+      {key:'Less than 5 weeks', label:'Under 5 weeks', color:'#9ca7b5'},
+      {key:'5-14 weeks', label:'5–14 weeks', color:'#7891a8'},
+      {key:'15-26 weeks', label:'15–26 weeks', color:'#b8a58a'},
+      {key:'27 weeks and over', label:'27+ weeks', color:'#cb4b36', focus:true}
+    ];
+
+    function parseCSV(text) {
+      const lines = text.trim().split(/\r?\n/);
+      const headers = lines.shift().match(/("[^"]*"|[^,]+)/g).map(s => s.replace(/^"|"$/g,''));
+      return lines.map(line => {
+        const vals = line.match(/("[^"]*"|[^,]*)/g).filter((_,i) => i % 2 === 0).map(s => s.replace(/^"|"$/g,'').trim());
+        const row = {}; headers.forEach((h,i) => row[h] = vals[i]); return row;
+      });
+    }
+
+    function reportHeight() {
+      const panel = document.getElementById('viz-panel');
+      parent.postMessage({type:'storytelling-viz-height', height:Math.ceil(panel.getBoundingClientRect().height)}, '*');
+    }
+
+    function draw(rows) {
+      const dates = rows.map(r => r['Month Date']);
+      const narrow = window.innerWidth < 620;
+      const traces = series.map(s => ({
+        type:'scatter', mode:'lines', name:s.label, x:dates,
+        y:rows.map(r => { const v=(r[s.key]||'').replaceAll(',','').trim(); return v==='-' ? null : Number(v)/1e6; }),
+        line:{color:s.color, width:s.focus ? 4 : 2}, opacity:s.focus ? 1 : .76,
+        connectgaps:false,
+        hovertemplate:`<b>${s.label}</b><br>%{x|%B %Y}<br>%{y:.3f} million<extra></extra>`
+      }));
+      const endLabels = series.map((s,i) => {
+        const raw=(rows.at(-1)[s.key]||'').replaceAll(',',''); const value=Number(raw)/1e6;
+        return {x:'2026-07-01', y:value, xref:'x', yref:'y', text:narrow ? `<b>${s.label}</b>` : `<b>${s.label}</b>  ${value.toFixed(2)}m`, showarrow:false,
+          xanchor:'left', xshift:8, yshift:[-18,11,-11,21][i], font:{size:narrow?11:12,color:s.focus?'#8f2f23':'#586474'}, bgcolor:'rgba(255,253,248,.88)', borderpad:2};
+      });
+      const layout = {
+        paper_bgcolor:'#fffdf8', plot_bgcolor:'#fffdf8', hovermode:'x unified', showlegend:false,
+        margin:{l:narrow?48:66,r:narrow?88:148,t:28,b:56},
+        font:{family:'Inter, ui-sans-serif, system-ui, sans-serif',color:'#17243a'},
+        xaxis:{range:['2016-07-01','2027-03-01'], tickformat:'%Y', dtick:'M24', showgrid:false, zeroline:false, linecolor:'#cfd5da', tickfont:{size:11,color:'#687487'}, fixedrange:true},
+        yaxis:{range:[0,15.2], dtick:3, ticksuffix:'m', title:{text:narrow?'':'Millions of people',font:{size:12,color:'#687487'},standoff:8}, gridcolor:'#dfe4e7', gridwidth:1, zeroline:false, tickfont:{size:11,color:'#687487'}, fixedrange:true},
+        annotations:endLabels.concat([
+          {x:'2020-04-01',y:14.263,text:'<b>14.3m</b><br>under 5 weeks',showarrow:true,arrowhead:0,ax:5,ay:42,arrowcolor:'#7c8795',font:{size:11,color:'#586474'},align:'center'},
+          {x:'2021-03-01',y:4.176,text:'<b>4.2m peak</b>',showarrow:true,arrowhead:0,ax:narrow?32:50,ay:-40,arrowcolor:'#cb4b36',font:{size:12,color:'#8f2f23'},bgcolor:'#fffdf8',borderpad:3}
+        ]),
+        shapes:[{type:'rect',xref:'x',yref:'paper',x0:'2020-02-01',x1:'2020-04-01',y0:0,y1:1,fillcolor:'rgba(23,36,58,.055)',line:{width:0},layer:'below'}]
+      };
+      Plotly.newPlot('chart', traces, layout, {responsive:true,displayModeBar:false,scrollZoom:false}).then(reportHeight);
+    }
+
+    draw(parseCSV(embeddedCsv));
+    new ResizeObserver(reportHeight).observe(document.getElementById('viz-panel'));
+  </script>
+</body>
+</html>
