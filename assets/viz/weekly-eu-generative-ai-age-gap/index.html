@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Generative AI Use by Age in the EU</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root { --page:#eef1f7; --panel:#fbfcff; --ink:#192236; --muted:#626b7c; --rule:#d7ddea; --grid:#e5e9f1; --violet:#6254c7; --cyan:#27a8b8; --coral:#e26d67; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--page); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:#4259a8; text-underline-offset:2px; }
+    .shell { width:min(1000px,100%); margin:auto; padding:18px; }
+    .panel { background:var(--panel); border:1px solid var(--rule); border-radius:12px; box-shadow:0 18px 46px rgba(34,45,78,.11); overflow:hidden; }
+    .signal { height:8px; background:linear-gradient(90deg,var(--violet),var(--cyan) 64%,var(--coral)); }
+    .content { padding:25px 28px 20px; }
+    .eyebrow { margin:0 0 7px; color:var(--violet); font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:0; font:700 31px/1.1 Georgia,"Times New Roman",serif; }
+    .subtitle { max-width:850px; margin:9px 0 0; color:var(--muted); font-size:15px; line-height:1.45; }
+    #chart { width:100%; height:480px; margin-top:8px; }
+    .key { display:grid; grid-template-columns:repeat(3,1fr); gap:11px; margin:2px 0 16px; }
+    .key div { padding:10px 5px 0 0; border-top:3px solid var(--rule); color:var(--muted); font-size:12.5px; line-height:1.35; }
+    .key strong { display:block; color:var(--ink); font-size:19px; margin-bottom:2px; }
+    .key .young { border-color:var(--violet); } .key .average { border-color:var(--cyan); } .key .gap { border-color:var(--coral); }
+    .note { margin:0; padding-top:12px; border-top:1px solid var(--rule); color:var(--muted); font-size:11.5px; line-height:1.5; }
+    .fallback { position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; }
+    @media(max-width:620px) {
+      .shell { padding:8px; } .content { padding:18px 12px 15px; } h1 { font-size:25px; } .subtitle { font-size:13.5px; }
+      #chart { height:465px; } .key { grid-template-columns:1fr; gap:8px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell" id="viz-shell">
+    <section class="panel" aria-labelledby="title">
+      <div class="signal"></div>
+      <div class="content">
+        <p class="eyebrow">EU-27 · 2025</p>
+        <h1 id="title">Generative AI use by age</h1>
+        <p class="subtitle">Use falls at every step up the age ladder—from 63.81% of people aged 16–24 to 6.50% of those aged 65–74. The dotted line marks the 32.66% rate for all individuals aged 16–74.</p>
+        <div id="chart" role="img" aria-label="Horizontal bar chart showing generative AI use in the European Union in 2025 by age. Use declines from 63.81 percent among people aged 16 to 24 to 6.5 percent among people aged 65 to 74."></div>
+        <p class="fallback">In the EU in 2025, 63.81% of people aged 16–24 used generative AI tools in the previous three months, compared with 6.50% of people aged 65–74. The all-individuals rate was 32.66%.</p>
+        <div class="key" aria-label="Key findings">
+          <div class="young"><strong>63.81%</strong>Nearly two-thirds of people aged 16–24 used generative AI.</div>
+          <div class="average"><strong>32.66%</strong>The EU-wide rate across all individuals aged 16–74.</div>
+          <div class="gap"><strong>57.31 pts</strong>The difference between the youngest and oldest cohorts.</div>
+        </div>
+        <p class="note">Share of individuals who used generative AI tools during the previous three months; age groups are non-overlapping. Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/isoc_ai_iaiu__custom_22477565/default/table" target="_blank" rel="noreferrer">Eurostat, isoc_ai_iaiu</a>. Local extract: <a href="source-data.csv">source-data.csv</a>.</p>
+      </div>
+    </section>
+  </main>
+  <script>
+    const rows = [["16–24",63.81],["25–34",50.65],["35–44",38.96],["45–54",28.35],["55–64",16.49],["65–74",6.50]];
+    const average = 32.66;
+    function render() {
+      const narrow = window.innerWidth < 620;
+      const labels = rows.map(d=>d[0]).reverse();
+      const values = rows.map(d=>d[1]).reverse();
+      const colors = ["#e26d67","#d07891","#a179b5","#7777c7","#586fd0","#6254c7"];
+      const trace = {type:"bar",orientation:"h",y:labels,x:values,marker:{color:colors,line:{color:"rgba(25,34,54,.12)",width:.6}},text:values.map(v=>`${v.toFixed(2)}%`),textposition:"outside",cliponaxis:false,textfont:{size:narrow?12:13,color:"#192236"},hovertemplate:"<b>Ages %{y}</b><br>%{x:.2f}% used generative AI<extra></extra>"};
+      const layout = {margin:{l:narrow?58:70,r:narrow?48:65,t:44,b:48},paper_bgcolor:"rgba(0,0,0,0)",plot_bgcolor:"rgba(0,0,0,0)",bargap:.34,showlegend:false,dragmode:false,
+        xaxis:{range:[0,71],fixedrange:true,tickvals:[0,20,40,60],ticktext:["0%","20%","40%","60%"],ticks:"",gridcolor:"#e5e9f1",zeroline:false,tickfont:{size:11,color:"#6b7382"},title:{text:"Share of individuals",font:{size:11,color:"#6b7382"},standoff:11}},
+        yaxis:{fixedrange:true,ticks:"",tickfont:{size:narrow?12:13,color:"#242d40"}},
+        shapes:[{type:"line",xref:"x",yref:"paper",x0:average,x1:average,y0:0,y1:1,line:{color:"#27a8b8",width:2,dash:"dot"}}],
+        annotations:[{xref:"x",yref:"paper",x:average,y:1.04,text:"EU overall 32.66%",showarrow:false,xanchor:"center",font:{size:narrow?10:11,color:"#168596"},bgcolor:"#fbfcff",borderpad:2}],
+        font:{family:'Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif'},hoverlabel:{bgcolor:"#192236",font:{color:"white",size:12},bordercolor:"#192236"}
+      };
+      Plotly.react("chart",[trace],layout,{responsive:true,displayModeBar:false,scrollZoom:false}).then(reportHeight);
+    }
+    function reportHeight(){requestAnimationFrame(()=>parent.postMessage({type:"storytelling-viz-height",height:document.getElementById("viz-shell").offsetHeight},"*"));}
+    render(); let timer; window.addEventListener("resize",()=>{clearTimeout(timer);timer=setTimeout(render,120);});
+    if(window.ResizeObserver)new ResizeObserver(reportHeight).observe(document.getElementById("viz-shell"));
+  </script>
+</body>
+</html>
