@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>iPhone 17 Pro affordability by country</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root{--paper:#fbfaf7;--ink:#17282d;--muted:#66767a;--rule:rgba(23,40,45,.15);--blue:#176b78;--coral:#e45b43;--gold:#e5a934;--wash:#edf2ef}
+    *{box-sizing:border-box}body{margin:0;background:#e7ece9;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--blue);text-underline-offset:2px}.shell{width:min(1080px,100%);margin:0 auto;padding:16px}.panel{overflow:hidden;background:linear-gradient(145deg,rgba(229,169,52,.08),transparent 27%),var(--paper);border:1px solid var(--rule);border-radius:14px;box-shadow:0 18px 45px rgba(23,40,45,.09);padding:24px 28px 18px}
+    .eyebrow{margin:0 0 6px;color:var(--blue);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}h1{margin:0;font:700 31px/1.08 Georgia,"Times New Roman",serif}.subtitle{max-width:850px;margin:9px 0 0;color:var(--muted);font-size:14px;line-height:1.5}.scale-note{display:inline-block;margin:13px 0 0;padding:5px 9px;border-radius:999px;background:var(--wash);color:var(--muted);font-size:11px;font-weight:650}
+    #chart{width:100%;height:1030px}.insights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:7px 0 16px}.insights div{border-top:3px solid var(--rule);padding-top:9px;color:var(--muted);font-size:12.5px;line-height:1.4}.insights strong{display:block;margin-bottom:2px;color:var(--ink);font-size:19px}.insights .fast{border-color:var(--blue)}.insights .slow{border-color:var(--coral)}.note{border-top:1px solid var(--rule);margin:0;padding-top:12px;color:var(--muted);font-size:11px;line-height:1.5}
+    @media(max-width:700px){.shell{padding:6px}.panel{padding:17px 8px 14px;border-radius:9px}h1{font-size:25px}.subtitle{font-size:13px;padding-right:4px}.scale-note{margin-left:2px}#chart{height:1050px}.insights{grid-template-columns:1fr;gap:8px;padding:0 5px}.note{margin:0 5px}}
+  </style>
+</head>
+<body>
+  <main class="shell" id="viz-shell"><section class="panel" aria-labelledby="chart-title">
+    <p class="eyebrow">33-country affordability snapshot</p>
+    <h1 id="chart-title">Workdays needed to buy an iPhone 17 Pro</h1>
+    <p class="subtitle">A phone costs less than two weeks of average wages in 21 countries—but stretches beyond 100 workdays in the Philippines and India.</p>
+    <span class="scale-note">Logarithmic scale · equal spacing means equal multiples</span>
+    <div id="chart" role="img" aria-label="Ranked dot plot showing eight-hour workdays an average worker needs to buy a 256 gigabyte iPhone 17 Pro in 33 countries, from 3 days in Luxembourg and Switzerland to 160 days in India."></div>
+    <div class="insights" aria-label="Key insights">
+      <div class="fast"><strong>21 countries</strong>require nine workdays or fewer—less than two standard workweeks.</div>
+      <div><strong>4 days</strong>puts the United States among the seven most affordable markets shown.</div>
+      <div class="slow"><strong>53× gap</strong>separates India’s 160 days from Luxembourg and Switzerland’s three.</div>
+    </div>
+    <p class="note">Eight-hour workdays required for an average worker to afford the 256GB iPhone 17 Pro. The estimate combines local retail prices, average monthly wages, and average weekly hours, so it does not describe every worker’s experience. Source: <a href="https://www.visualcapitalist.com/workdays-needed-to-buy-an-iphone-17-pro-by-country/" target="_blank" rel="noreferrer">Visual Capitalist</a>, based on <a href="https://www.tenscope.com/post/the-2025-iphone-affordability-index" target="_blank" rel="noreferrer">Tenscope</a> and ILO statistics. <a href="source-data.csv">Download data</a>.</p>
+  </section></main>
+  <script>
+    const rows=[["Luxembourg",3],["Switzerland",3],["United States",4],["Belgium",4],["Denmark",4],["Netherlands",4],["Norway",4],["Australia",5],["Austria",5],["Finland",5],["Ireland",5],["Germany",5],["Canada",5],["France",6],["Sweden",6],["United Kingdom",7],["New Zealand",7],["Singapore",8],["Italy",8],["UAE",8],["Spain",9],["Czechia",12],["Poland",17],["Portugal",24],["Hungary",27],["Chile",32],["Malaysia",45],["Thailand",61],["Brazil",77],["Türkiye",89],["Vietnam",99],["Philippines",101],["India",160]];
+    const ink="#17282d",muted="#66767a",blue="#176b78",coral="#e45b43",gold="#e5a934";
+    function draw(){
+      const narrow=window.innerWidth<700, ordered=[...rows].reverse(), names=ordered.map(d=>d[0]), values=ordered.map(d=>d[1]);
+      const colors=ordered.map(d=>d[0]==="India"?coral:d[0]==="United States"?gold:blue);
+      const sizes=ordered.map(d=>["India","United States"].includes(d[0])?narrow?11:13:narrow?7:9);
+      const trace={type:"scatter",mode:"markers+text",x:values,y:names,text:values.map(v=>`${v}`),textposition:"middle right",cliponaxis:false,marker:{size:sizes,color:colors,line:{color:"#fbfaf7",width:1.5}},textfont:{size:narrow?10:11,color:ink},customdata:ordered.map((d,i)=>rows.findIndex(r=>r[0]===d[0])+1),hovertemplate:"<b>%{y}</b><br>%{x} eight-hour workdays<br>Rank: %{customdata} of 33<extra></extra>"};
+      const shapes=names.map((_,i)=>({type:"line",xref:"x",yref:"y",x0:2.65,x1:values[i],y0:names[i],y1:names[i],line:{color:"rgba(23,107,120,.18)",width:1},layer:"below"}));
+      [5,10,20,50,100].forEach(v=>shapes.push({type:"line",xref:"x",yref:"paper",x0:v,x1:v,y0:0,y1:1,line:{color:"rgba(23,40,45,.09)",width:1,dash:"dot"},layer:"below"}));
+      const layout={height:narrow?1050:1030,margin:{l:narrow?105:145,r:narrow?48:80,t:38,b:56},paper_bgcolor:"rgba(0,0,0,0)",plot_bgcolor:"rgba(0,0,0,0)",showlegend:false,font:{family:"Inter, system-ui, sans-serif",color:ink},xaxis:{type:"log",range:[Math.log10(2.55),Math.log10(narrow?255:225)],tickvals:[3,5,10,20,50,100,160],ticktext:["3","5","10","20","50","100","160"],tickfont:{size:narrow?9:11,color:muted},ticks:"outside",ticklen:4,showgrid:false,zeroline:false,fixedrange:true,title:{text:"Eight-hour workdays (log scale)",font:{size:11,color:muted},standoff:13}},yaxis:{fixedrange:true,tickfont:{size:narrow?9.5:11,color:ink},showgrid:false,automargin:false},shapes,hoverlabel:{bgcolor:ink,bordercolor:ink,font:{color:"white",size:12}},dragmode:false};
+      Plotly.react("chart",[trace],layout,{displayModeBar:false,responsive:true,scrollZoom:false});
+    }
+    draw();let timer;window.addEventListener("resize",()=>{clearTimeout(timer);timer=setTimeout(draw,120)});
+    function report(){const el=document.getElementById("viz-shell");window.parent.postMessage({type:"storytelling-viz-height",height:Math.ceil(el.getBoundingClientRect().height)},"*")}
+    new ResizeObserver(report).observe(document.getElementById("viz-shell"));window.addEventListener("load",report);
+  </script>
+</body>
+</html>
