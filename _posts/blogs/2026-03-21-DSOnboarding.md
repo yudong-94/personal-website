@@ -14,6 +14,9 @@ excerpt: "A practical onboarding checklist for building trust, business fluency,
 This article was initially posted on [Towards Data Science](https://towardsdatascience.com/your-first-90-days-as-a-data-scientist/).  
 
 ---
+
+**A practical onboarding checklist for building trust, business fluency, and data intuition.**  
+
 I joined a new company about five months ago. This is my first time starting at a company as a Data Science Manager, which makes onboarding especially challenging. However, it has also been one of the fastest-growing periods of my career.
 
 The first three months at any new job are fundamentally a building phase — building connections, domain understanding, and data knowledge — and a smooth onboarding sets the foundation for later success. Therefore, in this article, I’ll share what mattered most in the beginning months and my checklist for any data science onboarding.

@@ -13,7 +13,7 @@ header:
 excerpt: "How I built a personal spending tracker in 20 hours using ChatGPT, Cursor, Codex — and a bit of curiosity"
 ---
 
-
+**How I built a personal spending tracker in 20 hours using ChatGPT, Cursor, Codex — and a bit of curiosity**  
 
 I got a short break before my next job begins. Already late to the party, but I decided to finally try something I’ve been curious about: **vibe code an app with AI**. As a non-software engineer, can I build a real full-stack app in a week using AI tools?  
 
@@ -160,6 +160,6 @@ However, remember that AI is great at explaining things, and they don’t judge 
 
 **In vibe coding, you are the PM, and AI is your engineering team**. It’s just like the real-world product development process — AI does what you request, and they still make mistakes (or hallucinate). Then you try the product with customers (likely also yourself) and provide feedback or new requests to the AI. Therefore, it is never one-and-done. Be patient with AI and with yourself :)  
 
-  
+
 
 If you haven’t tried vibe coding before and now want to give it a shot, I highly recommend you start with a small real-life problem, chat with AI, brainstorm some ideas, and see where it takes you. You might be surprised at what you can build. I hope you enjoy the journey as much as I did!  

@@ -14,6 +14,9 @@ excerpt: "What a simple puzzle game reveals about experimentation, product think
 This article was initially posted on [Towards Data Science](https://towardsdatascience.com/a-product-data-scientists-take-on-linkedin-games-after-500-days-of-play/).  
 
 ---
+
+**What a simple puzzle game reveals about experimentation, product thinking, and data science.**  
+
 I am on a 500-day streak on LinkedIn Games. Yes, LinkedIn also has games, and they’ve been around for over a year. From time to time, I notice new games, design tweaks, and new features being rolled out. As a Data Scientist, I have always wondered what LinkedIn is trying to achieve with LinkedIn Games and how they are testing the changes.
 
 With AI augmenting and even automating many coding and basic analytics tasks, product sense and domain expertise become more and more important for data scientists. Therefore, in this article, I am using LinkedIn Games as an example to show how a Product Data Scientist thinks and works. This is also the type of mental exercise I practice when preparing for product case interviews.
